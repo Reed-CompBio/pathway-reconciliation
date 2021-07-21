@@ -85,4 +85,27 @@ This file uses `mapping.txt` (downloaded Name & Uniprot from [HGNC mapper](https
 
 # Getting Corresponding Pathways
 
-`pytohn3 get_corresponding_pathways.py`
+```
+python3 get_corresponding_pathways.py
+```
+
+This script generates, for every pathway, the best choice for some other pathway in every other database. It does so using the following rules:
+
+## Candidate Pathways
+
+- Two pathways are candidates if they share at least one term in the name, after removing domain specific general terms and stop words.
+- Two pathways are candidates if they share at least one protein in common. _Note:_ `kegg_expanded` is used to compare proteins. Corresponding pathways are then automatically transferred to `kegg_collapsed` since they are derived from the same dataset.
+
+For pathway _a_ from database _A_, the top corresponding pathway _b_ from database _B_ is a candidate pathway with the largest Jaccard overlap of the nodes (divided by the size of pathway _a_).
+
+The file `jaccard.txt` records the top pick for every pathway _a_ from database _A_ compared to database _B_.  The file also contains the tokens in common for the names.  Note that this is assymetric.
+
+## Corresponding Pathways
+
+One can consider a graph, where the nodes are all pathways and there is a directed edge from pathway _a_ to pathway _b_ if _b_ is the top corresponding pathway of _a_ out of all pathways in database _B_.  However, this is a weakly connected graph with 553 edges.  
+
+Instead, we will do something a little more stringent.  We define an undirected graph where there is an edge between pathway _a_ and pathway _b_ if _b_ is the top corresponding pathway of _a_ **AND** _a_ is the top corresponding pathway of _b_.  There are 142 such edges in this graph with 64 connected components. These are written in the file `conncomps.txt`.
+
+Of the connected components, 23 connected components have members that are from at least 3 databases. We use these for our set of corresponding pathways.
+
+## Manual Curation
