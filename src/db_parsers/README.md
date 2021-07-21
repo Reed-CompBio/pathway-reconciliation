@@ -8,7 +8,7 @@ The first pathway databases were parsed from  [PathwayCommons](https://www.pathw
 
 ### Panther
 
-Download `PathwayCommons11.panther.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it.  
+Download `PathwayCommons11.panther.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it in `infiles/`.
 
 ```
 python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.panther.hgnc.txt -o ../../networks/dbs/
@@ -16,7 +16,7 @@ python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.panther.hgnc.txt -o 
 
 ### NCI-PID
 
-Download `PathwayCommons11.pid.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it.  
+Download `PathwayCommons11.pid.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it in `infiles/`.  
 
 ```
 python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.pid.hgnc.txt -o ../../networks/dbs/
@@ -24,10 +24,11 @@ python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.pid.hgnc.txt -o ../.
 
 ### INOH
 
-Download `PathwayCommons11.inoh.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it.  
+Download `PathwayCommons11.inoh.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it in `infiles/`.
 
 ```
 python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.inoh.hgnc.txt -o ../../networks/dbs/
+```
 
 ### PathBank?
 
@@ -41,9 +42,16 @@ The next pathway databases are from [NDEx](https://home.ndexbio.org/index/)
 
 ## Original Pathway Databases
 
-The final set of pathway databases are parsed from their original form. While they are available in some form from PathwayCommons, there are issues with each one (not all NetPath pathways area available, only KEGG metabolic pathways are availabile, and Reactome pathways are not parsed according to the hierarchy).
+The final set of pathway databases are parsed from their original form. While they are available in some form from PathwayCommons, there are issues with each one (not all NetPath pathways area available, only KEGG metabolic pathways are available, and Reactome pathways are not parsed according to the hierarchy).
 
 ### NetPath
+
+Original 32 pathways from [NetPath](http://www.netpath.org/), used in previous publications such as [PathLinker](https://www.nature.com/articles/npjsba20162), are stored in `infiles/netpath`.  Make undirected and two-column files to drop in `../../networks/dbs/`.
+
+```
+python3 parse_netpath.py
+```
+
 
 ### KEGG
 
