@@ -1,0 +1,10 @@
+#node1	node2	edge_expansion:relation_type
+P38398	Q99708	one_to_one_mapping:binding/association
+P49959	Q92878	one_to_one_mapping:binding/association
+Q6UWZ7	Q9NWV8	one_to_one_mapping:binding/association
+Q8IZU3	P51587	one_to_one_mapping:inhibition
+Q92547	Q9BX63	one_to_one_mapping:binding/association
+Q92878	P49959	one_to_one_mapping:binding/association
+Q99708	P38398	one_to_one_mapping:binding/association
+Q9BX63	Q92547	one_to_one_mapping:binding/association
+Q9NWV8	Q6UWZ7	one_to_one_mapping:binding/association

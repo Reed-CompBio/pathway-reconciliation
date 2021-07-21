@@ -1,0 +1,12 @@
+#node1	node2	node1type	node2type	relation_type
+Q96PU5	P37088|P51168|P51170	gene	gene	ubiquitination
+O15530	O00141	gene	gene	activation|phosphorylation
+P01308	P06213	gene	gene	activation
+P31947	Q96PU5	gene	gene	binding/association
+Q96PU5	P31947	gene	gene	binding/association
+P01116	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation|indirect effect
+P05019		gene	gene	activation
+	P48048	gene	gene	activation
+		gene	gene	inhibition|phosphorylation
+	P35568	gene	gene	activation
+P35568	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation

@@ -1,0 +1,154 @@
+#node1	node2	node1type	node2type	relation_type
+P07585	P04626|P21860|Q15303	gene	gene	binding/association
+P04626|P21860|Q15303	P07585	gene	gene	binding/association
+O00329|O00459|P27986|P42336|P42338|Q92569	P31749|P31751|Q9Y243	gene	gene	activation|indirect effect|phosphorylation
+P08581	P62993	gene	gene	activation
+Q01664	P38936	gene	gene	inhibition
+	O14807|P01111|P01112|P01116|P10301|P62070	gene	gene	activation|indirect effect
+P07996	P08253	gene	gene	inhibition
+O14807|P01111|P01112|P01116|P10301|P62070	P04049|P10398|P15056	gene	gene	activation
+P07585	P05019	gene	gene	binding/association
+P05019	P07585	gene	gene	binding/association
+P04049|P10398|P15056	P27361|P28482	gene	gene	activation|indirect effect|phosphorylation
+P18827	P04628	gene	gene	activation
+	O00144|O60353|O75084|Q13467|Q14332|Q9H461|Q9NPG1|Q9ULV1|Q9ULW2|Q9UP38	gene	gene	activation
+P35625		gene	gene	inhibition
+O00144|O60353|O75084|Q13467|Q14332|Q9H461|Q9NPG1|Q9ULV1|Q9ULW2|Q9UP38	P35222	gene	gene	activation|indirect effect
+P04626|P21860|Q15303	P01106	gene	gene	indirect effect|inhibition
+	P01137	gene	gene	inhibition
+P02751	P05556|P08648	gene	gene	activation
+P02751	P34741	gene	gene	activation
+P14780	P15692	gene	gene	inhibition
+		gene	gene	activation|binding/association|inhibition
+	P15311	gene	gene	activation
+P08581	P22681	gene	gene	binding/association
+P22681	P08581	gene	gene	binding/association
+	P35241	gene	gene	activation
+	P26038	gene	gene	activation
+P15311	P60709|P63261	gene	gene	activation
+	O00206|O60603	gene	group	binding/association
+O00206|O60603		group	gene	binding/association
+P35241	P60709|P63261	gene	gene	activation
+P26038	P60709|P63261	gene	gene	activation
+P04626|P21860|Q15303	P35222	gene	gene	indirect effect|inhibition
+P09038	P11362	gene	gene	activation
+	Q8WU20	gene	gene	activation
+Q8WU20	P62993|Q06124	gene	group	activation|indirect effect
+P00533	P42574	gene	gene	activation|indirect effect
+P62993|Q06124	Q07889|Q07890	group	gene	activation
+	P00533	gene	gene	binding/association
+P00533		gene	gene	binding/association
+P04626|P21860|Q15303	Q16665	gene	gene	indirect effect|inhibition
+Q07889|Q07890	O14807|P01111|P01112|P01116|P10301|P62070	gene	gene	activation
+	P08069	gene	gene	activation|binding/association
+P08069		gene	gene	binding/association
+O14807|P01111|P01112|P01116|P10301|P62070	P27361|P28482	gene	gene	activation|indirect effect|phosphorylation
+	P16885|P19174	gene	gene	activation
+	Q16665	gene	gene	indirect effect|inhibition
+	P27361|P28482	gene	gene	activation|indirect effect|phosphorylation
+P16885|P19174	P05129|P05771|P17252	gene	gene	activation|indirect effect
+P16070	P46940	gene	gene	binding/association
+P46940	P16070	gene	gene	binding/association
+P23443|Q9UBS0	P23588|P62753	gene	group	activation
+P08069	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation|phosphorylation
+P02751	P31431	gene	gene	activation
+	P17252	gene	gene	activation
+	P01106	gene	gene	indirect effect|inhibition
+	Q9BRJ7	gene	gene	activation
+	P49023	gene	gene	activation
+	Q05397	gene	gene	activation
+P00533	P08962	group	gene	indirect effect
+P31749|P31751|Q9Y243	P42345	gene	gene	activation|indirect effect
+	P05556|P08648	gene	gene	activation
+O00329|O00459|P27986|P42336|P42338|Q92569	O15530	gene	gene	activation|indirect effect
+	P35222	gene	gene	indirect effect|inhibition
+P05556|P08648	P12931	gene	gene	activation
+P12931	Q05397	gene	gene	activation
+Q99075	P00533	gene	gene	activation
+O15530	P23443|Q9UBS0	gene	gene	activation|indirect effect
+P35052		gene	gene	activation
+P42345	P23443|Q9UBS0	gene	gene	activation|phosphorylation
+P35052	P09038	gene	gene	activation
+	P60953	gene	gene	binding/association
+P60953		gene	gene	binding/association
+	P11362	gene	gene	activation
+P12931	P14317|Q14247	gene	gene	activation|phosphorylation
+Q9H9S0	P17844|Q9NRR4	gene	group	binding/association
+P17844|Q9NRR4	Q9H9S0	group	gene	binding/association
+P11362	P27361|P28482	gene	gene	activation|indirect effect|phosphorylation
+P16157|Q01484|Q12955	Q14571|Q14573|Q14643	gene	gene	activation
+P51654	P01344	gene	gene	activation
+Q9H9S0	P40763	gene	gene	binding/association
+P40763	Q9H9S0	gene	gene	binding/association
+Q13554|Q13555|Q13557|Q9UQM7	O75369|P21333|Q14315	gene	gene	phosphorylation
+P08069	P27361|P28482	gene	gene	activation|indirect effect|phosphorylation
+Q14571|Q14573|Q14643	Q13554|Q13555|Q13557|Q9UQM7	gene	gene	activation|indirect effect
+P60953	Q13153	gene	gene	activation
+	O00744|O00755|O14904|O14905|O96014|P04628|P09544|P41221|P56703|P56704|P56705|P56706|Q93097|Q93098|Q9GZT5|Q9H1J5|Q9H1J7|Q9UBV4|Q9Y6F9	gene	gene	activation
+P16070	Q13009	gene	gene	activation
+O00744|O00755|O14904|O14905|O96014|P04628|P09544|P41221|P56703|P56704|P56705|P56706|Q93097|Q93098|Q9GZT5|Q9H1J5|Q9H1J7|Q9UBV4|Q9Y6F9	O00144|O60353|O75084|Q13467|Q14332|Q9H461|Q9NPG1|Q9ULV1|Q9ULW2|Q9UP38	gene	gene	activation
+P61586	Q9P212	gene	gene	activation
+Q9NZN5		gene	gene	activation
+Q14623|Q15465	P51654	gene	gene	activation
+P15498|P52735|Q9UKW4	P63000	gene	gene	activation
+O75116|Q13464	O14974|O60237|P36873|P62136|P62140|Q9BZL4	gene	gene	activation|phosphorylation
+Q14623|Q15465	Q13635	gene	gene	dissociation
+Q13635	Q14623|Q15465	gene	gene	dissociation
+O75116|Q13464	P19634	gene	gene	activation|phosphorylation
+Q13635	Q99835	gene	gene	binding/association
+Q99835	Q13635	gene	gene	binding/association
+P98160	P05556|P17301	gene	gene	activation
+P27361|P28482	P19419	gene	gene	phosphorylation
+P46940|P60953	P60709|P63261	group	gene	binding/association
+P60709|P63261	P46940|P60953	gene	group	binding/association
+Q13480	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+P98160	P15692	gene	gene	activation
+	P35968	gene	gene	activation|inhibition
+O75116|Q13464	Q13480	gene	gene	activation|phosphorylation
+P16070	P15498|P52735|Q9UKW4	gene	gene	activation
+O75116|Q13464	P16157|Q01484|Q12955	gene	gene	indirect effect
+P05556|P17301	P29350	gene	gene	activation
+P04626	P16070	gene	gene	binding/association
+P16070	P04626	gene	gene	binding/association
+P05556|P17301	P17612|P22612|P22694	gene	gene	activation
+P51884	P48023	gene	gene	activation
+P17612|P22612|P22694	Q05397	gene	gene	activation|phosphorylation
+	P25445	gene	gene	activation
+Q05397	O15264|P53778|Q15759|Q16539	gene	gene	activation
+	Q00987	gene	gene	inhibition
+O15264|P53778|Q15759|Q16539	Q16082	gene	gene	activation|phosphorylation
+P36507|Q02750	P27361|P28482	gene	gene	activation|phosphorylation
+P16070	P16157|Q01484|Q12955	gene	gene	binding/association
+P16157|Q01484|Q12955	P16070	gene	gene	binding/association
+Q00987	P04637	gene	gene	inhibition
+P29350	P35968	gene	gene	dephosphorylation|inhibition
+	P61812	gene	gene	inhibition
+P04049|P10398|P15056	P36507|Q02750	gene	gene	activation|phosphorylation
+P61812	Q15796	gene	gene	activation|indirect effect|phosphorylation
+	O75369|P21333|Q14315	gene	gene	binding/association
+O75369|P21333|Q14315		gene	gene	binding/association
+P18827	P27361|P28482	gene	gene	activation|indirect effect|phosphorylation
+	Q14571|Q14573|Q14643	gene	gene	indirect effect
+P62993	O14807|P01111|P01112|P01116|P10301|P62070	gene	gene	activation|indirect effect
+	P63000	gene	gene	activation
+P27361|P28482	P03372	gene	gene	phosphorylation
+P63000		gene	gene	indirect effect
+P14780	P18827	gene	gene	inhibition
+	Q9NZN5	gene	gene	activation
+P02452|P08123	P05556|P17301	gene	gene	activation
+P16157|Q01484|Q12955		gene	gene	binding/association
+	P16157|Q01484|Q12955	gene	gene	binding/association
+P04004	P05106|P06756	gene	gene	activation
+	P62993	gene	gene	activation
+P18827	P05106|P06756	gene	gene	activation
+P02751	P06756|P18084	gene	gene	activation
+P16070		gene	gene	binding/association
+	P16070	gene	gene	binding/association
+Q92888	P61586	gene	gene	binding/association
+P61586	Q92888	gene	gene	binding/association
+P16070	Q15672|Q8WVJ9	gene	gene	binding/association
+Q15672|Q8WVJ9	P16070	gene	gene	binding/association
+P14210		gene	gene	activation
+	Q13480	gene	gene	activation
+	O75116|Q13464	gene	gene	binding/association
+O75116|Q13464		gene	gene	binding/association

@@ -1,0 +1,27 @@
+#node1	node2	node1type	node2type	relation_type
+P19429	P68032	gene	gene	binding/association
+P68032	P19429	gene	gene	binding/association
+Q14118	Q14118	gene	gene	binding/association
+Q14896	P12883|P13533	gene	gene	binding/association
+P12883|P13533	Q14896	gene	gene	binding/association
+	P06753|P07951|P09493|P67936	gene	gene	binding/association
+P06753|P07951|P09493|P67936		gene	gene	binding/association
+P63316		gene	gene	binding/association
+	P63316	gene	gene	binding/association
+	P11532	gene	gene	binding/association
+P11532		gene	gene	binding/association
+	P12883|P13533	gene	gene	binding/association
+P12883|P13533		gene	gene	binding/association
+P63316	P45379	gene	gene	binding/association
+P45379	P63316	gene	gene	binding/association
+P11532	P60709|P63261	gene	gene	binding/association
+P60709|P63261	P11532	gene	gene	binding/association
+P12883|P13533	P08590	gene	gene	binding/association
+P08590	P12883|P13533	gene	gene	binding/association
+		gene	gene	binding/association
+P05106|P05556|P16144|P18084|P18564|P26010|P26012	P60709|P63261	gene	gene	binding/association
+P60709|P63261	P05106|P05556|P16144|P18084|P18564|P26010|P26012	gene	gene	binding/association
+P12883|P13533	P10916	gene	gene	binding/association
+P10916	P12883|P13533	gene	gene	binding/association
+P24043|P25391		gene	gene	binding/association
+	P24043|P25391	gene	gene	binding/association

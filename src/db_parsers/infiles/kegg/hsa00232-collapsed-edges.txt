@@ -1,0 +1,10 @@
+#node1	node2	node1type	node2type	relation_type
+P05177	P47989	gene	gene	compound
+P05177	P11245|P18440	gene	gene	compound
+P11509	P11245|P18440	gene	gene	compound
+P11245|P18440	P47989	gene	gene	compound
+P11509	P05177	gene	gene	compound
+	P47989	gene	gene	compound
+		gene	gene	compound
+	P11245|P18440	gene	gene	compound
+P11245|P18440		gene	gene	compound

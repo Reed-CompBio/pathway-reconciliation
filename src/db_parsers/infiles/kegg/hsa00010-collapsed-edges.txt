@@ -1,0 +1,53 @@
+#node1	node2	node1type	node2type	relation_type
+P36871|Q96G03	P35575|Q9BUM1|Q9NQR9	gene	gene	compound
+P06744	P19367|P52789|P52790|Q2TB90	gene	gene	compound
+P06744	P35557	gene	gene	compound
+	P36871|Q96G03	gene	gene	compound
+P36871|Q96G03	P19367|P52789|P52790|Q2TB90	gene	gene	compound
+P06744		gene	gene	compound
+P36871|Q96G03		gene	gene	compound
+P36871|Q96G03	P06744	gene	gene	compound
+O00757|P09467		gene	gene	compound
+P08237|P17858|Q01813		gene	gene	compound
+P04075|P05062|P09972	O00757|P09467	gene	gene	compound
+P04075|P05062|P09972	P08237|P17858|Q01813	gene	gene	compound
+P60174	P04075|P05062|P09972	gene	gene	compound
+O14556|P04406	P00558|P07205	gene	gene	compound
+P07738|P15259|P18669|Q8N0Y7	P00558|P07205	gene	gene	compound
+A6NNW6|P06733|P09104|P13929	P07738|P15259|P18669|Q8N0Y7	gene	gene	compound
+P08559|P11177|P29803	P10515	gene	gene	compound
+P08559|P11177|P29803	P09622	gene	gene	compound
+P10515	P09622	gene	gene	compound
+P05091|P30837|P49189|P49419|P51648	P00325|P00326|P07327|P08319|P11766|P28332|P40394	gene	gene	compound
+P30838|P43353	P00325|P00326|P07327|P08319|P11766|P28332|P40394	gene	gene	compound
+P05091|P30837|P49189|P49419|P51648	P14550	gene	gene	compound
+P30838|P43353	P14550	gene	gene	compound
+P14618|P30613	A6NNW6|P06733|P09104|P13929	gene	gene	compound
+O00757|P09467	P06744	gene	gene	compound
+P08237|P17858|Q01813	P06744	gene	gene	compound
+P00338|P07195|P07864|Q6ZMR3|Q9BYZ2	P14618|P30613	gene	gene	compound
+P08559|P11177|P29803	P14618|P30613	gene	gene	compound
+P08559|P11177|P29803	P00338|P07195|P07864|Q6ZMR3|Q9BYZ2	gene	gene	compound
+P35557	P06744	gene	gene	compound
+P19367|P52789|P52790|Q2TB90		gene	gene	compound
+P00558|P07205	P07738	gene	gene	compound
+O14556|P04406	P07738	gene	gene	compound
+P07738	P00558|P07205	gene	gene	compound
+P07738	P07738|P15259|P18669|Q8N0Y7	gene	gene	compound
+P35558|Q16822	A6NNW6|P06733|P09104|P13929	gene	gene	compound
+P35558|Q16822	P14618|P30613	gene	gene	compound
+P60174	O14556|P04406	gene	gene	compound
+P04075|P05062|P09972	P60174	gene	gene	compound
+P04075|P05062|P09972	O14556|P04406	gene	gene	compound
+P07738	P07738	gene	gene	compound
+Q9NR19|Q9NUB1	P05091|P30837|P49189|P49419|P51648	gene	gene	compound
+Q9NR19|Q9NUB1	P30838|P43353	gene	gene	compound
+Q9NR19|Q9NUB1		gene	gene	compound
+Q9BRR6	P06744	gene	gene	compound
+		gene	gene	compound
+Q96C23	Q9BRR6	gene	gene	compound
+	Q9UNW1	gene	gene	compound
+P07738|P15259|P18669|Q8N0Y7	Q9UNW1	gene	gene	compound
+	P19367|P52789|P52790|Q2TB90	gene	gene	compound
+Q9UNW1	A6NNW6|P06733|P09104|P13929	gene	gene	compound
+	P35575|Q9BUM1|Q9NQR9	gene	gene	compound

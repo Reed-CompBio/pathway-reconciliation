@@ -1,0 +1,53 @@
+#node1	node2	node1type	node2type	relation_type
+Q92851	P42574	gene	gene	activation
+O43318	O14920	gene	gene	phosphorylation
+P46734	O15264|P53778|Q15759|Q16539	gene	gene	phosphorylation
+Q14790	P55210	gene	gene	activation
+P41279	O14733|P45985	gene	gene	activation
+P20333	Q5VWQ8	gene	gene	activation
+		gene	gene	activation|inhibition
+P41279	Q02750	gene	gene	phosphorylation
+	P45983|P45984|P53779	gene	gene	indirect effect
+Q99683	O14733|P45985	gene	gene	activation
+	P27361|P28482	gene	gene	phosphorylation
+P45983|P45984|P53779	P05412	gene	gene	phosphorylation
+P19438	O95429	gene	gene	dissociation
+O95429	P19438	gene	gene	dissociation
+O15264|P53778|Q15759|Q16539	O75582|O75676	gene	gene	indirect effect
+	P10914	gene	gene	activation|indirect effect
+Q13546	Q9Y572	gene	gene	binding/association
+Q9Y572	Q13546	gene	gene	binding/association
+P27361|P28482	O75582|O75676	gene	gene	indirect effect
+	Q8NB16	gene	gene	phosphorylation
+O75582|O75676	O43889|P15336|P16220|P18848|Q02930|Q68CJ9|Q70SY1|Q8TEY5|Q96BA8|Q99941	gene	gene	activation
+Q13546	P46734	gene	gene	activation
+Q8NB16	Q96HS1	gene	gene	activation
+O00463|Q12933	Q99558	gene	gene	activation
+Q96HS1	O00429	gene	gene	activation|dephosphorylation
+Q99558	O15111	gene	gene	phosphorylation
+	P25963	gene	gene	phosphorylation
+P01374|P01375		gene	gene	activation
+P25963	P19838|Q04206	gene	gene	dissociation
+P19838|Q04206	P25963	gene	gene	dissociation
+	Q12933	gene	gene	activation
+Q13546	Q9Y6K9	gene	gene	activation
+P01375		gene	gene	activation
+Q12933	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+O00463|Q12933	Q13489|Q13490	gene	gene	activation
+	Q15628	gene	gene	activation
+O00329|O00459|P27986|P42336|P42338|Q92569	P31749|P31751|Q9Y243	gene	gene	indirect effect|phosphorylation
+Q13489|Q13490		gene	gene	activation|ubiquitination
+O00463|Q12933		gene	gene	activation
+Q12933	Q99558	gene	gene	activation
+P45983|P45984|P53779	Q96J02	gene	gene	phosphorylation
+	O14733|P45985	gene	gene	phosphorylation
+	O14920|O15111|Q9Y6K9	gene	gene	phosphorylation
+Q96J02	O15519	gene	gene	inhibition
+O14733|P45985	P45983|P45984|P53779	gene	gene	phosphorylation
+O14920|O15111|Q9Y6K9	P25963	gene	gene	phosphorylation
+P45983|P45984|P53779	P01100|P05412	gene	gene	indirect effect
+Q15628	Q13158	gene	gene	activation
+	P46734|P52564	gene	gene	phosphorylation
+	Q13489|Q13490	gene	gene	activation
+P46734|P52564	O15264|P53778|Q15759|Q16539	gene	gene	phosphorylation
+O15264|P53778|Q15759|Q16539	P17676	gene	gene	activation

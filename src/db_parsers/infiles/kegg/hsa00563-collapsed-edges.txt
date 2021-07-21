@@ -1,0 +1,13 @@
+#node1	node2	node1type	node2type	relation_type
+O95427	Q9NUD9	gene	gene	compound
+Q8TBF5|Q9H3S5	Q92521	group	gene	compound
+Q92521	Q07326|Q8TEQ8	gene	group	compound
+	Q92521	gene	gene	compound
+O43292|Q92643|Q969N2|Q96S52|Q9H490	Q07326|Q8TEQ8	group	group	compound
+Q9Y2B2	Q7Z7B1	gene	gene	compound
+O43292|Q92643|Q969N2|Q96S52|Q9H490	Q75T13	group	gene	compound
+P80108		gene	gene	compound
+	Q8TBF5|Q9H3S5	gene	group	compound
+	O94777|P37287|P57054|Q14442|Q3MUY2|Q92535|Q9BRB3	gene	group	compound
+Q8TBF5|Q9H3S5		group	gene	compound
+	P80108	gene	gene	compound

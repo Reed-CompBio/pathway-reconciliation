@@ -1,0 +1,24 @@
+#node1	node2	edge_expansion:relation_type
+O95467	O43306	mult_mapping_expansion:activation
+O95467	O60266	mult_mapping_expansion:activation
+O95467	O60503	mult_mapping_expansion:activation
+O95467	O95622	mult_mapping_expansion:activation
+O95467	P40145	mult_mapping_expansion:activation
+O95467	P51828	mult_mapping_expansion:activation
+O95467	Q08462	mult_mapping_expansion:activation
+O95467	Q08828	mult_mapping_expansion:activation
+O95467	Q8NFM4	mult_mapping_expansion:activation
+P32238	P28907	mult_mapping_expansion:activation|indirect effect
+P32238	P50148	one_to_one_mapping:activation
+P32238	Q10588	mult_mapping_expansion:activation|indirect effect
+P47872	O95467	mult_mapping_expansion:activation
+P47872	P63092	mult_mapping_expansion:activation
+P63092	O43306	mult_mapping_expansion:activation
+P63092	O60266	mult_mapping_expansion:activation
+P63092	O60503	mult_mapping_expansion:activation
+P63092	O95622	mult_mapping_expansion:activation
+P63092	P40145	mult_mapping_expansion:activation
+P63092	P51828	mult_mapping_expansion:activation
+P63092	Q08462	mult_mapping_expansion:activation
+P63092	Q08828	mult_mapping_expansion:activation
+P63092	Q8NFM4	mult_mapping_expansion:activation

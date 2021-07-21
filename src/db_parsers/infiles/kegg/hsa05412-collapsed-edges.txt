@@ -1,0 +1,8 @@
+#node1	node2	node1type	node2type	relation_type
+P17302	P17302	gene	gene	binding/association
+P35222	P36402|Q9HCS4|Q9NQB0|Q9UJU2	gene	gene	activation
+P24043|P25391	Q14118	gene	gene	binding/association
+Q14118	P24043|P25391	gene	gene	binding/association
+P14923	P36402|Q9HCS4|Q9NQB0|Q9UJU2	gene	gene	activation
+Q14118	Q14118	gene	gene	binding/association
+P19022	P19022	gene	gene	binding/association

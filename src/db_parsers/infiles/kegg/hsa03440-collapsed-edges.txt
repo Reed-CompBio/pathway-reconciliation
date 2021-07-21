@@ -1,0 +1,24 @@
+#node1	node2	node1type	node2type	relation_type
+Q92878	P49959	gene	gene	binding/association
+P49959	Q92878	gene	gene	binding/association
+P38398	Q99708	gene	gene	binding/association
+Q99708	P38398	gene	gene	binding/association
+	Q99728	gene	gene	binding/association
+Q99728		gene	gene	binding/association
+Q9BX63	Q92547	gene	gene	binding/association
+Q92547	Q9BX63	gene	gene	binding/association
+		gene	gene	binding/association
+Q13315		gene	gene	phosphorylation
+Q8IZU3	P51587	gene	gene	inhibition
+	Q6UWZ7	gene	gene	binding/association
+Q6UWZ7		gene	gene	binding/association
+Q9NWV8	Q6UWZ7	gene	gene	binding/association
+Q6UWZ7	Q9NWV8	gene	gene	binding/association
+	P46736	gene	gene	binding/association
+P46736		gene	gene	binding/association
+	Q9NXR7	gene	gene	binding/association
+Q9NXR7		gene	gene	binding/association
+	P60896	gene	gene	binding/association
+P60896		gene	gene	binding/association
+Q86YC2		gene	gene	binding/association
+	Q86YC2	gene	gene	binding/association

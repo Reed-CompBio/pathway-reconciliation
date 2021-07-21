@@ -1,0 +1,40 @@
+#node1	node2	node1type	node2type	relation_type
+P36897|P37173	P84022|Q15796	gene	gene	phosphorylation
+P12931	P51636|P56539|Q03135	gene	gene	phosphorylation
+P61586	P01589|P14784|P31785	gene	gene	binding/association
+P01589|P14784|P31785	P61586	gene	gene	binding/association
+Q9NRW7	Q9H1K0	gene	gene	binding/association
+Q9H1K0	Q9NRW7	gene	gene	binding/association
+Q96B97	P00533|P08069|P16234|P21802|P22455|P22607	group	gene	binding/association
+P00533|P08069|P16234|P21802|P22455|P22607	Q96B97	gene	group	binding/association
+P98082|Q5SW96	P01130	group	gene	binding/association
+P01130	P98082|Q5SW96	gene	group	binding/association
+	P20338	gene	gene	binding/association
+P20338		gene	gene	binding/association
+P20338	Q96T51	gene	gene	binding/association
+Q96T51	P20338	gene	gene	binding/association
+Q9NZN3		gene	gene	binding/association
+	Q9NZN3	gene	gene	binding/association
+	Q9H4M9	gene	gene	binding/association
+Q9H4M9		gene	gene	binding/association
+Q9H4M9	Q6WKZ4|Q7L804|Q9BXF6	gene	gene	binding/association
+Q6WKZ4|Q7L804|Q9BXF6	Q9H4M9	gene	gene	binding/association
+Q6WKZ4|Q7L804|Q9BXF6	P62491|Q15907	gene	gene	binding/association
+P62491|Q15907	Q6WKZ4|Q7L804|Q9BXF6	gene	gene	binding/association
+Q96EY5|Q9H7P6	Q8WUM4	gene	gene	binding/association
+Q8WUM4	Q96EY5|Q9H7P6	gene	gene	binding/association
+Q96CF2|Q9BY43|Q9H444	Q8WUM4	gene	gene	binding/association
+Q8WUM4	Q96CF2|Q9BY43|Q9H444	gene	gene	binding/association
+O14964	O75886|Q92783	gene	gene	binding/association
+O75886|Q92783	O14964	gene	gene	binding/association
+O75351|Q9UN37	Q9NP79	gene	gene	binding/association
+Q9NP79	O75351|Q9UN37	gene	gene	binding/association
+Q7LBR1|Q9HD42	Q9NP79	gene	group	binding/association
+Q9NP79	Q7LBR1|Q9HD42	group	gene	binding/association
+Q9NZZ3	O75351|Q9UN37	gene	gene	binding/association
+O75351|Q9UN37	Q9NZZ3	gene	gene	binding/association
+Q7LBR1|Q9HD42	O43633|Q9UQN3	gene	gene	binding/association
+O43633|Q9UQN3	Q7LBR1|Q9HD42	gene	gene	binding/association
+Q8WUX9	Q96CF2|Q9BY43|Q9H444	gene	gene	binding/association
+Q96CF2|Q9BY43|Q9H444	Q8WUX9	gene	gene	binding/association
+P22681|P46934|Q00987|Q13191|Q96J02|Q96PU5|Q9H0M0|Q9H4P4|Q9HAU4|Q9HCE7|Q9ULV8|Q9Y4K3	P00533|P08069|P16234|P21802|P22455|P22607	gene	gene	ubiquitination

@@ -1,0 +1,13 @@
+#node1	node2	edge_expansion:relation_type
+A8MTJ3	Q00722	mult_mapping_expansion:activation
+A8MTJ3	Q01970	mult_mapping_expansion:activation
+A8MTJ3	Q15147	mult_mapping_expansion:activation
+A8MTJ3	Q9NQ66	mult_mapping_expansion:activation
+P05771	P11168	one_to_one_mapping:activation|indirect effect
+P31749	P22732	mult_mapping_expansion:activation|indirect effect
+P31751	P22732	mult_mapping_expansion:activation|indirect effect
+Q7RTX0	A8MTJ3	mult_mapping_expansion:activation
+Q7RTX0	Q8TE23	group_expansion
+Q8TE23	A8MTJ3	mult_mapping_expansion:activation
+Q8TE23	Q7RTX0	group_expansion
+Q9Y243	P22732	mult_mapping_expansion:activation|indirect effect

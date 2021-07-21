@@ -1,0 +1,19 @@
+#node1	node2	node1type	node2type	relation_type
+P06681	P01024	group	gene	activation
+	P01031	gene	gene	activation
+P01031	P21730	gene	gene	activation
+P00746	P00751|P01024	gene	group	binding/association
+P00751|P01024	P00746	group	gene	binding/association
+	Q16581	gene	gene	activation
+P11226	O00187|P48740	gene	gene	binding/association
+O00187|P48740	P11226	gene	gene	binding/association
+O00187|P48740	P0C0L4|P0C0L5	gene	gene	activation
+P05362	P05107	gene	group	binding/association
+P05107	P05362	group	gene	binding/association
+P00747		gene	gene	inhibition
+P05156		gene	gene	inhibition
+P25105	P22301	gene	gene	activation|indirect effect
+P16109	Q14242	gene	gene	binding/association
+Q14242	P16109	gene	gene	binding/association
+P08603	P00751|P01024	gene	group	inhibition
+P00736|P09871	P0C0L4|P0C0L5	group	gene	activation

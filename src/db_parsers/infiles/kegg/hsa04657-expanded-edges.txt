@@ -1,0 +1,6 @@
+#node1	node2	edge_expansion:relation_type
+O14920	P25963	one_to_one_mapping:phosphorylation
+O43318	Q8N5C8	one_to_one_mapping:binding/association
+P25963	P19838	mult_mapping_expansion:inhibition
+P25963	Q04206	mult_mapping_expansion:inhibition
+Q8N5C8	O43318	one_to_one_mapping:binding/association

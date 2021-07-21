@@ -1,0 +1,9 @@
+#node1	node2	node1type	node2type	relation_type
+P54868|Q01581	P24752|Q9BWD1	gene	gene	compound
+P24752|Q9BWD1	P55809|Q9BYC2	gene	gene	compound
+P35914|Q8TB92	P24752|Q9BWD1	gene	gene	compound
+P54868|Q01581	P35914|Q8TB92	gene	gene	compound
+Q02338|Q9BUT1	P55809|Q9BYC2	gene	gene	compound
+P35914|Q8TB92	P55809|Q9BYC2	gene	gene	compound
+P35914|Q8TB92	Q02338|Q9BUT1	gene	gene	compound
+P54868|Q01581	P55809|Q9BYC2	gene	gene	compound

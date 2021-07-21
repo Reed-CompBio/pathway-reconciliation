@@ -1,0 +1,6 @@
+#node1	node2	node1type	node2type	relation_type
+P50747	P50747	gene	gene	compound
+	P50747	gene	gene	compound
+		gene	gene	compound
+P50747		gene	gene	compound
+	P43251	gene	gene	compound

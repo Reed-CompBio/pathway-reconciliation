@@ -1,0 +1,64 @@
+#node1	node2	node1type	node2type	relation_type
+P21549|Q9BYV1	Q9UL12	gene	gene	compound
+O75600	P13196|P22557	gene	gene	compound
+P21549|Q9BYV1	Q14749	gene	gene	compound
+O75600	P23378	gene	gene	compound
+	P14920	gene	gene	compound
+P21549|Q9BYV1		gene	gene	compound
+P13196|P22557		gene	gene	compound
+P21549|Q9BYV1	P13196|P22557	gene	gene	compound
+P13196|P22557	P14920	gene	gene	compound
+Q9UBQ7	Q8IVS8	gene	gene	compound
+	P07738|P15259|P18669|Q8N0Y7	gene	gene	compound
+O43175	P07738|P15259|P18669|Q8N0Y7	gene	gene	compound
+	P48728	gene	gene	compound
+P20132|Q96GA7	P21549	gene	gene	compound
+P34896|P34897	P21549	gene	gene	compound
+P21549	P21549	gene	gene	compound
+P0DN79|P35520		gene	gene	compound
+	P78330	gene	gene	compound
+	Q9GZT4	gene	gene	compound
+	P21549	gene	gene	compound
+P0DN79|P35520	P34896|P34897	gene	gene	compound
+P0DN79|P35520	P20132|Q96GA7	gene	gene	compound
+P0DN79|P35520	Q9GZT4	gene	gene	compound
+P0DN79|P35520	P78330	gene	gene	compound
+P0DN79|P35520	P21549	gene	gene	compound
+P21549|Q9BYV1	P34896|P34897	gene	gene	compound
+P21549|Q9BYV1	P50440	gene	gene	compound
+P34896|P34897	P50440	gene	gene	compound
+P21549|Q9BYV1	Q9P0Z9	gene	gene	compound
+P21549	P34896|P34897	gene	gene	compound
+P34896|P34897	Q9P0Z9	gene	gene	compound
+P21549	P20132|Q96GA7	gene	gene	compound
+P34896|P34897	Q9UL12	gene	gene	compound
+P34896|P34897	Q14749	gene	gene	compound
+P21549	P78330	gene	gene	compound
+	P0DN79|P35520	gene	gene	compound
+P34896|P34897		gene	gene	compound
+P34896|P34897	P13196|P22557	gene	gene	compound
+P34896|P34897	P14920	gene	gene	compound
+	Q9P0Z9	gene	gene	compound
+	P20132|Q96GA7	gene	gene	compound
+	Q9UL12	gene	gene	compound
+	Q14749	gene	gene	compound
+		gene	gene	compound
+P34896|P34897	P20132|Q96GA7	gene	gene	compound
+	P13196|P22557	gene	gene	compound
+	P34896|P34897	gene	gene	compound
+P50440	Q9P0Z9	gene	gene	compound
+Q8NE62	P49419	gene	gene	compound
+	Q93088	gene	gene	compound
+Q93088	Q9UI17	gene	gene	compound
+Q14353		gene	gene	compound
+P34896|P34897	P48728	gene	gene	compound
+P48728	P09622	gene	gene	compound
+P0DN79|P35520	P32929	gene	gene	compound
+Q9UL12		gene	gene	compound
+Q9UL12	P13196|P22557	gene	gene	compound
+P34896|P34897	Q9GZT4	gene	gene	compound
+Q9UL12	P14920	gene	gene	compound
+P20132|Q96GA7	Q9GZT4	gene	gene	compound
+Q14749		gene	gene	compound
+Q14749	P13196|P22557	gene	gene	compound
+O43175	Q9Y617	gene	gene	compound

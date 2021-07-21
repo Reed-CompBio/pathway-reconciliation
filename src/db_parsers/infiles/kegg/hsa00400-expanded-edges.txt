@@ -1,0 +1,2 @@
+#node1	node2	edge_expansion:relation_type
+Q96RQ9	P00439	one_to_one_mapping:compound

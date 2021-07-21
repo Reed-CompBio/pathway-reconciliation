@@ -1,0 +1,75 @@
+#node1	node2	node1type	node2type	relation_type
+P01135	P00533	gene	group	activation
+O00329|O00459|P27986|P42336|P42338|Q92569	P31749|P31751|Q9Y243	gene	gene	compound
+P35070	Q15303	gene	group	activation
+Q99075		gene	group	activation
+	P00533	gene	gene	activation
+	Q15303	gene	gene	activation
+P16885|P19174	Q13554|Q13555|Q13557|Q9UQM7	gene	gene	compound
+P15514		gene	group	activation
+		gene	group	activation
+	P46108|P46109	group	gene	activation|phosphorylation
+P01133	P00533	gene	gene	activation
+P00533	P29353|P98077|Q6S5L8|Q92529	gene	gene	activation|phosphorylation
+	P12931	group	gene	activation
+	O43639|P16333	group	gene	indirect effect
+	P16885|P19174	gene	gene	activation|phosphorylation
+	P42229|P51692	gene	gene	activation|phosphorylation
+	P42229|P51692	group	gene	activation|phosphorylation
+	P46108|P46109	gene	gene	activation|phosphorylation
+	P29353|P98077|Q6S5L8|Q92529	gene	gene	activation|phosphorylation
+	P16885|P19174	group	gene	activation|phosphorylation
+	P12931	gene	gene	activation
+	P62993	gene	gene	activation
+Q99075		gene	gene	activation
+	P62993	group	gene	activation
+Q99075	Q15303	gene	gene	activation
+O14944		gene	group	activation
+P04626	P29353|P98077|Q6S5L8|Q92529	group	gene	activation|phosphorylation
+O14944		gene	gene	activation
+P04626	P62993	group	gene	activation
+P04626|P21860	P29353|P98077|Q6S5L8|Q92529	group	gene	activation|phosphorylation
+P04626|P21860		group	gene	activation
+Q02297	P21860	gene	group	activation
+P21860	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+	P21860	gene	gene	activation
+	P29353|P98077|Q6S5L8|Q92529	group	gene	activation|phosphorylation
+		group	gene	activation
+		gene	gene	activation
+	O00329|O00459|P27986|P42336|P42338|Q92569	group	gene	activation
+	P22681|Q13191	group	gene	activation|phosphorylation
+O14511		gene	group	activation
+P04626|Q15303	P29353|P98077|Q6S5L8|Q92529	group	gene	activation|phosphorylation
+P04626|Q15303		group	gene	activation
+O14511	P21860	gene	gene	activation
+P04626|Q15303	O00329|O00459|P27986|P42336|P42338|Q92569	group	gene	activation
+P12931	Q05397	gene	gene	activation|phosphorylation
+P46108|P46109	P00519|P42684	gene	gene	activation
+P56975		gene	group	activation
+O43639|P16333	O75914|O96013|Q13153|Q13177|Q9NQU5|Q9P286	gene	gene	activation
+P56975		gene	gene	activation
+O75914|O96013|Q13153|Q13177|Q9NQU5|Q9P286	O14733|P45985	gene	gene	indirect effect
+O14733|P45985	P45983|P45984|P53779	gene	gene	activation|phosphorylation
+P16885|P19174	P05129|P05771|P17252	gene	gene	compound
+Q8WWG1		gene	group	activation
+Q8WWG1		gene	gene	activation
+P45983|P45984|P53779	P05412	gene	gene	activation|phosphorylation
+P15514		gene	gene	activation
+P45983|P45984|P53779	P19419	gene	gene	activation|phosphorylation
+P29353|P98077|Q6S5L8|Q92529		gene	gene	activation
+	Q07889|Q07890	gene	gene	activation
+Q07889|Q07890	P01111|P01112|P01116	gene	gene	activation
+P01111|P01112|P01116	P04049|P10398|P15056	gene	gene	activation
+P04049|P10398|P15056	P36507|Q02750	gene	gene	activation|phosphorylation
+P36507|Q02750	P27361|P28482	gene	gene	activation|phosphorylation
+P27361|P28482	P01106	gene	gene	activation|phosphorylation
+P27361|P28482	P19419	gene	gene	activation|phosphorylation
+P62993	Q13480	gene	gene	activation
+	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+P31749|P31751|Q9Y243	P42345	gene	gene	activation|phosphorylation
+P42345	P23443|Q9UBS0	gene	gene	activation|phosphorylation
+P42345	Q13541	gene	gene	inhibition|phosphorylation
+P31749|P31751|Q9Y243	Q92934	gene	gene	inhibition|phosphorylation
+P31749|P31751|Q9Y243	P49841	gene	gene	inhibition|phosphorylation
+P31749|P31751|Q9Y243	P46527	gene	gene	inhibition|phosphorylation
+P31749|P31751|Q9Y243	P38936	gene	gene	inhibition|phosphorylation

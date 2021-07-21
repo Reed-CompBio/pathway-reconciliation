@@ -1,0 +1,5 @@
+#node1	node2	node1type	node2type	relation_type
+Q9Y3A5	Q7Z2Z2	gene	gene	binding/association
+Q7Z2Z2	Q9Y3A5	gene	gene	binding/association
+P56537		gene	gene	binding/association
+	P56537	gene	gene	binding/association

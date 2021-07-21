@@ -1,0 +1,51 @@
+#node1	node2	node1type	node2type	relation_type
+P20711	Q96RQ9	gene	gene	compound
+	P17752|Q8IWU9	gene	gene	compound
+	P48775	gene	gene	compound
+	P14902|Q6ZQW0	gene	gene	compound
+	P21397|P27338	gene	gene	compound
+	P19801	gene	gene	compound
+	O95050	gene	gene	compound
+P20711	O95050	gene	gene	compound
+P21397|P27338		gene	gene	compound
+P19801		gene	gene	compound
+P21397|P27338	Q06278	gene	gene	compound
+P21397|P27338	P05091|P30837|P49189|P49419|P51648	gene	gene	compound
+P46597	P05091|P30837|P49189|P49419|P51648	gene	gene	compound
+P46597	Q06278	gene	gene	compound
+Q16613	P20711	gene	gene	compound
+P14902|Q6ZQW0		gene	gene	compound
+P21397|P27338	P20711	gene	gene	compound
+P20711	Q63HM1	gene	gene	compound
+P14902|Q6ZQW0	P17752|Q8IWU9	gene	gene	compound
+P14902|Q6ZQW0	O95050	gene	gene	compound
+P21397|P27338	O95050	gene	gene	compound
+Q16719	Q63HM1	gene	gene	compound
+P14902|Q6ZQW0	P21397|P27338	gene	gene	compound
+	Q16773|Q6YP21|Q8N5Z0	gene	gene	compound
+P46597		gene	gene	compound
+O15229		gene	gene	compound
+P04798|P05177|Q16678	P46597	gene	gene	compound
+Q63HM1		gene	gene	compound
+P14902|Q6ZQW0	P46597	gene	gene	compound
+O15229	Q16773|Q6YP21|Q8N5Z0	gene	gene	compound
+P14902|Q6ZQW0	P04798|P05177|Q16678	gene	gene	compound
+Q63HM1	Q16719	gene	gene	compound
+	O15229	gene	gene	compound
+O15229	Q16719	gene	gene	compound
+		gene	gene	compound
+P17752|Q8IWU9		gene	gene	compound
+P46952		gene	gene	compound
+	P04040	gene	gene	compound
+P48775		gene	gene	compound
+P46952	P04040	gene	gene	compound
+Q8TDX5		gene	gene	compound
+Q9H2A2	Q8TDX5	gene	gene	compound
+P17752|Q8IWU9	P14902|Q6ZQW0	gene	gene	compound
+Q92947	P09622|P36957|Q96HY7	gene	gene	compound
+P30084|P40939|Q08426	Q92947	gene	gene	compound
+Q08426|Q16836	P30084|P40939|Q08426	gene	gene	compound
+P24752|Q9BWD1	Q08426|Q16836	gene	gene	compound
+P48775	P17752|Q8IWU9	gene	gene	compound
+P05091|P30837|P49189|P49419|P51648	P21397|P27338	gene	gene	compound
+P05091|P30837|P49189|P49419|P51648	P19801	gene	gene	compound

@@ -1,0 +1,7 @@
+#node1	node2	node1type	node2type	relation_type
+O75396	Q12981|Q9NZ43|Q9P2W9	gene	group	activation
+O75379	O00161	gene	group	activation
+P23763|P63027|Q15836	O00161	gene	group	activation
+O75379	O14662|O43752	gene	group	activation
+O15498	O15400|Q9UNK0	gene	group	activation
+O15155|Q9NYM9	O14653|O75396|Q13190	gene	group	activation

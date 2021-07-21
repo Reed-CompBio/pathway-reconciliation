@@ -1,0 +1,20 @@
+#node1	node2	node1type	node2type	relation_type
+P08571	O00206	gene	gene	activation
+O60602	Q99836	gene	gene	activation
+O60603		gene	gene	activation
+		gene	gene	activation|indirect effect
+P01024	P05107|P11215	gene	group	binding/association
+P05107|P11215	P01024	group	gene	binding/association
+P01024	P17927|Q2VPA4	gene	gene	binding/association
+P17927|Q2VPA4	P01024	gene	gene	binding/association
+O14727	P55211	gene	gene	activation
+P25963	P19838|Q04206	gene	gene	dissociation
+P19838|Q04206	P25963	gene	gene	dissociation
+P99999		gene	gene	activation
+	P42574	gene	gene	activation
+P68104|Q05639	Q00613	gene	gene	activation
+Q9NPP4|Q9ULZ3	P29466	group	gene	activation
+P29466	Q14116	gene	gene	activation
+	P01584	gene	gene	activation
+Q13075	P55210	gene	gene	activation|indirect effect
+	O60603	gene	gene	activation

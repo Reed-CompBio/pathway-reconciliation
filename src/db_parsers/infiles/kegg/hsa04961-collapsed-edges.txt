@@ -1,0 +1,14 @@
+#node1	node2	node1type	node2type	relation_type
+Q03431	O95467|P63092	gene	gene	activation
+O95467|P63092	O43306|O60503	gene	gene	activation
+P06870|P20151	P30411	gene	gene	activation
+Q9UEF7	P05023|P05026|P13637|P14415|P50993|P54709|P54710|Q13733|Q9UN42	gene	gene	activation
+P30411	P50148	gene	gene	activation
+P05023|P05026|P13637|P14415|P50993|P54709|P54710|Q13733|Q9UN42	P32418|P57103|Q9UPR5	gene	gene	activation|indirect effect
+	Q00722|Q01970|Q15147|Q9NQ66	gene	gene	activation
+P62491	Q9NQA5	gene	gene	binding/association
+Q9NQA5	P62491	gene	gene	binding/association
+P05129|P05771|P17252	Q9NQA5	gene	gene	activation|phosphorylation
+Q9UEF7	Q9NQA5	gene	gene	activation
+P01270	Q03431	gene	gene	activation
+P17612|P22612|P22694		gene	gene	activation|phosphorylation

@@ -1,0 +1,86 @@
+#node1	node2	node1type	node2type	relation_type
+P06280	Q99999	gene	gene	compound
+	Q8WWR8|Q99519|Q9UQ49|Q9Y3R4	gene	gene	compound
+O14494|O14495|O43688	Q9NUN7	gene	gene	compound
+Q9NRA0|Q9NYA1	Q9NUN7	gene	gene	compound
+Q8IWX5|Q9BX95	O14494|O14495|O43688	gene	gene	compound
+Q8IWX5|Q9BX95	Q9NUN7	gene	gene	compound
+Q06136	Q9NUN7	gene	gene	compound
+Q99999		gene	gene	compound
+P04062|Q9HCG7	Q9UBX8	gene	gene	compound
+O15121|Q6QHC5		gene	gene	compound
+	P54803	gene	gene	compound
+Q8WWR8|Q99519|Q9UQ49|Q9Y3R4	P15289	gene	gene	compound
+P54803	P15289	gene	gene	compound
+		gene	gene	compound
+Q8IWX5|Q9BX95	O95470	gene	gene	compound
+O14494|O14495|O43688	Q9NRA0|Q9NYA1	gene	gene	compound
+	Q16880	gene	gene	compound
+Q8IWX5|Q9BX95	Q9NRA0|Q9NYA1	gene	gene	compound
+Q8WWR8|Q99519|Q9UQ49|Q9Y3R4	Q16880	gene	gene	compound
+Q8WWR8|Q99519|Q9UQ49|Q9Y3R4		gene	gene	compound
+Q9NRA0|Q9NYA1	O95470	gene	gene	compound
+P16278	P04062|Q9HCG7	gene	gene	compound
+O15121|Q6QHC5	Q6ZMG9|Q8N5B7	gene	gene	compound
+O14494|O14495|O43688	O95470	gene	gene	compound
+Q16739	Q9UBX8	gene	gene	compound
+P16278		gene	gene	compound
+Q16880		gene	gene	compound
+P27544|Q8IU89|Q96G23|Q9HA82	O14494|O14495|O43688	gene	gene	compound
+O14494|O14495|O43688	Q13510|Q5QJU3|Q8TDN7|Q9NR71	gene	gene	compound
+O14494|O14495|O43688	Q6ZMG9|Q8N5B7	gene	gene	compound
+Q8IWX5|Q9BX95	Q13510|Q5QJU3|Q8TDN7|Q9NR71	gene	gene	compound
+Q9NRA0|Q9NYA1	Q6ZMG9|Q8N5B7	gene	gene	compound
+Q8IWX5|Q9BX95	Q6ZMG9|Q8N5B7	gene	gene	compound
+Q13510|Q9NR71		gene	gene	compound
+Q8TCT0		gene	gene	compound
+	Q9NRA0|Q9NYA1	gene	gene	compound
+Q86VZ5|Q8NHU3		gene	gene	compound
+Q8TCT0	Q16880	gene	gene	compound
+Q13510|Q9NR71	Q9NRA0|Q9NYA1	gene	gene	compound
+Q86VZ5|Q8NHU3	Q8IWX5|Q9BX95	gene	gene	compound
+P27544|Q8IU89|Q96G23|Q9HA82	Q9NRA0|Q9NYA1	gene	gene	compound
+	P04062|Q9HCG7	gene	gene	compound
+Q86VZ5|Q8NHU3	O14494|O14495|O43688	gene	gene	compound
+Q8IWX5|Q9BX95	P27544|Q8IU89|Q96G23|Q9HA82	gene	gene	compound
+P27544|Q8IU89|Q96G23|Q9HA82		gene	gene	compound
+Q13510|Q5QJU3|Q8TDN7|Q9NR71	Q9NRA0|Q9NYA1	gene	gene	compound
+Q13510|Q9NR71	O15121|Q6QHC5	gene	gene	compound
+Q13510|Q5QJU3|Q8TDN7|Q9NR71	Q86VZ5|Q8NHU3	gene	gene	compound
+P27544|Q8IU89|Q96G23|Q9HA82	O15121|Q6QHC5	gene	gene	compound
+O15121|Q6QHC5	P04062|Q9HCG7	gene	gene	compound
+P27544|Q8IU89|Q96G23|Q9HA82	Q86VZ5|Q8NHU3	gene	gene	compound
+O15121|Q6QHC5	O15121|Q6QHC5	gene	gene	compound
+P04062|Q9HCG7		gene	gene	compound
+Q8IWX5|Q9BX95	O15121|Q6QHC5	gene	gene	compound
+O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59	P27544|Q8IU89|Q96G23|Q9HA82	gene	gene	compound
+Q8IWX5|Q9BX95		gene	gene	compound
+Q8IWX5|Q9BX95	P04062|Q9HCG7	gene	gene	compound
+O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59	Q6ZMG9|Q8N5B7	gene	gene	compound
+Q6ZMG9|Q8N5B7		gene	gene	compound
+O15121|Q6QHC5	O14494|O14495|O43688	gene	gene	compound
+Q6ZMG9|Q8N5B7	Q8IWX5|Q9BX95	gene	gene	compound
+O14494|O14495|O43688		gene	gene	compound
+	Q6ZMG9|Q8N5B7	gene	gene	compound
+P27544|Q8IU89|Q96G23|Q9HA82	P04062|Q9HCG7	gene	gene	compound
+O14494|O14495|O43688	P04062|Q9HCG7	gene	gene	compound
+Q86VZ5|Q8NHU3	P04062|Q9HCG7	gene	gene	compound
+O15121|Q6QHC5	P27544|Q8IU89|Q96G23|Q9HA82	gene	gene	compound
+O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59	Q13510|Q5QJU3|Q8TDN7|Q9NR71	gene	gene	compound
+Q86VZ5|Q8NHU3	O15121|Q6QHC5	gene	gene	compound
+	Q13510|Q5QJU3|Q8TDN7|Q9NR71	gene	gene	compound
+Q13510|Q5QJU3|Q8TDN7|Q9NR71		gene	gene	compound
+P04062|Q9HCG7	Q13510|Q5QJU3|Q8TDN7|Q9NR71	gene	gene	compound
+O15269|O15270|Q9NUV7		gene	gene	compound
+O15121|Q6QHC5	Q13510|Q5QJU3|Q8TDN7|Q9NR71	gene	gene	compound
+O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59		gene	gene	compound
+O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59	O14494|O14495|O43688	gene	gene	compound
+Q13510|Q9NR71	O14494|O14495|O43688	gene	gene	compound
+Q8IWX5|Q9BX95	O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59	gene	gene	compound
+P04062|Q9HCG7	Q6ZMG9|Q8N5B7	gene	gene	compound
+O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59	P04062|Q9HCG7	gene	gene	compound
+Q8IWX5|Q9BX95	Q13510|Q9NR71	gene	gene	compound
+O15121|Q6QHC5	O60906|P17405|Q6UWV6|Q9NXE4|Q9NY59	gene	gene	compound
+Q86VZ5|Q8NHU3	Q6ZMG9|Q8N5B7	gene	gene	compound
+Q6ZMG9|Q8N5B7	O15121|Q6QHC5	gene	gene	compound
+O15121|Q6QHC5	Q9NRA0|Q9NYA1	gene	gene	compound

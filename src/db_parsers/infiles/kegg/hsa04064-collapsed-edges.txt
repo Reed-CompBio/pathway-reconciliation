@@ -1,0 +1,65 @@
+#node1	node2	node1type	node2type	relation_type
+O00463|Q12933	Q99558	group	gene	activation
+Q12933|Q9Y4K3	O43318	gene	group	activation
+Q12933|Q13114	Q99558	group	gene	activation
+P08571	O00206	gene	gene	activation
+	P58753|Q99836	gene	group	activation
+P58753|Q99836	Q9Y4K3	group	group	activation
+Q9Y4K3	O43318	group	group	activation
+	Q86XR7|Q8IUC6	gene	group	activation
+Q86XR7|Q8IUC6	Q13546|Q9Y4K3	group	group	activation
+Q13546|Q9Y4K3		group	group	activation
+Q9Y275	Q96RJ3	gene	gene	activation
+P29965	P25942	gene	gene	activation
+Q04759	Q9BWT7|Q9BXL6|Q9BXL7	gene	gene	activation|phosphorylation
+O14788	Q9Y6Q6	gene	gene	activation
+Q12933|Q9Y4K3	Q99558	group	gene	activation
+P01374|Q06643	P36941	group	gene	activation
+P05771	Q9BWT7|Q9BXL6|Q9BXL7	gene	gene	activation|phosphorylation
+O43557	P36941	gene	gene	activation
+O43318	O14920	gene	gene	activation|phosphorylation
+P01584	P14778	gene	gene	activation
+O95786	Q12933|Q9Y4K3	gene	gene	activation
+Q13546|Q15628		group	group	activation
+	P25963	gene	gene	activation|phosphorylation
+P19438	Q13546|Q15628	gene	group	activation
+P01375	P19438	gene	gene	activation
+Q99836|Q9Y4K3		group	group	activation
+P43403	O43561	gene	gene	activation|phosphorylation
+	Q99836|Q9Y4K3	gene	group	activation
+Q06187|Q8WV28	P16885	group	gene	activation
+P43405	Q06187	gene	gene	activation|phosphorylation
+Q99558	O15111	gene	gene	activation|phosphorylation
+	Q00653	gene	gene	activation|phosphorylation
+P19784|P67870|P68400|Q8NEV1	P25963	gene	gene	activation|phosphorylation
+	P19174	gene	gene	activation
+Q9Y4K3		gene	group	activation
+Q13114|Q9Y4K3		group	group	activation
+Q13114|Q9Y4K3		group	gene	activation|binding/association
+Q92838	Q9HAV5	gene	gene	activation
+	Q13114|Q9Y4K3	gene	group	binding/association
+Q9HAV5	Q13114|Q9Y4K3	gene	group	binding/association
+Q13114|Q9Y4K3	Q9HAV5	group	gene	binding/association
+Q8WWZ3	Q9Y4K3	gene	gene	binding/association
+Q9Y4K3	Q8WWZ3	gene	gene	binding/association
+Q9UNE0		gene	gene	binding/association
+	Q9UNE0	gene	gene	binding/association
+Q92838	Q9UNE0	gene	gene	activation
+Q99558		gene	group	activation
+Q12933|Q9Y4K3		group	group	activation
+P25963	P19838|Q04206	gene	group	dissociation
+P19838|Q04206	P25963	group	gene	dissociation
+Q06187	O14920|O15111|Q9Y6K9	gene	group	activation
+Q12933|Q13114	Q06187	group	gene	activation
+Q13489|Q13490	Q13114	gene	gene	ubiquitination
+Q14258	O95786	gene	gene	ubiquitination
+Q13489|Q13490	Q13546	gene	gene	ubiquitination
+	Q12933|Q13114	gene	group	binding/association
+Q12933|Q13114		group	gene	binding/association
+	O00463|Q12933	gene	group	binding/association
+O00463|Q12933		group	gene	binding/association
+	Q12933|Q9Y4K3	gene	group	binding/association
+Q12933|Q9Y4K3		group	gene	binding/association
+	Q9Y4K3	gene	gene	binding/association
+Q9Y4K3		gene	gene	binding/association
+Q9NQC7		gene	gene	inhibition

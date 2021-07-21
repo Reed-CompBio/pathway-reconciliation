@@ -1,0 +1,10 @@
+#node1	node2	node1type	node2type	relation_type
+P15692	P17948	gene	gene	activation
+Q15389	Q02763	gene	gene	binding/association
+Q02763	Q15389	gene	gene	binding/association
+P33681|P42081	P10747	gene	gene	activation
+O00206|O60603	P01100|P05412	gene	gene	activation|indirect effect
+P05107|P20701	P05362	gene	gene	binding/association
+P05362	P05107|P20701	gene	gene	binding/association
+P33681|P42081	P16410	gene	gene	activation
+O14788	Q9Y6Q6	gene	gene	activation

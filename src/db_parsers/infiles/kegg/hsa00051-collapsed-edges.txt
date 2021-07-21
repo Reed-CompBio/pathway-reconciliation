@@ -1,0 +1,27 @@
+#node1	node2	node1type	node2type	relation_type
+P34949	P08237|P17858|Q01813	gene	gene	compound
+P19367|P52789|P52790|Q2TB90	P08237|P17858|Q01813	gene	gene	compound
+P34949	O00757|P09467	gene	gene	compound
+P19367|P52789|P52790|Q2TB90	O00757|P09467	gene	gene	compound
+P19367|P52789|P52790|Q2TB90	P34949	gene	gene	compound
+P04075|P05062|P09972	O00757|P09467	gene	gene	compound
+P08237|P17858|Q01813	P04075|P05062|P09972	gene	gene	compound
+P34949	O15305|Q92871	gene	gene	compound
+P19367|P52789|P52790|Q2TB90	O15305|Q92871	gene	gene	compound
+O15305|Q92871	Q96IJ6|Q9Y5P6	gene	gene	compound
+O60547	Q96IJ6|Q9Y5P6	gene	gene	compound
+Q13630	O60547	gene	gene	compound
+O60218|P15121	Q00796	gene	gene	compound
+O14772		gene	gene	compound
+Q00796	P50053	gene	gene	compound
+O14772	Q8N0W3	gene	gene	compound
+	P19367|P52789|P52790|Q2TB90	gene	gene	compound
+P60174	P04075|P05062|P09972	gene	gene	compound
+P04075|P05062|P09972	Q3LXA3	gene	gene	compound
+O60825|P16118|Q16875|Q16877|Q9NQ88	P08237|P17858|Q01813	gene	gene	compound
+Q3LXA3	P04075|P05062|P09972	gene	gene	compound
+O60825|P16118|Q16875|Q16877|Q9NQ88	O00757|P09467	gene	gene	compound
+O60825|P16118|Q16875|Q16877|Q9NQ88	P34949	gene	gene	compound
+P60174	Q3LXA3	gene	gene	compound
+P19367|P52789|P52790|Q2TB90	O60825|P16118|Q16875|Q16877|Q9NQ88	gene	gene	compound
+	P04075|P05062|P09972	gene	gene	compound

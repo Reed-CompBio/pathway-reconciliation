@@ -1,0 +1,19 @@
+#node1	node2	node1type	node2type	relation_type
+P16473	P50148	gene	gene	activation
+P01215|P01222		gene	gene	activation
+P17612|P22612|P22694	Q9UNY4	gene	gene	activation
+O95467|P63092	O43306|O60266|O60503|O95622|P40145|P51828|Q08462|Q08828|Q8NFM4	gene	gene	activation
+P17612|P22612|P22694	Q06710	gene	gene	activation
+P07306|P07307	P01266	gene	gene	binding/association
+P01266	P07306|P07307	gene	gene	binding/association
+P98164	P01266	gene	gene	binding/association
+P01266	P98164	gene	gene	binding/association
+	O95467|P63092	gene	gene	activation
+P05129|P05771|P17252	Q06710	gene	gene	activation
+Q1HG44	Q9NRD8|Q9NRD9	gene	gene	activation
+P17612|P22612|P22694	O43889|P15336|P16220|P18848|Q02930|Q68CJ9|Q70SY1|Q8TEY5|Q96BA8|Q99941	gene	gene	activation
+	Q00722|Q01970|Q15147|Q9NQ66	gene	gene	activation
+P05129|P05771|P17252	O43889|P15336|P16220|P18848|Q02930|Q68CJ9|Q70SY1|Q8TEY5|Q96BA8|Q99941	gene	gene	activation
+P05129|P05771|P17252	Q15361	gene	gene	activation
+P17612|P22612|P22694	Q15361	gene	gene	activation
+P05129|P05771|P17252	Q9UNY4	gene	gene	activation

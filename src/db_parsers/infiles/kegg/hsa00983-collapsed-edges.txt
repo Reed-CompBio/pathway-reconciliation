@@ -1,0 +1,45 @@
+#node1	node2	node1type	node2type	relation_type
+P00492	P51580	gene	gene	compound
+O00142|P04183	P33316	gene	gene	compound
+Q14117	Q9UBR1	gene	gene	compound
+Q9BY32	P12268|P20839	gene	gene	compound
+P30085	P33316	gene	gene	compound
+O95045|Q16831	Q9BZX2|Q9HA47|Q9NWZ5	gene	gene	compound
+Q9BY32		gene	gene	compound
+	P23921|P31350|Q7LG56	gene	gene	compound
+Q9BZX2|Q9HA47|Q9NWZ5	P11172	gene	gene	compound
+P12268|P20839		gene	gene	compound
+	O00746|O75414|P15531|P22392|Q13232|Q9Y5B8	gene	gene	compound
+P19971	O00142|P04183	gene	gene	compound
+P12268|P20839	P49915	gene	gene	compound
+P23921|P31350|Q7LG56	O00746|O75414|P15531|P22392|Q13232|Q9Y5B8	gene	gene	compound
+O00748|P23141	O60656|O75310|O75795|P06133|P16662|P19224|P22309|P22310|P35503|P35504|P36537|P54855|Q6UWM9|Q9BY64|Q9HAW7|Q9HAW8|Q9HAW9|Q9Y4X1	gene	gene	compound
+P49915	P51580	gene	gene	compound
+O00746|O75414|P15531|P22392|Q13232|Q9Y5B8		gene	gene	compound
+O00748|P23141	P08236	gene	gene	compound
+	P00492	gene	gene	compound
+P23141	P05164	gene	gene	compound
+	P11245|P18440	gene	gene	compound
+O00748|P23141	P32320	gene	gene	compound
+O60656|O75310|O75795|P06133|P16662|P19224|P22309|P22310|P35503|P35504|P36537|P54855|Q6UWM9|Q9BY64|Q9HAW7|Q9HAW8|Q9HAW9|Q9Y4X1	P08236	gene	gene	compound
+P32320	P19971	gene	gene	compound
+P08684	O00748|P23141	gene	gene	compound
+P11509	Q12882	gene	gene	compound
+P11245|P18440	P23141	gene	gene	compound
+	P11172	gene	gene	compound
+		gene	gene	compound
+	O95045|Q16831	gene	gene	compound
+P11245|P18440	P05181	gene	gene	compound
+	P19971	gene	gene	compound
+P51580		gene	gene	compound
+P23141	P05181	gene	gene	compound
+P51580	P47989	gene	gene	compound
+P30085	Q9BZX2|Q9HA47|Q9NWZ5	gene	gene	compound
+	O14880|O15217|P08263|P09210|P09211|P09488|P0CG29|P0CG30|P10620|P21266|P28161|P30711|P46439|P78417|Q03013|Q16772|Q7RTV2|Q99735|Q9H4Y5	gene	gene	compound
+P30085	P11172	gene	gene	compound
+O00142|P04183		gene	gene	compound
+P00492		gene	gene	compound
+O95045|Q16831	P19971	gene	gene	compound
+	Q9BY32	gene	gene	compound
+O00746|O75414|P15531|P22392|Q13232|Q9Y5B8	P23921|P31350|Q7LG56	gene	gene	compound
+	P12268|P20839	gene	gene	compound

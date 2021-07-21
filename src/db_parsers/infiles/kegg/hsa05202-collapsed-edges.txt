@@ -1,0 +1,11 @@
+#node1	node2	node1type	node2type	relation_type
+P08047	Q13105	gene	gene	binding/association
+Q13105	P08047	gene	gene	binding/association
+Q9BYH8	P19838|Q04206	gene	gene	binding/association
+P19838|Q04206	Q9BYH8	gene	gene	binding/association
+Q96ST3	O75376	gene	gene	binding/association
+O75376	Q96ST3	gene	gene	binding/association
+P19793|P28702|P48443	P37231	gene	gene	binding/association
+P37231	P19793|P28702|P48443	gene	gene	binding/association
+P12980	P15923	gene	gene	binding/association
+P15923	P12980	gene	gene	binding/association

@@ -1,0 +1,64 @@
+#node1	node2	node1type	node2type	relation_type
+Q86YN6	P36956	gene	gene	activation
+O14920	P35568	gene	gene	inhibition|phosphorylation
+P01375	P19438	gene	gene	activation
+	P45983|P45984|P53779	gene	gene	activation|indirect effect
+P06213		gene	gene	activation|phosphorylation
+P49841	P13807|P54840	gene	gene	inhibition|phosphorylation
+P45983|P45984|P53779	P35568	gene	gene	inhibition|phosphorylation
+P01308	P55055|Q13133	gene	gene	activation|indirect effect
+P01308	P06213	gene	gene	activation
+O14543	P36956	gene	gene	indirect effect
+	Q9Y4H2	gene	gene	indirect effect|inhibition|phosphorylation
+		gene	gene	activation|indirect effect|inhibition|phosphorylation
+	Q9HAP2|Q9NP71|Q9UH92	gene	gene	activation|glycosylation
+O95685|P36873|P62136|P62140|Q16821|Q86XI6|Q9H7J1|Q9UQK1	P13807|P54840	gene	gene	activation|dephosphorylation
+P06213	Q9Y4H2	gene	gene	activation|phosphorylation
+P45983|P45984|P53779		gene	gene	inhibition|phosphorylation
+P55055|Q13133		gene	gene	activation|indirect effect
+P25963	P19838|Q04206	gene	gene	dissociation
+P19838|Q04206	P25963	gene	gene	dissociation
+	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation|glycosylation|inhibition
+O60502	O15294	gene	gene	indirect effect|inhibition
+P01308		gene	gene	activation|indirect effect
+	P25963	gene	gene	activation|phosphorylation
+O95685|P36873|P62136|P62140|Q16821|Q86XI6|Q9H7J1|Q9UQK1	P06737|P11216|P11217	gene	gene	dephosphorylation|indirect effect|inhibition
+P05231	P40763	gene	gene	activation|indirect effect
+	P51812|Q15349|Q15418|Q9UK32	gene	gene	activation|indirect effect
+P51812|Q15349|Q15418|Q9UK32	O95685|P36873|P62136|P62140|Q16821|Q86XI6|Q9H7J1|Q9UQK1	gene	gene	activation|phosphorylation
+Q15257	P31749|P31751|Q9Y243	gene	gene	dephosphorylation|inhibition
+P42345	P23443|Q9UBS0	gene	gene	activation|phosphorylation
+O15294	Q53ET0	gene	gene	glycosylation
+Q15257	Q9HAP2|Q9NP71|Q9UH92	gene	gene	activation|dephosphorylation
+P05771|Q04759|Q05655		gene	gene	inhibition|phosphorylation
+O43889|P16220|Q02930|Q68CJ9|Q70SY1|Q8TEY5|Q96BA8	Q9UBK2	gene	gene	activation|indirect effect
+	O15530	gene	gene	glycosylation|inhibition
+Q02156		gene	gene	inhibition|phosphorylation
+	P35568	gene	gene	activation|glycosylation|inhibition|phosphorylation
+P31749|P31751|Q9Y243	Q12778	gene	gene	inhibition|phosphorylation
+	P31749|P31751|Q9Y243	gene	gene	glycosylation|inhibition
+O43741|P54619|P54646|Q13131|Q9UGI9|Q9UGJ0|Q9Y478	O00763	gene	gene	inhibition|phosphorylation
+P31749|P31751|Q9Y243	P29474	gene	gene	activation|phosphorylation
+Q96RU7	P31749|P31751|Q9Y243	gene	gene	inhibition
+	O43889|P16220|Q02930|Q68CJ9|Q70SY1|Q8TEY5|Q96BA8	gene	gene	activation
+P55055|Q13133	P36956	gene	gene	activation|indirect effect
+P13807|P54840		gene	gene	glycosylation
+P19838|Q04206	P29474	gene	gene	activation|indirect effect
+Q9UBK2		gene	gene	activation
+	P55055|Q13133	gene	gene	glycosylation
+	P49841	gene	gene	glycosylation
+P19438		gene	gene	activation|indirect effect
+P19438	P45983|P45984|P53779	gene	gene	activation|indirect effect
+	P29474	gene	gene	glycosylation
+P31749|P31751|Q9Y243	P49841	gene	gene	inhibition|phosphorylation
+O14543		gene	gene	indirect effect|inhibition
+	Q12778	gene	gene	glycosylation
+P05771		gene	gene	inhibition|phosphorylation
+P35568	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation|phosphorylation
+O00329|O00459|P27986|P42336|P42338|Q92569	Q05513	gene	gene	activation
+P23443|Q9UBS0		gene	gene	inhibition|phosphorylation
+Q9UBK2	Q07869	gene	gene	activation
+	Q96RU7	gene	gene	activation
+Q02156	P45983|P45984|P53779	gene	gene	activation
+P10586|P18031|Q06124		gene	gene	dephosphorylation|inhibition
+O15530	P31749|P31751|Q9Y243	gene	gene	activation|phosphorylation

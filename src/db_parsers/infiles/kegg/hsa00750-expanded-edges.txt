@@ -1,0 +1,10 @@
+#node1	node2	edge_expansion:relation_type
+O00764	Q9NVS9	one_to_one_mapping:compound
+Q06278	Q9NVS9	one_to_one_mapping:compound
+Q8TCD6	Q06278	mult_mapping_expansion:compound
+Q8TCD6	Q9NVS9	mult_mapping_expansion:compound
+Q96GD0	Q06278	mult_mapping_expansion:compound
+Q96GD0	Q9NVS9	mult_mapping_expansion:compound
+Q9NVS9	O00764	one_to_one_mapping:compound
+Q9NVS9	Q8TCD6	mult_mapping_expansion:compound
+Q9NVS9	Q96GD0	mult_mapping_expansion:compound

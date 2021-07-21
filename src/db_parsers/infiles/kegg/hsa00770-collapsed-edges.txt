@@ -1,0 +1,18 @@
+#node1	node2	node1type	node2type	relation_type
+Q96CD2	Q8TE04|Q9BZ23|Q9H999	gene	gene	compound
+Q9HAB8	Q96CD2	gene	gene	compound
+Q8TE04|Q9BZ23|Q9H999	O95497|O95498|Q9NY84	gene	gene	compound
+Q8TE04|Q9BZ23|Q9H999		gene	gene	compound
+	Q13057	gene	gene	compound
+P05091|P30837|P51648	Q9UBR1	gene	gene	compound
+O14638|P22413		gene	gene	compound
+P05091|P30837|P51648	Q6ZQY3	gene	gene	compound
+Q8TE04|Q9BZ23|Q9H999	Q13057	gene	gene	compound
+O14638|P22413	Q8TE04|Q9BZ23|Q9H999	gene	gene	compound
+Q13057	Q13057	gene	gene	compound
+	O14638|P22413	gene	gene	compound
+Q9UBR1	Q14117	gene	gene	compound
+	Q12882	gene	gene	compound
+	Q6ZQY3	gene	gene	compound
+Q9NRN7		gene	gene	compound
+	Q8TE04|Q9BZ23|Q9H999	gene	gene	compound

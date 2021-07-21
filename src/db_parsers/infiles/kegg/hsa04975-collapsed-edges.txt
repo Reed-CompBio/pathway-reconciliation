@@ -1,0 +1,4 @@
+#node1	node2	node1type	node2type	relation_type
+O14494|O14495|O43688	O75907|Q96PD7	gene	gene	compound
+O15120|Q99943	O14494|O14495|O43688	gene	gene	compound
+Q3SYC2|Q86VF5	O75907|Q96PD7	gene	gene	compound

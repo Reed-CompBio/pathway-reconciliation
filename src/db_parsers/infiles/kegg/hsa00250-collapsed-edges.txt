@@ -1,0 +1,49 @@
+#node1	node2	node1type	node2type	relation_type
+P04424	P30566	gene	gene	compound
+P15104	P00367|P49448	gene	gene	compound
+P15104	Q05329|Q99259	gene	gene	compound
+P00367|P49448	Q9NQR4	gene	gene	compound
+Q06203	P27708	gene	gene	compound
+	O94808|Q06210	gene	gene	compound
+	O94925|Q9UI32	gene	gene	compound
+P27708	P08243	gene	gene	compound
+	P15104	gene	gene	compound
+	Q7L266	gene	gene	compound
+	P45381	gene	gene	compound
+	Q8N9F0	gene	gene	compound
+	Q96RQ9	gene	gene	compound
+O94808|Q06210	O94925|Q9UI32	gene	gene	compound
+P00367|P49448	Q05329|Q99259	gene	gene	compound
+	P00505|P17174	gene	gene	compound
+O94808|Q06210	P15104	gene	gene	compound
+O94925|Q9UI32	P15104	gene	gene	compound
+	P31327	gene	gene	compound
+P31327	O94925|Q9UI32	gene	gene	compound
+P30038	O94925|Q9UI32	gene	gene	compound
+P30038	P15104	gene	gene	compound
+	P00367|P49448	gene	gene	compound
+Q7L266	P45381	gene	gene	compound
+	Q05329|Q99259	gene	gene	compound
+Q8N9F0	Q96RQ9	gene	gene	compound
+P00966		gene	gene	compound
+P30520|Q8N142		gene	gene	compound
+O94925|Q9UI32		gene	gene	compound
+O94925|Q9UI32	P00367|P49448	gene	gene	compound
+O94925|Q9UI32	Q05329|Q99259	gene	gene	compound
+	Q8IXN7|Q9ULI2	gene	gene	compound
+	Q04609	gene	gene	compound
+P00966	P00505|P17174	gene	gene	compound
+Q8IXN7|Q9ULI2		gene	gene	compound
+Q04609		gene	gene	compound
+Q8IXN7|Q9ULI2	Q04609	gene	gene	compound
+Q8IXN7|Q9ULI2	Q8IXN7	gene	gene	compound
+Q04609	Q8IXN7	gene	gene	compound
+	Q8IXN7	gene	gene	compound
+Q8IXN7		gene	gene	compound
+Q8IXN7	Q04609	gene	gene	compound
+P30520|Q8N142	P00505|P17174	gene	gene	compound
+P80404	Q05329|Q99259	gene	gene	compound
+P51649	P80404	gene	gene	compound
+Q9NQR4	Q99489	gene	gene	compound
+		gene	gene	compound
+P00966	P30520|Q8N142	gene	gene	compound

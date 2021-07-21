@@ -1,0 +1,19 @@
+#node1	node2	node1type	node2type	relation_type
+P00505|P17174	P00367|P49448	gene	gene	compound
+P00966	P29474|P29475|P35228	gene	gene	compound
+P24298|Q8TD30	Q8N159	gene	gene	compound
+P00966	P00480	gene	gene	compound
+P24298|Q8TD30	P00367|P49448	gene	gene	compound
+P29474|P29475|P35228		gene	gene	compound
+Q8N159	P00367|P49448	gene	gene	compound
+Q03154	P05089|P78540	gene	gene	compound
+P31327		gene	gene	compound
+Q03154		gene	gene	compound
+P05089|P78540		gene	gene	compound
+O94925|Q9UI32	P31327	gene	gene	compound
+O94925|Q9UI32	P00367|P49448	gene	gene	compound
+P15104	P31327	gene	gene	compound
+	P00367|P49448	gene	gene	compound
+P04424	P29474|P29475|P35228	gene	gene	compound
+	P04424	gene	gene	compound
+P00505|P17174	Q8N159	gene	gene	compound

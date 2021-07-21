@@ -1,0 +1,5 @@
+#node1	node2	edge_expansion:relation_type
+P62191	P06400	one_to_one_mapping:inhibition
+Q00987	P04637	one_to_one_mapping:inhibition
+Q09472	P04637	mult_mapping_expansion:inhibition
+Q92793	P04637	mult_mapping_expansion:inhibition

@@ -1,0 +1,35 @@
+#node1	node2	node1type	node2type	relation_type
+P14598|P19878|Q15080	P04839|P13498	group	group	dissociation
+P04839|P13498	P14598|P19878|Q15080	group	group	dissociation
+P05771	P27361|P28482	gene	gene	activation|phosphorylation
+P27361|P28482	P19419	gene	gene	activation|phosphorylation
+P27361|P28482	P05412	gene	gene	activation|phosphorylation
+O75015|P08637|P12314|P12318|P31995	O15264|P53778|Q15759|Q16539	gene	gene	activation|indirect effect
+O00206|O60603	Q99836	gene	gene	activation
+P01579	P15260|P38484	gene	group	binding/association
+P15260|P38484	P01579	group	gene	binding/association
+P68104|Q05639	P29350	gene	gene	activation
+P29350	P27361|P28482	gene	gene	dephosphorylation|inhibition
+Q99836	P51617|Q9NWZ3	gene	gene	activation
+P29350	O60674|P23458	gene	gene	dephosphorylation|inhibition
+P51617|Q9NWZ3	Q9Y4K3	gene	gene	activation
+Q9Y4K3	O43318	gene	group	activation
+	P25963|Q15653	group	gene	activation|indirect effect|phosphorylation
+P17927|Q2VPA4	P35354	gene	gene	activation|indirect effect
+O00206|O60603	P35228	gene	gene	activation|indirect effect
+P05107|P11215	P35354	gene	gene	activation|indirect effect
+P05112	P35228	gene	gene	indirect effect|inhibition
+O75015|P08637|P12314|P12318|P31995	P35354	gene	gene	activation|indirect effect
+P22301		gene	gene	indirect effect|inhibition
+P01137|P10600|P61812		gene	gene	indirect effect|inhibition
+P25963|Q15653	P19838|Q04206	gene	gene	dissociation
+P19838|Q04206	P25963|Q15653	gene	gene	dissociation
+P01024	P17927|Q2VPA4	gene	gene	binding/association
+P17927|Q2VPA4	P01024	gene	gene	binding/association
+P01024	P05107|P11215	gene	gene	binding/association
+P05107|P11215	P01024	gene	gene	binding/association
+O60674|P23458	P42224	gene	gene	activation|phosphorylation
+P15260|P38484	O60674|P23458	group	gene	binding/association
+O60674|P23458	P15260|P38484	gene	group	binding/association
+O75015|P08637|P12314|P12318|P31995	P05771	gene	gene	activation|compound|indirect effect
+P05771	P14598|P19878|Q15080	gene	group	activation

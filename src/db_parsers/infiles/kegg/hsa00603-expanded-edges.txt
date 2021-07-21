@@ -1,0 +1,14 @@
+#node1	node2	edge_expansion:relation_type
+P06865	P06280	mult_mapping_expansion:compound
+P06865	Q8N5D6	mult_mapping_expansion:compound
+P07686	P06280	mult_mapping_expansion:compound
+P07686	Q8N5D6	mult_mapping_expansion:compound
+Q11201	P19526	mult_mapping_expansion:compound
+Q11201	Q10981	mult_mapping_expansion:compound
+Q11201	Q92185	mult_mapping_expansion:compound
+Q16842	P19526	mult_mapping_expansion:compound
+Q16842	Q10981	mult_mapping_expansion:compound
+Q16842	Q92185	mult_mapping_expansion:compound
+Q9NPC4	O75752	one_to_one_mapping:compound
+Q9Y2C3	P17050	one_to_one_mapping:compound
+U3KPV4	O75752	one_to_one_mapping:compound

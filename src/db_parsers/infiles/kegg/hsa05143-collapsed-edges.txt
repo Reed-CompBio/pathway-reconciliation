@@ -1,0 +1,9 @@
+#node1	node2	node1type	node2type	relation_type
+P48023	P25445	gene	gene	activation|binding/association
+P52888	P01042	gene	gene	inhibition
+P55085	P50148	gene	gene	activation
+	Q00722|Q01970|Q15147|Q9NQ66	gene	gene	activation|indirect effect
+Q00722|Q01970|Q15147|Q9NQ66	P05129|P05771|P17252	gene	gene	activation|compound|indirect effect
+P68871|P69905	P00739	gene	gene	binding/association
+P00739	P68871|P69905	gene	gene	binding/association
+Q9NR96	Q99836	gene	gene	activation

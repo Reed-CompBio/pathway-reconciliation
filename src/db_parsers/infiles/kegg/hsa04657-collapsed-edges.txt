@@ -1,0 +1,9 @@
+#node1	node2	node1type	node2type	relation_type
+Q8N5C8	O43318	gene	gene	binding/association
+O43318	Q8N5C8	gene	gene	binding/association
+	Q9NYJ8	gene	gene	binding/association
+Q9NYJ8		gene	gene	binding/association
+	O14920	gene	gene	activation|phosphorylation
+P25963	P19838|Q04206	gene	gene	inhibition
+O14920	P25963	gene	gene	phosphorylation
+Q9Y4K3		gene	gene	activation

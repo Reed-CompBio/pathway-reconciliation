@@ -1,0 +1,21 @@
+#node1	node2	node1type	node2type	relation_type
+Q9NR28	O15392|P98170|Q13489|Q13490	gene	gene	inhibition
+O43464	O15392|P98170|Q13489|Q13490	gene	gene	inhibition
+Q8NEP4	O15392|P98170|Q13489|Q13490	gene	gene	inhibition
+O15392|P98170|Q13489|Q13490	P55211	gene	gene	inhibition
+O15392|P98170|Q13489|Q13490	P55210	gene	gene	inhibition
+O15392|P98170|Q13489|Q13490	P42574	gene	gene	inhibition
+Q96CA5	P55210	gene	gene	inhibition
+Q07817	Q16611	gene	gene	inhibition
+P08138	Q13158	gene	gene	activation
+P45983|P45984|P53779	O14727	gene	gene	activation|indirect effect
+P19438	Q13158	gene	gene	activation
+	Q14790	gene	gene	activation
+Q14790	P55210	gene	gene	activation
+P99999	O14727	gene	gene	activation
+	P55211	gene	gene	activation
+P55211		gene	gene	activation
+P55211	P42574	gene	gene	activation
+O43521|P55957|Q13794|Q96PG8|Q9BXH1	P10415|Q07817	gene	gene	inhibition
+P10415|Q07817	Q07812	gene	gene	inhibition
+P10415|Q07817	Q16611	gene	gene	inhibition

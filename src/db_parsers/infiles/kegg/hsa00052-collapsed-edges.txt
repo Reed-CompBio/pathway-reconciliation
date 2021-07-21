@@ -1,0 +1,30 @@
+#node1	node2	node1type	node2type	relation_type
+O60218|P15121	P09848	gene	gene	compound
+P09848	P35575|Q9BUM1|Q9NQR9	gene	gene	compound
+P35557	P09848	gene	gene	compound
+O60218|P15121	P06280	gene	gene	compound
+P19367|P52789|P52790|Q2TB90		gene	gene	compound
+	P16278	gene	gene	compound
+P19367|P52789|P52790|Q2TB90	P16278	gene	gene	compound
+P06280	P06280	gene	gene	compound
+P16278	P35575|Q9BUM1|Q9NQR9	gene	gene	compound
+	P14410	gene	gene	compound
+P36871|Q96G03	Q16851	gene	gene	compound
+P06280		gene	gene	compound
+	O43451|P10253|Q2M2H8|Q8TET4	gene	gene	compound
+Q14376	Q16851	gene	gene	compound
+	P07902	gene	gene	compound
+P07902	P51570	gene	gene	compound
+		gene	gene	compound
+Q96C23		gene	gene	compound
+Q96C23	P16278	gene	gene	compound
+O60909|P00709|P15291		gene	gene	compound
+	P06280	gene	gene	compound
+	O60909|P00709|P15291	gene	gene	compound
+P19367|P52789|P52790|Q2TB90	P36871|Q96G03	gene	gene	compound
+	O60218|P15121	gene	gene	compound
+O60218|P15121		gene	gene	compound
+P06280	O43451|P10253|Q2M2H8|Q8TET4	gene	gene	compound
+	P36871|Q96G03	gene	gene	compound
+P06280	P14410	gene	gene	compound
+P35575|Q9BUM1|Q9NQR9	P36871|Q96G03	gene	gene	compound

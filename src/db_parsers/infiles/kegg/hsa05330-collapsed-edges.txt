@@ -1,0 +1,4 @@
+#node1	node2	node1type	node2type	relation_type
+P33681|P42081	P10747	gene	gene	activation
+P29965	P25942	gene	gene	activation
+P48023	P25445	gene	gene	activation

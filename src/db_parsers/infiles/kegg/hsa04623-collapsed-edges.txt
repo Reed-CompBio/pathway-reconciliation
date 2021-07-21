@@ -1,0 +1,26 @@
+#node1	node2	node1type	node2type	relation_type
+Q9H171	Q92985	gene	gene	binding/association
+Q92985	Q9H171	gene	gene	binding/association
+P29466	P01584	gene	gene	activation
+	Q13546	gene	gene	binding/association
+Q13546		gene	gene	binding/association
+	Q14116	gene	gene	activation
+Q13546	O14920|O15111|Q9Y6K9	gene	gene	activation|phosphorylation
+	O95760	gene	gene	activation
+O14920|O15111|Q9Y6K9	P25963|Q15653	gene	gene	activation|phosphorylation
+P25963|Q15653	P19838|Q04206	gene	gene	dissociation
+P19838|Q04206	P25963|Q15653	gene	gene	dissociation
+	Q9Y572	gene	gene	binding/association
+Q9Y572		gene	gene	binding/association
+O14862	Q9ULZ3	gene	gene	binding/association
+Q9ULZ3	O14862	gene	gene	binding/association
+		gene	gene	activation|binding/association
+Q9UHD2		gene	gene	binding/association
+	Q9UHD2	gene	gene	binding/association
+Q14164	Q14653	gene	gene	binding/association
+Q14653	Q14164	gene	gene	binding/association
+O95786	Q7Z434	gene	gene	activation
+	P19838|Q04206	gene	gene	activation|indirect effect
+	Q86WV6	gene	gene	binding/association
+Q86WV6		gene	gene	binding/association
+Q86WV6	Q9UHD2	gene	gene	activation

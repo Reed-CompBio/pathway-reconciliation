@@ -1,0 +1,9 @@
+#node1	node2	node1type	node2type	relation_type
+P01308	P06213	gene	gene	activation
+P05019	P08069	gene	gene	activation
+P01215|P01225	P23945	gene	gene	activation
+P23945	O95467|P63092	gene	gene	activation
+O95467|P63092	O43306|O60266|O60503|O95622|P40145|P51828|Q08462|Q08828|Q8NFM4	gene	gene	activation
+P01215|P01229	P22888	gene	gene	activation
+P22888	O95467|P63092	gene	gene	activation
+O95467|P63092	P0C869|P47712|Q3MJ16|Q68DD2|Q86XP0|Q9UP65	gene	gene	activation

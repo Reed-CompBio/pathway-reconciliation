@@ -1,0 +1,81 @@
+#node1	node2	node1type	node2type	relation_type
+P29350|Q06124	Q9Y4K3	gene	gene	inhibition
+Q13075	Q96MN2	gene	gene	activation
+Q13546	O43318	gene	group	activation
+P01584	P14778	gene	gene	activation
+P23396	Q04206	gene	gene	activation
+Q92974	P61586	gene	gene	activation
+	O14920|O15111|Q9Y6K9	group	group	activation|phosphorylation
+P29466	P01584	gene	gene	activation
+O43639|P16333	A6NGB9|O43516|Q8TF74	gene	gene	activation
+P55061	Q07812	gene	gene	inhibition
+Q96P20	P29466|Q9ULZ3	gene	group	activation
+A6NGB9|O43516|Q8TF74	O00401	gene	gene	activation
+	Q16611	gene	gene	inhibition
+O00401	O15143|O15144|O15145|O15511|P59998|Q92747|Q9BPX5	gene	gene	activation
+	P45983|P45984|P53779	group	gene	activation|indirect effect
+O15143|O15144|O15145|O15511|P59998|Q92747|Q9BPX5	P60709|P63261	gene	gene	activation
+	O15264|P53778|Q15759|Q16539	group	gene	activation|indirect effect
+P27361|P28482	P01100|P05412	gene	gene	activation|phosphorylation
+O00220|O14763	Q13158	gene	gene	activation
+P04350|P07437|P68371|Q13509|Q13885|Q3ZCM7|Q9BUF5|Q9BVA1|Q9H4B7		gene	gene	dissociation
+	P04350|P07437|P68371|Q13509|Q13885|Q3ZCM7|Q9BUF5|Q9BVA1|Q9H4B7	gene	gene	dissociation
+P50591	O00220|O14763	gene	gene	activation
+Q14790	P42574	gene	gene	activation
+P55211		gene	gene	activation
+A6NHL2|P0DPH7|P0DPH8|P68363|P68366|Q6PEY2|Q71U36|Q9BQE3|Q9NY65		gene	gene	dissociation
+	A6NHL2|P0DPH7|P0DPH8|P68363|P68366|Q6PEY2|Q71U36|Q9BQE3|Q9NY65	gene	gene	dissociation
+Q13158|Q15628		group	gene	activation
+P55211	P55210	gene	gene	activation
+	O75116|Q13464	gene	gene	activation
+P45983|P45984|P53779	P01100|P05412	gene	gene	activation|phosphorylation
+O15085|Q92888|Q9NZN5		gene	gene	activation
+O15264|P53778|Q15759|Q16539	P01100|P05412	gene	gene	activation|phosphorylation
+	P99999	gene	gene	activation|indirect effect
+Q03113|Q14344	O15085|Q92888|Q9NZN5	gene	gene	activation
+P19438	Q13158|Q15628	gene	group	activation
+P12318	P63000	gene	gene	activation|indirect effect
+P25116|Q92633|Q99677|Q9H1C0|Q9HBW0	Q03113|Q14344	gene	gene	activation
+	P29466|Q9ULZ3	gene	group	activation
+P00734	P25116|Q92633|Q99677|Q9H1C0|Q9HBW0	gene	gene	activation
+P15311		gene	gene	activation|indirect effect
+O14745	P15311	gene	gene	activation
+P99999		gene	gene	activation
+P60953	O00401	gene	gene	activation
+Q12933		gene	gene	activation
+Q9Y6W5	O15143|O15144|O15145|O15511|P59998|Q92747|Q9BPX5	gene	gene	activation
+P04406	Q12933	gene	gene	activation
+P63000	Q9Y6W5	gene	gene	activation
+O14920|O15111|Q9Y6K9	P25963|Q15653	group	gene	activation|phosphorylation
+B0I1T2|O00159|O00160|O43795|O94832|P35579|P35580|P35749|Q12965|Q7Z406|Q9HD67|Q9NQX4|Q9UBC5|Q9ULV0|Q9UM54|Q9Y4I1	P60709|P63261	gene	gene	binding/association
+P60709|P63261	B0I1T2|O00159|O00160|O43795|O94832|P35579|P35580|P35749|Q12965|Q7Z406|Q9HD67|Q9NQX4|Q9UBC5|Q9ULV0|Q9UM54|Q9Y4I1	gene	gene	binding/association
+P25963|Q15653	P19838|Q04206	gene	group	dissociation
+P19838|Q04206	P25963|Q15653	group	gene	dissociation
+Q92888	P60953	gene	gene	activation
+	P27361|P28482	group	gene	activation|indirect effect
+P49662		gene	gene	activation
+	P61586	gene	gene	activation
+Q13158		gene	gene	activation
+P12931		gene	gene	activation|phosphorylation
+P25445	Q13158	gene	gene	activation
+Q9UG63		gene	gene	indirect effect|inhibition
+P48023		gene	gene	activation
+Q92558|Q9UPY6|Q9Y6W5	O15143|O15144|O15145|O15511|P59998|Q92747|Q9BPX5	gene	gene	activation
+	Q8IZP0|Q8WUW1	gene	group	activation
+		gene	gene	activation
+	Q14116	gene	gene	activation
+P84077	Q8IZP0|Q8WUW1	gene	group	activation
+	P58753|Q99836	gene	group	activation
+P62330	P84077	gene	gene	activation
+O43739|Q15438|Q99418|Q9UIA0		gene	gene	activation
+Q15628		gene	gene	activation
+Q16611	P99999	gene	gene	activation|indirect effect
+	P60709|P63261	gene	gene	activation|indirect effect
+P19438	Q15628	gene	gene	activation
+P01375		gene	gene	activation
+Q9Y4K3		gene	group	activation
+P51617|Q9NWZ3	Q9Y4K3	gene	gene	activation
+Q99836	P51617|Q9NWZ3	gene	gene	activation
+O60602	Q99836	gene	gene	activation
+O00206	P58753|Q99836	gene	group	activation
+P61586	P60709|P63261	gene	gene	activation|indirect effect

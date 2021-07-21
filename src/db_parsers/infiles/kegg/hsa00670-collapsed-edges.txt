@@ -1,0 +1,50 @@
+#node1	node2	node1type	node2type	relation_type
+P11586	O95954	gene	gene	compound
+P04818	P00374|Q86XF0	gene	gene	compound
+Q99707	P42898	gene	gene	compound
+P04818		gene	gene	compound
+P13995|Q9H903		gene	gene	compound
+		gene	gene	compound
+P34896|P34897		gene	gene	compound
+P48728		gene	gene	compound
+P04818	P13995|Q9H903	gene	gene	compound
+P04818	P34896|P34897	gene	gene	compound
+P04818	P48728	gene	gene	compound
+P13995|Q9H903	P34896|P34897	gene	gene	compound
+O95954	O95954	gene	gene	compound
+	P22102	gene	gene	compound
+P34896|P34897	O75891|Q3SY69	gene	gene	compound
+P13995|Q9H903	P22102	gene	gene	compound
+P49914		gene	gene	compound
+P34896|P34897	Q96DP5	gene	gene	compound
+P34896|P34897	P22102	gene	gene	compound
+P00374|Q86XF0		gene	gene	compound
+P00374|Q86XF0	P34896|P34897	gene	gene	compound
+	O75891|Q3SY69	gene	gene	compound
+P00374|Q86XF0	P31939	gene	gene	compound
+P00374|Q86XF0	P11586|Q6UB35	gene	gene	compound
+	Q96DP5	gene	gene	compound
+P00374|Q86XF0	P22102	gene	gene	compound
+P00374|Q86XF0	O75891|Q3SY69	gene	gene	compound
+P00374|Q86XF0	Q96DP5	gene	gene	compound
+O75891|Q3SY69	P22102	gene	gene	compound
+O75891|Q3SY69		gene	gene	compound
+Q96DP5	P22102	gene	gene	compound
+P11586|Q6UB35		gene	gene	compound
+P11586|Q6UB35	P34896|P34897	gene	gene	compound
+P11586|P13995|Q9H903	P11586|Q6UB35	gene	gene	compound
+P11586|P13995|Q9H903	P22102	gene	gene	compound
+P11586|P13995|Q9H903	P31939	gene	gene	compound
+P11586|P13995|Q9H903	O75891|Q3SY69	gene	gene	compound
+P22102		gene	gene	compound
+P11586|P13995|Q9H903		gene	gene	compound
+P22102	P34896|P34897	gene	gene	compound
+P11586|P13995|Q9H903	P48728	gene	gene	compound
+P11586|P13995|Q9H903	P49914	gene	gene	compound
+P11586|P13995|Q9H903	P13995|Q9H903	gene	gene	compound
+P31939		gene	gene	compound
+P31939	P34896|P34897	gene	gene	compound
+P48728	P13995|Q9H903	gene	gene	compound
+	P34896|P34897	gene	gene	compound
+P49914	P13995|Q9H903	gene	gene	compound
+	P13995|Q9H903	gene	gene	compound

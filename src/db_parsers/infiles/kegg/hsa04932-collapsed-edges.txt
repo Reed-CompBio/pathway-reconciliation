@@ -1,0 +1,43 @@
+#node1	node2	node1type	node2type	relation_type
+P01308	P06213	gene	gene	activation
+Q07869	P19793	gene	gene	binding/association
+P19793	Q07869	gene	gene	binding/association
+Q9NZJ5	P05198	gene	gene	activation|phosphorylation
+P55957	P99999	gene	gene	activation|indirect effect
+P35568|Q9Y4H2	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+O43521	Q07812	gene	gene	activation
+P18848	P35638	gene	gene	activation
+Q12933	O14920	gene	gene	activation
+P01375	P45983|P45984|P53779	gene	gene	activation|indirect effect
+P19438	P19838|Q04206	gene	gene	activation|indirect effect
+P01375	P19438	gene	gene	activation
+Q96J02	Q14790	gene	gene	activation|indirect effect
+P25445		gene	gene	activation|indirect effect
+		gene	gene	activation
+O14543	P35568|Q9Y4H2	gene	gene	inhibition
+P45983|P45984|P53779		gene	gene	activation|phosphorylation
+	P35568|Q9Y4H2	gene	gene	activation
+	P42574	gene	gene	activation|indirect effect
+Q15848		gene	gene	activation|indirect effect
+P05231	P08887	gene	gene	activation
+P48023	P25445	gene	gene	activation
+O75460		gene	gene	activation
+O75460	P17861	gene	gene	activation
+	P55210	gene	gene	activation|indirect effect
+P31749|P31751|Q9Y243	P49840|P49841	gene	gene	inhibition|phosphorylation
+	Q99683	gene	gene	activation
+	P19838|Q04206	gene	gene	activation
+P48357	O43741|P54619|P54646|Q13131|Q9UGI9|Q9UGJ0|Q9Y478	gene	gene	activation|indirect effect
+Q15848	Q86V24|Q96A54	gene	gene	activation
+Q99683	P45983|P45984|P53779	gene	gene	activation
+P41159	P48357	gene	gene	activation
+Q86V24|Q96A54	O43741|P54619|P54646|Q13131|Q9UGI9|Q9UGJ0|Q9Y478	gene	gene	activation|indirect effect
+O00329|O00459|P27986|P42336|P42338|Q92569	P31749|P31751|Q9Y243	gene	gene	activation|indirect effect
+P45983	P05412	gene	gene	activation
+Q99683		gene	gene	activation
+Q16584		gene	gene	activation|indirect effect
+Q13133	P19793	gene	gene	binding/association
+P19793	Q13133	gene	gene	binding/association
+	P45983|P45984|P53779	gene	gene	activation
+P60953	Q16584	gene	gene	activation
+P63000		gene	gene	activation

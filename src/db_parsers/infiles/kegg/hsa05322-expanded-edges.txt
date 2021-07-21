@@ -1,0 +1,7 @@
+#node1	node2	edge_expansion:relation_type
+P00736	P09871	group_expansion
+P06681	P01024	one_to_one_mapping:activation
+P09871	P00736	group_expansion
+P29965	P25942	one_to_one_mapping:activation
+P33681	P10747	mult_mapping_expansion:activation
+P42081	P10747	mult_mapping_expansion:activation

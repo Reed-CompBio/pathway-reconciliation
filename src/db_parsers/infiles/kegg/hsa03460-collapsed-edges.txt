@@ -1,0 +1,27 @@
+#node1	node2	node1type	node2type	relation_type
+Q9BX63	P40692|P54278	gene	group	activation
+Q9BX63	P51587|Q86YC2	gene	group	binding/association
+P51587|Q86YC2	Q9BX63	group	gene	binding/association
+Q9Y2M0	P40692|P54278	gene	group	activation
+P54132|Q96E14|Q9H9A7	P15927|P27694|P35244|Q13156	group	gene	binding/association
+P15927|P27694|P35244|Q13156	P54132|Q96E14|Q9H9A7	gene	group	binding/association
+P54132|Q96E14|Q9H9A7	Q8IYD8	group	gene	binding/association
+Q8IYD8	P54132|Q96E14|Q9H9A7	gene	group	binding/association
+O94782|Q8TAF3	Q9NW38	group	gene	inhibition
+Q13535	P38398	gene	gene	phosphorylation
+Q9BXW9	Q9Y2M0	gene	gene	activation
+P51587	Q06609	gene	gene	activation
+P51587|Q86YC2	O43502	group	gene	activation
+		gene	gene	activation
+O15287|O15360|Q00597|Q0VG06|Q14469|Q8IYD8|Q8NB91|Q9BTP7|Q9HB96|Q9NPD8|Q9NPI8|Q9NW38		group	gene	ubiquitination
+Q13535|Q8WXE1	O15287	group	gene	phosphorylation
+Q13535|Q8WXE1	Q8IYD8	group	gene	phosphorylation
+O15287|O15360|Q00597|Q0VG06|Q14469|Q8IYD8|Q8NB91|Q9BTP7|Q9HB96|Q9NPD8|Q9NPI8|Q9NW38	Q9NVI1	group	gene	ubiquitination
+Q13535|Q8WXE1	Q9NVI1	group	gene	phosphorylation
+Q8IYD8	A8MT69|Q8N2Z9	gene	gene	binding/association
+A8MT69|Q8N2Z9	Q8IYD8	gene	gene	binding/association
+Q8IYD8	Q9BTP7	gene	gene	binding/association
+Q9BTP7	Q8IYD8	gene	gene	binding/association
+Q9Y4R8		gene	gene	activation|binding/association
+Q13535|Q8WXE1	O15360	group	gene	phosphorylation
+	Q9Y4R8	gene	gene	binding/association

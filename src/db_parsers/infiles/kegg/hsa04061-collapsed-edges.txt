@@ -1,0 +1,36 @@
+#node1	node2	node1type	node2type	relation_type
+P60568	P01589|P14784|P31785	gene	group	activation
+P60568	P14784|P31785	gene	group	activation
+P13500|P80075|P80098|Q99616|Q9Y4X3	P41597	gene	gene	activation
+Q14116|Q9NZH6	O95256|Q13478	gene	group	activation
+O00175|P13501|P51671|P55773|P80098|Q16663|Q99616|Q9NRJ3|Q9Y258|Q9Y4X3	P51677	gene	gene	activation
+Q13007|Q9NYY1|Q9UHD0	Q6UXL0|Q9UHF4	gene	group	activation
+Q13007|Q9NYY1	Q6UXL0|Q8N6P7	gene	group	activation
+O00626|P13501|Q92583	P51679	gene	gene	activation
+P01375	P19438	gene	gene	activation
+P10147|P13236|P13501|P16619|P80075|Q8NHW4	P51681	gene	gene	activation
+	P20333	gene	gene	activation
+P78556	P51684	gene	gene	activation
+P01374		gene	gene	activation
+P22362	P51685	gene	gene	activation
+P01374	P36941	gene	gene	activation
+O15444	P51686|Q9NPB9	gene	gene	activation
+Q9NRJ3|Q9Y4X3	P46092	gene	gene	activation
+	Q92956	gene	gene	activation
+O00585|Q99731	P32248|Q9NPB9	gene	gene	activation
+O43557		gene	gene	activation
+P09341|P10145|P19875|P19876|P42830|P80162	P25024	gene	gene	activation
+O43557	Q92956	gene	gene	activation
+P02775|P09341|P10145|P19875|P19876|P42830|P80162	P25025	gene	gene	activation
+P50591	O00220|O14763	gene	gene	activation
+O14625|O43927|P02776|P02778|P10720|Q07325	P49682	gene	gene	activation
+P50591	O14798|Q9UBN6	gene	gene	activation
+O43927	P32302	gene	gene	activation
+Q6ZMJ4	P07333	gene	gene	activation
+P48061	P25106|P61073	gene	gene	activation
+P09603		gene	gene	activation
+P47992|Q9UBD3	P46094	gene	gene	activation
+P78423	P49238	gene	gene	activation
+P22301	Q08334|Q13651	gene	group	activation
+O15467|P10147|P13501|P16619|P55773|P80075|P80098|Q16627|Q16663|Q99616	P32246	gene	gene	activation
+P05231	P08887	gene	gene	activation

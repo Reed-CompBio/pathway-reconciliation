@@ -1,0 +1,4 @@
+#node1	node2	edge_expansion:relation_type
+Q08AH1	Q9Y234	one_to_one_mapping:compound
+Q9Y234	A6NK58	one_to_one_mapping:compound
+Q9Y234	O43766	one_to_one_mapping:compound

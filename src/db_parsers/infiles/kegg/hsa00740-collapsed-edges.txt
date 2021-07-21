@@ -1,0 +1,7 @@
+#node1	node2	node1type	node2type	relation_type
+P11117|P13686|P24666	O14638|P22413	gene	gene	compound
+Q969G6	O14638|P22413	gene	gene	compound
+P11117|P13686|P24666	P30043	gene	gene	compound
+P11117|P13686|P24666	Q8NFF5	gene	gene	compound
+Q969G6	Q8NFF5	gene	gene	compound
+P30043		gene	gene	compound

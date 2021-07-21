@@ -1,0 +1,78 @@
+#node1	node2	node1type	node2type	relation_type
+O60909	P22083	gene	gene	compound
+P21217|P51993|Q11128	P16442	gene	gene	compound
+P21217|P51993|Q11128	Q9Y274	gene	gene	compound
+Q9Y231	P22083	gene	gene	compound
+O60513	Q9Y2C3	gene	gene	compound
+	P19526|Q10981	gene	gene	compound
+P16442	Q9Y231	gene	gene	compound
+Q9Y231	Q9Y274	gene	gene	compound
+P21217|P51993|Q11128	P22083	gene	gene	compound
+	O43825	gene	gene	compound
+	Q9C0J1|Q9NY97|Q9Y2A9	gene	gene	compound
+P22083		gene	gene	compound
+	Q9Y5Z6	gene	gene	compound
+	Q9Y274	gene	gene	compound
+	Q9NY97|Q9Y2A9	gene	gene	compound
+		gene	gene	compound
+O60512		gene	gene	compound
+O60512	P21217|P51993|Q11128	gene	gene	compound
+P16442	P19526|Q10981	gene	gene	compound
+Q8N0V5	P19526|Q10981	gene	gene	compound
+P21217|P51993|Q11128	Q9Y231	gene	gene	compound
+O60512	O43825	gene	gene	compound
+	Q9Y231	gene	gene	compound
+Q9C0J1|Q9NY97|Q9Y2A9	P15291	gene	gene	compound
+P21217|P51993|Q11128	P19526|Q10981	gene	gene	compound
+P22083	P21217|P51993|Q11128	gene	gene	compound
+O60512	Q9C0J1|Q9NY97|Q9Y2A9	gene	gene	compound
+Q9Y231	P19526|Q10981	gene	gene	compound
+P21217|P51993|Q11128		gene	gene	compound
+Q9Y5Z6	Q11203	gene	gene	compound
+O60513	Q9C0J1|Q9NY97|Q9Y2A9	gene	gene	compound
+P22083	P19526|Q10981	gene	gene	compound
+	Q11206	gene	gene	compound
+	P15291	gene	gene	compound
+P15291	P19526|Q10981	gene	gene	compound
+P22083	Q9Y231	gene	gene	compound
+	P21217	gene	gene	compound
+	P21217|P51993|Q11128	gene	gene	compound
+Q8N0V5	P15291	gene	gene	compound
+Q9NY97|Q9Y2A9	P19526|Q10981	gene	gene	compound
+Q9Y231		gene	gene	compound
+P16442	P16442	gene	gene	compound
+P21217|P51993|Q11128	Q9C0J1|Q9NY97|Q9Y2A9	gene	gene	compound
+Q9NY97|Q9Y2A9		gene	gene	compound
+O60512	P19526|Q10981	gene	gene	compound
+Q9Y231	Q9C0J1|Q9NY97|Q9Y2A9	gene	gene	compound
+Q11206	P19526|Q10981	gene	gene	compound
+Q9Y274	Q9Y231	gene	gene	compound
+P21217|P51993|Q11128	O60512	gene	gene	compound
+P21217|P51993|Q11128	Q9NY97|Q9Y2A9	gene	gene	compound
+Q11206	P21217	gene	gene	compound
+Q9Y231	O60512	gene	gene	compound
+P19526|Q10981		gene	gene	compound
+	P22083	gene	gene	compound
+P21217	P16442	gene	gene	compound
+Q9C0J1|Q9NY97|Q9Y2A9	P19526|Q10981	gene	gene	compound
+	P16442	gene	gene	compound
+Q9Y231	P21217|P51993|Q11128	gene	gene	compound
+Q92185		gene	gene	compound
+O60513		gene	gene	compound
+P22083	Q9NY97|Q9Y2A9	gene	gene	compound
+P19526|Q10981	P16442	gene	gene	compound
+Q92185	P21217|P51993|Q11128	gene	gene	compound
+O60513	P19526|Q10981	gene	gene	compound
+P16442	P21217	gene	gene	compound
+P22083|Q11130	Q92185	gene	gene	compound
+P21217|P51993|Q11128	O60513	gene	gene	compound
+P19526|Q10981	P21217	gene	gene	compound
+P22083|Q11130		gene	gene	compound
+	O60513	gene	gene	compound
+O60513	P22083	gene	gene	compound
+Q9BYG0		gene	gene	compound
+P15291	Q9NPC4	gene	gene	compound
+	O75752	gene	gene	compound
+P22083	P16442	gene	gene	compound
+	Q9BYG0	gene	gene	compound
+Q9C0J1|Q9NY97|Q9Y2A9		gene	gene	compound

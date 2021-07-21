@@ -1,0 +1,233 @@
+#node1	node2	node1type	node2type	relation_type
+Q9UBH0	Q9HB29|Q9NPH3	gene	group	activation
+P29965	P25942	gene	gene	activation
+O95972	O00238|Q13873	gene	group	activation
+P42830|P80162	P25024	gene	gene	activation
+Q9UHA7	Q9HB29|Q9NPH3	gene	group	activation
+P41273	Q07011	gene	gene	activation
+P22003	P27037|Q04771	gene	group	activation
+Q9NZH7	Q9HB29|Q9NPH3	gene	group	activation
+P23510	P43489	gene	gene	activation
+P22003	Q04771|Q13705	gene	group	activation
+P10145	P25024	gene	gene	activation
+Q9NZH8	Q9HB29|Q9NPH3	gene	group	activation
+Q9UNG2	Q9Y5U5	gene	gene	activation
+P22003	Q04771|Q13873	gene	group	activation
+P09341|P19875|P19876	P25025	gene	gene	activation
+Q8WWZ1	Q9HB29|Q9NPH3	gene	group	activation
+O75888	Q02223	gene	gene	activation
+P22003	P27037|P36894	gene	group	activation
+P42830|P80162	P25025	gene	gene	activation
+Q9NZH6	O95256|Q13478	gene	group	activation
+	O14836	gene	gene	activation
+O14793	P36897|Q13705	gene	group	activation
+P22003	P36894|Q13705	gene	group	activation
+Q14116	O95256|Q13478	gene	group	activation
+Q9Y275		gene	gene	activation
+O14793	P36896|Q13705	gene	group	activation
+P22003	P36894|Q13873	gene	group	activation
+	P25025	gene	gene	activation
+O95760	Q01638|Q9NPH3	gene	group	activation
+Q9Y275	O14836	gene	gene	activation
+P22362	P51685	gene	gene	activation
+P22003	O00238|P27037	gene	group	activation
+Q16552	Q8NAC3|Q96F46	gene	group	activation
+	Q96RJ3	gene	gene	activation
+	Q9NPB9	gene	gene	activation
+P22003	O00238|Q13705	gene	group	activation
+Q96PD4	Q8NAC3|Q96F46	gene	group	activation
+O15444	P51686	gene	gene	activation
+P22003	O00238|Q13873	gene	group	activation
+P02775	P25025	gene	gene	activation
+Q9UHF5	Q9NRM6	gene	gene	activation
+P22004	P27037|Q04771	gene	group	activation
+P02776|P10720	P49682	gene	gene	activation
+Q9P0M4	Q8NFR9	gene	gene	activation
+Q99731	Q9NPB9	gene	gene	activation
+P22004	Q04771|Q13705	gene	group	activation
+Q9H293	Q96F46|Q9NRM6	gene	group	activation
+	P32248	gene	gene	activation
+P22004	Q04771|Q13873	gene	group	activation
+Q07325	P49682	gene	gene	activation
+Q14005	P01730	gene	gene	activation
+O00585		gene	gene	activation
+P22004	P27037|P36894	gene	group	activation
+P02778		gene	gene	activation
+Q6ZMJ4	P07333	gene	gene	activation
+O00585	P32248	gene	gene	activation
+P22004	P36894|Q13705	gene	group	activation
+O14625		gene	gene	activation
+P09603		gene	gene	activation
+P10147|P16619	P51681	gene	gene	activation
+P22004	P36894|Q13873	gene	group	activation
+O43927		gene	gene	activation
+P01375	P19438	gene	gene	activation
+P13236|Q8NHW4	P51681	gene	gene	activation
+P22004	O00238|P27037	gene	group	activation
+O43927	P32302	gene	gene	activation
+	P20333	gene	gene	activation
+P22004	O00238|Q13705	gene	group	activation
+P48061	P61073	gene	gene	activation
+P01374		gene	gene	activation
+P22004	O00238|Q13873	gene	group	activation
+	P25106	gene	gene	activation
+P01374	P20333	gene	gene	activation
+Q92583	P51679	gene	gene	activation
+P18075	P27037|Q04771	gene	group	activation
+Q9H2A7	O00574	gene	gene	activation
+	P36941	gene	gene	activation
+O00626		gene	gene	activation
+P18075	Q04771|Q13705	gene	group	activation
+P47992	P46094	gene	gene	activation
+	Q92956	gene	gene	activation
+P13501		gene	gene	activation
+P18075	Q04771|Q13873	gene	group	activation
+Q9UBD3		gene	gene	activation
+Q06643	P36941	gene	gene	activation
+P13501	P51681	gene	gene	activation
+P18075	P27037|P36894	gene	group	activation
+P78423	P49238	gene	gene	activation
+O43557		gene	gene	activation
+	P51677	gene	gene	activation
+P18075	P36894|Q13705	gene	group	activation
+P60568	P01589|P14784|P31785	gene	group	activation
+O43557	Q92956	gene	gene	activation
+	P32246	gene	gene	activation
+P18075	P36894|Q13873	gene	group	activation
+P60568	P14784|P31785	gene	group	activation
+	O95407	gene	gene	activation
+P10147|P16619		gene	gene	activation
+P18075	O00238|P27037	gene	group	activation
+P05112	P24394|P31785	gene	group	activation
+P48023	O95407	gene	gene	activation
+P10147|P16619	P32246	gene	gene	activation
+P18075	O00238|Q13705	gene	group	activation
+P13232	P16871|P31785	gene	group	activation
+	P25445	gene	gene	activation
+P80075		gene	gene	activation
+P18075	O00238|Q13873	gene	group	activation
+P15248	P31785|Q01113	gene	group	activation
+O95150		gene	gene	activation
+P80075	Q9NPB9	gene	gene	activation
+P34820|Q7Z5Y6	P27037|Q04771	gene	group	activation
+P40933	P14784|P31785|Q13261	gene	group	activation
+O95150	Q93038	gene	gene	activation
+	P41597	gene	gene	activation
+P34820|Q7Z5Y6	Q04771|Q13705	gene	group	activation
+Q9HBE4	P31785|Q9HBE5	gene	group	activation
+P50591	O00220|O14763	gene	gene	activation
+P34820|Q7Z5Y6	Q04771|Q13873	gene	group	activation
+Q969D9	P16871|Q9HC73	gene	group	activation
+Q16627	P32246	gene	gene	activation
+P34820|Q7Z5Y6	P27037|P36894	gene	group	activation
+P08700	P26951|P32927	gene	group	activation
+P50591	O14798	gene	gene	activation
+O15467		gene	gene	activation
+P34820|Q7Z5Y6	P36894|Q13705	gene	group	activation
+P05113	P32927|Q01344	gene	group	activation
+	Q9UBN6	gene	gene	activation
+P55773|Q16663		gene	gene	activation
+P34820|Q7Z5Y6	P36894|Q13873	gene	group	activation
+P04141	P15509|P32927	gene	group	activation
+Q92838	Q9UNE0	gene	gene	activation
+P34820|Q7Z5Y6	O00238|P27037	gene	group	activation
+P05112	P24394	gene	gene	activation
+Q92838	Q9HAV5	gene	gene	activation
+P55773|Q16663	P51677	gene	gene	activation
+P34820|Q7Z5Y6	O00238|Q13705	gene	group	activation
+	P24394|P78552	gene	group	activation
+P01138	P08138	gene	gene	activation
+Q99616		gene	gene	activation
+P34820|Q7Z5Y6	O00238|Q13873	gene	group	activation
+	P24394|Q14627	gene	group	activation
+O14788	O00300	gene	gene	activation
+Q99616	P51677	gene	gene	activation
+P35225	P24394|P78552	gene	group	activation
+	Q9Y6Q6	gene	gene	activation
+P35225	P24394|Q14627	gene	group	activation
+O43508	Q9NP84	gene	gene	activation
+P09341|P19875|P19876		gene	gene	activation
+P35225	P78552	gene	gene	activation
+P32970	P26842	gene	gene	activation
+P80098		gene	gene	activation
+	Q14627	gene	gene	activation
+P32971	P28908	gene	gene	activation
+P01588	P19235	gene	gene	activation
+P80098	P41597	gene	gene	activation
+P01241|P01242|P0DML2|P0DML3	P10912	gene	gene	activation
+P13500		gene	gene	activation
+P01236	P16471	gene	gene	activation
+P51671	P51677	gene	gene	activation
+P40225	P40238	gene	gene	activation
+O00175		gene	gene	activation
+P09919	Q99062	gene	gene	activation
+Q9Y258		gene	gene	activation
+P41159	P48357	gene	gene	activation
+Q9Y4X3		gene	gene	activation
+P05231	P08887|P40189	gene	group	activation
+P20809	P40189|Q14626	gene	group	activation
+Q9Y4X3	P46092	gene	gene	activation
+P29459|P29460	P42701|Q99665	gene	group	activation
+Q9NRJ3		gene	gene	activation
+Q9NPF7	P42701|Q5VWK5	gene	group	activation
+Q7Z4P5	O00238|Q13705	gene	group	activation
+Q8NEV9	P40189|Q6UWB1	gene	group	activation
+P78556	P51684	gene	gene	activation
+Q6EBC2	Q8NI17|Q99650	gene	group	activation
+P12643	P27037|P36894	gene	group	activation
+Q9UBD9	P26992|P40189|P42702	gene	group	activation
+P12643	P36894|Q13705	gene	group	activation
+P26441	P26992|P40189|P42702	gene	group	activation
+P12643	P36894|Q13873	gene	group	activation
+Q16619	P40189|P42702	gene	group	activation
+P12643	O00238|P27037	gene	group	activation
+Q7Z4P5	O00238|Q13873	gene	group	activation
+P15018	P40189|P42702	gene	group	activation
+P12643	O00238|Q13705	gene	group	activation
+P13725	P40189|P42702	gene	group	activation
+P12643	O00238|Q13873	gene	group	activation
+P13725	P40189|Q99650	gene	group	activation
+P12644	P27037|P36894	gene	group	activation
+P22301	Q08334|Q13651	gene	group	activation
+P12644	P36894|Q13705	gene	group	activation
+Q9UHD0	Q6UXL0|Q9UHF4	gene	group	activation
+P12644	P36894|Q13873	gene	group	activation
+Q9NYY1	Q6UXL0|Q9UHF4	gene	group	activation
+P12644	O00238|P27037	gene	group	activation
+Q9NYY1	Q6UXL0|Q8N6P7	gene	group	activation
+P12644	O00238|Q13705	gene	group	activation
+Q13007	Q6UXL0|Q9UHF4	gene	group	activation
+P12644	O00238|Q13873	gene	group	activation
+Q13007	Q6UXL0|Q8N6P7	gene	group	activation
+P43026	P27037|P36894	gene	group	activation
+Q9GZX6	Q08334|Q8N6P7	gene	group	activation
+P43026	P36894|Q13705	gene	group	activation
+Q9NPH9	Q08334|Q9UHF4	gene	group	activation
+P43026	P36894|Q13873	gene	group	activation
+Q8IZI9|Q8IZJ0	Q08334|Q8IU57	gene	group	activation
+P43026	O00238|P27037	gene	group	activation
+P43026	O00238|Q13705	gene	group	activation
+Q8IU54	Q08334|Q8IU57	gene	group	activation
+P43026	O00238|Q13873	gene	group	activation
+P01562|P01563|P01566|P01567|P01568|P01569|P01570|P01571|P05013|P05014|P05015|P32881	P17181|P48551	gene	group	activation
+Q6KF10	P27037|P36894	gene	group	activation
+P01574	P17181|P48551	gene	group	activation
+Q6KF10	P36894|Q13705	gene	group	activation
+P05000	P17181|P48551	gene	group	activation
+Q6KF10	P36894|Q13873	gene	group	activation
+Q9P0W0	P17181|P48551	gene	group	activation
+Q6KF10	O00238|P27037	gene	group	activation
+Q86WN2	P17181|P48551	gene	group	activation
+Q6KF10	O00238|Q13705	gene	group	activation
+P01579	P15260|P38484	gene	group	activation
+Q6KF10	O00238|Q13873	gene	group	activation
+P01583	P14778|Q9NPH3	gene	group	activation
+Q7Z4P5	P27037|P36894	gene	group	activation
+P01584	P14778|Q9NPH3	gene	group	activation
+Q7Z4P5	P36894|Q13705	gene	group	activation
+P01583	P27930	gene	gene	activation
+Q7Z4P5	P36894|Q13873	gene	group	activation
+P01584		gene	gene	activation
+Q7Z4P5	O00238|P27037	gene	group	activation
+P18510		gene	gene	activation
+P18510	P14778|Q9NPH3	gene	group	inhibition

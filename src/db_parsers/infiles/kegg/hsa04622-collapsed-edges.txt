@@ -1,0 +1,45 @@
+#node1	node2	node1type	node2type	relation_type
+Q96C10	Q9BYX4	gene	gene	activation
+A7MCY6|Q92844|Q9H6S1	Q9Y6K9	group	gene	activation
+Q14258	O95786	gene	gene	activation|ubiquitination
+Q14164|Q9UHD2|Q9Y6K9	Q14653	group	gene	activation|phosphorylation
+Q9NQC7		gene	gene	inhibition
+Q14164|Q9UHD2|Q9Y6K9	Q92985	group	gene	activation|phosphorylation
+Q96EQ8		gene	gene	inhibition|ubiquitination
+Q7Z434	Q15628	gene	gene	binding/association
+Q15628	Q7Z434	gene	gene	binding/association
+P05161		gene	gene	binding/association
+	P05161	gene	gene	binding/association
+	Q13114	gene	gene	binding/association
+Q13114		gene	gene	binding/association
+O94817|Q9H1Y0		group	gene	binding/association
+	O94817|Q9H1Y0	gene	group	binding/association
+	Q92844	gene	gene	binding/association
+Q92844		gene	gene	binding/association
+	Q13158|Q13546	gene	group	binding/association
+Q13158|Q13546		group	gene	binding/association
+Q86WV6		gene	gene	binding/association
+	Q86WV6	gene	gene	binding/association
+Q13158	Q14790|Q92851	gene	group	activation
+Q96G74	Q13114	gene	gene	inhibition
+Q14790|Q92851	O14920|O15111|Q9Y6K9	group	group	activation|indirect effect
+Q9BRV8	Q14164	gene	gene	inhibition
+P25963|Q15653	P19838|Q04206	gene	gene	dissociation
+P19838|Q04206	P25963|Q15653	gene	gene	dissociation
+O00571	Q9UHD2	gene	gene	binding/association
+Q9UHD2	O00571	gene	gene	binding/association
+		gene	gene	activation|binding/association|inhibition
+Q13526	Q14653	gene	gene	binding/association
+Q14653	Q13526	gene	gene	binding/association
+	Q12933	gene	gene	binding/association
+Q12933		gene	gene	binding/association
+Q3LXA3		gene	gene	inhibition
+Q12933	O43318	gene	gene	activation
+	P19838|Q04206	gene	gene	activation|indirect effect
+Q86UT6		gene	gene	inhibition
+	O15264|P53778|Q15759|Q16539	gene	gene	activation|indirect effect
+O14920	P25963|Q15653	gene	gene	activation|phosphorylation
+	Q9Y4K3	gene	gene	binding/association
+Q9Y4K3		gene	gene	binding/association
+Q9Y4K3	Q13233	gene	gene	activation
+	P45983|P45984|P53779	gene	gene	activation|indirect effect

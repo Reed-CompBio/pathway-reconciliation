@@ -1,0 +1,12 @@
+#node1	node2	edge_expansion:relation_type
+O15151	P04637	one_to_one_mapping:inhibition
+O15304	Q07817	one_to_one_mapping:inhibition
+P10415	Q07812	one_to_one_mapping:inhibition
+P17936	P05019	one_to_one_mapping:inhibition
+P31947	P06493	one_to_one_mapping:inhibition
+P38936	P24941	one_to_one_mapping:inhibition
+P42771	Q00987	one_to_one_mapping:inhibition
+P99999	P55211	one_to_one_mapping:activation
+Q13315	O96017	one_to_one_mapping:activation|phosphorylation
+Q13535	O14757	one_to_one_mapping:activation|phosphorylation
+Q14790	P42574	one_to_one_mapping:activation

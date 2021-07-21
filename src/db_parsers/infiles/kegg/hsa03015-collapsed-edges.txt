@@ -1,0 +1,38 @@
+#node1	node2	node1type	node2type	relation_type
+Q9GZY0|Q9H1B4|Q9H4D5|Q9UBU9	Q9NPJ8|Q9UKK6	gene	gene	binding/association
+Q9NPJ8|Q9UKK6	Q9GZY0|Q9H1B4|Q9H4D5|Q9UBU9	gene	gene	binding/association
+O43347|Q96DH6|Q96EP5	P11940|Q13310|Q5JQF8|Q96DU9|Q9H361	gene	gene	binding/association
+P11940|Q13310|Q5JQF8|Q96DU9|Q9H361	O43347|Q96DH6|Q96EP5	gene	gene	binding/association
+Q9Y450	Q9BRX2	gene	gene	binding/association
+Q9BRX2	Q9Y450	gene	gene	binding/association
+O43809	Q16630|Q8N684	gene	gene	binding/association
+Q16630|Q8N684	O43809	gene	gene	binding/association
+Q92989	O94913	gene	gene	binding/association
+O94913	Q92989	gene	gene	binding/association
+Q92797	Q05048|Q12996	gene	group	binding/association
+Q05048|Q12996	Q92797	group	gene	binding/association
+P62495	Q92900|Q9HAU5	gene	group	binding/association
+Q92900|Q9HAU5	P62495	group	gene	binding/association
+Q09161	Q92900	gene	gene	binding/association
+Q92900	Q09161	gene	gene	binding/association
+P15170|Q8IYD1	P11940|Q13310|Q5JQF8|Q96DU9|Q9H361	gene	gene	binding/association
+P11940|Q13310|Q5JQF8|Q96DU9|Q9H361	P15170|Q8IYD1	gene	gene	binding/association
+Q92900|Q9HAU5	P15170|Q8IYD1	group	gene	binding/association
+P15170|Q8IYD1	Q92900|Q9HAU5	gene	group	binding/association
+Q92540	Q9UPR3	gene	gene	binding/association
+Q9UPR3	Q92540	gene	gene	binding/association
+		gene	gene	binding/association
+O95639|Q10570|Q6UN15|Q9P2I0|Q9UKF6	Q6UXN9|Q9C0J8|Q9NP77	group	group	binding/association
+Q6UXN9|Q9C0J8|Q9NP77	O95639|Q10570|Q6UN15|Q9P2I0|Q9UKF6	group	group	binding/association
+Q96Q15		gene	gene	activation|binding/association|phosphorylation
+Q86US8		gene	gene	binding/association
+	Q86US8	gene	gene	binding/association
+P30153|P30154|P62714|P63151|P67775|Q00005|Q06190|Q13362|Q14738|Q15172|Q15173|Q16537|Q66LE6|Q969Q6|Q9Y2T4|Q9Y5P8	Q86US8	gene	gene	binding/association
+Q86US8	P30153|P30154|P62714|P63151|P67775|Q00005|Q06190|Q13362|Q14738|Q15172|Q15173|Q16537|Q66LE6|Q969Q6|Q9Y2T4|Q9Y5P8	gene	gene	binding/association
+Q96Q15	P30153|P30154|P62714|P63151|P67775|Q00005|Q06190|Q13362|Q14738|Q15172|Q15173|Q16537|Q66LE6|Q969Q6|Q9Y2T4|Q9Y5P8	gene	gene	binding/association
+P30153|P30154|P62714|P63151|P67775|Q00005|Q06190|Q13362|Q14738|Q15172|Q15173|Q16537|Q66LE6|Q969Q6|Q9Y2T4|Q9Y5P8	Q96Q15	gene	gene	binding/association
+	Q96Q15	gene	gene	binding/association
+P30153|P30154|P62714|P63151|P67775|Q00005|Q06190|Q13362|Q14738|Q15172|Q15173|Q16537|Q66LE6|Q969Q6|Q9Y2T4|Q9Y5P8		gene	gene	binding/association
+	P30153|P30154|P62714|P63151|P67775|Q00005|Q06190|Q13362|Q14738|Q15172|Q15173|Q16537|Q66LE6|Q969Q6|Q9Y2T4|Q9Y5P8	gene	gene	binding/association
+	P52298	gene	gene	binding/association
+P52298		gene	gene	binding/association

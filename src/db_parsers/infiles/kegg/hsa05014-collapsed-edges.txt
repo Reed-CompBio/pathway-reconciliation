@@ -1,0 +1,26 @@
+#node1	node2	node1type	node2type	relation_type
+P41219	P12036	gene	gene	binding/association
+P12036	P41219	gene	gene	binding/association
+Q96Q42	P20339	gene	gene	activation
+P00441	P07196	gene	gene	inhibition
+	P63000	gene	gene	binding/association
+P63000		gene	gene	binding/association
+O15264|P53778|Q15759|Q16539		gene	gene	phosphorylation
+O15264|P53778|Q15759|Q16539	P07197	gene	gene	phosphorylation
+P00441	P10415	gene	gene	inhibition
+	O96008|Q969M1	gene	gene	inhibition
+	Q9BUN8	gene	gene	inhibition
+O14727	P55211	gene	gene	activation
+Q07812	P99999	gene	gene	indirect effect
+		gene	gene	activation|binding/association
+Q92934		gene	gene	indirect effect
+	P42574	gene	gene	activation
+P01375	P19438|P20333	gene	gene	activation
+P19438|P20333	Q9UER7	gene	gene	activation
+Q9UER7	Q99683	gene	gene	activation
+	P46734	gene	gene	activation|phosphorylation
+	P52564	gene	gene	activation|phosphorylation
+P46734	O15264|P53778|Q15759|Q16539	gene	gene	activation|phosphorylation
+P52564	O15264|P53778|Q15759|Q16539	gene	gene	activation|phosphorylation
+	P07197	gene	gene	binding/association
+P07197		gene	gene	binding/association

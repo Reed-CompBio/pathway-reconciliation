@@ -1,0 +1,11 @@
+#node1	node2	node1type	node2type	relation_type
+P32856|P61266|Q13277|Q16623	P63027	gene	gene	binding/association
+P63027	P32856|P61266|Q13277|Q16623	gene	gene	binding/association
+P20336	Q86UR5	gene	gene	binding/association
+Q86UR5	P20336	gene	gene	binding/association
+P61764	P32856|P61266|Q13277|Q16623	gene	gene	binding/association
+P32856|P61266|Q13277|Q16623	P61764	gene	gene	binding/association
+P32856|P61266|Q13277|Q16623	P60880	gene	gene	binding/association
+P60880	P32856|P61266|Q13277|Q16623	gene	gene	binding/association
+P09496|P09497|P53675|Q00610	O94973|O95782|P53680|P63010|Q96CW1	gene	gene	binding/association
+O94973|O95782|P53680|P63010|Q96CW1	P09496|P09497|P53675|Q00610	gene	gene	binding/association

@@ -1,0 +1,19 @@
+#node1	node2	node1type	node2type	relation_type
+P24385	P06400	group	gene	activation|phosphorylation
+O14920|O15111|Q9Y6K9	P25963	gene	gene	activation|phosphorylation
+P31749|P31751|Q9Y243	O14920|O15111|Q9Y6K9	gene	gene	activation|phosphorylation
+Q05397	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+P42772		gene	group	inhibition
+P05556	Q05397	group	gene	activation
+A4D0S4|O15230|P02462|P02751|P07942|P08572|P11047|P24043|P25391|P29400|P53420|P55268|Q01955|Q13751|Q13753|Q14031|Q16363|Q16787|Q9Y6N6		gene	group	activation
+P33552|P61024	Q13309	gene	gene	activation
+P25963	P19838|Q04206	gene	gene	dissociation
+P19838|Q04206	P25963	gene	gene	dissociation
+O00716|Q01094|Q14209		gene	gene	dissociation
+	O00716|Q01094|Q14209	gene	gene	dissociation
+P46527	P24941	gene	group	inhibition
+P01106|P61244	Q13105	group	gene	inhibition
+Q13309		gene	gene	inhibition
+P10415	Q07812	gene	gene	inhibition
+O00329|O00459|P27986|P42336|P42338|Q92569	P31749|P31751|Q9Y243	gene	gene	compound
+		group	gene	activation|phosphorylation

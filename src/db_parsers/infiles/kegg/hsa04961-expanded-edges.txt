@@ -1,0 +1,53 @@
+#node1	node2	edge_expansion:relation_type
+O95467	O43306	mult_mapping_expansion:activation
+O95467	O60503	mult_mapping_expansion:activation
+P01270	Q03431	one_to_one_mapping:activation
+P05023	P32418	mult_mapping_expansion:activation|indirect effect
+P05023	P57103	mult_mapping_expansion:activation|indirect effect
+P05023	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+P05026	P32418	mult_mapping_expansion:activation|indirect effect
+P05026	P57103	mult_mapping_expansion:activation|indirect effect
+P05026	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+P05129	Q9NQA5	mult_mapping_expansion:activation|phosphorylation
+P05771	Q9NQA5	mult_mapping_expansion:activation|phosphorylation
+P06870	P30411	mult_mapping_expansion:activation
+P13637	P32418	mult_mapping_expansion:activation|indirect effect
+P13637	P57103	mult_mapping_expansion:activation|indirect effect
+P13637	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+P14415	P32418	mult_mapping_expansion:activation|indirect effect
+P14415	P57103	mult_mapping_expansion:activation|indirect effect
+P14415	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+P17252	Q9NQA5	mult_mapping_expansion:activation|phosphorylation
+P20151	P30411	mult_mapping_expansion:activation
+P30411	P50148	one_to_one_mapping:activation
+P50993	P32418	mult_mapping_expansion:activation|indirect effect
+P50993	P57103	mult_mapping_expansion:activation|indirect effect
+P50993	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+P54709	P32418	mult_mapping_expansion:activation|indirect effect
+P54709	P57103	mult_mapping_expansion:activation|indirect effect
+P54709	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+P54710	P32418	mult_mapping_expansion:activation|indirect effect
+P54710	P57103	mult_mapping_expansion:activation|indirect effect
+P54710	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+P62491	Q9NQA5	one_to_one_mapping:binding/association
+P63092	O43306	mult_mapping_expansion:activation
+P63092	O60503	mult_mapping_expansion:activation
+Q03431	O95467	mult_mapping_expansion:activation
+Q03431	P63092	mult_mapping_expansion:activation
+Q13733	P32418	mult_mapping_expansion:activation|indirect effect
+Q13733	P57103	mult_mapping_expansion:activation|indirect effect
+Q13733	Q9UPR5	mult_mapping_expansion:activation|indirect effect
+Q9NQA5	P62491	one_to_one_mapping:binding/association
+Q9UEF7	P05023	mult_mapping_expansion:activation
+Q9UEF7	P05026	mult_mapping_expansion:activation
+Q9UEF7	P13637	mult_mapping_expansion:activation
+Q9UEF7	P14415	mult_mapping_expansion:activation
+Q9UEF7	P50993	mult_mapping_expansion:activation
+Q9UEF7	P54709	mult_mapping_expansion:activation
+Q9UEF7	P54710	mult_mapping_expansion:activation
+Q9UEF7	Q13733	mult_mapping_expansion:activation
+Q9UEF7	Q9NQA5	one_to_one_mapping:activation
+Q9UEF7	Q9UN42	mult_mapping_expansion:activation
+Q9UN42	P32418	mult_mapping_expansion:activation|indirect effect
+Q9UN42	P57103	mult_mapping_expansion:activation|indirect effect
+Q9UN42	Q9UPR5	mult_mapping_expansion:activation|indirect effect

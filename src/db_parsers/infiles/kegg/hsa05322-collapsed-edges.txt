@@ -1,0 +1,5 @@
+#node1	node2	node1type	node2type	relation_type
+P29965	P25942	gene	gene	activation
+P33681|P42081	P10747	gene	gene	activation
+P06681	P01024	group	gene	activation
+P00736|P09871		group	group	activation

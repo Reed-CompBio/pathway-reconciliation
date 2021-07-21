@@ -1,0 +1,7 @@
+#node1	node2	node1type	node2type	relation_type
+O94766	Q96L58	gene	gene	compound
+Q8N6G5|Q8TDX6		gene	gene	compound
+Q70JA7|Q86X52|Q8IZ52|Q9P2E5	Q8N6G5|Q8TDX6	gene	gene	compound
+Q86Y38|Q9H1B5	Q9UBV7	gene	gene	compound
+Q70JA7|Q86X52|Q8IZ52|Q8N6G5|Q8TDX6	Q70JA7|Q86X52|Q8IZ52|Q9P2E5	gene	gene	compound
+Q9UBV7		gene	gene	compound

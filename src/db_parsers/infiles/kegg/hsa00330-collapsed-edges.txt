@@ -1,0 +1,50 @@
+#node1	node2	node1type	node2type	relation_type
+Q14353	P06732|P12277|P12532|P17540	gene	gene	compound
+Q96A70	Q9BSE5	gene	gene	compound
+Q14353	P50440	gene	gene	compound
+P21673|Q96F10	P21397|P27338	gene	gene	compound
+P19801	P05091|P30837|P49189|P49419|P51648	gene	gene	compound
+P17707	P19623	gene	gene	compound
+P52788		gene	gene	compound
+	P52788	gene	gene	compound
+P05091|P30837|P49189|P49419|P51648	A5YM72	gene	gene	compound
+P05091|P30837|P49189|P49419|P51648	Q96KP4	gene	gene	compound
+P05091|P30837|P49189|P49419|P51648	P50440	gene	gene	compound
+A5YM72	P50440	gene	gene	compound
+Q96KP4		gene	gene	compound
+		gene	gene	compound
+	P29474|P29475|P35228	gene	gene	compound
+P05089|P78540		gene	gene	compound
+Q9NWM0		gene	gene	compound
+Q96KN2	P05091|P30837|P49189|P49419|P51648	gene	gene	compound
+Q96KN2		gene	gene	compound
+P21673|Q96F10		gene	gene	compound
+	P21673|Q96F10	gene	gene	compound
+P19801		gene	gene	compound
+P19801	P21673|Q96F10	gene	gene	compound
+P05089|P78540	P29474|P29475|P35228	gene	gene	compound
+P21397|P27338	P05091|P30837|P49189|P49419|P51648	gene	gene	compound
+P29474|P29475|P35228		gene	gene	compound
+P54886	P30038	gene	gene	compound
+	P30038	gene	gene	compound
+	P54886	gene	gene	compound
+P04181	P54886	gene	gene	compound
+P05089|P78540	P11926	gene	gene	compound
+	P11926	gene	gene	compound
+P30038	O43272	gene	gene	compound
+	P32322|Q53H96|Q96C36	gene	gene	compound
+	O15460|P13674|Q7Z4N8	gene	gene	compound
+	P28838	gene	gene	compound
+P32322|Q53H96|Q96C36	O15460|P13674|Q7Z4N8	gene	gene	compound
+P32322|Q53H96|Q96C36	P28838	gene	gene	compound
+O15460|P13674|Q7Z4N8	P28838	gene	gene	compound
+O15460|P13674|Q7Z4N8	P32322|Q53H96|Q96C36	gene	gene	compound
+O15460|P13674|Q7Z4N8	Q9UF12	gene	gene	compound
+Q96EM0	P14920	gene	gene	compound
+P32322|Q53H96|Q96C36	P30038	gene	gene	compound
+Q9UF12	P30038	gene	gene	compound
+	P00505|P17174	gene	gene	compound
+P30038	P00505|P17174	gene	gene	compound
+P00505|P17174	Q86XE5	gene	gene	compound
+P11926		gene	gene	compound
+P11926	P19801	gene	gene	compound

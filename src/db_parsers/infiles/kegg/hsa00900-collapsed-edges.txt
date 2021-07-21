@@ -1,0 +1,25 @@
+#node1	node2	node1type	node2type	relation_type
+O95749|P14324	Q86SQ9|Q96E22	gene	gene	compound
+P04035	Q03426	gene	gene	compound
+Q86SQ9|Q96E22	O95749	gene	gene	compound
+	Q15126	gene	gene	compound
+Q86SQ9|Q96E22	Q5T2R2|Q86YH6	gene	gene	compound
+Q15126	P53602	gene	gene	compound
+	Q13907|Q9BXS1	gene	gene	compound
+	O95749|P14324	gene	gene	compound
+O95749|P14324	Q5T2R2|Q86YH6	gene	gene	compound
+O95749	Q5T2R2|Q86YH6	gene	gene	compound
+Q13907|Q9BXS1	O95749|P14324	gene	gene	compound
+O95749|P14324	O95749|P14324	gene	gene	compound
+O95749|P14324	P49354|P49356	gene	gene	compound
+P49354|P49356	Q86SQ9|Q96E22	gene	gene	compound
+O95749|P14324	O95749	gene	gene	compound
+P49354|P49356	O95749	gene	gene	compound
+P49354|P49356	Q5T2R2|Q86YH6	gene	gene	compound
+O60725	O75844	gene	gene	compound
+	Q9Y256	gene	gene	compound
+	P49354|P49356	gene	gene	compound
+P24752|Q9BWD1	P54868|Q01581	gene	gene	compound
+Q9Y256	P49354|P49356	gene	gene	compound
+O95749|P14324	Q13907|Q9BXS1	gene	gene	compound
+P54868|Q01581		gene	gene	compound

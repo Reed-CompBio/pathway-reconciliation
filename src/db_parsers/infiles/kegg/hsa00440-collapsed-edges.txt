@@ -1,0 +1,3 @@
+#node1	node2	node1type	node2type	relation_type
+Q99447	Q9C0D9|Q9Y6K0	gene	gene	compound
+P49585|Q9Y5K3	Q8WUD6|Q9Y6K0	gene	gene	compound

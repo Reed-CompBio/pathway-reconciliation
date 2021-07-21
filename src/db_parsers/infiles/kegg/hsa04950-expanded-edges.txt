@@ -1,0 +1,4 @@
+#node1	node2	edge_expansion:relation_type
+O95096	P78426	one_to_one_mapping:indirect effect
+Q03014	P52945	one_to_one_mapping:indirect effect
+Q14469	Q9Y4Z2	one_to_one_mapping:inhibition

@@ -1,0 +1,7 @@
+#node1	node2	node1type	node2type	relation_type
+Q96RI1	P19793	gene	gene	binding/association
+P19793	Q96RI1	gene	gene	binding/association
+P17612|P22612|P22694	P13569	gene	gene	activation
+P09683	P47872	gene	gene	activation
+	O95467|P63092	gene	gene	activation
+O95467|P63092	O43306|O60266|O60503|O95622|P40145|P51828|Q08462|Q08828|Q8NFM4	gene	gene	activation

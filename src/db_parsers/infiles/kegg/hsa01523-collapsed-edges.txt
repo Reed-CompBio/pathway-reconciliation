@@ -1,0 +1,2 @@
+#node1	node2	node1type	node2type	relation_type
+O14920|O15111|Q9Y6K9	P19838|Q04206	gene	gene	activation|indirect effect

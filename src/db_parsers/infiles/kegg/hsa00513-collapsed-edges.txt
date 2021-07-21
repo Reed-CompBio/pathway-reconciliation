@@ -1,0 +1,11 @@
+#node1	node2	node1type	node2type	relation_type
+P26572	P49641|Q16706	gene	gene	compound
+P49641|Q16706	Q9BYC5	gene	gene	compound
+O60476|P33908|Q9NR34	P26572	gene	gene	compound
+P49641|Q16706	Q10469	gene	gene	compound
+Q10469	Q9BYC5	gene	gene	compound
+	O60512|O60909|P15291	gene	gene	compound
+	Q6L9W6|Q76KP1	gene	gene	compound
+O60512|O60909|P15291	Q6L9W6|Q76KP1	gene	gene	compound
+O60512|O60909|P15291	Q11203	gene	gene	compound
+Q6L9W6|Q76KP1	Q7L1S5|Q9H2A9	gene	gene	compound

@@ -1,0 +1,11 @@
+#node1	node2	node1type	node2type	relation_type
+Q00722|Q01970|Q15147|Q9NQ66	P05129|P05771|P17252	gene	gene	activation|compound
+P29508|P35237|P48594|P48595|P50453|Q9UIV8	P08311	gene	gene	inhibition
+P08571	P19838|Q04206	group	gene	activation|indirect effect
+P04792	P19838|Q04206	gene	gene	indirect effect|inhibition
+O95467|P38405|P63092	Q08828	gene	gene	activation|indirect effect
+O95837|P29992|P30679|P50148	Q00722|Q01970|Q15147|Q9NQ66	gene	gene	activation|indirect effect
+Q08828	P17612|P22612|P22694	gene	gene	activation|compound|indirect effect
+P05107|P11215	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+P01584	P14778|P27930	gene	gene	activation
+P14778|P27930	P19838|Q04206	gene	gene	activation|indirect effect

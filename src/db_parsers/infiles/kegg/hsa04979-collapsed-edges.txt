@@ -1,0 +1,31 @@
+#node1	node2	node1type	node2type	relation_type
+P30536	P21796|P45880|Q9Y277	gene	gene	binding/association
+P21796|P45880|Q9Y277	P30536	gene	gene	binding/association
+Q14849	O95292|Q9P0L0	gene	gene	binding/association
+O95292|Q9P0L0	Q14849	gene	gene	binding/association
+O15118	Q9H0X9	gene	gene	binding/association
+Q9H0X9	O15118	gene	gene	binding/association
+P02647	P04180	gene	gene	activation
+Q99523	P04114	gene	gene	binding/association
+P04114	Q99523	gene	gene	binding/association
+P02654		gene	gene	activation
+P02649	P98164|Q07954	gene	gene	binding/association
+P98164|Q07954	P02649	gene	gene	binding/association
+P02654	P11597	gene	gene	inhibition
+O95477	P02647	gene	gene	binding/association
+P02647	O95477	gene	gene	binding/association
+P30533	P98164|Q07954	gene	gene	inhibition
+Q9BY76|Q9Y5C1	P06858	gene	gene	inhibition
+P02655	P06858	gene	gene	activation
+P02749		gene	gene	activation
+Q6UXH0	Q9BY76|Q9Y5C1	gene	gene	activation
+Q8WY64	P01130	gene	gene	ubiquitination
+Q5SW96		gene	gene	binding/association
+	Q5SW96	gene	gene	binding/association
+	P01130	gene	gene	binding/association
+P01130		gene	gene	binding/association
+Q8NBP7	P01130	gene	gene	binding/association|inhibition
+Q14849	P21796|P45880|Q9Y277	gene	gene	binding/association
+P21796|P45880|Q9Y277	Q14849	gene	gene	binding/association
+P21796|P45880|Q9Y277	P49675	gene	gene	binding/association
+P49675	P21796|P45880|Q9Y277	gene	gene	binding/association

@@ -1,0 +1,13 @@
+#node1	node2	node1type	node2type	relation_type
+O95467|P63092	O43306|O60266|O60503|O95622|P40145|P51828|Q08462|Q08828|Q8NFM4	gene	gene	activation
+P30556	P29992|P50148	gene	gene	activation
+P29992|P50148	Q00722|Q01970|Q15147|Q9NQ66	gene	gene	activation
+P01019	P30556	gene	gene	activation
+P05129|P05771|P17252|Q02156	O94806|Q15139|Q9BZL6	gene	gene	indirect effect|phosphorylation
+P01160	P16066	gene	gene	activation
+O94806|Q15139|Q9BZL6	P18846	gene	group	activation|phosphorylation
+Q13554|Q13555|Q13557|Q14012|Q16566|Q8IU85|Q96NX5|Q9UQM7	P18846	gene	group	activation|phosphorylation
+P17612|P22612|P22694	P18846	gene	group	activation|phosphorylation
+Q00722|Q01970|Q15147|Q9NQ66	O14649|Q9NPC2	gene	gene	indirect effect|inhibition
+P0DP23|P0DP24|P0DP25|P27482|Q8TD86|Q96GE6|Q9NZT1	Q13554|Q13555|Q13557|Q14012|Q16566|Q8IU85|Q96NX5|Q9UQM7	gene	gene	activation
+Q01718	O95467|P63092	gene	gene	activation

@@ -1,0 +1,29 @@
+#node1	node2	node1type	node2type	relation_type
+Q9UBM7	O75908|P35610	gene	gene	compound
+P48449	Q16850	gene	gene	compound
+P38571	Q15392	gene	gene	compound
+Q15392		gene	gene	compound
+P37268	Q14534	gene	gene	compound
+O75908|P35610		gene	gene	compound
+O76062|Q14739		gene	gene	compound
+		gene	gene	compound
+Q15392	O76062|Q14739	gene	gene	compound
+Q15392	Q16850	gene	gene	compound
+O76062|Q14739	Q15800	gene	gene	compound
+Q15392	Q15800	gene	gene	compound
+Q15738		gene	gene	compound
+P56937	Q15800	gene	gene	compound
+	Q15738	gene	gene	compound
+Q15125	Q15392	gene	gene	compound
+Q15738	P56937	gene	gene	compound
+	Q15392	gene	gene	compound
+Q15125		gene	gene	compound
+O75845	Q15125	gene	gene	compound
+O15528	Q07973	gene	gene	compound
+Q6VVX0	Q07973	gene	gene	compound
+Q16850	O76062	gene	gene	compound
+Q9UBM7		gene	gene	compound
+	Q15125	gene	gene	compound
+O75845	Q9UBM7	gene	gene	compound
+Q9UBM7	Q15392	gene	gene	compound
+Q9UBM7	O75845	gene	gene	compound

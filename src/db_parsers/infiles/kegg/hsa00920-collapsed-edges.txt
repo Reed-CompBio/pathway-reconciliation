@@ -1,0 +1,9 @@
+#node1	node2	node1type	node2type	relation_type
+O95571	P25325|Q16762	gene	gene	compound
+P25325|Q16762	P51687	gene	gene	compound
+O95571	P51687	gene	gene	compound
+O43252|O95340		gene	gene	compound
+O43252|O95340	O43252|O95340	gene	gene	compound
+Q13228	Q9Y6N5	gene	gene	compound
+O43252|O95340	O95861|Q9NX62	gene	gene	compound
+		gene	gene	compound

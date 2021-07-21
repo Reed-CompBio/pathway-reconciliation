@@ -1,0 +1,4 @@
+#node1	node2	node1type	node2type	relation_type
+Q09472|Q92793	P04637	gene	gene	inhibition
+Q00987	P04637	gene	gene	inhibition
+P62191	P06400	gene	gene	inhibition

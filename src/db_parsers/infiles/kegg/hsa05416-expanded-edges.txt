@@ -1,0 +1,18 @@
+#node1	node2	edge_expansion:relation_type
+P00519	P15153	mult_mapping_expansion:activation
+P00519	P60763	mult_mapping_expansion:activation
+P00519	P63000	mult_mapping_expansion:activation
+P05362	P05107	mult_mapping_expansion:activation
+P05362	P20701	mult_mapping_expansion:activation
+P06241	Q03135	one_to_one_mapping:activation|phosphorylation
+P08174	P00519	mult_mapping_expansion:activation|indirect effect
+P08174	P42684	mult_mapping_expansion:activation|indirect effect
+P29965	P25942	one_to_one_mapping:activation
+P33681	P10747	mult_mapping_expansion:activation
+P42081	P10747	mult_mapping_expansion:activation
+P42684	P15153	mult_mapping_expansion:activation
+P42684	P60763	mult_mapping_expansion:activation
+P42684	P63000	mult_mapping_expansion:activation
+P99999	P55211	one_to_one_mapping:activation
+Q14118	Q14118	one_to_one_mapping:binding/association
+Q14790	P55957	one_to_one_mapping:activation

@@ -1,0 +1,15 @@
+#node1	node2	node1type	node2type	relation_type
+P33681|P42081	P10747	gene	gene	activation
+P08174	P00519|P42684	gene	gene	activation|indirect effect
+Q14790	P55957	gene	gene	activation
+Q14118	Q14118	gene	gene	binding/association
+P00519|P42684	P15153|P60763|P63000	gene	gene	activation
+P99999	P55211	gene	gene	activation
+P06241	Q03135	gene	gene	activation|phosphorylation
+	P42574	gene	gene	activation
+P05362	P05107|P20701	gene	gene	activation
+		gene	gene	activation|indirect effect
+P29965	P25942	gene	gene	activation
+P08174		gene	gene	activation|indirect effect
+P24043|P25391		gene	gene	binding/association
+	P24043|P25391	gene	gene	binding/association

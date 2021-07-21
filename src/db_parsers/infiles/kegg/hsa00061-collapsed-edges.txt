@@ -1,0 +1,39 @@
+#node1	node2	node1type	node2type	relation_type
+Q9NWU1	P49327	gene	gene	compound
+P86397	Q9BV79	gene	gene	compound
+Q9NWU1		gene	gene	compound
+Q9NV23	P49327	gene	gene	compound
+	P49327	gene	gene	compound
+		gene	gene	compound
+Q9NV23		gene	gene	compound
+	Q9NWU1	gene	gene	compound
+P49327	Q8N4T8|Q92506	gene	group	compound
+Q9NWU1	Q8N4T8|Q92506	gene	group	compound
+P49327	P86397	gene	gene	compound
+Q8N4T8|Q92506	P49327	group	gene	compound
+P49327		gene	gene	compound
+Q8N4T8|Q92506		group	gene	compound
+	Q9BV79	gene	gene	compound
+P49327	Q9BV79	gene	gene	compound
+	Q8N4T8|Q92506	gene	group	compound
+P49327	Q9NWU1	gene	gene	compound
+Q8IVS2		gene	gene	compound
+O60488|O95573|P33121|Q5FVE4|Q96GR2|Q9UKU0|Q9ULC5	P49327	gene	gene	compound
+	O00763|Q13085	gene	gene	compound
+Q13085	P49327	gene	gene	compound
+P49327	O00763|Q13085	gene	gene	compound
+O60488|O95573|P33121|Q5FVE4|Q96GR2|Q9UKU0|Q9ULC5		gene	gene	compound
+Q8IVS2	O00763|Q13085	gene	gene	compound
+Q13085	Q8IVS2	gene	gene	compound
+Q4G176	O00763|Q13085	gene	gene	compound
+Q13085	Q4G176	gene	gene	compound
+Q4G176	P49327	gene	gene	compound
+	Q8IVS2	gene	gene	compound
+Q8IVS2	Q9NWU1	gene	gene	compound
+	Q8N4T8	gene	gene	compound
+	Q92506	gene	gene	compound
+Q9NWU1	Q8N4T8	gene	gene	compound
+P49327	Q8IVS2	gene	gene	compound
+Q8N4T8|Q92506	P86397	group	gene	compound
+Q92506	P86397	gene	gene	compound
+P86397	P49327	gene	gene	compound

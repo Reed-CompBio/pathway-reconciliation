@@ -1,0 +1,48 @@
+#node1	node2	node1type	node2type	relation_type
+P07204	P04070	gene	gene	activation
+P00734	P02671|P02675|P02679	gene	gene	activation
+P05154	P00734	gene	gene	inhibition
+	P25116	gene	gene	activation
+	P12259	gene	gene	inhibition
+	P00451	gene	gene	inhibition
+	O00254|Q96RI0	gene	gene	activation
+	P05120|P05121	gene	gene	inhibition
+	Q96IY4	gene	gene	activation
+P05120|P05121	P00750	gene	gene	inhibition
+P12259		gene	gene	activation
+P05154		gene	gene	inhibition
+P01023		gene	gene	inhibition
+P04275	P00451	gene	gene	binding/association
+P00451	P04275	gene	gene	binding/association
+P00749	Q03405	gene	gene	activation|binding/association
+P13726	P08709	gene	gene	activation
+P00736|P02745|P02746|P02747|P09871	P06681	gene	gene	activation
+P07225	P12259	gene	gene	inhibition
+P00736|P02745|P02746|P02747|P09871	P0C0L4|P0C0L5	gene	gene	activation
+	P00747	gene	gene	activation
+P11226	O00187|P48740	gene	gene	binding/association
+O00187|P48740	P11226	gene	gene	binding/association
+P00750	P00747	gene	gene	activation
+P11226	P06681	group	gene	activation
+	P00742	gene	gene	activation
+P00751	P01024	gene	gene	activation
+	P0C0L4|P0C0L5	group	gene	activation
+P00748	P03951	gene	gene	activation
+P00746		gene	gene	activation
+P10646		gene	gene	inhibition
+P00740		gene	gene	activation
+P05155	P00736|P02745|P02746|P02747|P09871	gene	gene	inhibition
+P10646	P00742	gene	gene	inhibition
+	P03952	gene	gene	activation
+P05155		gene	group	inhibition
+P01008		gene	gene	inhibition
+P03952		gene	gene	activation
+P01042	P30411|P46663	gene	gene	activation
+		gene	gene	activation
+P01009		gene	gene	inhibition
+P01008	P00740	gene	gene	inhibition
+P03952	P01042	gene	gene	activation
+P08697		gene	gene	inhibition
+Q9UNN8		gene	gene	activation
+	P00488|P05160	gene	gene	activation
+P05546		gene	gene	inhibition

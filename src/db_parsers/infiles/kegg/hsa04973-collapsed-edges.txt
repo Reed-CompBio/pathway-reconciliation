@@ -1,0 +1,5 @@
+#node1	node2	node1type	node2type	relation_type
+P05771	P11168	gene	gene	activation|indirect effect
+P31749|P31751|Q9Y243	P22732	gene	gene	activation|indirect effect
+Q7RTX0|Q8TE23	A8MTJ3	group	gene	activation
+A8MTJ3	Q00722|Q01970|Q15147|Q9NQ66	gene	gene	activation

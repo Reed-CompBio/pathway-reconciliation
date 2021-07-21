@@ -1,0 +1,38 @@
+#node1	node2	node1type	node2type	relation_type
+P01111|P01112|P01116	P04049	gene	gene	activation
+P11362|P21802|P22455|P22607	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+P05019	P08069	gene	gene	activation
+P40189|P42702	O60674|P23458|P52333	gene	gene	activation
+	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+O60674|P23458|P52333	P40763	gene	gene	activation
+O00744|O00755|O14904|O14905|O96014|P04628|P09544|P41221|P56703|P56704|P56705|P56706|Q93097|Q93098|Q9GZT5|Q9H1J5|Q9H1J7|Q9UBV4|Q9Y6F9	O00144|O60353|O75084|Q13467|Q14332|Q9H461|Q9NPG1|Q9ULV1|Q9ULW2|Q9UP38	gene	gene	activation
+P40189|P42702	P62993	gene	gene	activation
+O00144|O60353|O75084|Q13467|Q14332|Q9H461|Q9NPG1|Q9ULV1|Q9ULW2|Q9UP38	O14640|O14641|Q92997	gene	gene	activation
+P40189|P42702	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+P62993	P36507|Q02750	gene	gene	activation|indirect effect
+P08476|P09529|P55103|P58166	P27037|P36896|Q13705|Q8NER5	gene	gene	activation
+O00329|O00459|P27986|P42336|P42338|Q92569	P31749|P31751|Q9Y243	gene	gene	activation|indirect effect
+Q96S42	P27037|P36896|Q13705|Q8NER5	gene	gene	activation
+P27037|P36896|Q13705|Q8NER5	P84022|Q15796	gene	gene	activation
+P36507|Q02750	P27361|P28482	gene	gene	activation|phosphorylation
+P12644	O00238|P36894|Q04771|Q13873	gene	gene	activation
+P04049	P36507|Q02750	gene	gene	activation|phosphorylation
+O00238|P36894|Q04771|Q13873	O15198|Q15797|Q99717	gene	gene	activation
+O15198|Q15797|Q99717	Q13485	gene	gene	binding/association
+Q13485	O15198|Q15797|Q99717	gene	gene	binding/association
+P27361|P28482	O15119	gene	gene	inhibition
+Q99956	P27361|P28482	gene	gene	inhibition
+P35222	P36402	group	gene	activation
+P84022|Q15796	Q13485	gene	gene	binding/association
+Q13485	P84022|Q15796	gene	gene	binding/association
+P35222	P15923	gene	gene	inhibition
+P49841	P01106	gene	gene	inhibition|phosphorylation
+O14640|O14641|Q92997	P49841	gene	gene	inhibition
+O14640|O14641|Q92997		gene	gene	inhibition
+P49841		gene	gene	inhibition|phosphorylation
+	P35222	gene	gene	inhibition|phosphorylation
+O00238|P36894|Q04771|Q13873	P27361|P28482	gene	gene	indirect effect|inhibition
+P15018	P40189|P42702	gene	gene	activation
+O00238|P36894|Q04771|Q13873	O15264|P53778|Q15759|Q16539	gene	gene	indirect effect|inhibition
+P09038	P11362|P21802|P22455|P22607	gene	gene	activation
+P11362|P21802|P22455|P22607	P01111|P01112|P01116	gene	gene	activation

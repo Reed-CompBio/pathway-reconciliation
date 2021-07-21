@@ -1,0 +1,11 @@
+#node1	node2	edge_expansion:relation_type
+P02786	P02787	one_to_one_mapping:binding/association
+P02787	P02786	one_to_one_mapping:binding/association
+P02792	Q13772	mult_mapping_expansion:binding/association
+P02794	Q13772	mult_mapping_expansion:binding/association
+P08195	Q9UPY5	one_to_one_mapping:binding/association
+P21673	P16050	mult_mapping_expansion:activation|indirect effect
+Q13772	P02792	mult_mapping_expansion:binding/association
+Q13772	P02794	mult_mapping_expansion:binding/association
+Q96F10	P16050	mult_mapping_expansion:activation|indirect effect
+Q9UPY5	P08195	one_to_one_mapping:binding/association

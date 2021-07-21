@@ -1,0 +1,7 @@
+#node1	node2	node1type	node2type	relation_type
+P47872	O95467|P63092	gene	gene	activation
+O95467|P63092	O43306|O60266|O60503|O95622|P40145|P51828|Q08462|Q08828|Q8NFM4	gene	gene	activation
+P32238	P28907|Q10588	gene	gene	activation|indirect effect
+P32238	P50148	gene	gene	activation
+	Q00722|Q01970|Q15147|Q9NQ66	gene	gene	activation
+P20309		gene	gene	activation

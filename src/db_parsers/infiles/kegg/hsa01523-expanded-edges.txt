@@ -1,0 +1,7 @@
+#node1	node2	edge_expansion:relation_type
+O14920	P19838	mult_mapping_expansion:activation|indirect effect
+O14920	Q04206	mult_mapping_expansion:activation|indirect effect
+O15111	P19838	mult_mapping_expansion:activation|indirect effect
+O15111	Q04206	mult_mapping_expansion:activation|indirect effect
+Q9Y6K9	P19838	mult_mapping_expansion:activation|indirect effect
+Q9Y6K9	Q04206	mult_mapping_expansion:activation|indirect effect

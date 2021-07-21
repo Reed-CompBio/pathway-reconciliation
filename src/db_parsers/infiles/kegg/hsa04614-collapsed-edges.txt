@@ -1,0 +1,2 @@
+#node1	node2	node1type	node2type	relation_type
+P00797	O75787	gene	gene	activation

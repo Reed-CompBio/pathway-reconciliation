@@ -1,0 +1,30 @@
+#node1	node2	node1type	node2type	relation_type
+P12931	Q05397	gene	gene	activation
+P49023	P60709|P63261	gene	gene	activation
+P61586	P60709|P63261	gene	gene	activation
+P60953	O00401	gene	gene	activation
+P12830	P35222	gene	gene	activation
+	O15143|O15144|O15145|O15511|P59998|Q92747|Q9BPX5	gene	gene	activation
+A1A4S6	P60709|P63261	gene	gene	activation
+Q92558|Q9Y6W5	O15143|O15144|O15145|O15511|P59998|Q92747|Q9BPX5	gene	gene	activation
+P08581	Q13480	gene	gene	phosphorylation
+O15143|O15144|O15145|O15511|P59998|Q92747|Q9BPX5	P60709|P63261	gene	gene	activation
+	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+P18206	P60709|P63261	gene	gene	activation
+O00329|O00459|P27986|P42336|P42338|Q92569	P60953	gene	gene	activation
+Q96DR7	P84095	gene	gene	activation
+	Q92556|Q96BJ8|Q96JJ3	gene	gene	activation
+Q92556|Q96BJ8|Q96JJ3	Q14185	gene	gene	activation
+	P46108|P46109	gene	gene	activation
+Q14185	P63000	gene	gene	activation
+P63000	Q92558|Q9Y6W5	gene	gene	activation
+P46108|P46109		gene	gene	activation
+P46108|P46109	Q14185	gene	gene	activation
+	P56945	gene	gene	activation
+P56945	P49023	gene	gene	phosphorylation
+Q13418		gene	gene	phosphorylation
+P22681		gene	gene	ubiquitination
+P02751	P05556|P08648	gene	gene	activation
+P05556|P08648	Q13418	gene	gene	activation
+	P14317|Q14247	gene	gene	activation
+P14317|Q14247	P50570|Q05193|Q9UQ16	gene	gene	activation

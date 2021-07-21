@@ -1,0 +1,7 @@
+#node1	node2	node1type	node2type	relation_type
+Q9Y234	O43766	gene	gene	compound
+Q08AH1	Q9Y234	gene	gene	compound
+Q9Y234	A6NK58	gene	gene	compound
+	O43766	gene	gene	compound
+		gene	gene	compound
+O43766		gene	gene	compound

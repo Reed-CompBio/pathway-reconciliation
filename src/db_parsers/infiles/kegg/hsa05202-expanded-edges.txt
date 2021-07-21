@@ -1,0 +1,17 @@
+#node1	node2	edge_expansion:relation_type
+O75376	Q96ST3	one_to_one_mapping:binding/association
+P08047	Q13105	one_to_one_mapping:binding/association
+P12980	P15923	one_to_one_mapping:binding/association
+P15923	P12980	one_to_one_mapping:binding/association
+P19793	P37231	mult_mapping_expansion:binding/association
+P19838	Q9BYH8	mult_mapping_expansion:binding/association
+P28702	P37231	mult_mapping_expansion:binding/association
+P37231	P19793	mult_mapping_expansion:binding/association
+P37231	P28702	mult_mapping_expansion:binding/association
+P37231	P48443	mult_mapping_expansion:binding/association
+P48443	P37231	mult_mapping_expansion:binding/association
+Q04206	Q9BYH8	mult_mapping_expansion:binding/association
+Q13105	P08047	one_to_one_mapping:binding/association
+Q96ST3	O75376	one_to_one_mapping:binding/association
+Q9BYH8	P19838	mult_mapping_expansion:binding/association
+Q9BYH8	Q04206	mult_mapping_expansion:binding/association

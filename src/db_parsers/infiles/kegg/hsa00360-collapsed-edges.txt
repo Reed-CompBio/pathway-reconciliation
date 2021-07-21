@@ -1,0 +1,14 @@
+#node1	node2	node1type	node2type	relation_type
+P20711	Q96RQ9	gene	gene	compound
+	P21397|P27338	gene	gene	compound
+P00505|P17174	P00439	gene	gene	compound
+	O75106|Q16853	gene	gene	compound
+P17735	P00439	gene	gene	compound
+P14174		gene	gene	compound
+		gene	gene	compound
+P00505|P17174	P14174	gene	gene	compound
+	P14174	gene	gene	compound
+P32754	P14174	gene	gene	compound
+	P00505|P17174	gene	gene	compound
+P30838|P43353	P21397|P27338	gene	gene	compound
+P30838|P43353	O75106|Q16853	gene	gene	compound

@@ -1,0 +1,1 @@
+#node1	node2	node1type	node2type	relation_type

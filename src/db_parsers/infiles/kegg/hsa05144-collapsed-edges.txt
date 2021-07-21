@@ -1,0 +1,8 @@
+#node1	node2	node1type	node2type	relation_type
+Q9NR96	Q99836	gene	gene	activation
+O00206|O60603		gene	gene	activation
+P05107|P20701	P05362	gene	gene	binding/association
+P05362	P05107|P20701	gene	gene	binding/association
+P29965	P25942	gene	gene	binding/association
+P25942	P29965	gene	gene	binding/association
+P14210	P08581	gene	gene	activation

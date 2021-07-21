@@ -1,0 +1,5 @@
+#node1	node2	node1type	node2type	relation_type
+O95096	P78426	gene	gene	indirect effect
+Q03014	P52945	gene	gene	indirect effect
+Q14469	Q9Y4Z2	gene	gene	inhibition
+P50219		gene	gene	indirect effect

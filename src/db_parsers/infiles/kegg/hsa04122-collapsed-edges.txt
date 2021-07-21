@@ -1,0 +1,8 @@
+#node1	node2	node1type	node2type	relation_type
+Q9Y697	O95396	gene	gene	activation
+O96007		gene	gene	binding/association
+	O96007	gene	gene	binding/association
+P25325|Q16762	O95396	gene	gene	activation
+Q7Z7A3	Q2VPK5	gene	gene	activation
+Q9BTM9	O95396	gene	gene	activation
+Q9Y697	P25325|Q16762	gene	gene	activation

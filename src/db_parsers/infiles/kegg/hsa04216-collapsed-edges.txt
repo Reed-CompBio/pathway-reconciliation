@@ -1,0 +1,8 @@
+#node1	node2	node1type	node2type	relation_type
+P02787	P02786	gene	gene	binding/association
+P02786	P02787	gene	gene	binding/association
+Q13772	P02792|P02794	gene	gene	binding/association
+P02792|P02794	Q13772	gene	gene	binding/association
+P21673|Q96F10	P16050	gene	gene	activation|indirect effect
+P08195	Q9UPY5	gene	gene	binding/association
+Q9UPY5	P08195	gene	gene	binding/association

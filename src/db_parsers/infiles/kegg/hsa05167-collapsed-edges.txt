@@ -1,0 +1,72 @@
+#node1	node2	node1type	node2type	relation_type
+O15455	Q8IUC6	gene	gene	activation
+	Q13114	gene	gene	activation
+Q13114	Q14164|Q9UHD2	gene	group	activation
+Q14164|Q9UHD2	Q92985	group	gene	activation|phosphorylation
+Q14164|Q9UHD2	Q14653	group	gene	activation|phosphorylation
+Q92985	Q92985	gene	group	activation|indirect effect
+	Q14653|Q92985	gene	group	activation|indirect effect
+Q14653	Q14653	gene	group	activation|indirect effect
+Q14653|Q92985	Q09472|Q92793	group	gene	activation
+	Q09472|Q92793	group	gene	activation
+P01562|P01563|P01566|P01567|P01568|P01569|P01570|P01571|P01574|P05013|P05014|P05015|P32881	P17181|P48551	gene	gene	activation
+P17181|P48551	P23458	gene	gene	activation
+P17181|P48551	P29597	gene	gene	activation
+P23458	P42224|P52630	gene	group	activation
+P29597	P42224|P52630	gene	group	activation
+P42224|P52630	Q00978	group	gene	binding/association
+Q00978	P42224|P52630	gene	group	binding/association
+O15264|P53778|Q15759|Q16539	P49137	gene	gene	activation|binding/association|phosphorylation
+P52564	P49137	gene	gene	binding/association
+P49137	P52564	gene	gene	binding/association
+O15264|P53778|Q15759|Q16539	P52564	gene	gene	binding/association
+P52564	O15264|P53778|Q15759|Q16539	gene	gene	binding/association
+P49137	O15264|P53778|Q15759|Q16539	gene	gene	binding/association
+P49137	P26651	gene	gene	inhibition|phosphorylation
+P25445	Q13158	gene	gene	activation
+	Q14790	gene	gene	activation
+Q14790	P55957	gene	gene	activation
+	Q07812	gene	gene	activation
+	Q16611	gene	gene	activation
+P99999	Q07812	gene	gene	activation|indirect effect
+Q16611		gene	gene	activation|indirect effect
+	P55211	gene	gene	activation
+P55211	P42574	gene	gene	activation
+P19438	Q15628	gene	gene	activation
+	Q12933	gene	gene	activation
+Q12933	O14920|O15111|Q9Y6K9	gene	gene	activation
+O14920|O15111|Q9Y6K9	P25963	gene	gene	activation|phosphorylation
+P38936	P11802|Q00534	gene	gene	inhibition
+P19838|Q04206	P25963	gene	gene	dissociation
+P25963	P19838|Q04206	gene	gene	dissociation
+P06400	O00716|Q01094|Q14209	gene	gene	dissociation
+O00716|Q01094|Q14209	P06400	gene	gene	dissociation
+Q6ZNE5|Q8NEB9	O95166|P60520|Q9H0R8	group	gene	activation
+P11802|Q00534	P06400	gene	gene	activation|phosphorylation
+Q9NT62	O95166|P60520|Q9H0R8	gene	gene	activation
+P01111|P01112|P01116	P04049	gene	gene	activation
+P04049	P36507|Q02750	gene	gene	activation|phosphorylation
+P36507|Q02750	P27361|P28482	gene	gene	activation|phosphorylation
+P27361|P28482	Q16665	gene	gene	activation|phosphorylation
+P27361|P28482	P01100|P05412	gene	gene	activation|phosphorylation
+P31749|P31751|Q9Y243	P42345	gene	gene	activation|indirect effect
+P31749|P31751|Q9Y243	O14920|O15111|Q9Y6K9	gene	gene	activation|phosphorylation
+	P05231	gene	gene	activation|indirect effect
+	P04141	gene	gene	activation|indirect effect
+P45983|P45984|P53779	P19838|Q04206	gene	gene	activation
+O14610|O14775|O60262|P16520|P50150|P50151|P59768|P61952|P62873|P62879|P63211|P63215|P63218|Q9HAV0|Q9P2W3|Q9UBI6|Q9UK08	P48736|Q5UE93|Q8WYR1	gene	gene	activation
+P43405	P01111|P01112|P01116	gene	gene	activation
+P48736|Q5UE93|Q8WYR1	Q8TCU6	gene	gene	activation|indirect effect
+P43405	O00329|O00459|P27986|P42336|P42338|Q92569	gene	gene	activation
+Q8TCU6	P63000	gene	gene	activation
+P43405	P16885	gene	gene	activation
+O14610|O14775|O60262|P16520|P50150|P50151|P59768|P61952|P62873|P62879|P63211|P63215|P63218|Q9HAV0|Q9P2W3|Q9UBI6|Q9UK08	P01111|P01112|P01116	gene	gene	activation
+P45983|P45984|P53779	P01100|P05412	gene	gene	activation|phosphorylation
+	P45983|P45984|P53779	gene	gene	activation|indirect effect
+O14733|P45985	P45983|P45984|P53779	gene	gene	activation
+P0DP23|P0DP24|P0DP25|P27482|Q8TD86|Q96GE6|Q9NZT1	P16298|P48454|P63098|Q08209|Q96LZ3	gene	gene	binding/association
+P16298|P48454|P63098|Q08209|Q96LZ3	P0DP23|P0DP24|P0DP25|P27482|Q8TD86|Q96GE6|Q9NZT1	gene	gene	binding/association
+P16298|P48454|P63098|Q08209|Q96LZ3	O95644|Q12968|Q13469|Q14934	gene	gene	activation|dephosphorylation
+P40189	O60674	gene	gene	activation
+	P40763	gene	gene	activation
+P49841	P35222	gene	gene	inhibition|phosphorylation

@@ -1,0 +1,12 @@
+#node1	node2	node1type	node2type	relation_type
+P55011	P17612|P22612|P22694	gene	gene	activation|compound|phosphorylation
+P17612|P22612|P22694	P13569	gene	gene	activation|phosphorylation
+P51787	O60266|O60503	gene	gene	activation|compound|phosphorylation
+P51787	P17612|P22612|P22694	gene	gene	activation|compound|phosphorylation
+Q96HE7	P13667	gene	gene	activation
+P17252	P16885|P19174	gene	gene	activation|compound|phosphorylation
+P17252	P60709|P63261	gene	gene	activation|phosphorylation
+P17612|P22612|P22694	O60266|O60503	gene	gene	activation|compound|phosphorylation
+P51787	P55011	gene	gene	activation|compound|phosphorylation
+O95467|P63092	O60266|O60503	gene	gene	activation
+	O60266|O60503	gene	gene	activation|compound|phosphorylation

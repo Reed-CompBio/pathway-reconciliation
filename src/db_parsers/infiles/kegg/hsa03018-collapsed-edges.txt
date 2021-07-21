@@ -1,0 +1,7 @@
+#node1	node2	node1type	node2type	relation_type
+Q504Q3	Q58A45	gene	gene	binding/association
+Q58A45	Q504Q3	gene	gene	binding/association
+P11940|Q13310|Q5JQF8|Q96DU9|Q9H361	Q9UFF9|Q9UIV1	gene	gene	activation
+P11940|Q13310|Q5JQF8|Q96DU9|Q9H361	P50616|P62324|P78543|Q14106|Q14201|Q9NY30	gene	gene	binding/association
+P50616|P62324|P78543|Q14106|Q14201|Q9NY30	P11940|Q13310|Q5JQF8|Q96DU9|Q9H361	gene	gene	binding/association
+P11940|Q13310|Q5JQF8|Q96DU9|Q9H361		gene	gene	activation|binding/association

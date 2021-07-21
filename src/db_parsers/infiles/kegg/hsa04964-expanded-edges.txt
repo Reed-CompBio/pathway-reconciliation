@@ -1,0 +1,7 @@
+#node1	node2	edge_expansion:relation_type
+O94925	P00367	mult_mapping_expansion:compound
+O94925	P49448	mult_mapping_expansion:compound
+P40925	P35558	mult_mapping_expansion:compound
+P40925	Q16822	mult_mapping_expansion:compound
+Q9UI32	P00367	mult_mapping_expansion:compound
+Q9UI32	P49448	mult_mapping_expansion:compound

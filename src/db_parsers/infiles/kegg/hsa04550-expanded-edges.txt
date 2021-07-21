@@ -1,0 +1,404 @@
+#node1	node2	edge_expansion:relation_type
+O00144	O14640	mult_mapping_expansion:activation
+O00144	O14641	mult_mapping_expansion:activation
+O00144	Q92997	mult_mapping_expansion:activation
+O00238	O15198	mult_mapping_expansion:activation
+O00238	O15264	mult_mapping_expansion:indirect effect|inhibition
+O00238	P27361	mult_mapping_expansion:indirect effect|inhibition
+O00238	P28482	mult_mapping_expansion:indirect effect|inhibition
+O00238	P53778	mult_mapping_expansion:indirect effect|inhibition
+O00238	Q15759	mult_mapping_expansion:indirect effect|inhibition
+O00238	Q15797	mult_mapping_expansion:activation
+O00238	Q16539	mult_mapping_expansion:indirect effect|inhibition
+O00238	Q99717	mult_mapping_expansion:activation
+O00329	P31749	mult_mapping_expansion:activation|indirect effect
+O00329	P31751	mult_mapping_expansion:activation|indirect effect
+O00329	Q9Y243	mult_mapping_expansion:activation|indirect effect
+O00459	P31749	mult_mapping_expansion:activation|indirect effect
+O00459	P31751	mult_mapping_expansion:activation|indirect effect
+O00459	Q9Y243	mult_mapping_expansion:activation|indirect effect
+O00744	O00144	mult_mapping_expansion:activation
+O00744	O60353	mult_mapping_expansion:activation
+O00744	O75084	mult_mapping_expansion:activation
+O00744	Q13467	mult_mapping_expansion:activation
+O00744	Q14332	mult_mapping_expansion:activation
+O00744	Q9H461	mult_mapping_expansion:activation
+O00744	Q9NPG1	mult_mapping_expansion:activation
+O00744	Q9ULV1	mult_mapping_expansion:activation
+O00744	Q9ULW2	mult_mapping_expansion:activation
+O00744	Q9UP38	mult_mapping_expansion:activation
+O00755	O00144	mult_mapping_expansion:activation
+O00755	O60353	mult_mapping_expansion:activation
+O00755	O75084	mult_mapping_expansion:activation
+O00755	Q13467	mult_mapping_expansion:activation
+O00755	Q14332	mult_mapping_expansion:activation
+O00755	Q9H461	mult_mapping_expansion:activation
+O00755	Q9NPG1	mult_mapping_expansion:activation
+O00755	Q9ULV1	mult_mapping_expansion:activation
+O00755	Q9ULW2	mult_mapping_expansion:activation
+O00755	Q9UP38	mult_mapping_expansion:activation
+O14640	P49841	mult_mapping_expansion:inhibition
+O14641	P49841	mult_mapping_expansion:inhibition
+O14904	O00144	mult_mapping_expansion:activation
+O14904	O60353	mult_mapping_expansion:activation
+O14904	O75084	mult_mapping_expansion:activation
+O14904	Q13467	mult_mapping_expansion:activation
+O14904	Q14332	mult_mapping_expansion:activation
+O14904	Q9H461	mult_mapping_expansion:activation
+O14904	Q9NPG1	mult_mapping_expansion:activation
+O14904	Q9ULV1	mult_mapping_expansion:activation
+O14904	Q9ULW2	mult_mapping_expansion:activation
+O14904	Q9UP38	mult_mapping_expansion:activation
+O14905	O00144	mult_mapping_expansion:activation
+O14905	O60353	mult_mapping_expansion:activation
+O14905	O75084	mult_mapping_expansion:activation
+O14905	Q13467	mult_mapping_expansion:activation
+O14905	Q14332	mult_mapping_expansion:activation
+O14905	Q9H461	mult_mapping_expansion:activation
+O14905	Q9NPG1	mult_mapping_expansion:activation
+O14905	Q9ULV1	mult_mapping_expansion:activation
+O14905	Q9ULW2	mult_mapping_expansion:activation
+O14905	Q9UP38	mult_mapping_expansion:activation
+O15198	Q13485	mult_mapping_expansion:binding/association
+O60353	O14640	mult_mapping_expansion:activation
+O60353	O14641	mult_mapping_expansion:activation
+O60353	Q92997	mult_mapping_expansion:activation
+O60674	P40763	mult_mapping_expansion:activation
+O75084	O14640	mult_mapping_expansion:activation
+O75084	O14641	mult_mapping_expansion:activation
+O75084	Q92997	mult_mapping_expansion:activation
+O96014	O00144	mult_mapping_expansion:activation
+O96014	O60353	mult_mapping_expansion:activation
+O96014	O75084	mult_mapping_expansion:activation
+O96014	Q13467	mult_mapping_expansion:activation
+O96014	Q14332	mult_mapping_expansion:activation
+O96014	Q9H461	mult_mapping_expansion:activation
+O96014	Q9NPG1	mult_mapping_expansion:activation
+O96014	Q9ULV1	mult_mapping_expansion:activation
+O96014	Q9ULW2	mult_mapping_expansion:activation
+O96014	Q9UP38	mult_mapping_expansion:activation
+P01111	P04049	mult_mapping_expansion:activation
+P01112	P04049	mult_mapping_expansion:activation
+P01116	P04049	mult_mapping_expansion:activation
+P04049	P36507	mult_mapping_expansion:activation|phosphorylation
+P04049	Q02750	mult_mapping_expansion:activation|phosphorylation
+P04628	O00144	mult_mapping_expansion:activation
+P04628	O60353	mult_mapping_expansion:activation
+P04628	O75084	mult_mapping_expansion:activation
+P04628	Q13467	mult_mapping_expansion:activation
+P04628	Q14332	mult_mapping_expansion:activation
+P04628	Q9H461	mult_mapping_expansion:activation
+P04628	Q9NPG1	mult_mapping_expansion:activation
+P04628	Q9ULV1	mult_mapping_expansion:activation
+P04628	Q9ULW2	mult_mapping_expansion:activation
+P04628	Q9UP38	mult_mapping_expansion:activation
+P05019	P08069	one_to_one_mapping:activation
+P08476	P27037	mult_mapping_expansion:activation
+P08476	P36896	mult_mapping_expansion:activation
+P08476	Q13705	mult_mapping_expansion:activation
+P08476	Q8NER5	mult_mapping_expansion:activation
+P09038	P11362	mult_mapping_expansion:activation
+P09038	P21802	mult_mapping_expansion:activation
+P09038	P22455	mult_mapping_expansion:activation
+P09038	P22607	mult_mapping_expansion:activation
+P09529	P27037	mult_mapping_expansion:activation
+P09529	P36896	mult_mapping_expansion:activation
+P09529	Q13705	mult_mapping_expansion:activation
+P09529	Q8NER5	mult_mapping_expansion:activation
+P09544	O00144	mult_mapping_expansion:activation
+P09544	O60353	mult_mapping_expansion:activation
+P09544	O75084	mult_mapping_expansion:activation
+P09544	Q13467	mult_mapping_expansion:activation
+P09544	Q14332	mult_mapping_expansion:activation
+P09544	Q9H461	mult_mapping_expansion:activation
+P09544	Q9NPG1	mult_mapping_expansion:activation
+P09544	Q9ULV1	mult_mapping_expansion:activation
+P09544	Q9ULW2	mult_mapping_expansion:activation
+P09544	Q9UP38	mult_mapping_expansion:activation
+P11362	O00329	mult_mapping_expansion:activation
+P11362	O00459	mult_mapping_expansion:activation
+P11362	P01111	mult_mapping_expansion:activation
+P11362	P01112	mult_mapping_expansion:activation
+P11362	P01116	mult_mapping_expansion:activation
+P11362	P27986	mult_mapping_expansion:activation
+P11362	P42336	mult_mapping_expansion:activation
+P11362	P42338	mult_mapping_expansion:activation
+P11362	Q92569	mult_mapping_expansion:activation
+P12644	O00238	mult_mapping_expansion:activation
+P12644	P36894	mult_mapping_expansion:activation
+P12644	Q04771	mult_mapping_expansion:activation
+P12644	Q13873	mult_mapping_expansion:activation
+P15018	P40189	mult_mapping_expansion:activation
+P15018	P42702	mult_mapping_expansion:activation
+P21802	O00329	mult_mapping_expansion:activation
+P21802	O00459	mult_mapping_expansion:activation
+P21802	P01111	mult_mapping_expansion:activation
+P21802	P01112	mult_mapping_expansion:activation
+P21802	P01116	mult_mapping_expansion:activation
+P21802	P27986	mult_mapping_expansion:activation
+P21802	P42336	mult_mapping_expansion:activation
+P21802	P42338	mult_mapping_expansion:activation
+P21802	Q92569	mult_mapping_expansion:activation
+P22455	O00329	mult_mapping_expansion:activation
+P22455	O00459	mult_mapping_expansion:activation
+P22455	P01111	mult_mapping_expansion:activation
+P22455	P01112	mult_mapping_expansion:activation
+P22455	P01116	mult_mapping_expansion:activation
+P22455	P27986	mult_mapping_expansion:activation
+P22455	P42336	mult_mapping_expansion:activation
+P22455	P42338	mult_mapping_expansion:activation
+P22455	Q92569	mult_mapping_expansion:activation
+P22607	O00329	mult_mapping_expansion:activation
+P22607	O00459	mult_mapping_expansion:activation
+P22607	P01111	mult_mapping_expansion:activation
+P22607	P01112	mult_mapping_expansion:activation
+P22607	P01116	mult_mapping_expansion:activation
+P22607	P27986	mult_mapping_expansion:activation
+P22607	P42336	mult_mapping_expansion:activation
+P22607	P42338	mult_mapping_expansion:activation
+P22607	Q92569	mult_mapping_expansion:activation
+P23458	P40763	mult_mapping_expansion:activation
+P27037	P84022	mult_mapping_expansion:activation
+P27037	Q15796	mult_mapping_expansion:activation
+P27361	O15119	mult_mapping_expansion:inhibition
+P27986	P31749	mult_mapping_expansion:activation|indirect effect
+P27986	P31751	mult_mapping_expansion:activation|indirect effect
+P27986	Q9Y243	mult_mapping_expansion:activation|indirect effect
+P28482	O15119	mult_mapping_expansion:inhibition
+P35222	P15923	one_to_one_mapping:inhibition
+P35222	P36402	one_to_one_mapping:activation
+P36507	P27361	mult_mapping_expansion:activation|phosphorylation
+P36507	P28482	mult_mapping_expansion:activation|phosphorylation
+P36894	O15198	mult_mapping_expansion:activation
+P36894	O15264	mult_mapping_expansion:indirect effect|inhibition
+P36894	P27361	mult_mapping_expansion:indirect effect|inhibition
+P36894	P28482	mult_mapping_expansion:indirect effect|inhibition
+P36894	P53778	mult_mapping_expansion:indirect effect|inhibition
+P36894	Q15759	mult_mapping_expansion:indirect effect|inhibition
+P36894	Q15797	mult_mapping_expansion:activation
+P36894	Q16539	mult_mapping_expansion:indirect effect|inhibition
+P36894	Q99717	mult_mapping_expansion:activation
+P36896	P84022	mult_mapping_expansion:activation
+P36896	Q15796	mult_mapping_expansion:activation
+P40189	O00329	mult_mapping_expansion:activation
+P40189	O00459	mult_mapping_expansion:activation
+P40189	O60674	mult_mapping_expansion:activation
+P40189	P23458	mult_mapping_expansion:activation
+P40189	P27986	mult_mapping_expansion:activation
+P40189	P42336	mult_mapping_expansion:activation
+P40189	P42338	mult_mapping_expansion:activation
+P40189	P52333	mult_mapping_expansion:activation
+P40189	P62993	mult_mapping_expansion:activation
+P40189	Q92569	mult_mapping_expansion:activation
+P41221	O00144	mult_mapping_expansion:activation
+P41221	O60353	mult_mapping_expansion:activation
+P41221	O75084	mult_mapping_expansion:activation
+P41221	Q13467	mult_mapping_expansion:activation
+P41221	Q14332	mult_mapping_expansion:activation
+P41221	Q9H461	mult_mapping_expansion:activation
+P41221	Q9NPG1	mult_mapping_expansion:activation
+P41221	Q9ULV1	mult_mapping_expansion:activation
+P41221	Q9ULW2	mult_mapping_expansion:activation
+P41221	Q9UP38	mult_mapping_expansion:activation
+P42336	P31749	mult_mapping_expansion:activation|indirect effect
+P42336	P31751	mult_mapping_expansion:activation|indirect effect
+P42336	Q9Y243	mult_mapping_expansion:activation|indirect effect
+P42338	P31749	mult_mapping_expansion:activation|indirect effect
+P42338	P31751	mult_mapping_expansion:activation|indirect effect
+P42338	Q9Y243	mult_mapping_expansion:activation|indirect effect
+P42702	O00329	mult_mapping_expansion:activation
+P42702	O00459	mult_mapping_expansion:activation
+P42702	O60674	mult_mapping_expansion:activation
+P42702	P23458	mult_mapping_expansion:activation
+P42702	P27986	mult_mapping_expansion:activation
+P42702	P42336	mult_mapping_expansion:activation
+P42702	P42338	mult_mapping_expansion:activation
+P42702	P52333	mult_mapping_expansion:activation
+P42702	P62993	mult_mapping_expansion:activation
+P42702	Q92569	mult_mapping_expansion:activation
+P49841	P01106	one_to_one_mapping:inhibition|phosphorylation
+P52333	P40763	mult_mapping_expansion:activation
+P55103	P27037	mult_mapping_expansion:activation
+P55103	P36896	mult_mapping_expansion:activation
+P55103	Q13705	mult_mapping_expansion:activation
+P55103	Q8NER5	mult_mapping_expansion:activation
+P56703	O00144	mult_mapping_expansion:activation
+P56703	O60353	mult_mapping_expansion:activation
+P56703	O75084	mult_mapping_expansion:activation
+P56703	Q13467	mult_mapping_expansion:activation
+P56703	Q14332	mult_mapping_expansion:activation
+P56703	Q9H461	mult_mapping_expansion:activation
+P56703	Q9NPG1	mult_mapping_expansion:activation
+P56703	Q9ULV1	mult_mapping_expansion:activation
+P56703	Q9ULW2	mult_mapping_expansion:activation
+P56703	Q9UP38	mult_mapping_expansion:activation
+P56704	O00144	mult_mapping_expansion:activation
+P56704	O60353	mult_mapping_expansion:activation
+P56704	O75084	mult_mapping_expansion:activation
+P56704	Q13467	mult_mapping_expansion:activation
+P56704	Q14332	mult_mapping_expansion:activation
+P56704	Q9H461	mult_mapping_expansion:activation
+P56704	Q9NPG1	mult_mapping_expansion:activation
+P56704	Q9ULV1	mult_mapping_expansion:activation
+P56704	Q9ULW2	mult_mapping_expansion:activation
+P56704	Q9UP38	mult_mapping_expansion:activation
+P56705	O00144	mult_mapping_expansion:activation
+P56705	O60353	mult_mapping_expansion:activation
+P56705	O75084	mult_mapping_expansion:activation
+P56705	Q13467	mult_mapping_expansion:activation
+P56705	Q14332	mult_mapping_expansion:activation
+P56705	Q9H461	mult_mapping_expansion:activation
+P56705	Q9NPG1	mult_mapping_expansion:activation
+P56705	Q9ULV1	mult_mapping_expansion:activation
+P56705	Q9ULW2	mult_mapping_expansion:activation
+P56705	Q9UP38	mult_mapping_expansion:activation
+P56706	O00144	mult_mapping_expansion:activation
+P56706	O60353	mult_mapping_expansion:activation
+P56706	O75084	mult_mapping_expansion:activation
+P56706	Q13467	mult_mapping_expansion:activation
+P56706	Q14332	mult_mapping_expansion:activation
+P56706	Q9H461	mult_mapping_expansion:activation
+P56706	Q9NPG1	mult_mapping_expansion:activation
+P56706	Q9ULV1	mult_mapping_expansion:activation
+P56706	Q9ULW2	mult_mapping_expansion:activation
+P56706	Q9UP38	mult_mapping_expansion:activation
+P58166	P27037	mult_mapping_expansion:activation
+P58166	P36896	mult_mapping_expansion:activation
+P58166	Q13705	mult_mapping_expansion:activation
+P58166	Q8NER5	mult_mapping_expansion:activation
+P62993	P36507	mult_mapping_expansion:activation|indirect effect
+P62993	Q02750	mult_mapping_expansion:activation|indirect effect
+P84022	Q13485	mult_mapping_expansion:binding/association
+Q02750	P27361	mult_mapping_expansion:activation|phosphorylation
+Q02750	P28482	mult_mapping_expansion:activation|phosphorylation
+Q04771	O15198	mult_mapping_expansion:activation
+Q04771	O15264	mult_mapping_expansion:indirect effect|inhibition
+Q04771	P27361	mult_mapping_expansion:indirect effect|inhibition
+Q04771	P28482	mult_mapping_expansion:indirect effect|inhibition
+Q04771	P53778	mult_mapping_expansion:indirect effect|inhibition
+Q04771	Q15759	mult_mapping_expansion:indirect effect|inhibition
+Q04771	Q15797	mult_mapping_expansion:activation
+Q04771	Q16539	mult_mapping_expansion:indirect effect|inhibition
+Q04771	Q99717	mult_mapping_expansion:activation
+Q13467	O14640	mult_mapping_expansion:activation
+Q13467	O14641	mult_mapping_expansion:activation
+Q13467	Q92997	mult_mapping_expansion:activation
+Q13485	O15198	mult_mapping_expansion:binding/association
+Q13485	P84022	mult_mapping_expansion:binding/association
+Q13485	Q15796	mult_mapping_expansion:binding/association
+Q13485	Q15797	mult_mapping_expansion:binding/association
+Q13485	Q99717	mult_mapping_expansion:binding/association
+Q13705	P84022	mult_mapping_expansion:activation
+Q13705	Q15796	mult_mapping_expansion:activation
+Q13873	O15198	mult_mapping_expansion:activation
+Q13873	O15264	mult_mapping_expansion:indirect effect|inhibition
+Q13873	P27361	mult_mapping_expansion:indirect effect|inhibition
+Q13873	P28482	mult_mapping_expansion:indirect effect|inhibition
+Q13873	P53778	mult_mapping_expansion:indirect effect|inhibition
+Q13873	Q15759	mult_mapping_expansion:indirect effect|inhibition
+Q13873	Q15797	mult_mapping_expansion:activation
+Q13873	Q16539	mult_mapping_expansion:indirect effect|inhibition
+Q13873	Q99717	mult_mapping_expansion:activation
+Q14332	O14640	mult_mapping_expansion:activation
+Q14332	O14641	mult_mapping_expansion:activation
+Q14332	Q92997	mult_mapping_expansion:activation
+Q15796	Q13485	mult_mapping_expansion:binding/association
+Q15797	Q13485	mult_mapping_expansion:binding/association
+Q8NER5	P84022	mult_mapping_expansion:activation
+Q8NER5	Q15796	mult_mapping_expansion:activation
+Q92569	P31749	mult_mapping_expansion:activation|indirect effect
+Q92569	P31751	mult_mapping_expansion:activation|indirect effect
+Q92569	Q9Y243	mult_mapping_expansion:activation|indirect effect
+Q92997	P49841	mult_mapping_expansion:inhibition
+Q93097	O00144	mult_mapping_expansion:activation
+Q93097	O60353	mult_mapping_expansion:activation
+Q93097	O75084	mult_mapping_expansion:activation
+Q93097	Q13467	mult_mapping_expansion:activation
+Q93097	Q14332	mult_mapping_expansion:activation
+Q93097	Q9H461	mult_mapping_expansion:activation
+Q93097	Q9NPG1	mult_mapping_expansion:activation
+Q93097	Q9ULV1	mult_mapping_expansion:activation
+Q93097	Q9ULW2	mult_mapping_expansion:activation
+Q93097	Q9UP38	mult_mapping_expansion:activation
+Q93098	O00144	mult_mapping_expansion:activation
+Q93098	O60353	mult_mapping_expansion:activation
+Q93098	O75084	mult_mapping_expansion:activation
+Q93098	Q13467	mult_mapping_expansion:activation
+Q93098	Q14332	mult_mapping_expansion:activation
+Q93098	Q9H461	mult_mapping_expansion:activation
+Q93098	Q9NPG1	mult_mapping_expansion:activation
+Q93098	Q9ULV1	mult_mapping_expansion:activation
+Q93098	Q9ULW2	mult_mapping_expansion:activation
+Q93098	Q9UP38	mult_mapping_expansion:activation
+Q96S42	P27037	mult_mapping_expansion:activation
+Q96S42	P36896	mult_mapping_expansion:activation
+Q96S42	Q13705	mult_mapping_expansion:activation
+Q96S42	Q8NER5	mult_mapping_expansion:activation
+Q99717	Q13485	mult_mapping_expansion:binding/association
+Q99956	P27361	mult_mapping_expansion:inhibition
+Q99956	P28482	mult_mapping_expansion:inhibition
+Q9GZT5	O00144	mult_mapping_expansion:activation
+Q9GZT5	O60353	mult_mapping_expansion:activation
+Q9GZT5	O75084	mult_mapping_expansion:activation
+Q9GZT5	Q13467	mult_mapping_expansion:activation
+Q9GZT5	Q14332	mult_mapping_expansion:activation
+Q9GZT5	Q9H461	mult_mapping_expansion:activation
+Q9GZT5	Q9NPG1	mult_mapping_expansion:activation
+Q9GZT5	Q9ULV1	mult_mapping_expansion:activation
+Q9GZT5	Q9ULW2	mult_mapping_expansion:activation
+Q9GZT5	Q9UP38	mult_mapping_expansion:activation
+Q9H1J5	O00144	mult_mapping_expansion:activation
+Q9H1J5	O60353	mult_mapping_expansion:activation
+Q9H1J5	O75084	mult_mapping_expansion:activation
+Q9H1J5	Q13467	mult_mapping_expansion:activation
+Q9H1J5	Q14332	mult_mapping_expansion:activation
+Q9H1J5	Q9H461	mult_mapping_expansion:activation
+Q9H1J5	Q9NPG1	mult_mapping_expansion:activation
+Q9H1J5	Q9ULV1	mult_mapping_expansion:activation
+Q9H1J5	Q9ULW2	mult_mapping_expansion:activation
+Q9H1J5	Q9UP38	mult_mapping_expansion:activation
+Q9H1J7	O00144	mult_mapping_expansion:activation
+Q9H1J7	O60353	mult_mapping_expansion:activation
+Q9H1J7	O75084	mult_mapping_expansion:activation
+Q9H1J7	Q13467	mult_mapping_expansion:activation
+Q9H1J7	Q14332	mult_mapping_expansion:activation
+Q9H1J7	Q9H461	mult_mapping_expansion:activation
+Q9H1J7	Q9NPG1	mult_mapping_expansion:activation
+Q9H1J7	Q9ULV1	mult_mapping_expansion:activation
+Q9H1J7	Q9ULW2	mult_mapping_expansion:activation
+Q9H1J7	Q9UP38	mult_mapping_expansion:activation
+Q9H461	O14640	mult_mapping_expansion:activation
+Q9H461	O14641	mult_mapping_expansion:activation
+Q9H461	Q92997	mult_mapping_expansion:activation
+Q9NPG1	O14640	mult_mapping_expansion:activation
+Q9NPG1	O14641	mult_mapping_expansion:activation
+Q9NPG1	Q92997	mult_mapping_expansion:activation
+Q9UBV4	O00144	mult_mapping_expansion:activation
+Q9UBV4	O60353	mult_mapping_expansion:activation
+Q9UBV4	O75084	mult_mapping_expansion:activation
+Q9UBV4	Q13467	mult_mapping_expansion:activation
+Q9UBV4	Q14332	mult_mapping_expansion:activation
+Q9UBV4	Q9H461	mult_mapping_expansion:activation
+Q9UBV4	Q9NPG1	mult_mapping_expansion:activation
+Q9UBV4	Q9ULV1	mult_mapping_expansion:activation
+Q9UBV4	Q9ULW2	mult_mapping_expansion:activation
+Q9UBV4	Q9UP38	mult_mapping_expansion:activation
+Q9ULV1	O14640	mult_mapping_expansion:activation
+Q9ULV1	O14641	mult_mapping_expansion:activation
+Q9ULV1	Q92997	mult_mapping_expansion:activation
+Q9ULW2	O14640	mult_mapping_expansion:activation
+Q9ULW2	O14641	mult_mapping_expansion:activation
+Q9ULW2	Q92997	mult_mapping_expansion:activation
+Q9UP38	O14640	mult_mapping_expansion:activation
+Q9UP38	O14641	mult_mapping_expansion:activation
+Q9UP38	Q92997	mult_mapping_expansion:activation
+Q9Y6F9	O00144	mult_mapping_expansion:activation
+Q9Y6F9	O60353	mult_mapping_expansion:activation
+Q9Y6F9	O75084	mult_mapping_expansion:activation
+Q9Y6F9	Q13467	mult_mapping_expansion:activation
+Q9Y6F9	Q14332	mult_mapping_expansion:activation
+Q9Y6F9	Q9H461	mult_mapping_expansion:activation
+Q9Y6F9	Q9NPG1	mult_mapping_expansion:activation
+Q9Y6F9	Q9ULV1	mult_mapping_expansion:activation
+Q9Y6F9	Q9ULW2	mult_mapping_expansion:activation
+Q9Y6F9	Q9UP38	mult_mapping_expansion:activation

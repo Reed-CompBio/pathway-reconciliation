@@ -1,0 +1,3 @@
+#node1	node2	edge_expansion:relation_type
+Q9BQS7	Q9NP59	one_to_one_mapping:binding/association
+Q9NP59	Q9BQS7	one_to_one_mapping:binding/association

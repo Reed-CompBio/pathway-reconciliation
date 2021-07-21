@@ -1,0 +1,43 @@
+#node1	node2	node1type	node2type	relation_type
+Q03393	P42330	gene	gene	compound
+O60218|P15121	P07101	gene	gene	compound
+Q9NQX3	Q96EN8	gene	gene	compound
+O60218|P15121	P09417	gene	gene	compound
+O60218|P15121	P17752|Q8IWU9	gene	gene	compound
+O60218|P15121	P00439	gene	gene	compound
+Q9NQX3		gene	gene	compound
+O60218|P15121	P00374|Q86XF0	gene	gene	compound
+P00374|Q86XF0	P09417	gene	gene	compound
+O96007	Q9NQX3	gene	gene	compound
+P35270	P17752|Q8IWU9	gene	gene	compound
+P00374|Q86XF0	P00439	gene	gene	compound
+Q9NZB8		gene	gene	compound
+P35270	P07101	gene	gene	compound
+P00374|Q86XF0		gene	gene	compound
+Q9NZB8	Q9NZB8	gene	gene	compound
+	P00439	gene	gene	compound
+	O60218|P15121	gene	gene	compound
+P00374|Q86XF0	P17752|Q8IWU9	gene	gene	compound
+	P00374|Q86XF0	gene	gene	compound
+P09417	P00439	gene	gene	compound
+P05186|P05187|P09923|P10696	Q03393	gene	gene	compound
+		gene	gene	compound
+	Q03393	gene	gene	compound
+	P17752|Q8IWU9	gene	gene	compound
+P30793	Q03393	gene	gene	compound
+	P16152	gene	gene	compound
+P16152		gene	gene	compound
+	P61457|Q9H0N5	gene	gene	compound
+P30793		gene	gene	compound
+O60218|P15121		gene	gene	compound
+P61457|Q9H0N5	P17752|Q8IWU9	gene	gene	compound
+	P05186|P05187|P09923|P10696	gene	gene	compound
+P61457|Q9H0N5		gene	gene	compound
+P05186|P05187|P09923|P10696		gene	gene	compound
+P00374|Q86XF0	Q05932	gene	gene	compound
+P00374|Q86XF0	P16152	gene	gene	compound
+Q05932	P00374|Q86XF0	gene	gene	compound
+P00374|Q86XF0	P35270	gene	gene	compound
+P00374|Q86XF0	Q92820	gene	gene	compound
+Q05932	Q92820	gene	gene	compound
+Q05932		gene	gene	compound

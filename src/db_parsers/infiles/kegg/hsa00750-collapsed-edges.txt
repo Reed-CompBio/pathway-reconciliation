@@ -1,0 +1,15 @@
+#node1	node2	node1type	node2type	relation_type
+O00764	Q9NVS9	gene	gene	compound
+	Q9NVS9	gene	gene	compound
+Q8TCD6|Q96GD0		gene	gene	compound
+O00764		gene	gene	compound
+Q9NVS9	O00764	gene	gene	compound
+	Q8TCD6|Q96GD0	gene	gene	compound
+		gene	gene	compound
+Q9NVS9		gene	gene	compound
+Q9NVS9	Q8TCD6|Q96GD0	gene	gene	compound
+Q8TCD6|Q96GD0	Q9NVS9	gene	gene	compound
+Q8TCD6|Q96GD0	Q06278	gene	gene	compound
+	Q06278	gene	gene	compound
+Q06278		gene	gene	compound
+Q06278	Q9NVS9	gene	gene	compound

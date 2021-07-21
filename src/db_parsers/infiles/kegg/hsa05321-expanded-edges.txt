@@ -1,0 +1,41 @@
+#node1	node2	edge_expansion:relation_type
+O00206	P19838	mult_mapping_expansion:activation
+O00206	Q04206	mult_mapping_expansion:activation
+O60602	P19838	mult_mapping_expansion:activation
+O60602	Q04206	mult_mapping_expansion:activation
+O60603	P19838	mult_mapping_expansion:activation
+O60603	Q04206	mult_mapping_expansion:activation
+O95256	P05412	mult_mapping_expansion:activation|indirect effect
+O95256	P19838	mult_mapping_expansion:activation|indirect effect
+O95256	Q04206	mult_mapping_expansion:activation|indirect effect
+P01137	P84022	mult_mapping_expansion:activation|indirect effect
+P01137	Q15796	mult_mapping_expansion:activation|indirect effect
+P01137	Q9BZS1	mult_mapping_expansion:activation|indirect effect
+P01579	P15260	mult_mapping_expansion:activation
+P01579	P38484	mult_mapping_expansion:activation
+P05112	P24394	one_to_one_mapping:activation
+P05231	P40763	one_to_one_mapping:activation|indirect effect
+P10600	P84022	mult_mapping_expansion:activation|indirect effect
+P10600	Q15796	mult_mapping_expansion:activation|indirect effect
+P10600	Q9BZS1	mult_mapping_expansion:activation|indirect effect
+P15260	P42224	mult_mapping_expansion:activation
+P23771	P01579	one_to_one_mapping:indirect effect|inhibition
+P29459	P42701	mult_mapping_expansion:activation
+P29459	Q99665	mult_mapping_expansion:activation
+P29460	P42701	mult_mapping_expansion:activation
+P29460	Q99665	mult_mapping_expansion:activation
+P31785	P42226	one_to_one_mapping:activation
+P38484	P42224	mult_mapping_expansion:activation
+P42701	P40763	one_to_one_mapping:activation
+P42701	Q14765	one_to_one_mapping:activation
+P61812	P84022	mult_mapping_expansion:activation|indirect effect
+P61812	Q15796	mult_mapping_expansion:activation|indirect effect
+P61812	Q9BZS1	mult_mapping_expansion:activation|indirect effect
+Q13478	P05412	mult_mapping_expansion:activation|indirect effect
+Q13478	P19838	mult_mapping_expansion:activation|indirect effect
+Q13478	Q04206	mult_mapping_expansion:activation|indirect effect
+Q14116	O95256	mult_mapping_expansion:activation
+Q14116	Q13478	mult_mapping_expansion:activation
+Q9BZS1	P51449	one_to_one_mapping:inhibition
+Q9HBE4	Q9HBE5	one_to_one_mapping:activation
+Q9NPF7	Q5VWK5	one_to_one_mapping:activation

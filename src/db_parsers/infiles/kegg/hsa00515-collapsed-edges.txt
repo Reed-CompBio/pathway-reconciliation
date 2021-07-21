@@ -1,0 +1,17 @@
+#node1	node2	node1type	node2type	relation_type
+Q8NAT1	Q8WZA1	gene	gene	compound
+O60512|O60909|P15291	P22083|Q9Y231	gene	gene	compound
+Q9NPZ5|Q9P2W7	O43529	gene	gene	compound
+O60512|O60909|P15291	Q11203	gene	gene	compound
+O43505	O95461|Q8N3Y3	gene	gene	compound
+	O60512|O60909|P15291	gene	gene	compound
+O95461|Q8N3Y3	O95461|Q8N3Y3	gene	gene	compound
+Q9UKY4|Q9Y6A1		gene	gene	compound
+	Q3V5L5	gene	gene	compound
+Q3V5L5	O60512|O60909|P15291	gene	gene	compound
+O60512|O60909|P15291	Q9NPZ5|Q9P2W7	gene	gene	compound
+A4D126	O75072	gene	gene	compound
+Q8NCR0	Q9H5K3	gene	gene	compound
+		gene	gene	compound
+Q9H9S5	Q9Y2B1	gene	gene	compound
+	O43505	gene	gene	compound

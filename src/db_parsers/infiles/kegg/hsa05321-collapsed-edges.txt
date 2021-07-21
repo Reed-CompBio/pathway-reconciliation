@@ -1,0 +1,27 @@
+#node1	node2	node1type	node2type	relation_type
+P31785	P42226	gene	gene	activation
+P01137|P10600|P61812	P84022|Q15796	gene	gene	activation|indirect effect
+P29459|P29460	P42701	gene	gene	activation
+Q9HBE4	Q9HBE5	gene	gene	activation
+Q9NPF7	Q5VWK5	gene	gene	activation
+P40763		gene	gene	activation|indirect effect
+P29459|P29460	Q99665	gene	gene	activation
+	P40763	gene	gene	activation
+	P42701	gene	gene	activation
+P42701	P40763	gene	gene	activation
+P42701	Q14765	gene	gene	activation
+P23771	P01579	gene	gene	indirect effect|inhibition
+O95256|Q13478	P19838|Q04206	gene	gene	activation|indirect effect
+O00206	P19838|Q04206	gene	gene	activation
+O60603	P19838|Q04206	gene	gene	activation
+O60602	P19838|Q04206	gene	gene	activation
+Q9BZS1	P51449	gene	gene	inhibition
+P01137|P10600|P61812	Q9BZS1	gene	gene	activation|indirect effect
+P01579	P15260|P38484	gene	gene	activation
+P15260|P38484	P42224	gene	gene	activation
+Q14116	O95256|Q13478	gene	gene	activation
+P05112	P24394	gene	gene	activation
+O95256|Q13478	P05412	gene	gene	activation|indirect effect
+		gene	gene	activation
+Q99665		gene	gene	activation
+P05231	P40763	gene	gene	activation|indirect effect

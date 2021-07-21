@@ -1,0 +1,25 @@
+#node1	node2	edge_expansion:relation_type
+O14727	P55211	one_to_one_mapping:activation
+O15264	P07197	mult_mapping_expansion:phosphorylation
+P00441	P07196	one_to_one_mapping:inhibition
+P00441	P10415	one_to_one_mapping:inhibition
+P01375	P19438	mult_mapping_expansion:activation
+P01375	P20333	mult_mapping_expansion:activation
+P12036	P41219	one_to_one_mapping:binding/association
+P19438	Q9UER7	mult_mapping_expansion:activation
+P20333	Q9UER7	mult_mapping_expansion:activation
+P41219	P12036	one_to_one_mapping:binding/association
+P46734	O15264	mult_mapping_expansion:activation|phosphorylation
+P46734	P53778	mult_mapping_expansion:activation|phosphorylation
+P46734	Q15759	mult_mapping_expansion:activation|phosphorylation
+P46734	Q16539	mult_mapping_expansion:activation|phosphorylation
+P52564	O15264	mult_mapping_expansion:activation|phosphorylation
+P52564	P53778	mult_mapping_expansion:activation|phosphorylation
+P52564	Q15759	mult_mapping_expansion:activation|phosphorylation
+P52564	Q16539	mult_mapping_expansion:activation|phosphorylation
+P53778	P07197	mult_mapping_expansion:phosphorylation
+Q07812	P99999	one_to_one_mapping:indirect effect
+Q15759	P07197	mult_mapping_expansion:phosphorylation
+Q16539	P07197	mult_mapping_expansion:phosphorylation
+Q96Q42	P20339	one_to_one_mapping:activation
+Q9UER7	Q99683	one_to_one_mapping:activation

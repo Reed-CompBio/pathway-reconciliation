@@ -1,0 +1,171 @@
+#node1	node2	edge_expansion:relation_type
+O00206	Q8IUC6	one_to_one_mapping:activation|indirect effect
+O00329	P31749	mult_mapping_expansion:activation|compound
+O00329	P31751	mult_mapping_expansion:activation|compound
+O00329	Q9Y243	mult_mapping_expansion:activation|compound
+O00459	P31749	mult_mapping_expansion:activation|compound
+O00459	P31751	mult_mapping_expansion:activation|compound
+O00459	Q9Y243	mult_mapping_expansion:activation|compound
+O14920	P25963	mult_mapping_expansion:activation|phosphorylation
+O15111	P25963	mult_mapping_expansion:activation|phosphorylation
+O15264	P01100	mult_mapping_expansion:activation
+O15264	P05412	mult_mapping_expansion:activation
+O15264	P30153	mult_mapping_expansion:activation|indirect effect
+O15264	P30154	mult_mapping_expansion:activation|indirect effect
+O15264	P62714	mult_mapping_expansion:activation|indirect effect
+O15264	P63151	mult_mapping_expansion:activation|indirect effect
+O15264	P67775	mult_mapping_expansion:activation|indirect effect
+O15264	Q00005	mult_mapping_expansion:activation|indirect effect
+O15264	Q66LE6	mult_mapping_expansion:activation|indirect effect
+O15264	Q9Y2T4	mult_mapping_expansion:activation|indirect effect
+O60603	Q99836	mult_mapping_expansion:activation
+O60603	Q9Y2C9	group_expansion
+O95467	Q08828	mult_mapping_expansion:activation|indirect effect
+O95837	Q00722	mult_mapping_expansion:activation|indirect effect
+O95837	Q01970	mult_mapping_expansion:activation|indirect effect
+O95837	Q15147	mult_mapping_expansion:activation|indirect effect
+O95837	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P01042	P30411	one_to_one_mapping:activation
+P01375	P19438	one_to_one_mapping:activation
+P01579	P15260	mult_mapping_expansion:activation
+P01579	P38484	mult_mapping_expansion:activation
+P04899	Q00722	mult_mapping_expansion:activation|indirect effect
+P04899	Q01970	mult_mapping_expansion:activation|indirect effect
+P04899	Q15147	mult_mapping_expansion:activation|indirect effect
+P04899	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P08754	Q00722	mult_mapping_expansion:activation|indirect effect
+P08754	Q01970	mult_mapping_expansion:activation|indirect effect
+P08754	Q15147	mult_mapping_expansion:activation|indirect effect
+P08754	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P09471	Q00722	mult_mapping_expansion:activation|indirect effect
+P09471	Q01970	mult_mapping_expansion:activation|indirect effect
+P09471	Q15147	mult_mapping_expansion:activation|indirect effect
+P09471	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P19438	P35228	one_to_one_mapping:activation|indirect effect
+P19838	P25963	mult_mapping_expansion:dissociation
+P19838	P30153	mult_mapping_expansion:activation
+P19838	P30154	mult_mapping_expansion:activation
+P19838	P62714	mult_mapping_expansion:activation
+P19838	P63151	mult_mapping_expansion:activation
+P19838	P67775	mult_mapping_expansion:activation
+P19838	Q00005	mult_mapping_expansion:activation
+P19838	Q66LE6	mult_mapping_expansion:activation
+P19838	Q9Y2T4	mult_mapping_expansion:activation
+P25445	Q14790	one_to_one_mapping:activation|indirect effect
+P25963	P19838	mult_mapping_expansion:dissociation
+P25963	Q04206	mult_mapping_expansion:dissociation
+P27361	P01100	mult_mapping_expansion:activation
+P27361	P05412	mult_mapping_expansion:activation
+P27797	P02745	mult_mapping_expansion:inhibition
+P27797	P02746	mult_mapping_expansion:inhibition
+P27797	P02747	mult_mapping_expansion:inhibition
+P27986	P31749	mult_mapping_expansion:activation|compound
+P27986	P31751	mult_mapping_expansion:activation|compound
+P27986	Q9Y243	mult_mapping_expansion:activation|compound
+P28482	P01100	mult_mapping_expansion:activation
+P28482	P05412	mult_mapping_expansion:activation
+P29992	Q00722	mult_mapping_expansion:activation|indirect effect
+P29992	Q01970	mult_mapping_expansion:activation|indirect effect
+P29992	Q15147	mult_mapping_expansion:activation|indirect effect
+P29992	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P30153	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+P30153	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+P30154	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+P30154	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+P30411	O95837	mult_mapping_expansion:activation
+P30411	P29992	mult_mapping_expansion:activation
+P30411	P30679	mult_mapping_expansion:activation
+P30411	P50148	mult_mapping_expansion:activation
+P30679	Q00722	mult_mapping_expansion:activation|indirect effect
+P30679	Q01970	mult_mapping_expansion:activation|indirect effect
+P30679	Q15147	mult_mapping_expansion:activation|indirect effect
+P30679	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P36897	P37173	group_expansion
+P36897	Q15796	mult_mapping_expansion:activation|phosphorylation
+P37173	P36897	group_expansion
+P37173	Q15796	mult_mapping_expansion:activation|phosphorylation
+P38405	Q08828	mult_mapping_expansion:activation|indirect effect
+P42336	P31749	mult_mapping_expansion:activation|compound
+P42336	P31751	mult_mapping_expansion:activation|compound
+P42336	Q9Y243	mult_mapping_expansion:activation|compound
+P42338	P31749	mult_mapping_expansion:activation|compound
+P42338	P31751	mult_mapping_expansion:activation|compound
+P42338	Q9Y243	mult_mapping_expansion:activation|compound
+P45983	P01100	mult_mapping_expansion:activation|phosphorylation
+P45983	P05412	mult_mapping_expansion:activation|phosphorylation
+P45984	P01100	mult_mapping_expansion:activation|phosphorylation
+P45984	P05412	mult_mapping_expansion:activation|phosphorylation
+P48023	P25445	one_to_one_mapping:activation
+P50148	Q00722	mult_mapping_expansion:activation|indirect effect
+P50148	Q01970	mult_mapping_expansion:activation|indirect effect
+P50148	Q15147	mult_mapping_expansion:activation|indirect effect
+P50148	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P51617	Q9Y4K3	mult_mapping_expansion:activation
+P53778	P01100	mult_mapping_expansion:activation
+P53778	P05412	mult_mapping_expansion:activation
+P53778	P30153	mult_mapping_expansion:activation|indirect effect
+P53778	P30154	mult_mapping_expansion:activation|indirect effect
+P53778	P62714	mult_mapping_expansion:activation|indirect effect
+P53778	P63151	mult_mapping_expansion:activation|indirect effect
+P53778	P67775	mult_mapping_expansion:activation|indirect effect
+P53778	Q00005	mult_mapping_expansion:activation|indirect effect
+P53778	Q66LE6	mult_mapping_expansion:activation|indirect effect
+P53778	Q9Y2T4	mult_mapping_expansion:activation|indirect effect
+P53779	P01100	mult_mapping_expansion:activation|phosphorylation
+P53779	P05412	mult_mapping_expansion:activation|phosphorylation
+P62714	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+P62714	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+P63092	Q08828	mult_mapping_expansion:activation|indirect effect
+P63096	Q00722	mult_mapping_expansion:activation|indirect effect
+P63096	Q01970	mult_mapping_expansion:activation|indirect effect
+P63096	Q15147	mult_mapping_expansion:activation|indirect effect
+P63096	Q9NQ66	mult_mapping_expansion:activation|indirect effect
+P63151	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+P63151	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+P67775	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+P67775	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+Q00005	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+Q00005	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+Q04206	P25963	mult_mapping_expansion:dissociation
+Q04206	P30153	mult_mapping_expansion:activation
+Q04206	P30154	mult_mapping_expansion:activation
+Q04206	P62714	mult_mapping_expansion:activation
+Q04206	P63151	mult_mapping_expansion:activation
+Q04206	P67775	mult_mapping_expansion:activation
+Q04206	Q00005	mult_mapping_expansion:activation
+Q04206	Q66LE6	mult_mapping_expansion:activation
+Q04206	Q9Y2T4	mult_mapping_expansion:activation
+Q13158	Q14790	one_to_one_mapping:activation
+Q15759	P01100	mult_mapping_expansion:activation
+Q15759	P05412	mult_mapping_expansion:activation
+Q15759	P30153	mult_mapping_expansion:activation|indirect effect
+Q15759	P30154	mult_mapping_expansion:activation|indirect effect
+Q15759	P62714	mult_mapping_expansion:activation|indirect effect
+Q15759	P63151	mult_mapping_expansion:activation|indirect effect
+Q15759	P67775	mult_mapping_expansion:activation|indirect effect
+Q15759	Q00005	mult_mapping_expansion:activation|indirect effect
+Q15759	Q66LE6	mult_mapping_expansion:activation|indirect effect
+Q15759	Q9Y2T4	mult_mapping_expansion:activation|indirect effect
+Q16539	P01100	mult_mapping_expansion:activation
+Q16539	P05412	mult_mapping_expansion:activation
+Q16539	P30153	mult_mapping_expansion:activation|indirect effect
+Q16539	P30154	mult_mapping_expansion:activation|indirect effect
+Q16539	P62714	mult_mapping_expansion:activation|indirect effect
+Q16539	P63151	mult_mapping_expansion:activation|indirect effect
+Q16539	P67775	mult_mapping_expansion:activation|indirect effect
+Q16539	Q00005	mult_mapping_expansion:activation|indirect effect
+Q16539	Q66LE6	mult_mapping_expansion:activation|indirect effect
+Q16539	Q9Y2T4	mult_mapping_expansion:activation|indirect effect
+Q66LE6	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+Q66LE6	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+Q92569	P31749	mult_mapping_expansion:activation|compound
+Q92569	P31751	mult_mapping_expansion:activation|compound
+Q92569	Q9Y243	mult_mapping_expansion:activation|compound
+Q9NR96	Q99836	one_to_one_mapping:activation
+Q9NWZ3	Q9Y4K3	mult_mapping_expansion:activation
+Q9Y2C9	O60603	group_expansion
+Q9Y2C9	Q99836	mult_mapping_expansion:activation
+Q9Y2T4	P51617	mult_mapping_expansion:dephosphorylation|inhibition
+Q9Y2T4	Q9NWZ3	mult_mapping_expansion:dephosphorylation|inhibition
+Q9Y4K3	P45985	one_to_one_mapping:activation|indirect effect
+Q9Y6K9	P25963	mult_mapping_expansion:activation|phosphorylation

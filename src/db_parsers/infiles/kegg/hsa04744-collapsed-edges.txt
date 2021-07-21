@@ -1,0 +1,9 @@
+#node1	node2	node1type	node2type	relation_type
+P11488|P19087|P62873|P63211	P16499|P18545|P35913	gene	gene	activation
+O95843|P43080|Q9UMX6	P51841|Q02846	gene	gene	activation|inhibition
+O75916	P11488|P19087|P62873|P63211	gene	gene	inhibition
+P35243	Q15835|Q8WTQ7	gene	gene	inhibition
+P0DP23|P0DP24|P0DP25|P27482|Q8TD86|Q96GE6|Q9NZT1	P29973|Q14028	gene	gene	inhibition
+Q15835|Q8WTQ7	P08100	gene	gene	inhibition|phosphorylation
+P10523	P08100	gene	gene	inhibition
+	P11488|P19087|P62873|P63211	gene	gene	activation

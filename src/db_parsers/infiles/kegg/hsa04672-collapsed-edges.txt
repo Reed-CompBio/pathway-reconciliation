@@ -1,0 +1,21 @@
+#node1	node2	node1type	node2type	relation_type
+O75888	O14836	gene	gene	activation|binding/association
+P36941	Q99558	gene	gene	activation
+P40933	Q13261	gene	gene	binding/association
+Q13261	P40933	gene	gene	binding/association
+P48061	P61073	gene	gene	binding/association
+P61073	P48061	gene	gene	binding/association
+O75144	Q9Y6W8	gene	gene	activation|binding/association
+Q9NRJ3	P46092	gene	gene	binding/association
+P46092	Q9NRJ3	gene	gene	binding/association
+P29965	P25942	gene	gene	activation|binding/association
+Q9Y275		gene	gene	activation|binding/association
+Q13477	P13612|P26010	gene	gene	binding/association
+P13612|P26010	Q13477	gene	gene	binding/association
+O15444	P51686	gene	gene	binding/association
+P51686	O15444	gene	gene	binding/association
+	Q02223	gene	gene	activation|binding/association
+Q9Y275	Q96RJ3	gene	gene	activation|binding/association
+P33681|P42081	P10747	gene	gene	activation|binding/association
+	O14836	gene	gene	activation|binding/association
+		gene	gene	activation|binding/association
