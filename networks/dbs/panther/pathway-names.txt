@@ -1,0 +1,92 @@
+Pyrimidine_Metabolism.txt	12	Pyrimidine Metabolism
+Pyruvate_metabolism.txt	22	Pyruvate metabolism
+Alzheimer_disease-presenilin_pathway.txt	476	Alzheimer disease-presenilin pathway
+Huntington_disease.txt	834	Huntington disease
+Cadherin_signaling_pathway.txt	2465	Cadherin signaling pathway
+Nicotinic_acetylcholine_receptor_signaling_pathway.txt	589	Nicotinic acetylcholine receptor signaling pathway
+Cytoskeletal_regulation_by_Rho_GTPase.txt	418	Cytoskeletal regulation by Rho GTPase
+Integrin_signalling_pathway.txt	3764	Integrin signalling pathway
+TGF-beta_signaling_pathway.txt	1051	TGF-beta signaling pathway
+Wnt_signaling_pathway.txt	2577	Wnt signaling pathway
+Alzheimer_disease-amyloid_secretase_pathway.txt	596	Alzheimer disease-amyloid secretase pathway
+Notch_signaling_pathway.txt	98	Notch signaling pathway
+De_novo_pyrimidine_deoxyribonucleotide_biosynthesis.txt	33	De novo pyrimidine deoxyribonucleotide biosynthesis
+Inflammation_mediated_by_chemokine_and_cytokine_signaling_pathway.txt	2135	Inflammation mediated by chemokine and cytokine signaling pathway
+Ionotropic_glutamate_receptor_pathway.txt	492	Ionotropic glutamate receptor pathway
+Metabotropic_glutamate_receptor_group_II_pathway.txt	116	Metabotropic glutamate receptor group II pathway
+Metabotropic_glutamate_receptor_group_III_pathway.txt	137	Metabotropic glutamate receptor group III pathway
+Muscarinic_acetylcholine_receptor_2_and_4_signaling_pathway.txt	363	Muscarinic acetylcholine receptor 2 and 4 signaling pathway
+PNAT.txt	290	PNAT
+untitled.txt	335	untitled
+Gastrin_CCK2R_240212.txt	213	Gastrin_CCK2R_240212
+5HT4_type_receptor_mediated_signaling_pathway.txt	115	5HT4 type receptor mediated signaling pathway
+Beta1_adrenergic_receptor_signaling_pathway.txt	541	Beta1 adrenergic receptor signaling pathway
+Beta2_adrenergic_receptor_signaling_pathway.txt	541	Beta2 adrenergic receptor signaling pathway
+Beta3_adrenergic_receptor_signaling_pathway.txt	99	Beta3 adrenergic receptor signaling pathway
+Enkephalin_release.txt	125	Enkephalin release
+GABA-B_receptor_II_signaling.txt	213	GABA-B_receptor_II_signaling
+Heterotrimeric_G-protein_signaling_pathway-Gi_alpha_and_Gs_alpha_mediated_pathway.txt	1664	Heterotrimeric G-protein signaling pathway-Gi alpha and Gs alpha mediated pathway
+Histamine_H2_receptor_mediated_signaling_pathway.txt	99	Histamine H2 receptor mediated signaling pathway
+Nicotine_pharmacodynamics_pathway.txt	530	Nicotine pharmacodynamics pathway
+Opioid_proenkephalin_pathway.txt	149	Opioid proenkephalin pathway
+Opioid_proopiomelanocortin_pathway.txt	135	Opioid proopiomelanocortin pathway
+5HT1_type_receptor_mediated_signaling_pathway.txt	173	5HT1 type receptor mediated signaling pathway
+Heterotrimeric_G-protein_signaling_pathway-Gq_alpha_and_Go_alpha_mediated_pathway.txt	1718	Heterotrimeric G-protein signaling pathway-Gq alpha and Go alpha mediated pathway
+Alpha_adrenergic_receptor_signaling_pathway.txt	35	Alpha adrenergic receptor signaling pathway
+De_novo_purine_biosynthesis.txt	73	De novo purine biosynthesis
+Angiotensin_II-stimulated_signaling_through_G_proteins_and_beta-arrestin.txt	212	Angiotensin_II-stimulated_signaling_through_G_proteins_and_beta-arrestin
+Apoptosis_signaling_pathway.txt	285	Apoptosis signaling pathway
+EGF_receptor_signaling_pathway.txt	1594	EGF receptor signaling pathway
+FGF_signaling_pathway.txt	896	FGF signaling pathway
+Angiogenesis.txt	716	Angiogenesis
+PI3_kinase_pathway.txt	147	PI3 kinase pathway
+VEGF_signaling_pathway.txt	184	VEGF signaling pathway
+Interleukin_signaling_pathway.txt	654	Interleukin signaling pathway
+Ras_Pathway.txt	276	Ras Pathway
+T_cell_activation.txt	745	T cell activation
+p53_pathway.txt	93	p53 pathway
+Hypoxia_response_via_HIF_activation.txt	61	Hypoxia response via HIF activation
+p53_pathway_by_glucose_deprivation.txt	45	p53 pathway by glucose deprivation
+PDGF_signaling_pathway.txt	833	PDGF signaling pathway
+Glycolysis.txt	15	Glycolysis
+FAS_signaling_pathway.txt	52	FAS signaling pathway
+Blood_coagulation.txt	70	Blood coagulation
+B_cell_activation.txt	618	B cell activation
+Axon_guidance_mediated_by_semaphorins.txt	39	Axon guidance mediated by semaphorins
+Circadian_clock_system.txt	31	Circadian clock system
+Vasopressin_synthesis.txt	13	Vasopressin synthesis
+Parkinson_disease.txt	143	Parkinson disease
+Metabotropic_glutamate_receptor_group_I_pathway.txt	91	Metabotropic glutamate receptor group I pathway
+Muscarinic_acetylcholine_receptor_1_and_3_signaling_pathway.txt	403	Muscarinic acetylcholine receptor 1 and 3 signaling pathway
+Thyrotropin-releasing_hormone_receptor_signaling_pathway.txt	784	Thyrotropin-releasing hormone receptor signaling pathway
+Transcription_regulation_by_bZIP_transcription_factor.txt	695	Transcription regulation by bZIP transcription factor
+General_transcription_regulation.txt	292	General transcription regulation
+Hedgehog_signaling_pathway.txt	57	Hedgehog signaling pathway
+Heterotrimeric_G-protein_signaling_pathway-rod_outer_segment_phototransduction.txt	93	Heterotrimeric G-protein signaling pathway-rod outer segment phototransduction
+General_transcription_by_RNA_polymerase_I.txt	38	General transcription by RNA polymerase I
+p53_pathway_feedback_loops_2.txt	38	p53 pathway feedback loops 2
+Toll_receptor_signaling_pathway.txt	84	Toll receptor signaling pathway
+Interferon-gamma_signaling_pathway.txt	96	Interferon-gamma signaling pathway
+Endogenous_cannabinoid_signaling.txt	108	Endogenous_cannabinoid_signaling
+Cortocotropin_releasing_factor_receptor_signaling_pathway.txt	64	Cortocotropin releasing factor receptor signaling pathway
+Axon_guidance_mediated_by_Slit-Robo.txt	62	Axon guidance mediated by Slit/Robo
+Androgen-estrogene-progesterone_biosynthesis.txt	17	Androgen/estrogene/progesterone biosynthesis
+Nicotine_degradation.txt	15	Nicotine_degradation
+Adrenaline_and_noradrenaline_biosynthesis.txt	39	Adrenaline and noradrenaline biosynthesis
+Axon_guidance_mediated_by_netrin.txt	157	Axon guidance mediated by netrin
+DNA_replication.txt	91	DNA replication
+Oxidative_stress_response.txt	197	Oxidative stress response
+p38_MAPK_pathway.txt	55	p38 MAPK pathway
+Cholesterol_biosynthesis.txt	15	Cholesterol biosynthesis
+Histamine_H1_receptor_mediated_signaling_pathway.txt	336	Histamine H1 receptor mediated signaling pathway
+5HT2_type_receptor_mediated_signaling_pathway.txt	367	5HT2 type receptor mediated signaling pathway
+Oxytocin_receptor_mediated_signaling_pathway.txt	303	Oxytocin receptor mediated signaling pathway
+Insulin-IGF_pathway-mitogen_activated_protein_kinase_kinase-MAP_kinase_cascade.txt	77	Insulin/IGF pathway-mitogen activated protein kinase kinase/MAP kinase cascade
+Insulin-IGF_pathway-protein_kinase_B_signaling_cascade.txt	41	Insulin/IGF pathway-protein kinase B signaling cascade
+5-Hydroxytryptamine_degredation.txt	45	5-Hydroxytryptamine degredation
+Ubiquitin_proteasome_pathway.txt	227	Ubiquitin proteasome pathway
+JAK-STAT_signaling_pathway.txt	57	JAK/STAT signaling pathway
+Plasminogen_activating_cascade.txt	18	Plasminogen activating cascade
+Synaptic_vesicle_trafficking.txt	168	Synaptic_vesicle_trafficking
+mRNA_splicing.txt	14	mRNA splicing
+5HT3_type_receptor_mediated_signaling_pathway.txt	16	5HT3 type receptor mediated signaling pathway

@@ -9,7 +9,7 @@ def main():
 
 def process(ptype,pathway_names,mapper): # collapsed or expanded
     # assumes files are in infiles/netpath.
-    outdir = '../../networks/kegg_%s/' % (ptype)
+    outdir = '../../networks/dbs/kegg_%s/' % (ptype)
     if not os.path.isdir(outdir):
         print('making output directory %s...' % (outdir))
         os.makedirs(outdir)
@@ -21,7 +21,6 @@ def process(ptype,pathway_names,mapper): # collapsed or expanded
         pname = pathway_names[p]
         #print(pname)
         pwname = pname.replace(' ','_').replace('/','-').replace('(','~').replace(')','~')+'.txt'
-        out.write('%s\t%s\n'% (pwname,pname))
         edges = set()
         missed = 0
         with open(f) as fin:
@@ -37,6 +36,7 @@ def process(ptype,pathway_names,mapper): # collapsed or expanded
                     edges.add(edge)
                 else:
                     missed+=1
+        out.write('%s\t%d\t%s\n'% (pwname,len(edges),pname))
         outfile = outdir+'/'+pwname
         if missed > 0:
             print('  %d missed' % (missed))

@@ -3,7 +3,7 @@ import os
 
 def main():
     # assumes files are in infiles/netpath.
-    outdir = '../../networks/netpath/'
+    outdir = '../../networks/dbs/netpath/'
     if not os.path.isdir(outdir):
         print('making output directory %s...' % (outdir))
         os.makedirs(outdir)
@@ -13,7 +13,7 @@ def main():
     for f in files:
         pname = f.replace('infiles/netpath/','').replace('-edges.txt','')
         #print(pname)
-        out.write('%s-edges.txt\t%s\n'% (pname,pname))
+
         edges = set()
         with open(f) as fin:
             for line in fin:
@@ -22,6 +22,7 @@ def main():
                 row = line.strip().split('\t')
                 edge = tuple(sorted([row[6],row[7]]))
                 edges.add(edge)
+        out.write('%s.txt\t%d\t%s\n'% (pname,len(edges),pname))
         outfile = outdir+pname+'.txt'
         write_file(edges,outfile)
     out.close()

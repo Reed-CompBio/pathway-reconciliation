@@ -1,0 +1,4 @@
+P50747	P50747
+P50747	gene
+gene	gene
+P43251	gene

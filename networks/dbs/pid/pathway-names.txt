@@ -1,0 +1,202 @@
+IL6-mediated_signaling_events.txt	318	IL6-mediated signaling events
+Integrin-linked_kinase_signaling.txt	164	Integrin-linked kinase signaling
+Regulation_of_retinoblastoma_protein.txt	190	Regulation of retinoblastoma protein
+S1P1_pathway.txt	324	S1P1 pathway
+S1P2_pathway.txt	319	S1P2 pathway
+S1P3_pathway.txt	281	S1P3 pathway
+Sphingosine_1-phosphate_~S1P~_pathway.txt	32	Sphingosine 1-phosphate (S1P) pathway
+S1P4_pathway.txt	247	S1P4 pathway
+S1P5_pathway.txt	25	S1P5 pathway
+CDC42_signaling_events.txt	715	CDC42 signaling events
+ErbB1_downstream_signaling.txt	2589	ErbB1 downstream signaling
+PDGFR-beta_signaling_pathway.txt	3321	PDGFR-beta signaling pathway
+RAC1_signaling_pathway.txt	542	RAC1 signaling pathway
+E-cadherin_signaling_in_the_nascent_adherens_junction.txt	1694	E-cadherin signaling in the nascent adherens junction
+Stabilization_and_expansion_of_the_E-cadherin_adherens_junction.txt	154	Stabilization and expansion of the E-cadherin adherens junction
+Regulation_of_RAC1_activity.txt	56	Regulation of RAC1 activity
+Alpha4_beta1_integrin_signaling_events.txt	97	Alpha4 beta1 integrin signaling events
+Alpha9_beta1_integrin_signaling_events.txt	131	Alpha9 beta1 integrin signaling events
+Arf6_downstream_pathway.txt	312	Arf6 downstream pathway
+Posttranslational_regulation_of_adherens_junction_stability_and_dissassembly.txt	280	Posttranslational regulation of adherens junction stability and dissassembly
+Signaling_events_mediated_by_Hepatocyte_Growth_Factor_Receptor_~c-Met~.txt	2422	Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)
+Lissencephaly_gene_~LIS1~_in_neuronal_migration_and_development.txt	55	Lissencephaly gene (LIS1) in neuronal migration and development
+Signaling_events_mediated_by_PTP1B.txt	206	Signaling events mediated by PTP1B
+p53_pathway.txt	100	p53 pathway
+Neurotrophic_factor-mediated_Trk_receptor_signaling.txt	656	Neurotrophic factor-mediated Trk receptor signaling
+Class_I_PI3K_signaling_events.txt	2574	Class I PI3K signaling events
+EPHA2_forward_signaling.txt	1669	EPHA2 forward signaling
+EPHB_forward_signaling.txt	508	EPHB forward signaling
+Endothelins.txt	1120	Endothelins
+Ephrin_B_reverse_signaling.txt	205	Ephrin B reverse signaling
+IL2_signaling_events_mediated_by_PI3K.txt	1818	IL2 signaling events mediated by PI3K
+LPA_receptor_mediated_events.txt	1118	LPA receptor mediated events
+Nephrin-Neph1_signaling_in_the_kidney_podocyte.txt	2501	Nephrin/Neph1 signaling in the kidney podocyte
+Netrin-mediated_signaling_events.txt	1299	Netrin-mediated signaling events
+Noncanonical_Wnt_signaling_pathway.txt	445	Noncanonical Wnt signaling pathway
+Signaling_events_mediated_by_focal_adhesion_kinase.txt	333	Signaling events mediated by focal adhesion kinase
+Urokinase-type_plasminogen_activator_~uPA~_and_uPAR-mediated_signaling.txt	185	Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling
+Regulation_of_Telomerase.txt	439	Regulation of Telomerase
+Validated_transcriptional_targets_of_TAp63_isoforms.txt	60	Validated transcriptional targets of TAp63 isoforms
+p73_transcription_factor_network.txt	90	p73 transcription factor network
+ATM_pathway.txt	131	ATM pathway
+Regulation_of_RhoA_activity.txt	47	Regulation of RhoA activity
+Arf6_signaling_events.txt	181	Arf6 signaling events
+Arf6_trafficking_events.txt	287	Arf6 trafficking events
+p75~NTR~-mediated_signaling.txt	349	p75(NTR)-mediated signaling
+SHP2_signaling.txt	303	SHP2 signaling
+Osteopontin-mediated_events.txt	575	Osteopontin-mediated events
+RhoA_signaling_pathway.txt	412	RhoA signaling pathway
+Validated_targets_of_C-MYC_transcriptional_activation.txt	263	Validated targets of C-MYC transcriptional activation
+C-MYC_pathway.txt	88	C-MYC pathway
+Syndecan-4-mediated_signaling_events.txt	49	Syndecan-4-mediated signaling events
+ALK1_signaling_events.txt	315	ALK1 signaling events
+ALK2_signaling_events.txt	56	ALK2 signaling events
+Notch_signaling_pathway.txt	118	Notch signaling pathway
+Presenilin_action_in_Notch_and_Wnt_signaling.txt	130	Presenilin action in Notch and Wnt signaling
+ErbB4_signaling_events.txt	308	ErbB4 signaling events
+TNF_receptor_signaling_pathway.txt	359	TNF receptor signaling pathway
+Regulation_of_nuclear_beta_catenin_signaling_and_target_gene_transcription.txt	192	Regulation of nuclear beta catenin signaling and target gene transcription
+Integrins_in_angiogenesis.txt	470	Integrins in angiogenesis
+Nectin_adhesion_pathway.txt	72	Nectin adhesion pathway
+Trk_receptor_signaling_mediated_by_PI3K_and_PLC-gamma.txt	3058	Trk receptor signaling mediated by PI3K and PLC-gamma
+FGF_signaling_pathway.txt	1074	FGF signaling pathway
+amb2_Integrin_signaling.txt	73	amb2 Integrin signaling
+Syndecan-3-mediated_signaling_events.txt	37	Syndecan-3-mediated signaling events
+E-cadherin_signaling_in_keratinocytes.txt	364	E-cadherin signaling in keratinocytes
+Signaling_events_mediated_by_PRL.txt	305	Signaling events mediated by PRL
+IFN-gamma_pathway.txt	2543	IFN-gamma pathway
+Nongenotropic_Androgen_signaling.txt	1662	Nongenotropic Androgen signaling
+PAR1-mediated_thrombin_signaling_events.txt	1155	PAR1-mediated thrombin signaling events
+TCR_signaling_in_naïve_CD4+_T_cells.txt	3670	TCR signaling in naïve CD4+ T cells
+TCR_signaling_in_naïve_CD8+_T_cells.txt	3482	TCR signaling in naïve CD8+ T cells
+Visual_signal_transduction:_Cones.txt	708	Visual signal transduction: Cones
+Visual_signal_transduction:_Rods.txt	714	Visual signal transduction: Rods
+N-cadherin_signaling_events.txt	167	N-cadherin signaling events
+Angiopoietin_receptor_Tie2-mediated_signaling.txt	411	Angiopoietin receptor Tie2-mediated signaling
+Endogenous_TLR_signaling.txt	150	Endogenous TLR signaling
+IL2-mediated_signaling_events.txt	542	IL2-mediated signaling events
+Signaling_events_mediated_by_VEGFR1_and_VEGFR2.txt	2934	Signaling events mediated by VEGFR1 and VEGFR2
+Thromboxane_A2_receptor_signaling.txt	1065	Thromboxane A2 receptor signaling
+BMP_receptor_signaling.txt	191	BMP receptor signaling
+Aurora_A_signaling.txt	80	Aurora A signaling
+Calcium_signaling_in_the_CD4+_TCR_pathway.txt	115	Calcium signaling in the CD4+ TCR pathway
+Role_of_Calcineurin-dependent_NFAT_signaling_in_lymphocytes.txt	297	Role of Calcineurin-dependent NFAT signaling in lymphocytes
+mTOR_signaling_pathway.txt	466	mTOR signaling pathway
+Class_I_PI3K_signaling_events_mediated_by_Akt.txt	181	Class I PI3K signaling events mediated by Akt
+Coregulation_of_Androgen_receptor_activity.txt	78	Coregulation of Androgen receptor activity
+HIF-1-alpha_transcription_factor_network.txt	157	HIF-1-alpha transcription factor network
+CXCR4-mediated_signaling_events.txt	2754	CXCR4-mediated signaling events
+ErbB2-ErbB3_signaling_events.txt	2051	ErbB2/ErbB3 signaling events
+IGF1_pathway.txt	289	IGF1 pathway
+Signaling_events_mediated_by_Stem_cell_factor_receptor_~c-Kit~.txt	270	Signaling events mediated by Stem cell factor receptor (c-Kit)
+BCR_signaling_pathway.txt	2607	BCR signaling pathway
+Fc-epsilon_receptor_I_signaling_in_mast_cells.txt	1009	Fc-epsilon receptor I signaling in mast cells
+Insulin_Pathway.txt	1842	Insulin Pathway
+FOXA2_and_FOXA3_transcription_factor_networks.txt	62	FOXA2 and FOXA3 transcription factor networks
+FoxO_family_signaling.txt	204	FoxO family signaling
+Regulation_of_nuclear_SMAD2-3_signaling.txt	322	Regulation of nuclear SMAD2/3 signaling
+Hedgehog_signaling_events_mediated_by_Gli_proteins.txt	146	Hedgehog signaling events mediated by Gli proteins
+Signaling_events_mediated_by_the_Hedgehog_family.txt	45	Signaling events mediated by the Hedgehog family
+Insulin-mediated_glucose_transport.txt	43	Insulin-mediated glucose transport
+Reelin_signaling_pathway.txt	132	Reelin signaling pathway
+a6b1_and_a6b4_Integrin_signaling.txt	307	a6b1 and a6b4 Integrin signaling
+EGFR-dependent_Endothelin_signaling_events.txt	33	EGFR-dependent Endothelin signaling events
+IL4-mediated_signaling_events.txt	1801	IL4-mediated signaling events
+Retinoic_acid_receptors-mediated_signaling.txt	162	Retinoic acid receptors-mediated signaling
+Plasma_membrane_estrogen_receptor_signaling.txt	2504	Plasma membrane estrogen receptor signaling
+VEGFR1_specific_signals.txt	2674	VEGFR1 specific signals
+Glucocorticoid_receptor_regulatory_network.txt	171	Glucocorticoid receptor regulatory network
+LKB1_signaling_events.txt	130	LKB1 signaling events
+Caspase_Cascade_in_Apoptosis.txt	148	Caspase Cascade in Apoptosis
+Internalization_of_ErbB1.txt	131	Internalization of ErbB1
+Downstream_signaling_in_naïve_CD8+_T_cells.txt	319	Downstream signaling in naïve CD8+ T cells
+EPO_signaling_pathway.txt	237	EPO signaling pathway
+IL1-mediated_signaling_events.txt	215	IL1-mediated signaling events
+JNK_signaling_in_the_CD4+_TCR_pathway.txt	118	JNK signaling in the CD4+ TCR pathway
+Regulation_of_Androgen_receptor_activity.txt	152	Regulation of Androgen receptor activity
+Signaling_events_regulated_by_Ret_tyrosine_kinase.txt	489	Signaling events regulated by Ret tyrosine kinase
+IL3-mediated_signaling_events.txt	117	IL3-mediated signaling events
+IL5-mediated_signaling_events.txt	69	IL5-mediated signaling events
+Signaling_events_mediated_by_HDAC_Class_II.txt	379	Signaling events mediated by HDAC Class II
+Validated_nuclear_estrogen_receptor_alpha_network.txt	106	Validated nuclear estrogen receptor alpha network
+Arf1_pathway.txt	225	Arf1 pathway
+HIV-1_Nef:_Negative_effector_of_Fas_and_TNF-alpha.txt	146	HIV-1 Nef: Negative effector of Fas and TNF-alpha
+Canonical_Wnt_signaling_pathway.txt	259	Canonical Wnt signaling pathway
+Degradation_of_beta_catenin.txt	73	Degradation of beta catenin
+Regulation_of_CDC42_activity.txt	40	Regulation of CDC42 activity
+HIF-2-alpha_transcription_factor_network.txt	58	HIF-2-alpha transcription factor network
+DNA-PK_pathway_in_nonhomologous_end_joining.txt	62	DNA-PK pathway in nonhomologous end joining
+Glypican_1_network.txt	44	Glypican 1 network
+CD40-CD40L_signaling.txt	247	CD40/CD40L signaling
+FAS_~CD95~_signaling_pathway.txt	1892	FAS (CD95) signaling pathway
+ErbB_receptor_signaling_network.txt	36	ErbB receptor signaling network
+IL8-_and_CXCR2-mediated_signaling_events.txt	2617	IL8- and CXCR2-mediated signaling events
+Plexin-D1_Signaling.txt	270	Plexin-D1 Signaling
+CXCR3-mediated_signaling_events.txt	2168	CXCR3-mediated signaling events
+Cellular_roles_of_Anthrax_toxin.txt	206	Cellular roles of Anthrax toxin
+GMCSF-mediated_signaling_events.txt	609	GMCSF-mediated signaling events
+Syndecan-1-mediated_signaling_events.txt	257	Syndecan-1-mediated signaling events
+Syndecan-2-mediated_signaling_events.txt	262	Syndecan-2-mediated signaling events
+TRAIL_signaling_pathway.txt	407	TRAIL signaling pathway
+Trk_receptor_signaling_mediated_by_the_MAPK_pathway.txt	305	Trk receptor signaling mediated by the MAPK pathway
+VEGFR3_signaling_in_lymphatic_endothelium.txt	476	VEGFR3 signaling in lymphatic endothelium
+FOXA1_transcription_factor_network.txt	69	FOXA1 transcription factor network
+Notch-mediated_HES-HEY_network.txt	97	Notch-mediated HES/HEY network
+EPHA_forward_signaling.txt	159	EPHA forward signaling
+PAR4-mediated_thrombin_signaling_events.txt	288	PAR4-mediated thrombin signaling events
+Regulation_of_Ras_family_activation.txt	286	Regulation of Ras family activation
+Hypoxic_and_oxygen_homeostasis_regulation_of_HIF-1-alpha.txt	33	Hypoxic and oxygen homeostasis regulation of HIF-1-alpha
+Circadian_rhythm_pathway.txt	40	Circadian rhythm pathway
+IL8-_and_CXCR1-mediated_signaling_events.txt	2614	IL8- and CXCR1-mediated signaling events
+Atypical_NF-kappaB_pathway.txt	26	Atypical NF-kappaB pathway
+TGF-beta_receptor_signaling.txt	245	TGF-beta receptor signaling
+Ceramide_signaling_pathway.txt	239	Ceramide signaling pathway
+ATF-2_transcription_factor_network.txt	92	ATF-2 transcription factor network
+AP-1_transcription_factor_network.txt	156	AP-1 transcription factor network
+Signaling_mediated_by_p38-alpha_and_p38-beta.txt	78	Signaling mediated by p38-alpha and p38-beta
+Validated_transcriptional_targets_of_AP1_family_members_Fra1_and_Fra2.txt	90	Validated transcriptional targets of AP1 family members Fra1 and Fra2
+BARD1_signaling_events.txt	100	BARD1 signaling events
+E2F_transcription_factor_network.txt	365	E2F transcription factor network
+Fanconi_anemia_pathway.txt	435	Fanconi anemia pathway
+Canonical_NF-kappaB_pathway.txt	87	Canonical NF-kappaB pathway
+p38_MAPK_signaling_pathway.txt	66	p38 MAPK signaling pathway
+Wnt_signaling_network.txt	59	Wnt signaling network
+ATR_signaling_pathway.txt	273	ATR signaling pathway
+PLK1_signaling_events.txt	75	PLK1 signaling events
+Aurora_B_signaling.txt	112	Aurora B signaling
+IL12-mediated_signaling_events.txt	393	IL12-mediated signaling events
+IL12_signaling_mediated_by_STAT4.txt	107	IL12 signaling mediated by STAT4
+Alpha-synuclein_signaling.txt	58	Alpha-synuclein signaling
+Direct_p53_effectors.txt	198	Direct p53 effectors
+Calcineurin-regulated_NFAT-dependent_transcription_in_lymphocytes.txt	139	Calcineurin-regulated NFAT-dependent transcription in lymphocytes
+Signaling_events_mediated_by_HDAC_Class_III.txt	47	Signaling events mediated by HDAC Class III
+RXR_and_RAR_heterodimerization_with_other_nuclear_receptor.txt	71	RXR and RAR heterodimerization with other nuclear receptor
+PDGFR-alpha_signaling_pathway.txt	824	PDGFR-alpha signaling pathway
+LPA4-mediated_signaling_events.txt	122	LPA4-mediated signaling events
+Regulation_of_p38-alpha_and_p38-beta.txt	117	Regulation of p38-alpha and p38-beta
+Class_IB_PI3K_non-lipid_kinase_events.txt	15	Class IB PI3K non-lipid kinase events
+Ras_signaling_in_the_CD4+_TCR_pathway.txt	38	Ras signaling in the CD4+ TCR pathway
+Validated_targets_of_C-MYC_transcriptional_repression.txt	155	Validated targets of C-MYC transcriptional repression
+Signaling_events_mediated_by_HDAC_Class_I.txt	523	Signaling events mediated by HDAC Class I
+Beta2_integrin_cell_surface_interactions.txt	70	Beta2 integrin cell surface interactions
+Signaling_mediated_by_p38-gamma_and_p38-delta.txt	31	Signaling mediated by p38-gamma and p38-delta
+IL23-mediated_signaling_events.txt	260	IL23-mediated signaling events
+Effects_of_Botulinum_toxin.txt	237	Effects of Botulinum toxin
+FOXM1_transcription_factor_network.txt	54	FOXM1 transcription factor network
+C-MYB_transcription_factor_network.txt	141	C-MYB transcription factor network
+Beta1_integrin_cell_surface_interactions.txt	226	Beta1 integrin cell surface interactions
+Beta3_integrin_cell_surface_interactions.txt	107	Beta3 integrin cell surface interactions
+p38_signaling_mediated_by_MAPKAP_kinases.txt	58	p38 signaling mediated by MAPKAP kinases
+Validated_transcriptional_targets_of_deltaNp63_isoforms.txt	47	Validated transcriptional targets of deltaNp63 isoforms
+Signaling_events_mediated_by_TCPTP.txt	81	Signaling events mediated by TCPTP
+Regulation_of_cytoplasmic_and_nuclear_SMAD2-3_signaling.txt	30	Regulation of cytoplasmic and nuclear SMAD2/3 signaling
+Beta5_beta6_beta7_and_beta8_integrin_cell_surface_interactions.txt	33	Beta5 beta6 beta7 and beta8 integrin cell surface interactions
+Validated_nuclear_estrogen_receptor_beta_network.txt	24	Validated nuclear estrogen receptor beta network
+IL27-mediated_signaling_events.txt	133	IL27-mediated signaling events
+a4b7_Integrin_signaling.txt	17	a4b7 Integrin signaling
+IL2_signaling_events_mediated_by_STAT5.txt	133	IL2 signaling events mediated by STAT5
+VEGF_and_VEGFR_signaling_network.txt	22	VEGF and VEGFR signaling network
+Sumoylation_by_RanBP2_regulates_transcriptional_repression.txt	77	Sumoylation by RanBP2 regulates transcriptional repression
+Integrin_family_cell_surface_interactions.txt	23	Integrin family cell surface interactions
+Alpha6_beta4_integrin-ligand_interactions.txt	32	Alpha6 beta4 integrin-ligand interactions
+PDGF_receptor_signaling_network.txt	10	PDGF receptor signaling network
