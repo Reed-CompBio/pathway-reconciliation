@@ -29,4 +29,3 @@ IL6.txt	83	IL6
 KitReceptor.txt	109	KitReceptor
 OncostatinM.txt	42	OncostatinM
 ID.txt	51	ID
-TSLP.txt	7	TSLP

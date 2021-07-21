@@ -16,6 +16,8 @@ def process(ptype,pathway_names,mapper): # collapsed or expanded
 
     files = glob.glob('infiles/kegg/*%s-edges.txt'% (ptype))
     out = open(outdir+'/pathway-names.txt','w')
+    num_small = 0
+    tot = 0
     for f in files:
         p = f.replace('infiles/kegg/','').replace('-%s-edges.txt' % (ptype),'')
         pname = pathway_names[p]
@@ -36,12 +38,18 @@ def process(ptype,pathway_names,mapper): # collapsed or expanded
                     edges.add(edge)
                 else:
                     missed+=1
+        if len(edges) < 10:
+            print('WARNING: %s too small. Ignoring.' % (f))
+            num_small+=1
+            continue
         out.write('%s\t%d\t%s\n'% (pwname,len(edges),pname))
         outfile = outdir+'/'+pwname
         if missed > 0:
             print('  %d missed' % (missed))
         write_file(edges,outfile)
+        tot+=1
     out.close()
+    print('%d too small. %d TOTAL parsed.' % (num_small,tot))
 
 def get_pathway_names(infile):
     pnames = {}

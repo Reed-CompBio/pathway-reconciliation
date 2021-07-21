@@ -2,6 +2,10 @@
 
 This directory contains code to generate network files for signaling pathway databases. It also contains code to find corresponding pathways across databases.
 
+All pathways must pass these minimal filters:
+- All nodes must be proteins (e.g., have a UniProtKB identifier) unless they are "collapsed".
+- There must be at least 10 interactions
+
 ## PathwayCommons
 
 The first pathway databases were parsed from  [PathwayCommons](https://www.pathwaycommons.org/). These and all other downloaded files are in `infiles/`.
@@ -14,6 +18,8 @@ Download `PathwayCommons11.panther.hgnc.txt.gz` from [PC2v11](https://www.pathwa
 python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.panther.hgnc.txt -o ../../networks/dbs/
 ```
 
+30 too small, 0 nonhuman, 0 identical. 92 TOTAL parsed.
+
 ### NCI-PID
 
 Download `PathwayCommons11.pid.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it in `infiles/`.  
@@ -22,29 +28,21 @@ Download `PathwayCommons11.pid.hgnc.txt.gz` from [PC2v11](https://www.pathwaycom
 python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.pid.hgnc.txt -o ../../networks/dbs/
 ```
 
+10 too small, 0 nonhuman, 0 identical. 202 TOTAL parsed.
+
 ### INOH
 
-Download `PathwayCommons11.inoh.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it in `infiles/`.
+Download `PathwayCommons11.inoh.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it in `infiles/`. In addition, pathways labeled as Mammal, C. elegans, Drosophila, etc., are duplicate pathways and should be ignored.  37 pathways are ignored.
 
 ```
 python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.inoh.hgnc.txt -o ../../networks/dbs/
 ```
 
-### PathBank
-
-**TODO**
+57 too small, 26 nonhuman, 37 identical. 113 TOTAL parsed.
 
 ## NDEx
 
 The next pathway databases are from [NDEx](https://home.ndexbio.org/index/)
-
-### SIGNOR
-
-**TODO**
-
-### CausalBioNet
-
-**TODO**
 
 ## Original Pathway Databases
 
@@ -58,6 +56,8 @@ Original 32 pathways from [NetPath](http://www.netpath.org/), used in previous p
 python3 parse_netpath.py
 ```
 
+1 too small. 31 TOTAL parsed.
+
 ### KEGG
 
 KEGG files are parsed according to an older [KEGG Pathway Parser](https://github.com/Reed-CompBio/pathway-parsers) which downloads KGML files and generates two types of files: `collapsed` files which includes protein complexes and protein families as individual nodes and `expanded` files that expand these entities into the individual proteins. These KGML files were downloaded Jul 14 2020 and moved to `infiles/kegg`.
@@ -68,8 +68,21 @@ The script below renames the pathways according to the `_pathway_list.txt` file 
 python3 parse_kegg.py
 ```
 
-This file uses `mapping.txt` (downloaded Name & Uniprot from [HGNC mapper](https://www.genenames.org/download/custom/)).
+This file uses `mapping.txt` (downloaded Name & Uniprot from [HGNC mapper](https://www.genenames.org/download/custom/)). Also note that since we require at least 10 edges, this means that collapsed and expanded are slightly different in terms of the number of pathways. THis shouldn't affect the corresponding pathway analysis though.
+
+- **collapsed:** 95 too small. 242 TOTAL parsed.
+- **expanded:** 70 too small. 267 TOTAL parsed.
 
 ### Reactome
 
 **TODO**
+
+## Databases not Parsed
+- PathBank
+- SIGNOR
+- CausalBioNet
+- Reactome
+
+# Getting Corresponding Pathways
+
+`pytohn3 get_corresponding_pathways.py`

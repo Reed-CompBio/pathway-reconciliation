@@ -10,6 +10,9 @@ def main():
 
     files = glob.glob('infiles/netpath/*')
     out = open(outdir+'/pathway-names.txt','w')
+    num_small = 0
+    tot=0
+    written_edgesets = set()
     for f in files:
         pname = f.replace('infiles/netpath/','').replace('-edges.txt','')
         #print(pname)
@@ -22,10 +25,16 @@ def main():
                 row = line.strip().split('\t')
                 edge = tuple(sorted([row[6],row[7]]))
                 edges.add(edge)
+        if len(edges) < 10:
+            print('WARNING: %s too small. Ignoring.' % (f))
+            num_small+=1
+            continue
         out.write('%s.txt\t%d\t%s\n'% (pname,len(edges),pname))
         outfile = outdir+pname+'.txt'
         write_file(edges,outfile)
+        tot+=1
     out.close()
+    print('%d too small. %d TOTAL parsed.' % (num_small,tot))
 
 def write_file(edges,outfile):
     out = open(outfile,'w')

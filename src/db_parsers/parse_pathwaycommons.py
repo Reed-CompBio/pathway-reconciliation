@@ -4,6 +4,9 @@ import argparse
 import itertools
 import glob
 
+# words to ignore for INOH pathways (these are redundant)
+words_to_ignore = ['C. elegans','Drosophlia','Mammalian','Xenopus']
+
 def main(args):
     infile = args.infile
     db_name = infile.split('.')[1]
@@ -21,17 +24,34 @@ def main(args):
         pathways = read_interactions(infile,proteins,all_file=True)
         write_file(pathways['all'],outfile)
     else:
+        num_small = 0
+        num_nonhuman= 0
+        num_identical=0
+        tot=0
         proteins = get_uniprot(infile,None)
         pathways = read_interactions(infile,proteins)
         out = open(outdir+'/pathway-names.txt','w')
+        written_edgesets = set()
         for p in pathways:
             if len(pathways[p]) < args.thres:
-                #print('IGNORING %s: %d interactions.' % (p,len(pathways[p])))
+                print('WARNING! pathway %s has %d interactions. Ignoring.' % (p,len(pathways[p])))
+                num_small +=1
+                continue
+            if db_name=='inoh' and any([w in p for w in words_to_ignore]):
+                print('WARNING! Non-human pathway %s. Ignoring.' % (p))
+                num_nonhuman+=1
+                continue
+            if frozenset(pathways[p]) in written_edgesets:
+                print('WARNING! Identical pathway %s. Ignoring.' % (p))
+                num_identical+=1
                 continue
             pwname = p.replace(' ','_').replace('/','-').replace('(','~').replace(')','~')+'.txt'
             out.write('%s\t%d\t%s\n' % (pwname,len(pathways[p]),p))
             write_file(pathways[p],outdir+'/'+pwname)
+            tot+=1
+            written_edgesets.add(frozenset(pathways[p]))
         out.close()
+        print('%d too small, %d nonhuman, %d identical. %d TOTAL parsed.' % (num_small,num_nonhuman,num_identical,tot))
 
     return
 

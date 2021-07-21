@@ -1,23 +1,12 @@
-Thiamine_metabolism.txt	4	Thiamine metabolism
 Regulation_of_lipolysis_in_adipocytes.txt	20	Regulation of lipolysis in adipocytes
-Ascorbate_and_aldarate_metabolism.txt	2	Ascorbate and aldarate metabolism
-Pancreatic_secretion.txt	5	Pancreatic secretion
-Basal_cell_carcinoma.txt	7	Basal cell carcinoma
-Fatty_acid_metabolism.txt	0	Fatty acid metabolism
 Ether_lipid_metabolism.txt	26	Ether lipid metabolism
-Glycosaminoglycan_biosynthesis_-_heparan_sulfate_-_heparin.txt	0	Glycosaminoglycan biosynthesis - heparan sulfate / heparin
 Yersinia_infection.txt	73	Yersinia infection
 Influenza_A.txt	47	Influenza A
-Allograft_rejection.txt	3	Allograft rejection
 EGFR_tyrosine_kinase_inhibitor_resistance.txt	65	EGFR tyrosine kinase inhibitor resistance
-Thyroid_cancer.txt	8	Thyroid cancer
 Antigen_processing_and_presentation.txt	13	Antigen processing and presentation
 Glucagon_signaling_pathway.txt	16	Glucagon signaling pathway
 Galactose_metabolism.txt	24	Galactose metabolism
-Carbohydrate_digestion_and_absorption.txt	4	Carbohydrate digestion and absorption
-ABC_transporters.txt	0	ABC transporters
 Nicotinate_and_nicotinamide_metabolism.txt	47	Nicotinate and nicotinamide metabolism
-Ubiquitin_mediated_proteolysis.txt	0	Ubiquitin mediated proteolysis
 Legionellosis.txt	14	Legionellosis
 Human_papillomavirus_infection.txt	62	Human papillomavirus infection
 Parkinson_disease.txt	24	Parkinson disease
@@ -28,26 +17,19 @@ Human_T-cell_leukemia_virus_1_infection.txt	41	Human T-cell leukemia virus 1 inf
 Fluid_shear_stress_and_atherosclerosis.txt	40	Fluid shear stress and atherosclerosis
 Tryptophan_metabolism.txt	37	Tryptophan metabolism
 beta-Alanine_metabolism.txt	31	beta-Alanine metabolism
-2-Oxocarboxylic_acid_metabolism.txt	0	2-Oxocarboxylic acid metabolism
 Prostate_cancer.txt	30	Prostate cancer
 Cellular_senescence.txt	61	Cellular senescence
 Endocrine_resistance.txt	60	Endocrine resistance
-Hematopoietic_cell_lineage.txt	0	Hematopoietic cell lineage
 Fructose_and_mannose_metabolism.txt	24	Fructose and mannose metabolism
-Salivary_secretion.txt	8	Salivary secretion
 Folate_biosynthesis.txt	32	Folate biosynthesis
 Oxytocin_signaling_pathway.txt	39	Oxytocin signaling pathway
 Platelet_activation.txt	52	Platelet activation
-Phosphonate_and_phosphinate_metabolism.txt	2	Phosphonate and phosphinate metabolism
 Kaposi_sarcoma-associated_herpesvirus_infection.txt	63	Kaposi sarcoma-associated herpesvirus infection
 Alzheimer_disease.txt	50	Alzheimer disease
 Th1_and_Th2_cell_differentiation.txt	31	Th1 and Th2 cell differentiation
 Gastric_acid_secretion.txt	14	Gastric acid secretion
 Complement_and_coagulation_cascades.txt	32	Complement and coagulation cascades
 Adipocytokine_signaling_pathway.txt	35	Adipocytokine signaling pathway
-Sulfur_relay_system.txt	6	Sulfur relay system
-Graft-versus-host_disease.txt	2	Graft-versus-host disease
-Antifolate_resistance.txt	1	Antifolate resistance
 Glioma.txt	25	Glioma
 Huntington_disease.txt	21	Huntington disease
 Hepatitis_B.txt	63	Hepatitis B
@@ -55,97 +37,68 @@ Pathogenic_Escherichia_coli_infection.txt	61	Pathogenic Escherichia coli infecti
 Glycosaminoglycan_degradation.txt	14	Glycosaminoglycan degradation
 Apelin_signaling_pathway.txt	36	Apelin signaling pathway
 Pancreatic_cancer.txt	33	Pancreatic cancer
-Base_excision_repair.txt	0	Base excision repair
 Long-term_depression.txt	26	Long-term depression
-Vitamin_digestion_and_absorption.txt	0	Vitamin digestion and absorption
 Relaxin_signaling_pathway.txt	52	Relaxin signaling pathway
-alpha-Linolenic_acid_metabolism.txt	3	alpha-Linolenic acid metabolism
 VEGF_signaling_pathway.txt	31	VEGF signaling pathway
 Glycerolipid_metabolism.txt	32	Glycerolipid metabolism
 Dopaminergic_synapse.txt	36	Dopaminergic synapse
 Hepatitis_C.txt	46	Hepatitis C
 Shigellosis.txt	89	Shigellosis
-Proteasome.txt	0	Proteasome
 Spinocerebellar_ataxia.txt	21	Spinocerebellar ataxia
-Bile_secretion.txt	5	Bile secretion
 Cortisol_synthesis_and_secretion.txt	14	Cortisol synthesis and secretion
 Primary_bile_acid_biosynthesis.txt	23	Primary bile acid biosynthesis
-RNA_degradation.txt	3	RNA degradation
 Metabolism_of_xenobiotics_by_cytochrome_P450.txt	63	Metabolism of xenobiotics by cytochrome P450
 Homologous_recombination.txt	12	Homologous recombination
 Platinum_drug_resistance.txt	27	Platinum drug resistance
 Endometrial_cancer.txt	18	Endometrial cancer
 Drug_metabolism_-_other_enzymes.txt	37	Drug metabolism - other enzymes
 Renin_secretion.txt	16	Renin secretion
-Renin-angiotensin_system.txt	1	Renin-angiotensin system
 Propanoate_metabolism.txt	32	Propanoate metabolism
-Aminoacyl-tRNA_biosynthesis.txt	4	Aminoacyl-tRNA biosynthesis
-Fat_digestion_and_absorption.txt	3	Fat digestion and absorption
-PPAR_signaling_pathway.txt	0	PPAR signaling pathway
 Colorectal_cancer.txt	27	Colorectal cancer
 Inositol_phosphate_metabolism.txt	62	Inositol phosphate metabolism
-Glycosaminoglycan_biosynthesis_-_keratan_sulfate.txt	0	Glycosaminoglycan biosynthesis - keratan sulfate
 Linoleic_acid_metabolism.txt	15	Linoleic acid metabolism
 Osteoclast_differentiation.txt	54	Osteoclast differentiation
 Alanine,_aspartate_and_glutamate_metabolism.txt	41	Alanine, aspartate and glutamate metabolism
-Biosynthesis_of_unsaturated_fatty_acids.txt	0	Biosynthesis of unsaturated fatty acids
 Amyotrophic_lateral_sclerosis_~ALS~.txt	20	Amyotrophic lateral sclerosis (ALS)
 Salmonella_infection.txt	92	Salmonella infection
 Human_cytomegalovirus_infection.txt	79	Human cytomegalovirus infection
 Renal_cell_carcinoma.txt	21	Renal cell carcinoma
 Aldosterone_synthesis_and_secretion.txt	12	Aldosterone synthesis and secretion
-Sulfur_metabolism.txt	7	Sulfur metabolism
-Protein_digestion_and_absorption.txt	0	Protein digestion and absorption
 Drug_metabolism_-_cytochrome_P450.txt	27	Drug metabolism - cytochrome P450
 Pertussis.txt	26	Pertussis
 Measles.txt	43	Measles
 Arachidonic_acid_metabolism.txt	99	Arachidonic acid metabolism
 Glycosylphosphatidylinositol_~GPI~-anchor_biosynthesis.txt	10	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
-Glycosaminoglycan_biosynthesis_-_chondroitin_sulfate_-_dermatan_sulfate.txt	4	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
-Aldosterone-regulated_sodium_reabsorption.txt	9	Aldosterone-regulated sodium reabsorption
 Natural_killer_cell_mediated_cytotoxicity.txt	80	Natural killer cell mediated cytotoxicity
-Biotin_metabolism.txt	4	Biotin metabolism
 Insulin_resistance.txt	49	Insulin resistance
 Glycolysis_-_Gluconeogenesis.txt	43	Glycolysis / Gluconeogenesis
 Glycosphingolipid_biosynthesis_-_ganglio_series.txt	24	Glycosphingolipid biosynthesis - ganglio series
 Rap1_signaling_pathway.txt	70	Rap1 signaling pathway
 GABAergic_synapse.txt	11	GABAergic synapse
-Rheumatoid_arthritis.txt	7	Rheumatoid arthritis
-Carbon_metabolism.txt	0	Carbon metabolism
 Proteoglycans_in_cancer.txt	127	Proteoglycans in cancer
-Phenylalanine,_tyrosine_and_tryptophan_biosynthesis.txt	4	Phenylalanine, tyrosine and tryptophan biosynthesis
 Longevity_regulating_pathway.txt	33	Longevity regulating pathway
 Cholesterol_metabolism.txt	18	Cholesterol metabolism
 Parathyroid_hormone_synthesis,_secretion_and_action.txt	35	Parathyroid hormone synthesis, secretion and action
 Chemical_carcinogenesis.txt	17	Chemical carcinogenesis
 Hypertrophic_cardiomyopathy_~HCM~.txt	14	Hypertrophic cardiomyopathy (HCM)
-Systemic_lupus_erythematosus.txt	3	Systemic lupus erythematosus
 Serotonergic_synapse.txt	19	Serotonergic synapse
 Pentose_and_glucuronate_interconversions.txt	10	Pentose and glucuronate interconversions
 Endocrine_and_other_factor-regulated_calcium_reabsorption.txt	11	Endocrine and other factor-regulated calcium reabsorption
 Ras_signaling_pathway.txt	88	Ras signaling pathway
 Type_II_diabetes_mellitus.txt	24	Type II diabetes mellitus
-Mineral_absorption.txt	1	Mineral absorption
-GnRH_secretion.txt	0	GnRH secretion
 Selenocompound_metabolism.txt	14	Selenocompound metabolism
 Apoptosis.txt	66	Apoptosis
 mRNA_surveillance_pathway.txt	19	mRNA surveillance pathway
 Longevity_regulating_pathway_-_multiple_species.txt	27	Longevity regulating pathway - multiple species
 Arginine_and_proline_metabolism.txt	39	Arginine and proline metabolism
-Neomycin,_kanamycin_and_gentamicin_biosynthesis.txt	0	Neomycin, kanamycin and gentamicin biosynthesis
 Inflammatory_bowel_disease_~IBD~.txt	24	Inflammatory bowel disease (IBD)
 AGE-RAGE_signaling_pathway_in_diabetic_complications.txt	44	AGE-RAGE signaling pathway in diabetic complications
-Vasopressin-regulated_water_reabsorption.txt	7	Vasopressin-regulated water reabsorption
 Cholinergic_synapse.txt	23	Cholinergic synapse
 Phenylalanine_metabolism.txt	12	Phenylalanine metabolism
 Adherens_junction.txt	53	Adherens junction
 Pantothenate_and_CoA_biosynthesis.txt	14	Pantothenate and CoA biosynthesis
-SNARE_interactions_in_vesicular_transport.txt	6	SNARE interactions in vesicular transport
 Glutamatergic_synapse.txt	28	Glutamatergic synapse
 Non-alcoholic_fatty_liver_disease_~NAFLD~.txt	33	Non-alcoholic fatty liver disease (NAFLD)
-Arrhythmogenic_right_ventricular_cardiomyopathy_~ARVC~.txt	6	Arrhythmogenic right ventricular cardiomyopathy (ARVC)
-MicroRNAs_in_cancer.txt	0	MicroRNAs in cancer
-Autoimmune_thyroid_disease.txt	4	Autoimmune thyroid disease
 Bladder_cancer.txt	11	Bladder cancer
 Hippo_signaling_pathway.txt	35	Hippo signaling pathway
 Pyrimidine_metabolism.txt	85	Pyrimidine metabolism
@@ -155,40 +108,25 @@ Glycosphingolipid_biosynthesis_-_lacto_and_neolacto_series.txt	59	Glycosphingoli
 MAPK_signaling_pathway.txt	120	MAPK signaling pathway
 Cushing_syndrome.txt	32	Cushing syndrome
 Butanoate_metabolism.txt	21	Butanoate metabolism
-Lipoic_acid_metabolism.txt	5	Lipoic acid metabolism
 Neurotrophin_signaling_pathway.txt	83	Neurotrophin signaling pathway
 Autophagy_-_other.txt	15	Autophagy - other
 Apoptosis_-_multiple_species.txt	19	Apoptosis - multiple species
 Melanoma.txt	14	Melanoma
 RNA_transport.txt	74	RNA transport
 Mitophagy_-_animal.txt	36	Mitophagy - animal
-Retrograde_endocannabinoid_signaling.txt	8	Retrograde endocannabinoid signaling
 Growth_hormone_synthesis,_secretion_and_action.txt	34	Growth hormone synthesis, secretion and action
 Sphingolipid_metabolism.txt	66	Sphingolipid metabolism
-Proximal_tubule_bicarbonate_reclamation.txt	2	Proximal tubule bicarbonate reclamation
-Oxidative_phosphorylation.txt	2	Oxidative phosphorylation
-IL-17_signaling_pathway.txt	5	IL-17 signaling pathway
 Glycosphingolipid_biosynthesis_-_globo_and_isoglobo_series.txt	13	Glycosphingolipid biosynthesis - globo and isoglobo series
 ErbB_signaling_pathway.txt	59	ErbB signaling pathway
 Herpes_simplex_virus_1_infection.txt	58	Herpes simplex virus 1 infection
 Long-term_potentiation.txt	35	Long-term potentiation
 Regulation_of_actin_cytoskeleton.txt	75	Regulation of actin cytoskeleton
 Viral_myocarditis.txt	12	Viral myocarditis
-Transcriptional_misregulation_in_cancer.txt	5	Transcriptional misregulation in cancer
 Hippo_signaling_pathway_-_multiple_species.txt	17	Hippo signaling pathway - multiple species
-Ferroptosis.txt	4	Ferroptosis
 Notch_signaling_pathway.txt	13	Notch signaling pathway
-Ribosome.txt	0	Ribosome
 Epithelial_cell_signaling_in_Helicobacter_pylori_infection.txt	15	Epithelial cell signaling in Helicobacter pylori infection
-Viral_carcinogenesis.txt	3	Viral carcinogenesis
-Non-homologous_end-joining.txt	0	Non-homologous end-joining
-Ubiquinone_and_other_terpenoid-quinone_biosynthesis.txt	5	Ubiquinone and other terpenoid-quinone biosynthesis
-Synaptic_vesicle_cycle.txt	5	Synaptic vesicle cycle
-Ribosome_biogenesis_in_eukaryotes.txt	2	Ribosome biogenesis in eukaryotes
 Epstein-Barr_virus_infection.txt	52	Epstein-Barr virus infection
-Collecting_duct_acid_secretion.txt	0	Collecting duct acid secretion
 Human_immunodeficiency_virus_1_infection.txt	74	Human immunodeficiency virus 1 infection
-Spliceosome.txt	0	Spliceosome
 Amino_sugar_and_nucleotide_sugar_metabolism.txt	39	Amino sugar and nucleotide sugar metabolism
 Axon_guidance.txt	101	Axon guidance
 Necroptosis.txt	47	Necroptosis
@@ -201,13 +139,9 @@ Leishmaniasis.txt	26	Leishmaniasis
 N-Glycan_biosynthesis.txt	25	N-Glycan biosynthesis
 TGF-beta_signaling_pathway.txt	49	TGF-beta signaling pathway
 Valine,_leucine_and_isoleucine_degradation.txt	55	Valine, leucine and isoleucine degradation
-Circadian_rhythm.txt	4	Circadian rhythm
 Neuroactive_ligand-receptor_interaction.txt	51	Neuroactive ligand-receptor interaction
 cGMP-PKG_signaling_pathway.txt	52	cGMP-PKG signaling pathway
-Mismatch_repair.txt	0	Mismatch repair
 Cell_adhesion_molecules_~CAMs~.txt	77	Cell adhesion molecules (CAMs)
-Other_glycan_degradation.txt	0	Other glycan degradation
-RNA_polymerase.txt	0	RNA polymerase
 Vibrio_cholerae_infection.txt	11	Vibrio cholerae infection
 Arginine_biosynthesis.txt	14	Arginine biosynthesis
 Mucin_type_O-glycan_biosynthesis.txt	11	Mucin type O-glycan biosynthesis
@@ -216,13 +150,10 @@ Terpenoid_backbone_biosynthesis.txt	22	Terpenoid backbone biosynthesis
 Glyoxylate_and_dicarboxylate_metabolism.txt	19	Glyoxylate and dicarboxylate metabolism
 Phosphatidylinositol_signaling_system.txt	97	Phosphatidylinositol signaling system
 Fc_epsilon_RI_signaling_pathway.txt	30	Fc epsilon RI signaling pathway
-Taste_transduction.txt	9	Taste transduction
 Circadian_entrainment.txt	41	Circadian entrainment
 Choline_metabolism_in_cancer.txt	31	Choline metabolism in cancer
 Alcoholism.txt	21	Alcoholism
 FoxO_signaling_pathway.txt	42	FoxO signaling pathway
-Basal_transcription_factors.txt	0	Basal transcription factors
-African_trypanosomiasis.txt	7	African trypanosomiasis
 Various_types_of_N-glycan_biosynthesis.txt	10	Various types of N-glycan biosynthesis
 Cysteine_and_methionine_metabolism.txt	46	Cysteine and methionine metabolism
 Central_carbon_metabolism_in_cancer.txt	16	Central carbon metabolism in cancer
@@ -233,18 +164,10 @@ Focal_adhesion.txt	72	Focal adhesion
 Mannose_type_O-glycan_biosynthesis.txt	15	Mannose type O-glycan biosynthesis
 Toxoplasmosis.txt	30	Toxoplasmosis
 Morphine_addiction.txt	14	Morphine addiction
-Synthesis_and_degradation_of_ketone_bodies.txt	8	Synthesis and degradation of ketone bodies
-Riboflavin_metabolism.txt	5	Riboflavin metabolism
 PI3K-Akt_signaling_pathway.txt	61	PI3K-Akt signaling pathway
 Thermogenesis.txt	36	Thermogenesis
-Asthma.txt	1	Asthma
-Nicotine_addiction.txt	0	Nicotine addiction
-Malaria.txt	4	Malaria
 Gap_junction.txt	40	Gap junction
-Other_types_of_O-glycan_biosynthesis.txt	0	Other types of O-glycan biosynthesis
-Primary_immunodeficiency.txt	0	Primary immunodeficiency
 mTOR_signaling_pathway.txt	49	mTOR signaling pathway
-Phototransduction.txt	8	Phototransduction
 B_cell_receptor_signaling_pathway.txt	35	B cell receptor signaling pathway
 JAK-STAT_signaling_pathway.txt	16	JAK-STAT signaling pathway
 cAMP_signaling_pathway.txt	69	cAMP signaling pathway
@@ -253,20 +176,15 @@ Thyroid_hormone_signaling_pathway.txt	32	Thyroid hormone signaling pathway
 ECM-receptor_interaction.txt	66	ECM-receptor interaction
 AMPK_signaling_pathway.txt	40	AMPK signaling pathway
 Fatty_acid_degradation.txt	30	Fatty acid degradation
-Maturity_onset_diabetes_of_the_young.txt	3	Maturity onset diabetes of the young
 T_cell_receptor_signaling_pathway.txt	52	T cell receptor signaling pathway
 Citrate_cycle_~TCA_cycle~.txt	27	Citrate cycle (TCA cycle)
 PD-L1_expression_and_PD-1_checkpoint_pathway_in_cancer.txt	48	PD-L1 expression and PD-1 checkpoint pathway in cancer
-Biosynthesis_of_amino_acids.txt	0	Biosynthesis of amino acids
 Vascular_smooth_muscle_contraction.txt	40	Vascular smooth muscle contraction
-Taurine_and_hypotaurine_metabolism.txt	7	Taurine and hypotaurine metabolism
 Amphetamine_addiction.txt	15	Amphetamine addiction
 Thyroid_hormone_synthesis.txt	15	Thyroid hormone synthesis
 Amoebiasis.txt	10	Amoebiasis
 Acute_myeloid_leukemia.txt	28	Acute myeloid leukemia
-Peroxisome.txt	0	Peroxisome
 Pyruvate_metabolism.txt	42	Pyruvate metabolism
-Nitrogen_metabolism.txt	2	Nitrogen metabolism
 C-type_lectin_receptor_signaling_pathway.txt	58	C-type lectin receptor signaling pathway
 Estrogen_signaling_pathway.txt	33	Estrogen signaling pathway
 Cytokine-cytokine_receptor_interaction.txt	206	Cytokine-cytokine receptor interaction
@@ -279,53 +197,41 @@ Chronic_myeloid_leukemia.txt	28	Chronic myeloid leukemia
 Glycine,_serine_and_threonine_metabolism.txt	54	Glycine, serine and threonine metabolism
 Starch_and_sucrose_metabolism.txt	33	Starch and sucrose metabolism
 Hedgehog_signaling_pathway.txt	26	Hedgehog signaling pathway
-Valine,_leucine_and_isoleucine_biosynthesis.txt	0	Valine, leucine and isoleucine biosynthesis
-Caffeine_metabolism.txt	8	Caffeine metabolism
 Staphylococcus_aureus_infection.txt	12	Staphylococcus aureus infection
-Protein_export.txt	0	Protein export
 p53_signaling_pathway.txt	15	p53 signaling pathway
 Endocytosis.txt	21	Endocytosis
 Inflammatory_mediator_regulation_of_TRP_channels.txt	26	Inflammatory mediator regulation of TRP channels
 Chemokine_signaling_pathway.txt	58	Chemokine signaling pathway
 Prolactin_signaling_pathway.txt	26	Prolactin signaling pathway
 Non-small_cell_lung_cancer.txt	28	Non-small cell lung cancer
-DNA_replication.txt	0	DNA replication
 Bacterial_invasion_of_epithelial_cells.txt	26	Bacterial invasion of epithelial cells
 Wnt_signaling_pathway.txt	75	Wnt signaling pathway
-Nucleotide_excision_repair.txt	0	Nucleotide excision repair
 Small_cell_lung_cancer.txt	13	Small cell lung cancer
 Melanogenesis.txt	22	Melanogenesis
 Oocyte_meiosis.txt	34	Oocyte meiosis
 Steroid_hormone_biosynthesis.txt	103	Steroid hormone biosynthesis
-Phagosome.txt	2	Phagosome
 Adrenergic_signaling_in_cardiomyocytes.txt	50	Adrenergic signaling in cardiomyocytes
 TNF_signaling_pathway.txt	45	TNF signaling pathway
 Prion_diseases.txt	11	Prion diseases
 Toll-like_receptor_signaling_pathway.txt	46	Toll-like receptor signaling pathway
 Insulin_signaling_pathway.txt	52	Insulin signaling pathway
 Breast_cancer.txt	31	Breast cancer
-D-Glutamine_and_D-glutamate_metabolism.txt	2	D-Glutamine and D-glutamate metabolism
 Cardiac_muscle_contraction.txt	12	Cardiac muscle contraction
 Hepatocellular_carcinoma.txt	32	Hepatocellular carcinoma
 NF-kappa_B_signaling_pathway.txt	47	NF-kappa B signaling pathway
 Leukocyte_transendothelial_migration.txt	56	Leukocyte transendothelial migration
 Fatty_acid_biosynthesis.txt	29	Fatty acid biosynthesis
-Type_I_diabetes_mellitus.txt	2	Type I diabetes mellitus
 Insulin_secretion.txt	22	Insulin secretion
 Pentose_phosphate_pathway.txt	33	Pentose phosphate pathway
 NOD-like_receptor_signaling_pathway.txt	93	NOD-like receptor signaling pathway
-Lysosome.txt	0	Lysosome
 Gastric_cancer.txt	31	Gastric cancer
 Protein_processing_in_endoplasmic_reticulum.txt	23	Protein processing in endoplasmic reticulum
 Porphyrin_and_chlorophyll_metabolism.txt	14	Porphyrin and chlorophyll metabolism
-Vitamin_B6_metabolism.txt	8	Vitamin B6 metabolism
 Cell_cycle.txt	48	Cell cycle
 RIG-I-like_receptor_signaling_pathway.txt	28	RIG-I-like receptor signaling pathway
 GnRH_signaling_pathway.txt	37	GnRH signaling pathway
 Fatty_acid_elongation.txt	11	Fatty acid elongation
 Histidine_metabolism.txt	11	Histidine metabolism
-D-Arginine_and_D-ornithine_metabolism.txt	0	D-Arginine and D-ornithine metabolism
-Ovarian_steroidogenesis.txt	8	Ovarian steroidogenesis
 Cytosolic_DNA-sensing_pathway.txt	17	Cytosolic DNA-sensing pathway
 Intestinal_immune_network_for_IgA_production.txt	14	Intestinal immune network for IgA production
 HIF-1_signaling_pathway.txt	22	HIF-1 signaling pathway
@@ -334,4 +240,3 @@ Retinol_metabolism.txt	97	Retinol metabolism
 Glutathione_metabolism.txt	42	Glutathione metabolism
 Signaling_pathways_regulating_pluripotency_of_stem_cells.txt	33	Signaling pathways regulating pluripotency of stem cells
 Lysine_degradation.txt	18	Lysine degradation
-Metabolic_pathways.txt	0	Metabolic pathways
