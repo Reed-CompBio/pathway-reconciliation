@@ -106,6 +106,15 @@ One can consider a graph, where the nodes are all pathways and there is a direct
 
 Instead, we will do something a little more stringent.  We define an undirected graph where there is an edge between pathway _a_ and pathway _b_ if _b_ is the top corresponding pathway of _a_ **AND** _a_ is the top corresponding pathway of _b_.  There are 142 such edges in this graph with 64 connected components. These are written in the file `conncomps.txt`.
 
-Of the connected components, 23 connected components have members that are from at least 3 databases. We use these for our set of corresponding pathways.
+Of the connected components, 23 connected components have members that are from at least 3 databases. We use these for our set of corresponding pathways. The file `../../networks/dbs/corresponding-top-picks-ORIG.txt` is written with this information. IF there are multiple pathways from the same database in the same connected component, they are separated with a pipe (`|`).  A `NAME` stub is added for the pathway name.
 
 ## Manual Curation
+
+The last step is to add some manual changes to the `corresponding-top-picks-ORIG.txt` file.
+1. Copy `corresponding-top-picks-ORIG.txt` to `corresponding-top-picks.txt`.
+2. Write pathway names in the first column. If a pathway name cannot be easily determined, remove the connected component. (3 conn comps were removed this way).
+3. For databases with multiple pathways, choose one pathway to include in the correspondence. Do this based on the name.
+4. NetPath had some obviously missing pathways (BCR, TGFbeta); add these in.
+
+Set as of July 21, 2021:
+![2021-07-21-set.png](2021-07-21-set.png)
