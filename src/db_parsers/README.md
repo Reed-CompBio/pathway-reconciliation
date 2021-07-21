@@ -30,7 +30,9 @@ Download `PathwayCommons11.inoh.hgnc.txt.gz` from [PC2v11](https://www.pathwayco
 python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.inoh.hgnc.txt -o ../../networks/dbs/
 ```
 
-### PathBank?
+### PathBank
+
+**TODO**
 
 ## NDEx
 
@@ -38,7 +40,11 @@ The next pathway databases are from [NDEx](https://home.ndexbio.org/index/)
 
 ### SIGNOR
 
+**TODO**
+
 ### CausalBioNet
+
+**TODO**
 
 ## Original Pathway Databases
 
@@ -46,13 +52,24 @@ The final set of pathway databases are parsed from their original form. While th
 
 ### NetPath
 
-Original 32 pathways from [NetPath](http://www.netpath.org/), used in previous publications such as [PathLinker](https://www.nature.com/articles/npjsba20162), are stored in `infiles/netpath`.  Make undirected and two-column files to drop in `../../networks/dbs/`.
+Original 32 pathways from [NetPath](http://www.netpath.org/), used in previous publications such as [PathLinker](https://www.nature.com/articles/npjsba20162), are stored in `infiles/netpath`.  The script below makes the pathways undirected and two-column files to drop in `../../networks/dbs/`.
 
 ```
 python3 parse_netpath.py
 ```
 
-
 ### KEGG
 
+KEGG files are parsed according to an older [KEGG Pathway Parser](https://github.com/Reed-CompBio/pathway-parsers) which downloads KGML files and generates two types of files: `collapsed` files which includes protein complexes and protein families as individual nodes and `expanded` files that expand these entities into the individual proteins. These KGML files were downloaded Jul 14 2020 and moved to `infiles/kegg`.
+
+The script below renames the pathways according to the `_pathway_list.txt` file in the KEGG directory, makes the edges undirected and two-columns. Drops them in `../../networks/kegg/collapsed/` and `../../networks/kegg/expanded`.
+
+```
+python3 parse_kegg.py
+```
+
+This file uses `mapping.txt` (downloaded Name & Uniprot from [HGNC mapper](https://www.genenames.org/download/custom/)).
+
 ### Reactome
+
+**TODO**
