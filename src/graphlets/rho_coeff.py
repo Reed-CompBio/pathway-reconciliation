@@ -1,9 +1,11 @@
 # python rho_coeff.py /path/to/orca_dir/ /path/to/output_dir/ /path/to/network/
 # the third argument is optional - to be used only if -network.txt files are not in orca 
-#
+# arg1 and arg2 can be the same
+ 
 import pandas as pd 
 import networkx as nx
 import matplotlib.pyplot as plt
+import math
 import glob
 import sys
 from scipy import stats
@@ -46,6 +48,8 @@ def compute_rho(path_to_network: str, path_to_orca: str, path_to_outdir: str):
             rho4=0.0
 
         rho5 = (stats.spearmanr(df[1],df[2])[0]/2)+0.5
+        if math.isnan(rho5):
+            rho5=0.0
 
         U2 = (df[2]==1).astype(int)
         U3 = (df[3]==0).astype(int)
