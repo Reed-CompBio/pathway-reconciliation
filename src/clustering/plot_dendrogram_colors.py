@@ -113,14 +113,53 @@ def write__(classes,dest):
         with open(os.path.join(dest,'{}.txt'.format(c)),'w') as f:
             f.write('\n'.join(classes[c]))
 
+def combine(lat):
+    """
+    :lat     list of paths to gcount files
+    :returns df of all graphlets 
+    """
+    return pd.concat([pd.read_csv(x,index_col=0,sep='\s+',names=[x.split('/')[-1].split('.')[0]]) for x in lat], axis=1, sort=True)
+
+def merge_and_label(lat):
+    for i in range(len(lat)):
+        lat[i].columns = ['{}_{}'.format(x,i) for x in lat[i].columns]
+    ndf = pd.concat(lat,axis=1)
+    return ndf
+
+def process_inputs(lat,pathwayassoc,color_by_pathway) -> pd.DataFrame:
+    """
+    :lat              list of gcount files
+    :pathwayassoc     association between networks and databases/pathways
+    :color_by_pathway whether to color by pathway or by db 
+    :returns          labeled dataframe for plotting
+    """
+    pathwaykey = pd.read_csv(pathwayassoc,index_col=0,sep='\t')
+    if color_by_pathway:
+        print("color by pathway is not implemented yet, because that's way too many colors to be useful.")
+    else:
+        lat = []
+        for db in pathwaykey.columns:
+            dbpws = set(pathwaykey[db]).intersection(set(lat))
+            dbdf = combine(dbpws)
+            lat.append(dbdf)
+        final_df = merge_and_label(lat)
+        return final_df
+        
+
+
+
 def main(argv):
     """
-    data = 'Test-Data/test-100.csv'
-    clusters = cluster(read_vecs(data),90,True)
-    write(clusters,'Test-Out')
+    :data        list of gcount files
+    :out         path and filename to save the dend as 
+    :side-effect plots a dendrogram of the data 
+
     """
-    data = argv[1]
-    out = argv[2]
+    pathwayassoc = '../../networks/dbs/corresponding-top-picks.txt'
+    color_by_pathway = True
+    data = argv[1:-1]
+    
+    out = argv[-1]
     clusters = cluster__(read_vecs(data),out,)
 
 if __name__ == "__main__":
