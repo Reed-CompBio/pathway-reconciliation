@@ -75,13 +75,55 @@ This file uses `mapping.txt` (downloaded Name & Uniprot from [HGNC mapper](https
 
 ### Reactome
 
-**TODO**
+Reactome BioPAX file was downloaded from [Reactome](https://reactome.org/download-data) (BioPAX Level 3), extracted, and `Homo_sapiens.owl` was copied to `infiles/Reactome_Homo_sapiens.owl`. The first thing is to parse this _huge_ file into an extended SIF format using [PaxTools](https://www.biopax.org/Paxtools/). PaxTools can be downloaded as a "fat" jar (everything included, no dependencies) at [this site](https://sourceforge.net/projects/biopax/files//paxtools/).  We used `ppaxtools-5.1.0`, downloaded in mid-July 2021.
+
+```
+java -jar paxtools-5.1.0.jar toSIF infiles/Reactome_Homo_sapiens.owl infiles/reactome.extended-sif -extended seqDb=uniprot
+```
+
+Reactome contains many interaction types:
+
+```
+cut -f 2 infiles/reactome.extended-sif | sort | uniq -c
+381955 catalysis-precedes
+15580 chemical-affects
+8718 consumption-controlled-by
+3799 controls-expression-of
+3969 controls-phosphorylation-of
+8756 controls-production-of
+149458 controls-state-change-of
+7793 controls-transport-of
+5443 controls-transport-of-chemical
+144413 in-complex-with
+576468 neighbor-of
+1957 reacts-with
+6041 used-to-produce
+```
+
+The [PathwayCommons 2019 update](https://academic.oup.com/nar/article/48/D1/D489/5606621#190998315) has a good summary of these terms in its [supplementary information](https://academic.oup.com/nar/article/48/D1/D489/5606621#supplementary-data). We use the seven control types that are always between proteins:
+
+```
+controls-state-change-of
+controls-phosphorylation-of
+controls-transport-of
+controls-expression-of
+catalysis-precedes
+in-complex-with
+interacts-with
+```
+
+Unfortunately, there are no "interacts-with" tag in reactome's SIF file.
+
+```
+python3 parse_reactome.py
+```
+
+245 too small. 1617 TOTAL parsed. _But these are HUGE pathways, and "Signaling by Wnt" is still missing.  See the info about "Calculating Pathway Sizes" below.
 
 ## Databases not Parsed
 - PathBank
 - SIGNOR
 - CausalBioNet
-- Reactome
 
 # Getting Corresponding Pathways
 
@@ -116,5 +158,18 @@ The last step is to add some manual changes to the `corresponding-top-picks-ORIG
 3. For databases with multiple pathways, choose one pathway to include in the correspondence. Do this based on the name.
 4. NetPath had some obviously missing pathways (BCR, TGFbeta); add these in.
 
-Set as of July 21, 2021:
+Set as of July 21, 2021
+
 ![2021-07-21-set.png](2021-07-21-set.png)
+
+## Pathway Sizes
+
+Since Reactome looks soo different from the other pathway DBs by size, I plotted the histogram of pathway sizes (number of interactions).
+
+```
+ python3 plot_pathway_sizes.py
+```
+
+The result is that Reactome is notably larger, on average, than the others.  It is also nice to confirm how kegg_collapsed and kegg_expanded relate to each other.  The red lines indicate a size of 1,000, for reference.
+
+![pathway-sizes.png](pathway-sizes.png)

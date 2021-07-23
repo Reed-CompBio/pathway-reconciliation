@@ -1,6 +1,8 @@
 ###################################
 # Undirected Orbit & Graphlet frequency
-# for a given pathway
+#
+# python graphlet_count.py /path/to/input/ /path/to/output_dir/
+# input directory contains (pathway-edgelist).txt files.
 ###################################
 
 import pandas as pd
@@ -77,65 +79,22 @@ def gcount_directory(path_to_dir: str):
             print("{} has something with it".format(f))
 
 
-###################################
-# create synthetic networks using configuration model
-
-def create_random_networks(ns: int, randdir: str, f: str, inputG: nx.Graph, method: str):
-
-    #ns: number of randomized networks to be created (int)
-    #randdir: output directory where the output is to be stored (string)
-    #f: name of the original pathway file ending with '-edges.txt' (string)
-    #inputG: Original Network (nx Graph)
-    #
-    #writes ns random network edgelists to the directory specified
-    if method==1:
-
-        k = [x for n,x in inputG.degree()]
-        #print(k)
-        for i in range(1,ns+1):
-
-            Gr = nx.configuration_model(k)
-            Gr = nx.Graph(Gr)
-            Gr.remove_edges_from(nx.selfloop_edges(Gr))
-            fullname = randdir+f[:-9]+str(i)+'randomnetwork.txt'
-            nx.write_edgelist(Gr,fullname,data=False,delimiter=" ")
-    elif method==0:
-        for i in range(1,ns+1):
-
-            Gr=inputG
-            nt=5*nx.number_of_edges(Gr)
-
-            x=0
-            while x < nt:
-
-                edges = list(Gr.edges)
-                edge1 = random.choice(edges)
-                edge2 = random.choice(edges)
-                if edge1!=edge2 and edge1[0]!=edge2[1] and edge2[0]!=edge1[1] and not Gr.has_edge(edge1[0], edge2[1]) and not Gr.has_edge(edge2[0], edge1[1]):
-
-                    Gr.remove_edge(edge1[0], edge1[1])
-                    Gr.remove_edge(edge2[0], edge2[1])
-
-                    Gr.add_edge(edge1[0], edge2[1])
-                    Gr.add_edge(edge2[0], edge1[1])
-                    x=x+1
-            fullname = randdir+f[:-9]+str(i)+'randomnetwork.txt'
-            nx.write_edgelist(Gr,fullname,data=False,delimiter=" ")
 
 def main(argv):
 
     # Specify the directories here:
     #input directory is required, this will be the output directory if one is not supplied
     path = argv[1]
-    outdir = path
+    outdir = argv[2]
+
     #you can supply an output directory as well if you want
-    if len(argv) > 2:
-        outdir = argv[2]
-        if not os.path.exists(outdir):
-            os.mkdir(outdir)
-    randdir=outdir
+    #if len(argv) > 2:
+    #    outdir = argv[2]
+    #    if not os.path.exists(outdir):
+    #        os.mkdir(outdir)
+
     #Pathways
-    filenames = [f for f in glob.glob(path + '*-edges.txt') if sum(1 for l in open(f)) > 1]
+    filenames = [f for f in glob.glob(path + '*.txt') if sum(1 for l in open(f)) > 1]
 
     for f in filenames:
         print('processing file: {}'.format(f))
@@ -167,14 +126,9 @@ def main(argv):
             pd.DataFrame(list(G_new.nodes('ID'))).to_csv(fullname,sep='\t',header=False,index=False)
 
             # Store the graph edgelist with numberic node IDs ([0, N-1])
-            outfile=f[:-9]+'network.txt'
+            outfile=f[:-4]+'-network.txt'
             fullname = os.path.join(outdir, outfile)
             nx.write_edgelist(G_new,fullname,data=False,delimiter=" ")
-
-            # Create a set of degree preserving random Graphs
-            
-            # from the current graph. Save in the directory for random networks
-            #create_random_networks(100, randdir, f, G_new,0)
 
         except Exception as e:
             print("There's something suspicious about {}".format(f))
@@ -183,13 +137,8 @@ def main(argv):
     print('formatting files for orca and running orca')
     os.system('sh files_for_orca.sh '+outdir)
     os.system('sh execute_orca.sh 5 '+outdir) # for 4-node graphlets
-    #create .orca .ocount files for the random networks 
-    #os.system('sh files_for_orca.sh '+randdir)
-    #os.system('sh execute_orca.sh 4 '+randdir)# for 4-node graphlets
-    #create .gcount files for the original pathway networks
+
     gcount_directory(outdir)
-    #create .gcount files for the random networks
-    #gcount_directory(randdir)
 
 if __name__ == "__main__":
     main(sys.argv)
