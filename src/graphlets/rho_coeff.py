@@ -59,7 +59,7 @@ def compute_rho(path_to_network: str, path_to_orca: str, path_to_outdir: str):
         n_strings = 0
         s = 0
         for k in range(0, len(U2)):
-            if (U2[k]*U3[k] == 0):
+            if (U2[k]*U3[k] == 0 and df_graph.has_node(k)):
                 for l in list(nx.neighbors(df_graph,k)):
                     s += U2[l]*U3[l]
             #print(U2[i],U3[i])

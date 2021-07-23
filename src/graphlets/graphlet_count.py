@@ -2,7 +2,7 @@
 # Undirected Orbit & Graphlet frequency
 #
 # python graphlet_count.py /path/to/input/ /path/to/output_dir/
-# input directory contains -edges.txt files.
+# input directory contains (pathway-edgelist).txt files.
 ###################################
 
 import pandas as pd
@@ -94,7 +94,7 @@ def main(argv):
     #        os.mkdir(outdir)
 
     #Pathways
-    filenames = [f for f in glob.glob(path + '*-edges.txt') if sum(1 for l in open(f)) > 1]
+    filenames = [f for f in glob.glob(path + '*.txt') if sum(1 for l in open(f)) > 1]
 
     for f in filenames:
         print('processing file: {}'.format(f))
@@ -126,7 +126,7 @@ def main(argv):
             pd.DataFrame(list(G_new.nodes('ID'))).to_csv(fullname,sep='\t',header=False,index=False)
 
             # Store the graph edgelist with numberic node IDs ([0, N-1])
-            outfile=f[:-9]+'network.txt'
+            outfile=f[:-4]+'-network.txt'
             fullname = os.path.join(outdir, outfile)
             nx.write_edgelist(G_new,fullname,data=False,delimiter=" ")
 
