@@ -62,23 +62,24 @@ def cluster__(df,dest):
     print(X)
     link = 'average'
     affin = 'cosine'
+    #fig = plt.figure(1, figsize=(14, 2))
     fig = plt.figure(1, figsize=(14, 2))
     ax = fig.add_subplot(111)
     model = AgglomerativeClustering(distance_threshold=0, n_clusters=None,affinity=affin,linkage=link)
     model = model.fit(X)
-    lbls = ['-'.join(x.split('-')[:-1]) for x in df.columns]
+    #lbls = ['-'.join(x.split('-')[:-1]) for x in df.columns]
+    lbls = [x for x in df.columns]
     plot_dendrogram(model, labels=lbls,leaf_rotation=90, leaf_font_size=8,color_threshold=0,above_threshold_color='k')#truncate_mode='lastp', p=k,)#leaf_label_func=llf)
     #add colors
     _,l = plt.xticks()
     l = [x.get_text() for x in l]
     x = 0
-    c1='#20A4F3'
-    c2='#E84A7F'
+    cs = ['#20A4F3','#E84A7F','#FF8A5B','#2E294E','#7FB685','#FFFD82']
     for i in l:
-        if 'Rand' in i:
-            c = c1
-        else:
-            c = c2
+        print(i)
+        print(i.split('_')[-1])
+        print('{} belongs with {}'.format(i,cs[int(i.split('_')[-1])]))
+        c = cs[int(i.split('_')[-1])]
         ax.add_patch(
         patches.Rectangle(
             xy=(x,0),  # point of origin.
@@ -92,13 +93,15 @@ def cluster__(df,dest):
 
     #plt.ylim(0.6, 1)
     #plt.xticks(fontsize=16)
-    plt.yticks(fontsize=16)
+    #plt.yticks(fontsize=16)
     plt.tight_layout()
     plt.xticks([], [])
-    plt.tight_layout()
+    #plt.xticks(ticks=[5+x*10 for x in range(len(df.columns))],labels=['-'.join(x.split('-')[:-1]) for x in df.columns])
+    #plt.tight_layout()
     #plt.axis('off')
     #plt.title('dendrogram of cos sim') 
     plt.savefig(dest)
+    #plt.show()
    
 def read_vecs(path: str) -> pd.DataFrame:
     """
@@ -113,15 +116,66 @@ def write__(classes,dest):
         with open(os.path.join(dest,'{}.txt'.format(c)),'w') as f:
             f.write('\n'.join(classes[c]))
 
+def combine(lat):
+    """
+    :lat     list of paths to gcount files
+    :returns df of all graphlets 
+    """
+    return pd.concat([pd.read_csv(x,index_col=0,sep='\s+',names=[x.split('/')[-1].split('.')[0]]) for x in lat], axis=1, sort=True)
+
+def merge_and_label(lat):
+    for i in range(len(lat)):
+        lat[i].columns = ['{}_{}'.format(x,i) for x in lat[i].columns]
+    ndf = pd.concat(lat,axis=1)
+    return ndf
+
+def process_inputs(lat,pathwayassoc,color_by_pathway) -> pd.DataFrame:
+    """
+    :lat              list of gcount files
+    :pathwayassoc     association between networks and databases/pathways
+    :color_by_pathway whether to color by pathway or by db 
+    :returns          labeled dataframe for plotting
+    """
+    pathwaykey = pd.read_csv(pathwayassoc,index_col=0,sep='\t')
+    #lets filter out the elements of the lat which are not in the pathwaykey. Uncomment this to see everything vs everything.
+    print(lat[0])
+    print('/'.join(lat[0].split('/')[-2:]))
+    print(pathwaykey)
+    #return
+    lat = [x for x in lat if '-'.join('/'.join(x.split('/')[-2:]).split('-')[:-1]) in list(pathwaykey.applymap(lambda x: x.split('.')[0] if isinstance(x,str) else np.nan).stack())]
+    print(lat)
+    if color_by_pathway:
+        print("color by pathway is not implemented yet, because that's way too many colors to be useful.")
+    else:
+        storage = []
+        for db in pathwaykey.columns:
+            print(db)
+            dbpws = [x for x in lat if x.split('/')[-2] == db]
+            print('associating {} with {}'.format(db,dbpws))
+            if dbpws != []:
+                dbdf = combine(dbpws)
+                storage.append(dbdf)
+        final_df = merge_and_label(storage)
+        return final_df
+        
+
+
+
 def main(argv):
     """
-    data = 'Test-Data/test-100.csv'
-    clusters = cluster(read_vecs(data),90,True)
-    write(clusters,'Test-Out')
+    :data        list of gcount files
+    :out         path and filename to save the dend as 
+    :side-effect plots a dendrogram of the data 
+
     """
-    data = argv[1]
-    out = argv[2]
-    clusters = cluster__(read_vecs(data),out,)
+    pathwayassoc = '../../networks/dbs/corresponding-top-picks.txt'
+    color_by_pathway = False
+    data = argv[1:-1]
+    print(data)
+    processed_data = process_inputs(data,pathwayassoc,color_by_pathway)
+    print(processed_data)
+    out = argv[-1]
+    clusters = cluster__(processed_data,out,)
 
 if __name__ == "__main__":
     main(sys.argv)

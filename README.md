@@ -25,3 +25,9 @@ Some code related to parsing datasets ported from **[pathway-connectivity](https
 - **regression**: regression files (ground truth and predictions).
 
 - **out**: output visualization and analysis files.
+
+
+## Reproducability
+
+To reproduce plots in paper, as well as all attendant data, just run bash pipeline.sh
+
