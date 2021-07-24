@@ -4,16 +4,18 @@ import re
 import sys
 import networkx as nx
 
-domain_specific = set(['signaling','signalling','pathway','receptor','events','heterodimer','dimer','activation','inhibition','negative','positive','diagram','regulation','network','transcription','effects','factor','cascade','cancer','disease','action','acid','hormone','growth','guidance','cell','cells','cellular'])
-stopwords = set(['of','by','and','the','on','from','to','in','other','with','through','non','a'])
+domain_specific = set(['signaling','signalling','pathway','receptor','events','heterodimer','dimer','activation','inhibition','negative','positive','diagram','regulation','network','transcription','effects','factor','cascade','cancer','disease','action','acid','hormone','growth','guidance','cell','cells','cellular','biosynthesis','complement','contraction','complex','cycle','degredation','dna','downstream','effectors','expression','exchange','family','gene','interaction','interactions','kinase','phosphatase','longterm','migration','multiple','nuclear','outer','phosphate','phosphorylation','posttranslational','presentation','processing','protein','regulate','regulates','regulated','response','role','roles','signal','signals','species','specific','stabilization','stability','surface','target','targets','channels','transduction','transport',''])
+stopwords = set(['of','by','and','the','on','from','to','in','other','with','through','non','a','via'])
 
 PATHWAY_FILES = {'netpath':'../../networks/dbs/netpath/pathway-names.txt',
     'kegg_expanded':'../../networks/dbs/kegg_expanded/pathway-names.txt',
     'panther':'../../networks/dbs/panther/pathway-names.txt',
     'inoh':'../../networks/dbs/inoh/pathway-names.txt',
-    'pid':'../../networks/dbs/pid/pathway-names.txt'}
+    'pid':'../../networks/dbs/pid/pathway-names.txt',
+    'signor_expanded':'../../networks/dbs/signor_expanded/pathway-names.txt'}
+    #'reactome':'../../networks/dbs/reactome/pathway-names.txt'}
 
-DB_ORDER = ['netpath','pid','panther','inoh','kegg_expanded']
+DB_ORDER = ['netpath','pid','panther','inoh', 'signor_expanded','kegg_expanded']
 
 def main():
     pw_order,names,nodes = read_info()
@@ -108,22 +110,20 @@ def corresponding_pathways(edges,top_picks):
 
     ## make corresponding-top-picks.txt file
     out = open('../../networks/dbs/corresponding-top-picks-ORIG.txt','w')
-    out.write('#pathway\t'+'\t'.join(DB_ORDER)+'\tkegg_collapsed\n')
+    out.write('#pathway\t'+'\t'.join(DB_ORDER)+'\n')
     for conncomp in sorted(conncomps,key=len):
         row = {DB:[] for DB in DB_ORDER}
         row['kegg_collapsed'] = []
         for c in conncomp:
-            if 'kegg' in c:
+            if 'kegg' in c or 'signor' in c:
                 this_db = '_'.join(c.split('_')[:2])
                 this_pw = '_'.join(c.split('_')[2:])
             else:
                 this_db = c.split('_')[0]
                 this_pw = '_'.join(c.split('_')[1:])
             row[this_db].append('%s/%s' % (this_db,this_pw))
-            if this_db == 'kegg_expanded':
-                row['kegg_collapsed'].append('%s/%s' % ('kegg_collapsed',this_pw))
         out.write('NAME')
-        for db in DB_ORDER+['kegg_collapsed']:
+        for db in DB_ORDER:
             if row[db] == []:
                 out.write('\tNaN')
             else:
@@ -136,7 +136,7 @@ def corresponding_pathways(edges,top_picks):
 def skip(text):
     text = text.lower()
     text = re.sub(r'[^\w\s]', '',text) # remove punctuation
-    to_ignore = set(['cancer','carcinoma','disease','inflammation','viral','virus','carcinogenesis','diabetes','asthma','measles','resistance','infection','xenopus','mouse','elegans','drosophila','mammal','metabolism','metabolic'])
+    to_ignore = set(['cancer','carcinoma','disease','inflammation','viral','virus','carcinogenesis','diabetes','asthma','measles','resistance','infection','xenopus','mouse','elegans','drosophila','mammal','metabolism','metabolic','syndrome'])
     for word in to_ignore:
         if word in text:
             return True

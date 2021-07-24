@@ -40,9 +40,25 @@ python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.inoh.hgnc.txt -o ../
 
 57 too small, 26 nonhuman, 37 identical. 113 TOTAL parsed.
 
-## NDEx
 
-The next pathway databases are from [NDEx](https://home.ndexbio.org/index/)
+## NDex Pathways
+
+These pathways are stored in [CX format](https://home.ndexbio.org/data-model/) from [NDEx](https://home.ndexbio.org/index/).  You have to individually download the `.cx` files for original networks (there is no bulk data download avaialable).
+
+### SIGNOR
+
+I manually downloaded all pathway `.cx` files from NDEx listed as "Signor Signaling, Disease, and Cancer Pathways". They are listed in `infiles/signor/`.
+
+I also downloaded the protein family IDs from the [original SIGNOR database](https://signor.uniroma2.it/downloads.php#signor_entity), saved it as 'infiles/signor/SINOR_PF.csv'.  
+
+Like KEGG, SIGNOR will have a "collapsed" and an "expanded" version. SIGNOR also makes use of the `mapping.txt`file (like KEGG and Reactome).  We also ignore relationships that are not among proteins (e.g., stimuli or phenotype relations).  Finally, there might be some spaces in the common names of complexes and protein families - remember that these are tab delimited and should be split as such.
+
+```
+python3 parse_signor.py
+```
+
+- **signor_collapsed**: 0 too small, 35 TOTAL parsed.
+- **signor_expanded**: 0 too small, 35 TOTAL parsed.
 
 ## Original Pathway Databases
 
@@ -72,6 +88,8 @@ This file uses `mapping.txt` (downloaded Name & Uniprot from [HGNC mapper](https
 
 - **collapsed:** 95 too small. 242 TOTAL parsed.
 - **expanded:** 70 too small. 267 TOTAL parsed.
+
+**TODO** change collapsed names to human-readable names.
 
 ### Reactome
 
@@ -122,7 +140,6 @@ python3 parse_reactome.py
 
 ## Databases not Parsed
 - PathBank
-- SIGNOR
 - CausalBioNet
 
 # Getting Corresponding Pathways

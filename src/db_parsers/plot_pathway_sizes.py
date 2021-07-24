@@ -11,10 +11,12 @@ PATHWAY_FILES = {
     'pid':'../../networks/dbs/pid/*',
     'kegg_collapsed':'../../networks/dbs/kegg_collapsed/*',
     'kegg_expanded':'../../networks/dbs/kegg_expanded/*',
+    'signor_collapsed':'../../networks/dbs/signor_collapsed/*',
+    'signor_expanded':'../../networks/dbs/signor_expanded/*',
     'reactome':'../../networks/dbs/reactome/*'}
 
 lens = {}
-fig = plt.figure(figsize=(4,8))
+fig = plt.figure(figsize=(4,10))
 max_len = 0
 
 i = 1

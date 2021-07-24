@@ -13,17 +13,24 @@ def main(args):
     print('INFILE:',infile)
     print('DB NAME:',db_name)
 
-    outdir = args.outdir+db_name
-    if not os.path.isdir(outdir):
-        print('making output directory %s...' % (outdir))
-        os.makedirs(outdir)
+
 
     if db_name == 'All':
-        outfile = outdir+'all_pathway_commons.txt'
-        proteins = get_uniprot(infile,outdir+'/uniprot.txt')
+        outdir = args.outdir
+        if not os.path.isdir(outdir):
+            print('making output directory %s...' % (outdir))
+            os.makedirs(outdir)
+
+        outfile = outdir+'All_Pathway_Commons.txt'
+        proteins = get_uniprot(infile,outdir+'Pathway_Commons_Uniprot_IDs.txt')
         pathways = read_interactions(infile,proteins,all_file=True)
         write_file(pathways['all'],outfile)
     else:
+        outdir = args.outdir+db_name
+        if not os.path.isdir(outdir):
+            print('making output directory %s...' % (outdir))
+            os.makedirs(outdir)
+
         num_small = 0
         num_nonhuman= 0
         num_identical=0
