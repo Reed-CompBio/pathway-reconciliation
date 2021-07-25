@@ -1,0 +1,575 @@
+Protein_Synthesis:_Serine.txt	3003	Protein Synthesis: Serine
+Hereditary_Coproporphyria_~HCP~.txt	15	Hereditary Coproporphyria (HCP)
+Methadone_Action_Pathway.txt	37	Methadone Action Pathway
+Bafetinib_Inhibition_of_BCR-ABL.txt	33	Bafetinib Inhibition of BCR-ABL
+Myoadenylate_Deaminase_Deficiency.txt	209	Myoadenylate Deaminase Deficiency
+Bumetanide_Action_Pathway.txt	115	Bumetanide Action Pathway
+Bumetanide_Action_Pathway;Transcription-Translation.txt	34	Bumetanide Action Pathway;Transcription/Translation
+Leigh_Syndrome.txt	47	Leigh Syndrome
+Protein_Synthesis:_Histidine.txt	3003	Protein Synthesis: Histidine
+EPO_Signaling_Pathway.txt	30	EPO Signaling Pathway
+Lactose_Synthesis.txt	15	Lactose Synthesis
+Fluvastatin_Action_Pathway.txt	30	Fluvastatin Action Pathway
+Gout_or_Kelley-Seegmiller_Syndrome.txt	209	Gout or Kelley-Seegmiller Syndrome
+Etoricoxib_Action_Pathway.txt	24	Etoricoxib Action Pathway
+Galactosemia_II_~GALK~.txt	11	Galactosemia II (GALK)
+Apparent_Mineralocorticoid_Excess_Syndrome.txt	12	Apparent Mineralocorticoid Excess Syndrome
+3-Hydroxyisobutyric_Acid_Dehydrogenase_Deficiency.txt	58	3-Hydroxyisobutyric Acid Dehydrogenase Deficiency
+Isovaleric_Aciduria.txt	58	Isovaleric Aciduria
+Nimodipine_Action_Pathway.txt	62	Nimodipine Action Pathway
+Cerebrotendinous_Xanthomatosis_~CTX~.txt	29	Cerebrotendinous Xanthomatosis (CTX)
+Fanconi-Bickel_Syndrome.txt	27	Fanconi-Bickel Syndrome
+Irinotecan_Metabolism_Pathway.txt	88	Irinotecan Metabolism Pathway
+Penbutolol_Action_Pathway.txt	62	Penbutolol Action Pathway
+Dihydropyrimidinase_Deficiency.txt	69	Dihydropyrimidinase Deficiency
+CXCR4_Signaling_Pathway.txt	33	CXCR4 Signaling Pathway
+Glycogenosis,_Type_IA._Von_Gierke_Disease.txt	42	Glycogenosis, Type IA. Von Gierke Disease
+Nicotinate_and_Nicotinamide_Metabolism.txt	38	Nicotinate and Nicotinamide Metabolism
+Methionine_Metabolism.txt	23	Methionine Metabolism
+Methylmalonate_Semialdehyde_Dehydrogenase_Deficiency.txt	58	Methylmalonate Semialdehyde Dehydrogenase Deficiency
+Dezocine_Action_Pathway.txt	37	Dezocine Action Pathway
+Xanthinuria_Type_I.txt	209	Xanthinuria Type I
+The_Oncogenic_Action_of_2-Hydroxyglutarate.txt	59	The Oncogenic Action of 2-Hydroxyglutarate
+Ras_Signaling_Pathway.txt	25	Ras Signaling Pathway
+FAS_signaling_pathway_~_CD95_~.txt	51	FAS signaling pathway ( CD95 )
+Mucopolysaccharidosis_VII._Sly_Syndrome.txt	19	Mucopolysaccharidosis VII. Sly Syndrome
+Furosemide_Action_Pathway.txt	115	Furosemide Action Pathway
+Furosemide_Action_Pathway;Transcription-Translation.txt	34	Furosemide Action Pathway;Transcription/Translation
+Rosuvastatin_Action_Pathway.txt	30	Rosuvastatin Action Pathway
+Tranexamic_Acid_Action_Pathway.txt	18	Tranexamic Acid Action Pathway
+Timolol_Action_Pathway.txt	62	Timolol Action Pathway
+Protein_Synthesis:_Glutamic_Acid.txt	3003	Protein Synthesis: Glutamic Acid
+TNF-Stress_Related_Signaling.txt	72	TNF/Stress Related Signaling
+Bivalirudin_Action_Pathway.txt	18	Bivalirudin Action Pathway
+Nepafenac_Action_Pathway.txt	24	Nepafenac Action Pathway
+Bupranolol_Action_Pathway.txt	62	Bupranolol Action Pathway
+Phenylalanine_and_Tyrosine_Metabolism.txt	14	Phenylalanine and Tyrosine Metabolism
+Disopyramide_Action_Pathway.txt	62	Disopyramide Action Pathway
+Bile_Acid_Biosynthesis.txt	29	Bile Acid Biosynthesis
+Succinic_Semialdehyde_Dehydrogenase_Deficiency.txt	59	Succinic Semialdehyde Dehydrogenase Deficiency
+Fentanyl_Action_Pathway.txt	37	Fentanyl Action Pathway
+Tyrosinemia_Type_2_~or_Richner-Hanhart_Syndrome~.txt	14	Tyrosinemia Type 2 (or Richner-Hanhart Syndrome)
+Medium_Chain_Acyl-CoA_Dehydrogenase_Deficiency_~MCAD~.txt	36	Medium Chain Acyl-CoA Dehydrogenase Deficiency (MCAD)
+Pyruvate_Dehydrogenase_Deficiency_~E3~.txt	69	Pyruvate Dehydrogenase Deficiency (E3)
+CD40L_Signalling_Pathway.txt	46	CD40L Signalling Pathway
+Hypermethioninemia.txt	23	Hypermethioninemia
+Alteplase_Action_Pathway.txt	18	Alteplase Action Pathway
+Glycogenosis,_Type_VII._Tarui_Disease.txt	27	Glycogenosis, Type VII. Tarui Disease
+Triosephosphate_Isomerase_Deficiency.txt	42	Triosephosphate Isomerase Deficiency
+Chloroprocaine_Action_Pathway.txt	37	Chloroprocaine Action Pathway
+Glycogen_Storage_Disease_Type_1A_~GSD1A~_or_Von_Gierke_Disease.txt	42	Glycogen Storage Disease Type 1A (GSD1A) or Von Gierke Disease
+Betaxolol_Action_Pathway.txt	62	Betaxolol Action Pathway
+Retinol_Metabolism.txt	123	Retinol Metabolism
+Coagulation.txt	18	Coagulation
+Lidocaine_~Antiarrhythmic~_Action_Pathway.txt	62	Lidocaine (Antiarrhythmic) Action Pathway
+Tyrosinemia_Type_I.txt	19	Tyrosinemia Type I
+Hyperprolinemia_Type_II.txt	17	Hyperprolinemia Type II
+Trisalicylate-Choline_Action_Pathway.txt	24	Trisalicylate-Choline Action Pathway
+L-Arginine:Glycine_Amidinotransferase_Deficiency.txt	17	L-Arginine:Glycine Amidinotransferase Deficiency
+Dihydromorphine_Action_Pathway.txt	37	Dihydromorphine Action Pathway
+Ethylmorphine_Action_Pathway.txt	37	Ethylmorphine Action Pathway
+Hyperphenylalaninemia_Due_to_DHPR-Deficiency.txt	15	Hyperphenylalaninemia Due to DHPR-Deficiency
+Indomethacin_Action_Pathway.txt	24	Indomethacin Action Pathway
+3-Hydroxy-3-methylglutaryl-CoA_Lyase_Deficiency.txt	58	3-Hydroxy-3-methylglutaryl-CoA Lyase Deficiency
+Dobutamine_Action_Pathway.txt	62	Dobutamine Action Pathway
+Ubiquitin–Proteasome_Pathway.txt	311	Ubiquitin–Proteasome Pathway
+Lidocaine_~Local_Anaesthetic~_Action_Pathway.txt	37	Lidocaine (Local Anaesthetic) Action Pathway
+Gaucher_Disease.txt	15	Gaucher Disease
+Aspartate_Metabolism.txt	31	Aspartate Metabolism
+Urokinase_Action_Pathway.txt	18	Urokinase Action Pathway
+Methionine_Adenosyltransferase_Deficiency.txt	23	Methionine Adenosyltransferase Deficiency
+Torsemide_Action_Pathway.txt	115	Torsemide Action Pathway
+Torsemide_Action_Pathway;Transcription-Translation.txt	34	Torsemide Action Pathway;Transcription/Translation
+Cystinuria.txt	115	Cystinuria
+Cystinuria;Transcription-Translation.txt	34	Cystinuria;Transcription/Translation
+Hyperlysinemia_I,_Familial.txt	22	Hyperlysinemia I, Familial
+Purine_Nucleoside_Phosphorylase_Deficiency.txt	209	Purine Nucleoside Phosphorylase Deficiency
+Wolman_Disease.txt	30	Wolman Disease
+Salsalate_Action_Pathway.txt	24	Salsalate Action Pathway
+Hyperglycinemia,_Non-Ketotic.txt	26	Hyperglycinemia, Non-Ketotic
+Alvimopan_Action_Pathway.txt	37	Alvimopan Action Pathway
+3-Methylglutaconic_Aciduria_Type_III.txt	58	3-Methylglutaconic Aciduria Type III
+Naproxen_Action_Pathway.txt	24	Naproxen Action Pathway
+17-beta_Hydroxysteroid_Dehydrogenase_III_Deficiency.txt	11	17-beta Hydroxysteroid Dehydrogenase III Deficiency
+Pyrimidine_Metabolism.txt	69	Pyrimidine Metabolism
+Ibuprofen_Metabolism_Pathway.txt	39	Ibuprofen Metabolism Pathway
+Joubert_Syndrome.txt	100	Joubert Syndrome
+Ornithine_Transcarbamylase_Deficiency_~OTC_Deficiency~.txt	13	Ornithine Transcarbamylase Deficiency (OTC Deficiency)
+Ibutilide_Action_Pathway.txt	62	Ibutilide Action Pathway
+Amiloride_Action_Pathway.txt	115	Amiloride Action Pathway
+Amiloride_Action_Pathway;Transcription-Translation.txt	34	Amiloride Action Pathway;Transcription/Translation
+Steroidogenesis.txt	12	Steroidogenesis
+Pyridoxine_Dependency_with_Seizures.txt	22	Pyridoxine Dependency with Seizures
+Sarcosinemia.txt	26	Sarcosinemia
+3-Hydroxyisobutyric_Aciduria.txt	58	3-Hydroxyisobutyric Aciduria
+Levobunolol_Action_Pathway.txt	62	Levobunolol Action Pathway
+Lesch-Nyhan_Syndrome_~LNS~.txt	209	Lesch-Nyhan Syndrome (LNS)
+Etoposide_Action_Pathway.txt	36	Etoposide Action Pathway
+Bile_Acid_Indirect_Signalling_Pathway.txt	15	Bile Acid Indirect Signalling Pathway
+Protein_Synthesis:_Cysteine.txt	3003	Protein Synthesis: Cysteine
+Salla_Disease-Infantile_Sialic_Acid_Storage_Disease.txt	24	Salla Disease/Infantile Sialic Acid Storage Disease
+Methyclothiazide_Action_Pathway.txt	115	Methyclothiazide Action Pathway
+Methyclothiazide_Action_Pathway;Transcription-Translation.txt	34	Methyclothiazide Action Pathway;Transcription/Translation
+Congenital_Lactic_Acidosis.txt	69	Congenital Lactic Acidosis
+Ponatinib_Inhibition_of_BCR-ABL.txt	33	Ponatinib Inhibition of BCR-ABL
+Desipramine_Action_Pathway.txt	37	Desipramine Action Pathway
+Doxorubicin_Metabolism_Pathway.txt	66	Doxorubicin Metabolism Pathway
+Protein_Synthesis:_Tryptophan.txt	3003	Protein Synthesis: Tryptophan
+Fatty_Acid_Metabolism.txt	36	Fatty Acid Metabolism
+Lysinuric_Protein_Intolerance.txt	115	Lysinuric Protein Intolerance
+Lysinuric_Protein_Intolerance;Transcription-Translation.txt	34	Lysinuric Protein Intolerance;Transcription/Translation
+Protein_Synthesis:_Lysine.txt	3003	Protein Synthesis: Lysine
+The_Oncogenic_Action_of_Fumarate.txt	65	The Oncogenic Action of Fumarate
+Purine_Metabolism.txt	209	Purine Metabolism
+Dimethylthiambutene_Action_Pathway.txt	37	Dimethylthiambutene Action Pathway
+Antipyrine_Action_Pathway.txt	24	Antipyrine Action Pathway
+Insulin_Signalling.txt	19	Insulin Signalling
+Corticosterone_Methyl_Oxidase_I_Deficiency_~CMO_I~.txt	12	Corticosterone Methyl Oxidase I Deficiency (CMO I)
+Oxidation_of_Branched-Chain_Fatty_Acids.txt	12	Oxidation of Branched-Chain Fatty Acids
+Bisoprolol_Action_Pathway.txt	62	Bisoprolol Action Pathway
+Ammonia_Recycling.txt	16	Ammonia Recycling
+Disulfiram_Action_Pathway.txt	23	Disulfiram Action Pathway
+Dicoumarol_Action_Pathway.txt	18	Dicoumarol Action Pathway
+Phosphoenolpyruvate_Carboxykinase_Deficiency_1_~PEPCK1~.txt	42	Phosphoenolpyruvate Carboxykinase Deficiency 1 (PEPCK1)
+Ketoprofen_Action_Pathway.txt	24	Ketoprofen Action Pathway
+Cyclothiazide_Action_Pathway.txt	115	Cyclothiazide Action Pathway
+Cyclothiazide_Action_Pathway;Transcription-Translation.txt	34	Cyclothiazide Action Pathway;Transcription/Translation
+Glycogenosis,_Type_III._Cori_Disease,_Debrancher_Glycogenosis.txt	19	Glycogenosis, Type III. Cori Disease, Debrancher Glycogenosis
+Carnitine_Palmitoyl_Transferase_Deficiency_II.txt	36	Carnitine Palmitoyl Transferase Deficiency II
+Acenocoumarol_Action_Pathway.txt	18	Acenocoumarol Action Pathway
+Glutaric_Aciduria_Type_I.txt	57	Glutaric Aciduria Type I
+Tay-Sachs_Disease.txt	24	Tay-Sachs Disease
+Ropivacaine_Action_Pathway.txt	37	Ropivacaine Action Pathway
+Congenital_Bile_Acid_Synthesis_Defect_Type_II.txt	29	Congenital Bile Acid Synthesis Defect Type II
+Amlodipine_Action_Pathway.txt	62	Amlodipine Action Pathway
+Acute_Intermittent_Porphyria.txt	15	Acute Intermittent Porphyria
+Procainamide_~Antiarrhythmic~_Action_Pathway.txt	62	Procainamide (Antiarrhythmic) Action Pathway
+Glutathione_Synthetase_Deficiency.txt	16	Glutathione Synthetase Deficiency
+Zoledronate_Action_Pathway.txt	30	Zoledronate Action Pathway
+Tramadol_Action_Action_Pathway.txt	37	Tramadol Action Action Pathway
+Lumiracoxib_Action_Pathway.txt	24	Lumiracoxib Action Pathway
+Carnitine-Acylcarnitine_Translocase_Deficiency.txt	11	Carnitine-Acylcarnitine Translocase Deficiency
+Smith-Lemli-Opitz_Syndrome_~SLOS~.txt	30	Smith-Lemli-Opitz Syndrome (SLOS)
+Heparin_Action_Pathway.txt	18	Heparin Action Pathway
+Indapamide_Action_Pathway.txt	115	Indapamide Action Pathway
+Indapamide_Action_Pathway;Transcription-Translation.txt	34	Indapamide Action Pathway;Transcription/Translation
+Diclofenac_Action_Pathway.txt	24	Diclofenac Action Pathway
+Aminocaproic_Acid_Action_Pathway.txt	18	Aminocaproic Acid Action Pathway
+Sucrase-Isomaltase_Deficiency.txt	19	Sucrase-Isomaltase Deficiency
+Sotalol_Action_Pathway.txt	62	Sotalol Action Pathway
+Growth_Hormone_Signaling_Pathway.txt	20	Growth Hormone Signaling Pathway
+Glutaminolysis_and_Cancer.txt	74	Glutaminolysis and Cancer
+Starch_and_Sucrose_Metabolism.txt	19	Starch and Sucrose Metabolism
+GLUT-1_Deficiency_Syndrome.txt	15	GLUT-1 Deficiency Syndrome
+UMP_Synthase_Deficiency_~Orotic_Aciduria~.txt	69	UMP Synthase Deficiency (Orotic Aciduria)
+Xanthinuria_Type_II.txt	209	Xanthinuria Type II
+Diphenoxylate_Action_Pathway.txt	37	Diphenoxylate Action Pathway
+Estrone_Metabolism.txt	37	Estrone Metabolism
+Methylmalonic_Aciduria.txt	58	Methylmalonic Aciduria
+3-beta-Hydroxysteroid_Dehydrogenase_Deficiency.txt	12	3-beta-Hydroxysteroid Dehydrogenase Deficiency
+Transaldolase_Deficiency.txt	37	Transaldolase Deficiency
+Fenoprofen_Action_Pathway.txt	24	Fenoprofen Action Pathway
+Tyrosinemia,_Transient,_of_the_Newborn.txt	19	Tyrosinemia, Transient, of the Newborn
+Phospholipid_Biosynthesis.txt	16	Phospholipid Biosynthesis
+Atorvastatin_Action_Pathway.txt	30	Atorvastatin Action Pathway
+Adenylosuccinate_Lyase_Deficiency.txt	209	Adenylosuccinate Lyase Deficiency
+Oxprenolol_Action_Pathway.txt	62	Oxprenolol Action Pathway
+Mitochondrial_Beta-Oxidation_of_Short_Chain_Saturated_Fatty_Acids.txt	11	Mitochondrial Beta-Oxidation of Short Chain Saturated Fatty Acids
+Glycogenosis,_Type_IB.txt	42	Glycogenosis, Type IB
+Etoposide_Metabolism_Pathway.txt	36	Etoposide Metabolism Pathway
+Nifedipine_Action_Pathway.txt	62	Nifedipine Action Pathway
+Dimethylglycine_Dehydrogenase_Deficiency.txt	26	Dimethylglycine Dehydrogenase Deficiency
+Activation_of_cAMP-dependent_protein_kinase,_PKA.txt	26	Activation of cAMP-dependent protein kinase, PKA
+Protein_Synthesis:_Glycine.txt	3003	Protein Synthesis: Glycine
+Protein_Synthesis:_Aspartic_Acid.txt	3003	Protein Synthesis: Aspartic Acid
+Bosutinib_Inhibition_of_BCR-ABL.txt	33	Bosutinib Inhibition of BCR-ABL
+Oxycodone_Action_Pathway.txt	37	Oxycodone Action Pathway
+Mycophenolic_Acid_Metabolism_Pathway.txt	14	Mycophenolic Acid Metabolism Pathway
+Acetaminophen_Metabolism_Pathway.txt	36	Acetaminophen Metabolism Pathway
+Protein_Synthesis:_Valine.txt	3003	Protein Synthesis: Valine
+Vitamin_A_Deficiency.txt	123	Vitamin A Deficiency
+Bendroflumethiazide_Action_Pathway.txt	115	Bendroflumethiazide Action Pathway
+Bendroflumethiazide_Action_Pathway;Transcription-Translation.txt	34	Bendroflumethiazide Action Pathway;Transcription/Translation
+Mitochondrial_DNA_Depletion_Syndrome-3.txt	209	Mitochondrial DNA Depletion Syndrome-3
+Toll-Like_Receptor_Pathway_1.txt	90	Toll-Like Receptor Pathway 1
+The_Oncogenic_Action_of_L-2-Hydroxyglutarate_in_Hydroxyglutaric_aciduria.txt	65	The Oncogenic Action of L-2-Hydroxyglutarate in Hydroxyglutaric aciduria
+Phenytoin_~Antiarrhythmic~_Action_Pathway.txt	112	Phenytoin (Antiarrhythmic) Action Pathway
+Argininemia.txt	13	Argininemia
+Atenolol_Action_Pathway.txt	62	Atenolol Action Pathway
+Mitochondrial_Electron_Transport_Chain.txt	10	Mitochondrial Electron Transport Chain
+Mefenamic_Acid_Action_Pathway.txt	24	Mefenamic Acid Action Pathway
+Propionic_Acidemia.txt	58	Propionic Acidemia
+Ketobemidone_Action_Pathway.txt	37	Ketobemidone Action Pathway
+Hyperphenylalaninemia_Due_to_6-Pyruvoyltetrahydropterin_Synthase_Deficiency_~ptps~.txt	15	Hyperphenylalaninemia Due to 6-Pyruvoyltetrahydropterin Synthase Deficiency (ptps)
+Tolmetin_Action_Pathway.txt	24	Tolmetin Action Pathway
+Hyperornithinemia-Hyperammonemia-Homocitrullinuria_[HHH-syndrome].txt	17	Hyperornithinemia-Hyperammonemia-Homocitrullinuria [HHH-syndrome]
+Arginine:_Glycine_Amidinotransferase_Deficiency_~AGAT_Deficiency~.txt	17	Arginine: Glycine Amidinotransferase Deficiency (AGAT Deficiency)
+Fructose-1,6-diphosphatase_Deficiency.txt	42	Fructose-1,6-diphosphatase Deficiency
+Cystathionine_beta-Synthase_Deficiency.txt	23	Cystathionine beta-Synthase Deficiency
+Anistreplase_Action_Pathway.txt	18	Anistreplase Action Pathway
+Selenoamino_Acid_Metabolism.txt	17	Selenoamino Acid Metabolism
+Cocaine_Action_Pathway.txt	37	Cocaine Action Pathway
+Carfentanil_Action_Pathway.txt	37	Carfentanil Action Pathway
+Methylenetetrahydrofolate_Reductase_Deficiency_~MTHFRD~.txt	47	Methylenetetrahydrofolate Reductase Deficiency (MTHFRD)
+Pyruvate_Dehydrogenase_Deficiency_~E2~.txt	69	Pyruvate Dehydrogenase Deficiency (E2)
+Tyrosinemia_Type_3_~TYRO3~.txt	14	Tyrosinemia Type 3 (TYRO3)
+Histidine_Metabolism.txt	24	Histidine Metabolism
+Phenylbutazone_Action_Pathway.txt	24	Phenylbutazone Action Pathway
+Practolol_Action_Pathway.txt	62	Practolol Action Pathway
+Argatroban_Action_Pathway.txt	18	Argatroban Action Pathway
+17-alpha-Hydroxylase_Deficiency_~CYP17~.txt	12	17-alpha-Hydroxylase Deficiency (CYP17)
+Fosphenytoin_~Antiarrhythmic~_Action_Pathway.txt	62	Fosphenytoin (Antiarrhythmic) Action Pathway
+Fumarase_Deficiency.txt	69	Fumarase Deficiency
+Lectin-Induced_Complement_Pathway.txt	32	Lectin-Induced Complement Pathway
+Piroxicam_Action_Pathway.txt	24	Piroxicam Action Pathway
+Polythiazide_Action_Pathway.txt	115	Polythiazide Action Pathway
+Polythiazide_Action_Pathway;Transcription-Translation.txt	34	Polythiazide Action Pathway;Transcription/Translation
+Protein_Synthesis:_Tyrosine.txt	3003	Protein Synthesis: Tyrosine
+Fatty_Acid_Elongation_in_Mitochondria.txt	14	Fatty Acid Elongation in Mitochondria
+Hypercholesterolemia.txt	30	Hypercholesterolemia
+Imipramine_Action_Pathway.txt	37	Imipramine Action Pathway
+Dihydropyrimidine_Dehydrogenase_Deficiency_~DHPD~.txt	26	Dihydropyrimidine Dehydrogenase Deficiency (DHPD)
+Homocystinuria-Megaloblastic_Anemia_Due_to_Defect_in_Cobalamin_Metabolism,_cblG_Complementation_Type.txt	23	Homocystinuria-Megaloblastic Anemia Due to Defect in Cobalamin Metabolism, cblG Complementation Type
+Spironolactone_Action_Pathway.txt	115	Spironolactone Action Pathway
+Spironolactone_Action_Pathway;Transcription-Translation.txt	34	Spironolactone Action Pathway;Transcription/Translation
+Pterine_Biosynthesis.txt	15	Pterine Biosynthesis
+Molybdenum_Cofactor_Deficiency.txt	209	Molybdenum Cofactor Deficiency
+Amiodarone_Action_Pathway.txt	126	Amiodarone Action Pathway
+Isobutyryl-CoA_Dehydrogenase_Deficiency.txt	58	Isobutyryl-CoA Dehydrogenase Deficiency
+3-Methylglutaconic_Aciduria_Type_I.txt	58	3-Methylglutaconic Aciduria Type I
+Diflunisal_Action_Pathway.txt	24	Diflunisal Action Pathway
+Pentazocine_Action_Pathway.txt	37	Pentazocine Action Pathway
+Mevalonic_Aciduria.txt	30	Mevalonic Aciduria
+Salicylate-Sodium_Action_Pathway.txt	24	Salicylate-Sodium Action Pathway
+Xanthine_Dehydrogenase_Deficiency_~Xanthinuria~.txt	209	Xanthine Dehydrogenase Deficiency (Xanthinuria)
+beta-Ureidopropionase_Deficiency.txt	69	beta-Ureidopropionase Deficiency
+Flecainide_Action_Pathway.txt	62	Flecainide Action Pathway
+Ifosfamide_Metabolism_Pathway.txt	12	Ifosfamide Metabolism Pathway
+Androstenedione_Metabolism.txt	39	Androstenedione Metabolism
+Blue_Diaper_Syndrome.txt	115	Blue Diaper Syndrome
+Blue_Diaper_Syndrome;Transcription-Translation.txt	34	Blue Diaper Syndrome;Transcription/Translation
+Beta_Oxidation_of_Very_Long_Chain_Fatty_Acids.txt	11	Beta Oxidation of Very Long Chain Fatty Acids
+Glutamate_Metabolism.txt	59	Glutamate Metabolism
+Epinephrine_Action_Pathway.txt	62	Epinephrine Action Pathway
+Alternative_Complement_Pathway.txt	24	Alternative Complement Pathway
+Mepivacaine_Action_Pathway.txt	37	Mepivacaine Action Pathway
+Folate_Malabsorption,_Hereditary.txt	24	Folate Malabsorption, Hereditary
+Krabbe_Disease.txt	15	Krabbe Disease
+Reteplase_Action_Pathway.txt	18	Reteplase Action Pathway
+Trichlormethiazide_Action_Pathway.txt	115	Trichlormethiazide Action Pathway
+Transcription-Translation;Trichlormethiazide_Action_Pathway.txt	34	Transcription/Translation;Trichlormethiazide Action Pathway
+Porphyria_Variegata_~PV~.txt	15	Porphyria Variegata (PV)
+Quinidine_Action_Pathway.txt	62	Quinidine Action Pathway
+Congenital_Bile_Acid_Synthesis_Defect_Type_III.txt	29	Congenital Bile Acid Synthesis Defect Type III
+Verapamil_Action_Pathway.txt	62	Verapamil Action Pathway
+Hypoacetylaspartia.txt	31	Hypoacetylaspartia
+Ardeparin_Action_Pathway.txt	18	Ardeparin Action Pathway
+Adrenoleukodystrophy,_X-Linked.txt	11	Adrenoleukodystrophy, X-Linked
+Dopamine_beta-Hydroxylase_Deficiency.txt	19	Dopamine beta-Hydroxylase Deficiency
+Propoxyphene_Action_Pathway.txt	37	Propoxyphene Action Pathway
+Lornoxicam_Action_Pathway.txt	24	Lornoxicam Action Pathway
+Hyperinsulinism-Hyperammonemia_Syndrome.txt	59	Hyperinsulinism-Hyperammonemia Syndrome
+Cerivastatin_Action_Pathway.txt	30	Cerivastatin Action Pathway
+Dicumarol_Action_Pathway.txt	18	Dicumarol Action Pathway
+gamma-Glutamyltransferase_Deficiency.txt	16	gamma-Glutamyltransferase Deficiency
+Glycogen_Synthetase_Deficiency.txt	19	Glycogen Synthetase Deficiency
+Very-Long-Chain_Acyl-CoA_Dehydrogenase_Deficiency_~VLCAD~.txt	36	Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency (VLCAD)
+Imatinib_Inhibition_of_BCR-ABL.txt	33	Imatinib Inhibition of BCR-ABL
+Codeine_Action_Pathway.txt	37	Codeine Action Pathway
+Lysine_Degradation.txt	22	Lysine Degradation
+3-Methylglutaconic_Aciduria_Type_IV.txt	58	3-Methylglutaconic Aciduria Type IV
+Protein_Synthesis:_Arginine.txt	3003	Protein Synthesis: Arginine
+EGF_Signalling_Pathway.txt	32	EGF Signalling Pathway
+Nicotine_Action_Pathway.txt	41	Nicotine Action Pathway
+Bopindolol_Action_Pathway.txt	62	Bopindolol Action Pathway
+Amino_Sugar_Metabolism.txt	24	Amino Sugar Metabolism
+Ibuprofen_Action_Pathway.txt	72	Ibuprofen Action Pathway
+Hydrochlorothiazide_Action_Pathway.txt	115	Hydrochlorothiazide Action Pathway
+Hydrochlorothiazide_Action_Pathway;Transcription-Translation.txt	34	Hydrochlorothiazide Action Pathway;Transcription/Translation
+Fructosuria.txt	26	Fructosuria
+Monoamine_Oxidase-A_Deficiency_~MAO-A~.txt	19	Monoamine Oxidase-A Deficiency (MAO-A)
+3-Methylthiofentanyl_Action_Pathway.txt	37	3-Methylthiofentanyl Action Pathway
+Nalbuphine_Action_Pathway.txt	37	Nalbuphine Action Pathway
+Tamoxifen_Action_Pathway.txt	22	Tamoxifen Action Pathway
+Vitamin_B6_Metabolism.txt	10	Vitamin B6 Metabolism
+Esmolol_Action_Pathway.txt	62	Esmolol Action Pathway
+21-Hydroxylase_Deficiency_~CYP21~.txt	12	21-Hydroxylase Deficiency (CYP21)
+Protein_Synthesis:_Methionine.txt	3003	Protein Synthesis: Methionine
+Naltrexone_Action_Pathway.txt	37	Naltrexone Action Pathway
+Sepiapterin_Reductase_Deficiency.txt	15	Sepiapterin Reductase Deficiency
+Oxaprozin_Action_Pathway.txt	24	Oxaprozin Action Pathway
+2-Methyl-3-hydroxybutyryl-CoA_Dehydrogenase_Deficiency.txt	58	2-Methyl-3-hydroxybutyryl-CoA Dehydrogenase Deficiency
+Prolinemia_Type_II.txt	17	Prolinemia Type II
+Tiaprofenic_Acid_Action_Pathway.txt	24	Tiaprofenic Acid Action Pathway
+Hyperornithinemia_with_Gyrate_Atrophy_~HOGA~.txt	17	Hyperornithinemia with Gyrate Atrophy (HOGA)
+Tocainide_Action_Pathway.txt	62	Tocainide Action Pathway
+Alkaptonuria.txt	19	Alkaptonuria
+Porphyrin_Metabolism.txt	15	Porphyrin Metabolism
+Alprenolol_Action_Pathway.txt	62	Alprenolol Action Pathway
+Threonine_and_2-Oxobutanoate_Degradation.txt	15	Threonine and 2-Oxobutanoate Degradation
+The_Oncogenic_Action_of_D-2-Hydroxyglutarate_in_Hydroxyglutaric_aciduria.txt	67	The Oncogenic Action of D-2-Hydroxyglutarate in Hydroxyglutaric aciduria
+Dibucaine_Action_Pathway.txt	37	Dibucaine Action Pathway
+Complement_Pathway.txt	57	Complement Pathway
+Glutathione_Metabolism.txt	16	Glutathione Metabolism
+Malonic_Aciduria.txt	34	Malonic Aciduria
+Glycine_N-Methyltransferase_Deficiency.txt	23	Glycine N-Methyltransferase Deficiency
+Lepirudin_Action_Pathway.txt	18	Lepirudin Action Pathway
+Mitochondrial_Complex_II_Deficiency.txt	69	Mitochondrial Complex II Deficiency
+Sufentanil_Action_Pathway.txt	37	Sufentanil Action Pathway
+Fructose_and_Mannose_Degradation.txt	26	Fructose and Mannose Degradation
+Hartnup_Disorder.txt	115	Hartnup Disorder
+Hartnup_Disorder;Transcription-Translation.txt	34	Hartnup Disorder;Transcription/Translation
+Protein_Synthesis:_Glutamine.txt	3003	Protein Synthesis: Glutamine
+Eplerenone_Action_Pathway.txt	115	Eplerenone Action Pathway
+Eplerenone_Action_Pathway;Transcription-Translation.txt	34	Eplerenone Action Pathway;Transcription/Translation
+Adrenal_Hyperplasia_Type_5_or_Congenital_Adrenal_Hyperplasia_Due_to_17_alpha-Hydroxylase_Deficiency.txt	12	Adrenal Hyperplasia Type 5 or Congenital Adrenal Hyperplasia Due to 17 alpha-Hydroxylase Deficiency
+Aromatase_Deficiency.txt	11	Aromatase Deficiency
+Malonyl-CoA_Decarboxylase_Deficiency.txt	34	Malonyl-CoA Decarboxylase Deficiency
+Bevantolol_Action_Pathway.txt	62	Bevantolol Action Pathway
+Chondrodysplasia_Punctata_II,_X-Linked_Dominant_~CDPX2~.txt	30	Chondrodysplasia Punctata II, X-Linked Dominant (CDPX2)
+Nucleotide_Sugars_Metabolism.txt	11	Nucleotide Sugars Metabolism
+Carteolol_Action_Pathway.txt	62	Carteolol Action Pathway
+Proparacaine_Action_Pathway.txt	37	Proparacaine Action Pathway
+Glycogenosis,_Type_IV._Amylopectinosis,_Anderson_Disease.txt	19	Glycogenosis, Type IV. Amylopectinosis, Anderson Disease
+Short-Chain_Acyl-CoA_Dehydrogenase_Deficiency_~SCAD_Deficiency~.txt	36	Short-Chain Acyl-CoA Dehydrogenase Deficiency (SCAD Deficiency)
+Hydroflumethiazide_Action_Pathway.txt	115	Hydroflumethiazide Action Pathway
+Hydroflumethiazide_Action_Pathway;Transcription-Translation.txt	34	Hydroflumethiazide Action Pathway;Transcription/Translation
+Sulindac_Action_Pathway.txt	24	Sulindac Action Pathway
+Classical_Complement_Pathway.txt	45	Classical Complement Pathway
+Lovastatin_Action_Pathway.txt	30	Lovastatin Action Pathway
+Pyruvate_Metabolism.txt	47	Pyruvate Metabolism
+Anileridine_Action_Pathway.txt	37	Anileridine Action Pathway
+Congenital_Disorder_of_Glycosylation_CDG-IId.txt	15	Congenital Disorder of Glycosylation CDG-IId
+Lactose_Degradation.txt	28	Lactose Degradation
+Carvedilol_Action_Pathway.txt	62	Carvedilol Action Pathway
+Protein_Synthesis:_Proline.txt	3003	Protein Synthesis: Proline
+Protein_Synthesis:_Phenylalanine.txt	3004	Protein Synthesis: Phenylalanine
+P53_Signaling_Pathway.txt	31	P53 Signaling Pathway
+Kidney_Function_-_Distal_Convoluted_Tubule.txt	63	Kidney Function - Distal Convoluted Tubule
+Nadolol_Action_Pathway.txt	62	Nadolol Action Pathway
+Mitochondrial_Beta-Oxidation_of_Medium_Chain_Saturated_Fatty_Acids.txt	12	Mitochondrial Beta-Oxidation of Medium Chain Saturated Fatty Acids
+Nitrendipine_Action_Pathway.txt	62	Nitrendipine Action Pathway
+Familial_Hypercholanemia_~FHCA~.txt	29	Familial Hypercholanemia (FHCA)
+2-Aminoadipic_2-Oxoadipic_Aciduria.txt	22	2-Aminoadipic 2-Oxoadipic Aciduria
+Ribose-5-phosphate_Isomerase_Deficiency.txt	37	Ribose-5-phosphate Isomerase Deficiency
+Canavan_Disease.txt	31	Canavan Disease
+Meloxicam_Action_Pathway.txt	24	Meloxicam Action Pathway
+Adenosine_Deaminase_Deficiency.txt	209	Adenosine Deaminase Deficiency
+Antrafenine_Action_Pathway.txt	24	Antrafenine Action Pathway
+Adenine_Phosphoribosyltransferase_Deficiency_~APRT~.txt	209	Adenine Phosphoribosyltransferase Deficiency (APRT)
+Pyruvate_Dehydrogenase_Complex_Deficiency.txt	47	Pyruvate Dehydrogenase Complex Deficiency
+D4-GDI_Signaling_Pathway.txt	17	D4-GDI Signaling Pathway
+Phenprocoumon_Action_Pathway.txt	18	Phenprocoumon Action Pathway
+Etodolac_Action_Pathway.txt	24	Etodolac Action Pathway
+Nilotinib_Inhibition_of_BCR-ABL.txt	33	Nilotinib Inhibition of BCR-ABL
+Arginine_and_Proline_Metabolism.txt	17	Arginine and Proline Metabolism
+Hydromorphone_Action_Pathway.txt	37	Hydromorphone Action Pathway
+Fluoxetine_Action_Pathway.txt	37	Fluoxetine Action Pathway
+Desmosterolosis.txt	30	Desmosterolosis
+Enoxaparin_Action_Pathway.txt	18	Enoxaparin Action Pathway
+Homocarnosinosis.txt	59	Homocarnosinosis
+Risedronate_Action_Pathway.txt	30	Risedronate Action Pathway
+gamma-Glutamyltranspeptidase_Deficiency.txt	16	gamma-Glutamyltranspeptidase Deficiency
+Flurbiprofen_Action_Pathway.txt	24	Flurbiprofen Action Pathway
+Congenital_Erythropoietic_Porphyria_~CEP~_or_Gunther_Disease.txt	15	Congenital Erythropoietic Porphyria (CEP) or Gunther Disease
+Propranolol_Action_Pathway.txt	62	Propranolol Action Pathway
+Sphingolipid_Metabolism.txt	15	Sphingolipid Metabolism
+MNGIE_~Mitochondrial_Neurogastrointestinal_Encephalopathy~.txt	69	MNGIE (Mitochondrial Neurogastrointestinal Encephalopathy)
+Isradipine_Action_Pathway.txt	62	Isradipine Action Pathway
+Morphine_Action_Pathway.txt	73	Morphine Action Pathway
+Long_Chain_Acyl-CoA_Dehydrogenase_Deficiency_~LCAD~.txt	36	Long Chain Acyl-CoA Dehydrogenase Deficiency (LCAD)
+Aprotinin_Action_Pathway.txt	18	Aprotinin Action Pathway
+Histidinemia.txt	24	Histidinemia
+Primary_Hyperoxaluria_II,_PH2.txt	47	Primary Hyperoxaluria II, PH2
+Rofecoxib_Action_Pathway.txt	24	Rofecoxib Action Pathway
+Ethacrynic_Acid_Action_Pathway.txt	115	Ethacrynic Acid Action Pathway
+Ethacrynic_Acid_Action_Pathway;Transcription-Translation.txt	34	Ethacrynic Acid Action Pathway;Transcription/Translation
+Methylmalonic_Aciduria_Due_to_Cobalamin-Related_Disorders.txt	34	Methylmalonic Aciduria Due to Cobalamin-Related Disorders
+GnRH_Signaling_Pathway.txt	66	GnRH Signaling Pathway
+Warburg_Effect.txt	133	Warburg Effect
+Sarcosine_Oncometabolite_Pathway.txt	27	Sarcosine Oncometabolite Pathway
+Protein_Synthesis:_Isoleucine.txt	3003	Protein Synthesis: Isoleucine
+Ion_Channels_and_Their_Functional_Role_in_Vascular_Endothelium.txt	27	Ion Channels and Their Functional Role in Vascular Endothelium
+NAD+_Signalling_and_Aging.txt	13	NAD+ Signalling and Aging
+11-beta-Hydroxylase_Deficiency_~CYP11B1~.txt	12	11-beta-Hydroxylase Deficiency (CYP11B1)
+Trehalose_Degradation.txt	29	Trehalose Degradation
+Glycine_and_Serine_Metabolism.txt	26	Glycine and Serine Metabolism
+Guanidinoacetate_Methyltransferase_Deficiency_~GAMT_Deficiency~.txt	17	Guanidinoacetate Methyltransferase Deficiency (GAMT Deficiency)
+Steroid_Biosynthesis.txt	30	Steroid Biosynthesis
+Methadyl_Acetate_Action_Pathway.txt	37	Methadyl Acetate Action Pathway
+Escitalopram_Action_Pathway.txt	37	Escitalopram Action Pathway
+Alfentanil_Action_Pathway.txt	37	Alfentanil Action Pathway
+Sorafenib_Metabolism_Pathway.txt	36	Sorafenib Metabolism Pathway
+Neuron_Function.txt	37	Neuron Function
+Ibandronate_Action_Pathway.txt	30	Ibandronate Action Pathway
+Chlorothiazide_Action_Pathway.txt	115	Chlorothiazide Action Pathway
+Chlorothiazide_Action_Pathway;Transcription-Translation.txt	34	Chlorothiazide Action Pathway;Transcription/Translation
+Leukotriene_C4_Synthesis_Deficiency.txt	24	Leukotriene C4 Synthesis Deficiency
+Long-Chain-3-Hydroxyacyl-CoA_Dehydrogenase_Deficiency_~LCHAD~.txt	14	Long-Chain-3-Hydroxyacyl-CoA Dehydrogenase Deficiency (LCHAD)
+Arbutamine_Action_Pathway.txt	62	Arbutamine Action Pathway
+Arachidonic_Acid_Metabolism.txt	24	Arachidonic Acid Metabolism
+Benzocaine_Action_Pathway.txt	37	Benzocaine Action Pathway
+Chlorthalidone_Action_Pathway.txt	115	Chlorthalidone Action Pathway
+Chlorthalidone_Action_Pathway;Transcription-Translation.txt	34	Chlorthalidone Action Pathway;Transcription/Translation
+Inositol_Metabolism.txt	47	Inositol Metabolism
+Apoptotic_DNA_Fragmentation_and_Tissue_Homeostasis.txt	16	Apoptotic DNA Fragmentation and Tissue Homeostasis
+Tamoxifen_Metabolism_Pathway.txt	22	Tamoxifen Metabolism Pathway
+Argininosuccinic_Aciduria.txt	13	Argininosuccinic Aciduria
+Nebivolol_Action_Pathway.txt	62	Nebivolol Action Pathway
+Urea_Cycle.txt	13	Urea Cycle
+Striated_Muscle_Contraction.txt	62	Striated Muscle Contraction
+Hyperphenylalaninemia_Due_to_Guanosine_Triphosphate_Cyclohydrolase_Deficiency.txt	15	Hyperphenylalaninemia Due to Guanosine Triphosphate Cyclohydrolase Deficiency
+Levallorphan_Action_Pathway.txt	37	Levallorphan Action Pathway
+Suprofen_Action_Pathway.txt	24	Suprofen Action Pathway
+3-Methylcrotonyl-CoA_Carboxylase_Deficiency_Type_I.txt	58	3-Methylcrotonyl-CoA Carboxylase Deficiency Type I
+Azathioprine_Action_Pathway.txt	225	Azathioprine Action Pathway
+Prolidase_Deficiency_~PD~.txt	17	Prolidase Deficiency (PD)
+Hyper-IgD_Syndrome.txt	30	Hyper-IgD Syndrome
+Salicylic_Acid_Action_Pathway.txt	24	Salicylic Acid Action Pathway
+Ketorolac_Action_Pathway.txt	24	Ketorolac Action Pathway
+Streptokinase_Action_Pathway.txt	18	Streptokinase Action Pathway
+Fructose_Intolerance,_Hereditary.txt	26	Fructose Intolerance, Hereditary
+Fabry_Disease.txt	15	Fabry Disease
+Oxybuprocaine_Action_Pathway.txt	37	Oxybuprocaine Action Pathway
+Metachromatic_Leukodystrophy_~MLD~.txt	15	Metachromatic Leukodystrophy (MLD)
+G-Protein_Signaling_Through_Tubby_Proteins.txt	21	G-Protein Signaling Through Tubby Proteins
+Glycolysis.txt	27	Glycolysis
+Congenital_Lipoid_Adrenal_Hyperplasia_~CLAH~_or_Lipoid_CAH.txt	12	Congenital Lipoid Adrenal Hyperplasia (CLAH) or Lipoid CAH
+Morphine_Metabolism_Pathway.txt	36	Morphine Metabolism Pathway
+Lysosomal_Acid_Lipase_Deficiency_~Wolman_Disease~.txt	30	Lysosomal Acid Lipase Deficiency (Wolman Disease)
+Hypophosphatasia.txt	10	Hypophosphatasia
+Metipranolol_Action_Pathway.txt	62	Metipranolol Action Pathway
+Rac_1_Cell_Motility_Signaling_Pathway.txt	37	Rac 1 Cell Motility Signaling Pathway
+2-Ketoglutarate_Dehydrogenase_Complex_Deficiency.txt	69	2-Ketoglutarate Dehydrogenase Complex Deficiency
+Sialuria_or_French_Type_Sialuria.txt	24	Sialuria or French Type Sialuria
+Folate_Metabolism.txt	24	Folate Metabolism
+Iminoglycinuria.txt	115	Iminoglycinuria
+Iminoglycinuria;Transcription-Translation.txt	34	Iminoglycinuria;Transcription/Translation
+Remifentanil_Action_Pathway.txt	37	Remifentanil Action Pathway
+Irinotecan_Action_Pathway.txt	88	Irinotecan Action Pathway
+Citric_Acid_Cycle.txt	69	Citric Acid Cycle
+Lactose_Intolerance.txt	28	Lactose Intolerance
+Levobupivacaine_Action_Pathway.txt	37	Levobupivacaine Action Pathway
+NF-kB_Signaling_Pathway.txt	127	NF-kB Signaling Pathway
+Hyperlysinemia_II_or_Saccharopinuria.txt	22	Hyperlysinemia II or Saccharopinuria
+S-Adenosylhomocysteine_~SAH~_Hydrolase_Deficiency.txt	23	S-Adenosylhomocysteine (SAH) Hydrolase Deficiency
+Ximelagatran_Action_Pathway.txt	18	Ximelagatran Action Pathway
+Toll-Like_Receptor_Pathway_2.txt	78	Toll-Like Receptor Pathway 2
+Cadmium_Induces_DNA_Synthesis_and_Proliferation_in_Macrophages.txt	22	Cadmium Induces DNA Synthesis and Proliferation in Macrophages
+Tenoxicam_Action_Pathway.txt	24	Tenoxicam Action Pathway
+Creatine_Deficiency,_Guanidinoacetate_Methyltransferase_Deficiency.txt	17	Creatine Deficiency, Guanidinoacetate Methyltransferase Deficiency
+Hyperprolinemia_Type_I.txt	17	Hyperprolinemia Type I
+Nabumetone_Action_Pathway.txt	24	Nabumetone Action Pathway
+beta-Ketothiolase_Deficiency.txt	58	beta-Ketothiolase Deficiency
+Naloxone_Action_Pathway.txt	37	Naloxone Action Pathway
+Segawa_Syndrome.txt	15	Segawa Syndrome
+Lysinuric_Protein_Intolerance_~LPI~.txt	115	Lysinuric Protein Intolerance (LPI)
+Lysinuric_Protein_Intolerance_~LPI~;Transcription-Translation.txt	34	Lysinuric Protein Intolerance (LPI);Transcription/Translation
+Acebutolol_Action_Pathway.txt	62	Acebutolol Action Pathway
+Mexiletine_Action_Pathway.txt	62	Mexiletine Action Pathway
+Hawkinsinuria.txt	19	Hawkinsinuria
+Pyruvate_Decarboxylase_E1_Component_Deficiency_~PDHE1_Deficiency~.txt	47	Pyruvate Decarboxylase E1 Component Deficiency (PDHE1 Deficiency)
+Acetylsalicylic_Acid_Action_Pathway.txt	24	Acetylsalicylic Acid Action Pathway
+G~M2~-Gangliosidosis:_Variant_B,_Tay-Sachs_Disease.txt	24	G(M2)-Gangliosidosis: Variant B, Tay-Sachs Disease
+Hydrocodone_Action_Pathway.txt	37	Hydrocodone Action Pathway
+Thioguanine_Action_Pathway.txt	225	Thioguanine Action Pathway
+2-Hydroxyglutric_Aciduria_~D_and_L_Form~.txt	59	2-Hydroxyglutric Aciduria (D and L Form)
+Dasatinib_Inhibition_of_BCR-ABL.txt	33	Dasatinib Inhibition of BCR-ABL
+Nisoldipine_Action_Pathway.txt	62	Nisoldipine Action Pathway
+Zellweger_Syndrome.txt	29	Zellweger Syndrome
+Metoprolol_Action_Pathway.txt	62	Metoprolol Action Pathway
+Mitochondrial_Beta-Oxidation_of_Long_Chain_Saturated_Fatty_Acids.txt	17	Mitochondrial Beta-Oxidation of Long Chain Saturated Fatty Acids
+Carprofen_Action_Pathway.txt	24	Carprofen Action Pathway
+Galactosemia_III.txt	11	Galactosemia III
+Valdecoxib_Action_Pathway.txt	24	Valdecoxib Action Pathway
+5-Oxoprolinuria.txt	16	5-Oxoprolinuria
+Ifosfamide_Action_Pathway.txt	12	Ifosfamide Action Pathway
+27-Hydroxylase_Deficiency.txt	29	27-Hydroxylase Deficiency
+Glucose-6-phosphate_Dehydrogenase_Deficiency.txt	37	Glucose-6-phosphate Dehydrogenase Deficiency
+Kidney_Function_-_Collecting_Duct.txt	70	Kidney Function - Collecting Duct
+LPS_and_Citrate_Signaling_and_Inflammation.txt	47	LPS and Citrate Signaling and Inflammation
+Succinate_Signalling_During_Inflammation.txt	13	Succinate Signalling During Inflammation
+Levorphanol_Action_Pathway.txt	37	Levorphanol Action Pathway
+Methotrexate_Action_Pathway.txt	24	Methotrexate Action Pathway
+Pentose_Phosphate_Pathway.txt	37	Pentose Phosphate Pathway
+Labetalol_Action_Pathway.txt	62	Labetalol Action Pathway
+Gluconeogenesis.txt	42	Gluconeogenesis
+Corticosterone_Methyl_Oxidase_II_Deficiency_~CMO_II~.txt	12	Corticosterone Methyl Oxidase II Deficiency (CMO II)
+Procaine_Action_Pathway.txt	37	Procaine Action Pathway
+Metolazone_Action_Pathway.txt	115	Metolazone Action Pathway
+Metolazone_Action_Pathway;Transcription-Translation.txt	34	Metolazone Action Pathway;Transcription/Translation
+Alendronate_Action_Pathway.txt	30	Alendronate Action Pathway
+Glycogenosis,_Type_VI._Hers_Disease.txt	19	Glycogenosis, Type VI. Hers Disease
+Phosphatidylinositol_Phosphate_Metabolism.txt	100	Phosphatidylinositol Phosphate Metabolism
+Inositol_Phosphate_Metabolism.txt	22	Inositol Phosphate Metabolism
+Glycogenosis,_Type_IC.txt	42	Glycogenosis, Type IC
+Levomethadyl_Acetate_Action_Action_Pathway.txt	37	Levomethadyl Acetate Action Action Pathway
+Valine,_Leucine,_and_Isoleucine_Degradation.txt	58	Valine, Leucine, and Isoleucine Degradation
+Ornithine_Aminotransferase_Deficiency_~OAT_Deficiency~.txt	17	Ornithine Aminotransferase Deficiency (OAT Deficiency)
+Pancreas_Function_-_Beta_Cell.txt	19	Pancreas Function - Beta Cell
+The_Oncogenic_Action_of_Succinate.txt	62	The Oncogenic Action of Succinate
+Protein_Synthesis:_Leucine.txt	3003	Protein Synthesis: Leucine
+T_Cell_Receptor_Signaling_Pathway.txt	110	T Cell Receptor Signaling Pathway
+Pravastatin_Action_Pathway.txt	30	Pravastatin Action Pathway
+Quinethazone_Action_Pathway.txt	115	Quinethazone Action Pathway
+Quinethazone_Action_Pathway;Transcription-Translation.txt	34	Quinethazone Action Pathway;Transcription/Translation
+Pyruvate_Kinase_Deficiency.txt	47	Pyruvate Kinase Deficiency
+Phenindione_Action_Pathway.txt	18	Phenindione Action Pathway
+Non-Ketotic_Hyperglycinemia.txt	26	Non-Ketotic Hyperglycinemia
+Carbamazepine_Metabolism_Pathway.txt	14	Carbamazepine Metabolism Pathway
+Glucose_Transporter_Defect_~SGLT2~.txt	115	Glucose Transporter Defect (SGLT2)
+Glucose_Transporter_Defect_~SGLT2~;Transcription-Translation.txt	34	Glucose Transporter Defect (SGLT2);Transcription/Translation
+BCR-ABL_Action_in_CML_Pathogenesis.txt	33	BCR-ABL Action in CML Pathogenesis
+Warfarin_Action_Pathway.txt	18	Warfarin Action Pathway
+Saccharopinuria-Hyperlysinemia_II.txt	22	Saccharopinuria/Hyperlysinemia II
+Carnitine_Palmitoyl_Transferase_Deficiency_I.txt	36	Carnitine Palmitoyl Transferase Deficiency I
+Protein_Synthesis:_Asparagine.txt	3003	Protein Synthesis: Asparagine
+5-Oxoprolinase_Deficiency.txt	16	5-Oxoprolinase Deficiency
+Magnesium_Salicylate_Action_Pathway.txt	24	Magnesium Salicylate Action Pathway
+4-Hydroxybutyric_Aciduria-Succinic_Semialdehyde_Dehydrogenase_Deficiency.txt	59	4-Hydroxybutyric Aciduria/Succinic Semialdehyde Dehydrogenase Deficiency
+Pamidronate_Action_Pathway.txt	30	Pamidronate Action Pathway
+CHILD_Syndrome.txt	30	CHILD Syndrome
+Fondaparinux_Action_Pathway.txt	18	Fondaparinux Action Pathway
+Thyroid_Hormone_Synthesis.txt	28	Thyroid Hormone Synthesis
+Carbamoyl_Phosphate_Synthetase_Deficiency.txt	13	Carbamoyl Phosphate Synthetase Deficiency
+Felodipine_Action_Pathway.txt	62	Felodipine Action Pathway
+Adrenal_Hyperplasia_Type_3_or_Congenital_Adrenal_Hyperplasia_Due_to_21-Hydroxylase_Deficiency.txt	12	Adrenal Hyperplasia Type 3 or Congenital Adrenal Hyperplasia Due to 21-Hydroxylase Deficiency
+Pindolol_Action_Pathway.txt	62	Pindolol Action Pathway
+Propanoate_Metabolism.txt	34	Propanoate Metabolism
+Isovaleric_Acidemia.txt	58	Isovaleric Acidemia
+Celecoxib_Action_Pathway.txt	24	Celecoxib Action Pathway
+Tenecteplase_Action_Pathway.txt	18	Tenecteplase Action Pathway
+Ethylmalonic_Encephalopathy.txt	36	Ethylmalonic Encephalopathy
+Globoid_Cell_Leukodystrophy.txt	15	Globoid Cell Leukodystrophy
+Prilocaine_Action_Pathway.txt	37	Prilocaine Action Pathway
+Tryptophan_Metabolism.txt	26	Tryptophan Metabolism
+Citrullinemia_Type_I.txt	13	Citrullinemia Type I
+Diltiazem_Action_Pathway.txt	62	Diltiazem Action Pathway
+Cholesteryl_Ester_Storage_Disease.txt	30	Cholesteryl Ester Storage Disease
+Acetaminophen_Action_Pathway.txt	24	Acetaminophen Action Pathway
+BCR_Signaling_Pathway.txt	65	BCR Signaling Pathway
+AICA-Ribosiduria.txt	209	AICA-Ribosiduria
+Bromfenac_Action_Pathway.txt	24	Bromfenac Action Pathway
+Maple_Syrup_Urine_Disease.txt	58	Maple Syrup Urine Disease
+Mercaptopurine_Action_Pathway.txt	225	Mercaptopurine Action Pathway
+DOPA-Responsive_Dystonia.txt	15	DOPA-Responsive Dystonia
+Buprenorphine_Action_Pathway.txt	37	Buprenorphine Action Pathway
+Kidney_Function-_Proximal_Convoluted_Tubule.txt	14	Kidney Function- Proximal Convoluted Tubule
+Protein_Synthesis:_Alanine.txt	3003	Protein Synthesis: Alanine
+BTG_Family_Proteins_and_Cell_Cycle_Regulation.txt	10	BTG Family Proteins and Cell Cycle Regulation
+Kidney_Function_-_Ascending_Limb_of_The_Loop_of_Henle.txt	46	Kidney Function - Ascending Limb of The Loop of Henle
+3-Phosphoglycerate_Dehydrogenase_Deficiency.txt	26	3-Phosphoglycerate Dehydrogenase Deficiency
+Androgen_and_Estrogen_Metabolism.txt	11	Androgen and Estrogen Metabolism
+Isoprenaline_Action_Pathway.txt	62	Isoprenaline Action Pathway
+Short-Chain_3-Hydroxyacyl-CoA_Dehydrogenase_Deficiency_~SCHAD~.txt	11	Short-Chain 3-Hydroxyacyl-CoA Dehydrogenase Deficiency (SCHAD)
+Triamterene_Action_Pathway.txt	115	Triamterene Action Pathway
+Transcription-Translation;Triamterene_Action_Pathway.txt	34	Transcription/Translation;Triamterene Action Pathway
+Tyrosine_Metabolism.txt	19	Tyrosine Metabolism
+Bupivacaine_Action_Pathway.txt	37	Bupivacaine Action Pathway
+Protein_Synthesis:_Threonine.txt	3003	Protein Synthesis: Threonine
+Citalopram_Action_Pathway.txt	39	Citalopram Action Pathway
+Oxymorphone_Action_Pathway.txt	37	Oxymorphone Action Pathway
+Lamivudine_Metabolism_Pathway.txt	31	Lamivudine Metabolism Pathway
+Trifunctional_Protein_Deficiency.txt	36	Trifunctional Protein Deficiency
+Simvastatin_Action_Pathway.txt	30	Simvastatin Action Pathway
+Phenylketonuria.txt	14	Phenylketonuria

@@ -1,0 +1,41 @@
+AKT2	BAD
+1D-myo-inositol 1,4,5-trisphosphate	PLCG1
+1D-myo-inositol 1,4,5-trisphosphate	ITPR1
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PDPK1
+AKT3	BAD
+AKT3	PDPK1
+BRAF	HRAS
+MAP2K2	MAPK1
+1D-myo-inositol 1,4,5-trisphosphate	PRKCA
+KDR	VEGFA
+MAP2K1	MAPK1
+Diacylglycerol	PLCG1
+AKT1	PDPK1
+KDR	VEGFD
+AKT1	BAD
+CALM1	NOS3
+CALM1	calcium(2+)
+Diacylglycerol	PRKCA
+AKT2	NOS3
+PTK2	PXN
+MAP2K2	MAPK3
+MAP2K1	MAPK3
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PIK3CA
+BRAF	MAP2K1
+KDR	PLCG1
+PIK3CA	PIK3R1
+AKT3	NOS3
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PIK3R1
+ITPR1	calcium(2+)
+KDR	PIK3CA
+BRAF	MAP2K2
+AKT1	NOS3
+GRB2	SOS1
+KDR	KDR
+HRAS	SOS1
+GRB2	KDR
+KDR	PIK3R1
+NOS3	nitric oxide
+KDR	VEGFC
+AKT2	PDPK1
+KDR	PTK2

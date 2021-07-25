@@ -1,0 +1,35 @@
+Mitochondrial_Control_of_Apoptosis.txt	30	Mitochondrial Control of Apoptosis
+Hippo_Signaling.txt	22	Hippo Signaling
+AMPK_Signaling.txt	27	AMPK Signaling
+P38_Signaling.txt	53	P38 Signaling
+Inhibition_of_Apoptosis.txt	37	Inhibition of Apoptosis
+IL6_Signaling.txt	23	IL6 Signaling
+Inflammosome_Activation.txt	38	Inflammosome Activation
+VEGF_Signaling.txt	28	VEGF Signaling
+NF-KB_Non_Canonical.txt	17	NF-KB Non Canonical
+MTOR_Signaling.txt	35	MTOR Signaling
+Fibrosis.txt	20	Fibrosis
+Integrin_Signaling.txt	59	Integrin Signaling
+TGF-beta_Signaling.txt	46	TGF-beta Signaling
+NOTCH_Signaling.txt	29	NOTCH Signaling
+Glucocorticoid_receptor_Signaling.txt	26	Glucocorticoid receptor Signaling
+Cell_cycle:_G2-M_phase_transition.txt	48	Cell cycle: G2/M phase transition
+Toll_like_receptors.txt	38	Toll like receptors
+IL1_Signaling_.txt	22	IL1 Signaling 
+WNT_Signaling.txt	45	WNT Signaling
+SAPK-JNK_Signaling.txt	35	SAPK/JNK Signaling
+Insulin_Signaling.txt	36	Insulin Signaling
+Innate_Immune_Response.txt	30	Innate Immune Response
+PI3K-AKT_Signaling.txt	28	PI3K/AKT Signaling
+Macrophage_polarization.txt	36	Macrophage polarization
+Adipogenesis.txt	46	Adipogenesis
+Death_Receptor_Signaling.txt	23	Death Receptor Signaling
+Cell_cycle:_G1-S_phase_transition.txt	31	Cell cycle: G1/S phase transition
+Autophagy.txt	31	Autophagy
+Sonic_Hedgehog.txt	31	Sonic Hedgehog
+EGFR_Signaling.txt	43	EGFR Signaling
+NF-KB_Canonical.txt	27	NF-KB Canonical
+Leptin_Signaling.txt	35	Leptin Signaling
+T_cell_activation.txt	50	T cell activation
+TNF-alpha_Signaling.txt	33	TNF-alpha Signaling
+RXR_and_RAR_heterodimerization_with_other_nuclear_receptor.txt	214	RXR and RAR heterodimerization with other nuclear receptor

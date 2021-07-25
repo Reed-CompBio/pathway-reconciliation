@@ -1,0 +1,38 @@
+AKT	TBK1
+Caspase 1 complex	NLRC4 inflammasome
+Interferon-type-I	NfKb-p65/p50
+IRF3	TBK1
+ISGF3 complex	JAK1
+IKK-complex	RIPK1
+MYD88	TRAF6
+Caspase 1 complex	NLRP1 inflammasome
+ISGF3 complex	TYK2
+MYD88	TLRs
+EIF2AK2	NLRC4 inflammasome
+MAP3K7	TRAF6
+Caspase 1 complex	GSDMD
+TBK1	TRAF3
+MYD88	TRAF3
+EIF2AK2	NLRP1 inflammasome
+NfKb-p65/p50	TBK1
+AKT	PI3K
+Caspase 1 complex	IL1B
+Caspase 1 complex	IL18
+IFNAR	PI3K
+NfKb-p65/p50	TNF
+IFNAR	JAK1
+AKT	IKK-complex
+Caspase 1 complex	NLRP3 inflammasome
+NLRP3 inflammasome	NfKb-p65/p50
+TICAM1	TLRs
+IFNAR	TYK2
+AIM2 inflammasome	Caspase 1 complex
+CCL2	NfKb-p65/p50
+IKK-complex	NfKb-p65/p50
+IRF3	Interferon-type-I
+IFNAR	Interferon-type-I
+EIF2AK2	NLRP3 inflammasome
+EIF2AK2	ISGF3 complex
+AIM2 inflammasome	EIF2AK2
+IKK-complex	MAP3K7
+RIPK1	TICAM1

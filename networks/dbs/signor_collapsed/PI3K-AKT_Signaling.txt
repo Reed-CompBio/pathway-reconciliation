@@ -1,0 +1,28 @@
+AKT	FOXO
+GSK3B	GYS1
+PI3K	RTKs
+AKT	PPP2CA
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PDPK1
+AKT	GSK3B
+BRAF	HRAS
+GRB2	RTKs
+ERK1/2	MEK1/2
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PI3K
+GF	RTKs
+AKT	mTORC1
+HRAS	PI3K
+AKT	PDPK1
+BRAF	MEK1/2
+EIF4E	EIF4EBP1
+ERK1/2	RPS6K
+EIF4E	MKNK1
+GAB1	PI3K
+AKT	mTORC2
+RPS6K	mTORC1
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	AKT
+ERK1/2	GAB1
+GRB2	SOS1
+HRAS	SOS1
+AKT	CREB1
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PTEN
+EIF4EBP1	mTORC1

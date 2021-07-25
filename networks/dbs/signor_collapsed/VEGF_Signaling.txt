@@ -1,0 +1,28 @@
+1D-myo-inositol 1,4,5-trisphosphate	PLCG1
+1D-myo-inositol 1,4,5-trisphosphate	ITPR1
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PDPK1
+BRAF	HRAS
+1D-myo-inositol 1,4,5-trisphosphate	PRKCA
+ERK1/2	MEK1/2
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	PI3K
+KDR	VEGFA
+Diacylglycerol	PLCG1
+KDR	VEGFD
+CALM1	NOS3
+AKT	BAD
+AKT	PDPK1
+BRAF	MEK1/2
+KDR	PI3K
+Diacylglycerol	PRKCA
+PTK2	PXN
+KDR	PLCG1
+ITPR1	calcium(2+)
+GRB2	SOS1
+KDR	KDR
+HRAS	SOS1
+GRB2	KDR
+AKT	NOS3
+CALM1	calcium(2+)
+KDR	VEGFC
+NOS3	nitric oxide
+KDR	PTK2

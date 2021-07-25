@@ -9,6 +9,7 @@ PATHWAY_FILES = {
     'panther':'../../networks/dbs/panther/*',
     'inoh':'../../networks/dbs/inoh/*',
     'pid':'../../networks/dbs/pid/*',
+    'pathbank':'../../networks/dbs/pathbank/*',
     'kegg_collapsed':'../../networks/dbs/kegg_collapsed/*',
     'kegg_expanded':'../../networks/dbs/kegg_expanded/*',
     'signor_collapsed':'../../networks/dbs/signor_collapsed/*',
@@ -16,11 +17,11 @@ PATHWAY_FILES = {
     'reactome':'../../networks/dbs/reactome/*'}
 
 lens = {}
-fig = plt.figure(figsize=(4,10))
+fig = plt.figure(figsize=(5,14))
 max_len = 0
 
 i = 1
-for p in PATHWAY_FILES:
+for p in sorted(PATHWAY_FILES.keys()):
 
     files = glob.glob(PATHWAY_FILES[p])
     lens[p] = []
@@ -35,10 +36,8 @@ for p in PATHWAY_FILES:
     plt.subplot(len(PATHWAY_FILES),1,i)
     plt.title('%s (n=%d, max_len=%d)' % (p,len(lens[p]),max(lens[p])))
     pyplot.hist(lens[p],np.linspace(0,max(1000,max(lens[p])),100),alpha=.75,edgecolor='k')
-    if p == 'reactome':
-        pyplot.plot([1000,1000],[0,500],'-r')
-    else:
-        pyplot.plot([1000,1000],[0,10],'-r')
+    ymin,ymax = plt.ylim()
+    pyplot.plot([1000,1000],[0,ymax],'-r')
 
     i+=1
 

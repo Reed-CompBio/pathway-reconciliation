@@ -138,9 +138,43 @@ python3 parse_reactome.py
 
 245 too small. 1617 TOTAL parsed. _But these are HUGE pathways, and "Signaling by Wnt" is still missing.  See the info about "Calculating Pathway Sizes" below.
 
+### PathBank
+
+[PathBank](https://pathbank.org/) is a newer database that includes pathways for a bunch of different organisms.  [Download](https://pathbank.org/downloads) the biopax files from primary pathways ("BioPAX files for primary pathways"). Extract these 2687 `.owl` files in `infiles/pathbank/`.
+
+These pathways are for all organisms; remove all `.owl` files that are not for human. The following line gets all files that **don't** contain "Homo sapiens" as the species and removes them.
+
+```
+grep '<bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayNae>' *.owl -c | awk -F":" '($2==0){print "rm -f "$1}' | bash
+```
+
+Now there are 908 pathways. Use `paxtools` to convert each one to an extended SIF:
+
+```
+ls infiles/pathbank/*.owl | awk '{print "java -jar paxtools-5.1.0.jar toSIF "$1" "$1".extended-sif -extended seqDb=uniprot"}' | bash
+```
+
+Many of these are metabolic pathways. We parse PathBank using the same interaction types as the Reactome section above (also using the `mapping.txt` file that Reactome and KEGG use).
+
+```
+python3 parse_pathbank.py
+```
+
+Note that many (nearly half) of these are small (fewer than 10 interactions). 400 too small. 575 TOTAL parsed.
+
+
 ## Databases not Parsed
-- PathBank
-- CausalBioNet
+- CausalBioNet: focuses on pulmonary and lung pathways. Would be worth parsing the future, but a bit out of scope for this paper.
+- SPIKE
+- WikiPathways: a combination of many of the above pathways.
+
+# Interactomes
+
+For our "Interactome", for now we are using the entire PathwayCommons database.  Download `PathwayCommons11.All.hgnc.txt.gz` from [PC2v11](https://www.pathwaycommons.org/archives/PC2/v11/) and unzip it in `infiles/`.
+
+```
+python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.All.hgnc.txt -o ../../networks/interactomes/
+```
 
 # Getting Corresponding Pathways
 
@@ -167,18 +201,56 @@ Instead, we will do something a little more stringent.  We define an undirected 
 
 Of the connected components, 23 connected components have members that are from at least 3 databases. We use these for our set of corresponding pathways. The file `../../networks/dbs/corresponding-top-picks-ORIG.txt` is written with this information. IF there are multiple pathways from the same database in the same connected component, they are separated with a pipe (`|`).  A `NAME` stub is added for the pathway name.
 
+There is a `THRES` variable at the top of this file; change it to change the number of pathways present in a conncomp to justify a corresponding pathway.
+
+```
+python3 get_corresponding_pathways.py
+```
+
 ## Manual Curation
 
-The last step is to add some manual changes to the `corresponding-top-picks-ORIG.txt` file.
-1. Copy `corresponding-top-picks-ORIG.txt` to `corresponding-top-picks.txt`.
-2. Write pathway names in the first column. If a pathway name cannot be easily determined, remove the connected component. (3 conn comps were removed this way).
-3. For databases with multiple pathways, choose one pathway to include in the correspondence. Do this based on the name.
-4. NetPath had some obviously missing pathways (BCR, TGFbeta); add these in.
+The last step is to add some manual changes to the `corresponding-top-picks-ORIG.txt` file. There is now a script to aid in this.
 
-Set as of July 21, 2021
+#### Stringent: 6 overlapping dbs out of 7
 
-![2021-07-21-set.png](2021-07-21-set.png)
+After running `get_corresponding_pathways.py` with `THRES=6`:
+```
+python3 curate_corresponding_pathways.py ../../networks/dbs/corresponding-top-picks-7pathways-6overlap-ORIG.txt ../../networks/dbs/corresponding-top-picks-7pathways-6overlap.txt
+```
 
+![2021-07-24-strict.png](2021-07-24-strict.png)
+
+We then add the `kegg_collapsed` and `signor_collapsed` columns, checking to make sure those files exist.
+
+
+```
+python3 add_collapsed.py ../../networks/dbs/corresponding-top-picks-7pathways-6overlap.txt ../../networks/dbs/corresponding-top-picks-7pathways-6overlap-withcollapsed.txt
+```
+
+**FINAL FILE IS** `../../networks/dbs/corresponding-top-picks-7pathways-6overlap-withcollapsed.txt`.
+
+#### Relaxed: 4 overlapping dbs out of 7
+
+After running `get_corresponding_pathways.py` with `THRES=4`:
+```
+python3 curate_corresponding_pathways.py ../../networks/dbs/corresponding-top-picks-7pathways-4overlap-ORIG.txt ../../networks/dbs/corresponding-top-picks-7pathways-4overlap.txt
+```
+
+![2021-07-24-relaxed.png](2021-07-24-relaxed.png)
+
+
+One of these was skipped due to its ambiguity:
+```
+NaN	pid/Cellular_roles_of_Anthrax_toxin.txt	panther/Heterotrimeric_G-protein_signaling_pathway-Gi_alpha_and_Gs_alpha_mediated_pathway.txt	inoh/Heterotrimeric_GPCR_signaling_pathway_~through_G_alpha_i_and_pertussis_toxin~_~_GPCR_signaling_~pertussis_toxin~_~.txt	NaN	NaN	kegg_expanded/Pertussis.txt
+```
+
+We also manually added `netpath/TGFbetaReceptor.txt` to `TGFbeta` row. We then add the `kegg_collapsed` and `signor_collapsed` columns, checking to make sure those files exist.
+
+```
+python3 add_collapsed.py ../../networks/dbs/corresponding-top-picks-7pathways-4overlap.txt ../../networks/dbs/corresponding-top-picks-7pathways-4overlap-withcollapsed.txt
+```
+
+**FINAL FILE IS** `../../networks/dbs/corresponding-top-picks-7pathways-4overlap-withcollapsed.txt`.
 ## Pathway Sizes
 
 Since Reactome looks soo different from the other pathway DBs by size, I plotted the histogram of pathway sizes (number of interactions).

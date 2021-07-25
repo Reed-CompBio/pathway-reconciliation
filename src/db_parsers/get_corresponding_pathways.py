@@ -4,7 +4,10 @@ import re
 import sys
 import networkx as nx
 
-domain_specific = set(['signaling','signalling','pathway','receptor','events','heterodimer','dimer','activation','inhibition','negative','positive','diagram','regulation','network','transcription','effects','factor','cascade','cancer','disease','action','acid','hormone','growth','guidance','cell','cells','cellular','biosynthesis','complement','contraction','complex','cycle','degredation','dna','downstream','effectors','expression','exchange','family','gene','interaction','interactions','kinase','phosphatase','longterm','migration','multiple','nuclear','outer','phosphate','phosphorylation','posttranslational','presentation','processing','protein','regulate','regulates','regulated','response','role','roles','signal','signals','species','specific','stabilization','stability','surface','target','targets','channels','transduction','transport',''])
+# threshold - at least 5 databases are required.
+THRES = 4
+
+domain_specific = set(['signaling','signalling','pathway','receptor','events','heterodimer','dimer','activation','inhibition','negative','positive','diagram','regulation','network','transcription','effects','factor','cascade','cancer','disease','action','acid','hormone','growth','guidance','cell','cells','cellular','biosynthesis','complement','contraction','complex','cycle','degredation','dna','downstream','effectors','expression','exchange','family','gene','interaction','interactions','kinase','phosphatase','longterm','migration','multiple','nuclear','outer','phosphate','phosphorylation','posttranslational','presentation','processing','protein','regulate','regulates','regulated','response','role','roles','signal','signals','species','specific','stabilization','stability','surface','target','targets','channels','transduction','transport','proteins'])
 stopwords = set(['of','by','and','the','on','from','to','in','other','with','through','non','a','via'])
 
 PATHWAY_FILES = {'netpath':'../../networks/dbs/netpath/pathway-names.txt',
@@ -12,10 +15,11 @@ PATHWAY_FILES = {'netpath':'../../networks/dbs/netpath/pathway-names.txt',
     'panther':'../../networks/dbs/panther/pathway-names.txt',
     'inoh':'../../networks/dbs/inoh/pathway-names.txt',
     'pid':'../../networks/dbs/pid/pathway-names.txt',
+    'pathbank':'../../networks/dbs/pathbank/pathway-names.txt',
     'signor_expanded':'../../networks/dbs/signor_expanded/pathway-names.txt'}
     #'reactome':'../../networks/dbs/reactome/pathway-names.txt'}
 
-DB_ORDER = ['netpath','pid','panther','inoh', 'signor_expanded','kegg_expanded']
+DB_ORDER = ['netpath','pid','panther','inoh', 'pathbank', 'signor_expanded','kegg_expanded']
 
 def main():
     pw_order,names,nodes = read_info()
@@ -102,14 +106,15 @@ def corresponding_pathways(edges,top_picks):
     for conncomp in nx.connected_components(G):
         out.write('%d\t%s\n' % (len(conncomp),'\t'.join([c for c in conncomp])))
         dbs = set([c.split('_')[0] for c in conncomp])
-        if len(dbs) > 2: # threshold - at least 3 databases are required.
+        if len(dbs) >= THRES :
             conncomps.append([c for c in conncomp])
     out.close()
     print('wrote to conncomps.txt')
-    print('%d conncomps have 3 or more symmetric top pick members' % (len(conncomps)))
+    print('%d conncomps have %d or more symmetric top pick members' % (len(conncomps),THRES))
 
     ## make corresponding-top-picks.txt file
-    out = open('../../networks/dbs/corresponding-top-picks-ORIG.txt','w')
+    outfile = '../../networks/dbs/corresponding-top-picks-%dpathways-%doverlap-ORIG.txt' % (len(DB_ORDER),THRES)
+    out = open(outfile,'w')
     out.write('#pathway\t'+'\t'.join(DB_ORDER)+'\n')
     for conncomp in sorted(conncomps,key=len):
         row = {DB:[] for DB in DB_ORDER}
@@ -130,7 +135,7 @@ def corresponding_pathways(edges,top_picks):
                 out.write('\t'+'|'.join(row[db]))
         out.write('\n')
     out.close()
-    print('wrote to ../../networks/dbs/corresponding-top-picks-ORIG.txt')
+    print('wrote to',outfile)
     return
 
 def skip(text):
@@ -147,7 +152,7 @@ def tokenize(text):
     text = text.lower()
     text = re.sub(r'[^\w\s]', '',text) # remove punctuation
     text = text.replace(' cell ','_cell ') # for B_cell, T_cell, etc.
-    text = set(text.split())
+    text = set([t for t in text.split() if len(t) > 1]) # ignore single-letter tokens
     text = text.difference(domain_specific)
     text = text.difference(stopwords)
     #print(text)

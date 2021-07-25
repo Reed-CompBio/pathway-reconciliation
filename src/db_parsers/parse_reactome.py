@@ -14,7 +14,7 @@ def main():
     mapper = get_uniprot_names()
     #pathways = read_interactions('infiles/reactome-wnt.extended-sif',mapper)
     pathways = read_interactions('infiles/reactome.extended-sif',mapper)
-    files = glob.glob('infiles/netpath/*')
+    
     out = open(outdir+'/pathway-names.txt','w')
     num_small = 0
     tot=0
