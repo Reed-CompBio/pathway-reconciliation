@@ -74,7 +74,7 @@ def cluster__(df,dest):
     _,l = plt.xticks()
     l = [x.get_text() for x in l]
     x = 0
-    cs = ['#20A4F3','#E84A7F','#FF8A5B','#2E294E','#7FB685','#FFFD82']
+    cs = ['#20A4F3','#E84A7F','#FF8A5B','#2E294E','#7FB685','#FFFD82','#E0A890','#C7DFC5','#C1DBE3']
     for i in l:
         print(i)
         print(i.split('_')[-1])
@@ -168,7 +168,7 @@ def main(argv):
     :side-effect plots a dendrogram of the data 
 
     """
-    pathwayassoc = '../../networks/dbs/corresponding-top-picks.txt'
+    pathwayassoc = '../../networks/dbs/corresponding-top-picks-7pathways-4overlap-withcollapsed.txt'
     color_by_pathway = False
     data = argv[1:-1]
     print(data)

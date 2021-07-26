@@ -45,6 +45,7 @@ def df_to_graph(fname: str,verbose=True,weighted=False):
         return GR
 
 
+
 ## write the network
 def write_output(edges,outfile,verbose=False):
         out = open(outfile,'w')
@@ -114,9 +115,12 @@ def gen_random_networks(G,S,it,out):
 
 
 def main(argv):
-    G = df_to_graph(argv[1])
+    #G = df_to_graph(argv[1])
+    G = nx.read_edgelist(argv[1])
     sizes = fetch_sizes(argv[2])
+    print(sizes)
     iterations = int(argv[3])
+    print(iterations)
     out = argv[4]
     gen_random_networks(G,sizes,iterations,out)
 if __name__ == "__main__":

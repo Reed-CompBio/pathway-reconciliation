@@ -132,3 +132,5 @@ dmypy.json
 graphlets/
 #anything in the out directory
 out/
+#the random networks
+networks/null-models

@@ -8,6 +8,8 @@
 if [ ! -d graphlets ]
 then
 	mkdir graphlets
+	mkdir graphlets/dbs
+	mkdir graphlets/null-models
 fi
 
 
@@ -15,23 +17,28 @@ fi
 
 for x in $(find networks/dbs -type d | cut -d "/" -f 3);
 do
-	if [ ! -d graphlets/$x ]
+	if [ ! -d graphlets/dbs/$x ]
 	then
-		mkdir graphlets/"$x"
+		mkdir graphlets/dbs/"$x"
+	fi
+
+	if [ ! -d graphlets/null-models/$x ]
+	then
+		mkdir graphlets/null-models/"$x"
 	fi
 done
 
-#now we populate those directories with graphlets and ghust coefficients, unless told not to
+#now we populate the dbs directories with graphlets and ghust coefficients, unless told not to
 
-if [ "$1" = "generate" ]
+if [ ! "$1" = "False" ]
 
 then
 	cd src/graphlets;
 
 	for x in $(find ../../networks/dbs -type d | cut -d "/" -f 5);
 	do
-		python3 graphlet_count.py ../../networks/dbs/"$x"/ ../../graphlets/"$x"/
-		python3 rho_coeff.py ../../graphlets/"$x"/ ../../graphlets/"$x"/
+		python3 graphlet_count.py ../../networks/dbs/"$x"/ ../../graphlets/dbs/"$x"/
+		python3 rho_coeff.py ../../graphlets/dbs/"$x"/ ../../graphlets/dbs/"$x"/
 	done
 
 	cd ../../
@@ -61,6 +68,53 @@ fi
 
 #lets make one big dendrogram with every database
 cd src/clustering
-python3 plot_dendrogram_colors.py ../../graphlets/*/*.gcount ../../out/all-dbs-dendrogram.pdf
+python3 plot_dendrogram_colors.py ../../graphlets/dbs/*/*.gcount ../../out/all-dbs-dendrogram.pdf
 cd ../../
+
+
+#next lets handle making random networks.
+
+#we have two random network models. (1) random-empirical, (2) random-rewiring.
+
+
+if [ ! -d networks/null-models/random-empirical ]
+then
+	mkdir networks/null-models/random-empirical
+
+fi
+
+if [ ! -d networks/null-models/random-rewiring ]
+then
+	mkdir networks/null-models/random-rewiring
+fi
+
+#populate both directories
+
+for x in $(find networks/dbs -type d | cut -d "/" -f 3);
+do
+	if [ ! -d networks/null-models/random-empirical/$x ]
+	then
+		mkdir networks/null-models/random-empirical/"$x"
+	fi
+
+	if [ ! -d networks/null-models/random-rewiring/$x ]
+	then
+		mkdir networks/null-models/random-rewiring/"$x"
+	fi
+done
+
+
+#if we want to generate null models, then we will do so.
+
+if [ ! "$2" = "False" ]
+then
+	cd src/null-models
+	for x in $(find ../../networks/dbs -type d | cut -d "/" -f 5);
+	do
+		echo $x
+		python3 random-empirical.py ../../networks/interactomes/All_Pathway_Commons.txt ../../graphlets/dbs/"$x" 10 ../../networks/null-models/random-empirical/"$x";
+	done
+	cd ../../
+fi
+
 
