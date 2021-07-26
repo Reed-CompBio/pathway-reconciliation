@@ -29,5 +29,13 @@ Some code related to parsing datasets ported from **[pathway-connectivity](https
 
 ## Reproducability
 
-To reproduce plots in paper, as well as all attendant data, just run bash pipeline.sh
+To reproduce plots in paper, as well as all attendant data, just run bash pipeline.sh. Run these commands first:
 
+```
+git submodule init
+git submodule update
+cd src/graphlets/ORCA/orca/
+g++ -O2 -std=c++11 -o orca.exe orca.cpp
+```
+
+See the `README.md` file in `orca/` for more info.

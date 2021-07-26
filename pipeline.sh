@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 #this is just the list of commands needed to run the whole experiment. 
 

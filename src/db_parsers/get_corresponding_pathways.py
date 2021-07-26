@@ -5,7 +5,7 @@ import sys
 import networkx as nx
 
 # threshold - at least 5 databases are required.
-THRES = 4
+THRES = 6
 
 domain_specific = set(['signaling','signalling','pathway','receptor','events','heterodimer','dimer','activation','inhibition','negative','positive','diagram','regulation','network','transcription','effects','factor','cascade','cancer','disease','action','acid','hormone','growth','guidance','cell','cells','cellular','biosynthesis','complement','contraction','complex','cycle','degredation','dna','downstream','effectors','expression','exchange','family','gene','interaction','interactions','kinase','phosphatase','longterm','migration','multiple','nuclear','outer','phosphate','phosphorylation','posttranslational','presentation','processing','protein','regulate','regulates','regulated','response','role','roles','signal','signals','species','specific','stabilization','stability','surface','target','targets','channels','transduction','transport','proteins'])
 stopwords = set(['of','by','and','the','on','from','to','in','other','with','through','non','a','via'])
