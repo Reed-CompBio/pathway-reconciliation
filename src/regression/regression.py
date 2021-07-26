@@ -1,8 +1,12 @@
 # computes transformed rho coefficients from the original using linear regression
 # output files are stored as --.pred.rho
 # needs three arguments to run
-# i.e. paths to the directories containing correponding-paths, original profiles, 
-# and to output directory for transformed profiles.
+# i.e. paths to the directories containing correponding-paths, 
+# path directories of original profile by database
+# and to output 'dbs' directory for transformed profiles.
+# An optional fourth argument 'gcount' can be given for graphlet profiles. 
+# By default it runs on rho coefficient.
+# Transformation normalizes the graphlet profiles for regression.
 # Example: 
 # python regression.py ../../networks/dbs/ ../../graphlets/dbs/ ../../regression/predicted/dbs/
 #
@@ -18,7 +22,7 @@ from sklearn.linear_model import LinearRegression
 
 def transform_profile(path_to_corr: str, inputdir: str,outdir: str, ext: str):
 
-	f = path_to_corr + 'corresponding-top-picks.txt'
+	f = path_to_corr + 'corresponding-top-picks-7pathways-6overlap-withcollapsed.txt'
 	cp = pd.read_csv(f,sep='\t',index_col=0)
 
 	dbs = list(cp.columns.values)
@@ -38,7 +42,25 @@ def transform_profile(path_to_corr: str, inputdir: str,outdir: str, ext: str):
 	                df = df.append(df1)
 	            else:
 	                df = df1
-	                
+
+	if ((ext == 'gcount')):
+		for i in range(0,len(df.index)):
+			s=df.iloc[i,0]
+			if s > 0:
+				df.iloc[i,0]=df.iloc[i,0]/s
+
+			s=df.iloc[i,1:3].sum()
+			if s > 0:
+				df.iloc[i,1:3]=df.iloc[i,1:3]/s
+
+			s=df.iloc[i,3:9].sum()
+			if s > 0:
+				df.iloc[i,3:9]=df.iloc[i,3:9]/s
+
+			s=df.iloc[i,9:30].sum()
+			if s > 0:
+				df.iloc[i,9:30]=df.iloc[i,9:30]/s
+               
 	target = df.groupby("pathway", as_index=True)[df.columns[0:len(df.columns)-2]].mean()
 
 	predicted_table = None
@@ -83,7 +105,9 @@ def main(argv):
     path_to_corr = argv[1]
     inputdir = argv[2]
     outdir = argv[3]
-    ext='rho' #or gcount
+    ext='rho' # rho or gcount
+    if len(argv) > 4:
+        ext = argv[4]
 
     # transform the coefficients and write results to files
     transform_profile(path_to_corr,inputdir,outdir,ext) 
