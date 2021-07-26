@@ -114,7 +114,7 @@ then
 		echo $x
 		python3 random-empirical.py ../../networks/interactomes/All_Pathway_Commons.txt ../../graphlets/dbs/"$x" 10 ../../networks/null-models/random-empirical/"$x";
 	done
+	python3 random-rewiring.py ../../graphlets/dbs/ 10 ../../networks/null-models/random-rewiring/
+
 	cd ../../
 fi
-
-
