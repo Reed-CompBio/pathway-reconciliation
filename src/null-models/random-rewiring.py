@@ -6,7 +6,7 @@
 #
 
 '''
-Original method (timed - only for Hedgehog):
+Original method (timed - only for Hedgehog 10):
 real	0m7.477s
 user	0m7.949s
 sys	0m0.389s
