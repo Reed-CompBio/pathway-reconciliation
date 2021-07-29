@@ -3,10 +3,15 @@ import numpy as np
 
 DB_ORDER = ['netpath','pid','panther','inoh', 'pathbank', 'signor_expanded','kegg_expanded','signor_collapsed','kegg_collapsed']
 DB_SOURCE = {'netpath':'NetPath~\\cite{kandasamy2010netpath}','pid':'PathwayCommons~\\cite{rodchenkov2020pathway}','panther':'PathwayCommons~\\cite{rodchenkov2020pathway}','inoh':'PathwayCommons~\\cite{rodchenkov2020pathway}', 'pathbank':'Pathbank~\\cite{wishart2020pathbank}', 'signor_expanded':'NDEx~\\cite{pillich2017ndex}','kegg_expanded':'KEGG~\\cite{kanehisa2021kegg}','signor_collapsed':'NDEx~\\cite{pillich2017ndex}','kegg_collapsed':'KEGG~\\cite{kanehisa2021kegg}'}
-for key in DB_SOURCE:
-    DB_SOURCE[key] = '\\small{%s}' % (DB_SOURCE[key])
 DB_NAMES = {'netpath':'NetPath~\\cite{kandasamy2010netpath}','pid':'PID~\\cite{ncipid}','panther':'Panther~\\cite{mi2021panther}','inoh':'INOH\\cite{yamamoto2011inoh}', 'pathbank':'PathBank~\\cite{wishart2020pathbank}', 'signor_expanded':'\\textit{SIGNOR-expanded}~\\cite{licata2020signor}','kegg_expanded':'\\textit{KEGG-expanded}~\\cite{kanehisa2021kegg}','signor_collapsed':'SIGNOR~\\cite{licata2020signor}','kegg_collapsed':'KEGG~\\cite{kanehisa2021kegg}'}
 DB_SCOPE = {'netpath':'Immune \& Cancer','pid':'Cancer','panther':'Primary Signaling','inoh':'Hierarchical Model', 'pathbank':'Model Organisms', 'signor_expanded':'Binary Causal','kegg_expanded':'Broad Focus','signor_collapsed':'Binary Causal','kegg_collapsed':'Broad Focus'}
+
+for key in DB_SOURCE:
+    DB_SOURCE[key] = '\\small{%s}' % (DB_SOURCE[key])
+    DB_NAMES[key] = '\\small{%s}' % (DB_NAMES[key])
+    DB_SCOPE[key] = '\\small{%s}' % (DB_SCOPE[key])
+
+
 DB_ORDER = sorted(DB_ORDER)
 
 
