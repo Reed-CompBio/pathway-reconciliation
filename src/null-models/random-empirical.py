@@ -98,7 +98,9 @@ def fetch_sizes(pathname):
     idfiles = [os.path.join(pathname,x) for x in os.listdir(pathname) if '.id' in x]
     d = dict()
     for i in idfiles:
-        nm = i.split('/')[-1].split('-')[0]
+        #nm = '-'.join(i.split('/')[-1].split('-')[:-1])
+        #just let the name by the file
+        nm = i.split('/')[-1].split('.')[0]
         with open(i,'r') as f:
             sz = len(f.read().splitlines())
         d[nm] = sz

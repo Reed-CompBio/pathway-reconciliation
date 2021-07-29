@@ -9,7 +9,15 @@ set -e
 if [ ! -d graphlets ]
 then
 	mkdir graphlets
+fi
+
+if [ ! -d graphlets/dbs ]
+then
 	mkdir graphlets/dbs
+fi
+
+if [ ! -d graphlets/null-models ]
+then
 	mkdir graphlets/null-models
 fi
 
@@ -77,6 +85,11 @@ cd ../../
 
 #we have two random network models. (1) random-empirical, (2) random-rewiring.
 
+if [ ! -d networks/null-models/ ]
+then
+	mkdir networks/null-models/
+
+fi
 
 if [ ! -d networks/null-models/random-empirical ]
 then
@@ -88,6 +101,9 @@ if [ ! -d networks/null-models/random-rewiring ]
 then
 	mkdir networks/null-models/random-rewiring
 fi
+
+
+
 
 #populate both directories
 
@@ -104,7 +120,6 @@ do
 	fi
 done
 
-
 #if we want to generate null models, then we will do so.
 
 if [ ! "$2" = "False" ]
@@ -119,3 +134,57 @@ then
 
 	cd ../../
 fi
+#make graphlet directories for null models
+
+if [ ! -d graphlets/null-models/random-empirical ]
+then
+	mkdir graphlets/null-models/random-empirical
+
+fi
+
+if [ ! -d graphlets/null-models/random-rewiring ]
+then
+	mkdir graphlets/null-models/random-rewiring
+fi
+
+for x in $(find networks/dbs -type d | cut -d "/" -f 3);
+do
+	if [ ! -d graphlets/null-models/random-empirical/$x ]
+	then
+		mkdir graphlets/null-models/random-empirical/"$x"
+	fi
+
+	if [ ! -d graphlets/null-models/random-rewiring/$x ]
+	then
+		mkdir graphlets/null-models/random-rewiring/"$x"
+	fi
+done
+
+
+
+#make graphlets for null models 
+
+
+if [ ! "$1" = "False" ]
+
+then
+	cd src/graphlets;
+
+	for x in $(find ../../networks/dbs -type d | cut -d "/" -f 5);
+	do	
+		echo $x
+		python3 graphlet_count.py ../../networks/null-models/random-empirical/"$x"/ ../../graphlets/null-models/random-empirical/"$x"/
+		python3 rho_coeff.py ../../graphlets/null-models/random-empirical/"$x"/ ../../graphlets/null-models/random-empirical/"$x"/
+
+
+		python3 graphlet_count.py ../../networks/null-models/random-rewiring/"$x"/ ../../graphlets/null-models/random-rewiring/"$x"/
+		python3 rho_coeff.py ../../graphlets/null-models/random-rewiring/"$x"/ ../../graphlets/null-models/random-rewiring/"$x"/
+	done
+
+	cd ../../
+fi
+
+#plot null dendrogram
+cd src/clustering/
+python3 plot_dendrogram_null.py ../../graphlets/dbs/netpath/*.gcount ../../graphlets/null-models/random-empirical/netpath/*-1-*.gcount ../../out/netpath-vs-random-empirical.pdf
+cd ../../
