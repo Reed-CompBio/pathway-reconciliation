@@ -78,6 +78,7 @@ fi
 #lets make one big dendrogram with every database
 cd src/clustering
 python3 plot_dendrogram_colors.py ../../graphlets/dbs/*/*.gcount ../../out/all-dbs-dendrogram.pdf
+python3 plot_dendrogram_colors.py ../../graphlets/dbs/*/*.rho ../../out/all-dbs-dendrogram-rho.pdf
 cd ../../
 
 
@@ -187,4 +188,5 @@ fi
 #plot null dendrogram
 cd src/clustering/
 python3 plot_dendrogram_null.py ../../graphlets/dbs/netpath/*.gcount ../../graphlets/null-models/random-empirical/netpath/*-1-*.gcount ../../out/netpath-vs-random-empirical.pdf
+python3 plot_dendrogram_null.py ../../graphlets/dbs/netpath/*.rho ../../graphlets/null-models/random-empirical/netpath/*-1-*.rho ../../out/netpath-vs-random-empirical-rho.pdf
 cd ../../
