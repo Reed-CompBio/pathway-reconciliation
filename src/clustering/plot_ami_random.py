@@ -1,7 +1,12 @@
-# 
+# AMI plots to compare real pathways with RW-Induced networks.
+# argument is specified to tell the program whether we want to 
+# compare corresponding pathways or for a specific database or for all
 # Example run:
-# python plot_ami.py corresponding-top-picks-7pathways-6overlap-withcollapsed.txt path/to/output/
-# 
+# python plot_ami_random.py corresponding
+# or
+# python plot_ami_random.py all 
+# or database name like:
+# python plot_ami_random.py netpath
 
 import os
 import pandas as pd
@@ -11,7 +16,7 @@ from scipy.cluster.hierarchy import linkage
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics.cluster import adjusted_mutual_info_score
-#import glob
+import glob
 
 
 def cluster(df,numclusters):
@@ -36,51 +41,117 @@ def plotami(x,y,svname):
     plt.clf()
     plt.scatter(x,y)
     plt.grid()
+    #plt.yscale('log')
     plt.xlabel('# clusters')
     plt.ylabel('AMI')
     plt.savefig(svname)
     print(svname.split('/')[-1])
 
-def aggregate_coeff(correspondence_file,path,ext,net_type):
-
-    if (net_type == 'original'):
-        net = '-network.txt.orca.'
-    elif (net_type == 'random-empirical'):
-        #pick one of the random networks (0) for each original network
-        net = '.txt.id-RandomWalkerInduced-0-edges-network.txt.orca.'
-
-    #elif (net_type == 'random-rewiring'):
-
+def aggregate_coeff(correspondence_file,path,ext,nets,net_type):
 
     cp = pd.read_csv(correspondence_file,sep='\t',index_col=0)
     dbs = list(cp.columns.values)
     pathways = list(cp.index.values)
 
-    df=None
-    for i in pathways:
-        for j in dbs:
-            if (pd.notnull(cp.loc[i,j])):
-                f = path+cp.loc[i,j][:-4]+net+ext
-                if (os.path.isfile(f)):
+    if (nets == 'corresponding'):
 
+        if (net_type == 'original'):
+            net = '-network.txt.orca.'
+        elif (net_type == 'random-empirical'):
+            #pick one of the random networks (0) for each original network
+            net = '.txt.id-RandomWalkerInduced-0-edges-network.txt.orca.'
+
+        #elif (net_type == 'random-rewiring'):
+
+        df=None
+        for i in pathways:
+            for j in dbs:
+                if (pd.notnull(cp.loc[i,j])):
+                    f = path+cp.loc[i,j][:-4]+net+ext
+                    if (os.path.isfile(f)):
+                        print(f)
+                        df1=pd.read_csv(f,sep =' ', header=None)
+                        df1=pd.DataFrame(df1[1])
+                        df1=df1.rename(columns={1:j+'-'+i}).T
+                        if df is not None:
+                            df = df.append(df1)
+                        else:
+                            df = df1
+        if df is not None:
+            df['type']=net_type
+
+
+    elif (nets == 'all'):
+        dr = glob.glob(path+'/*/')
+        dbs = [x.split('/')[-2] for x in dr]
+        #print(dbs)
+        df=None
+        for j in dbs:
+
+            if (net_type == 'original'):
+                i = path+j+'/'
+                filenames = glob.glob(i+'*-network.txt.orca.'+ext)
+            elif (net_type == 'random-empirical'):
+                i = path+j+'/'
+                filenames = glob.glob(i+'*.txt.id-RandomWalkerInduced-0-edges-network.txt.orca.'+ext)
+                #pick one of the random networks (0) for each original network
+
+            #elif (net_type == 'random-rewiring'):
+
+
+
+            for f in filenames:
+
+                if (os.path.isfile(f)):
+                    print(f)
                     df1=pd.read_csv(f,sep =' ', header=None)
                     df1=pd.DataFrame(df1[1])
                     df1=df1.rename(columns={1:j+'-'+i}).T
-                    df1['db']=j
-                    df1['pathway']=i
                     if df is not None:
                         df = df.append(df1)
                     else:
                         df = df1
-        if df is not None:
-            df['type']=net_type
+            if df is not None:
+                df['type']=net_type
+
+    else:
+        dbs = [nets]
+        df=None
+        for j in dbs:
+
+            if (net_type == 'original'):
+                i = path+j+'/'
+                filenames = glob.glob(i+'*-network.txt.orca.'+ext)
+            elif (net_type == 'random-empirical'):
+                i = path+j+'/'
+                filenames = glob.glob(i+'*.txt.id-RandomWalkerInduced-0-edges-network.txt.orca.'+ext)
+                #pick one of the random networks (0) for each original network
+
+            #elif (net_type == 'random-rewiring'):
+
+
+
+            for f in filenames:
+
+                if (os.path.isfile(f)):
+                    print(f)
+                    df1=pd.read_csv(f,sep =' ', header=None)
+                    df1=pd.DataFrame(df1[1])
+                    df1=df1.rename(columns={1:j+'-'+i}).T
+                    if df is not None:
+                        df = df.append(df1)
+                    else:
+                        df = df1
+            if df is not None:
+                df['type']=net_type
+
     return df
 
 
 def main(argv):
 
-
-    correspondence_file = argv[1]
+    nets = argv[1] # corresponding or the particular database (e.g. netpath) or all
+    correspondence_file = 'corresponding-top-picks-7pathways-6overlap-withcollapsed.txt'
     path_orig = r'../../graphlets/dbs/'
     path_cp = r'../../networks/dbs/'
     path_rand = r'../../graphlets/null-models/random-empirical/'
@@ -89,19 +160,19 @@ def main(argv):
 
 
     for ext in list(['rho','gcount']):
-        #nets
+        #original
         net_type = 'original'
 
-        df = aggregate_coeff(correspondence_file,path_orig,ext,net_type)
+        df = aggregate_coeff(correspondence_file,path_orig,ext,nets,net_type)
 
-        #random nets
+        #random
         net_type = 'random-empirical'
 
-        df1 = aggregate_coeff(correspondence_file,path_rand,ext,net_type)
+        df1 = aggregate_coeff(correspondence_file,path_rand,ext,nets,net_type)
 
         df = df.append(df1)
         ground_truth=df['type']
-        df = df[df.columns[0:len(df.columns)-3]]
+        df = df[df.columns[0:len(df.columns)-1]]
 
         if (ext=='gcount'):
             for i in range(0,len(df.index)):
@@ -129,7 +200,7 @@ def main(argv):
         irange = list(range(mn_nm,mx_nm+1))
 
         amirange = [adjusted_mutual_info_score(cluster(df,i),ground_truth) for i in irange]
-        amiplnm = path_out+'by-network-type'+'-ami-'+ext+'.pdf' 
+        amiplnm = path_out+'by-network-type'+'-ami-'+ext+'-'+nets+'.pdf' 
         plotami(irange,amirange,amiplnm)
 
 
