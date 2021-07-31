@@ -7,6 +7,6 @@ COLORS = {'purple':'#DD54C7',
     'darkgreen':'#257D1B',
     'lightgreen':'#8CDF82',
     'yellow':'#EFBE29',
-    'orange':'#DN8B2B', # fire
+    'orange':'#DB8B2B', # fire
     'gray':'#F0F0F0',
     }
