@@ -94,7 +94,7 @@ def main(argv):
     #        os.mkdir(outdir)
 
     #Pathways
-    filenames = [f for f in glob.glob(path + '*.txt') if sum(1 for l in open(f)) > 1]
+    filenames = [f for f in glob.glob(path + '*.txt') if sum(1 for l in open(f)) > 1 and not 'pathway-names.txt' in f]
 
     for f in filenames:
         print('processing file: {}'.format(f))
