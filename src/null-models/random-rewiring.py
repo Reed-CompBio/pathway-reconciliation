@@ -7,21 +7,21 @@
 
 '''
 Original method (timed - only for Hedgehog 10):
-real	0m7.477s
-user	0m7.949s
-sys	0m0.389s
+real    0m7.477s
+user    0m7.949s
+sys 0m0.389s
 '''
 
 '''
 New method (timed - only for Hedgehog 10):
-real	0m2.887s
-user	0m3.199s
-sys	0m0.407s
+real    0m2.887s
+user    0m3.199s
+sys 0m0.407s
 
 New method (timed - only for Hedgehog 100):
-real	0m18.456s
-user	0m18.337s
-sys	0m0.767s
+real    0m18.456s
+user    0m18.337s
+sys 0m0.767s
 '''
 
 import os
@@ -101,7 +101,7 @@ def create_random_networks_2(ns: int, randdir: str, f: str, inputG: dict, num_ed
         for i in range(0,ns):
             print('***',i)
             Gr = inputG.copy()
-            nt=5*num_edges
+            nt=10*num_edges
             max_attempt = 50*num_edges
 
             x=0
@@ -114,8 +114,8 @@ def create_random_networks_2(ns: int, randdir: str, f: str, inputG: dict, num_ed
 
                 # step 2: choose neighbors of those nodes that aren't each other.
                 try:
-                    u_neighbor = random.sample(Gr[u].difference(set([v])))
-                    v_neighbor = random.sample(Gr[v].difference(set([u,u_neighbor])))
+                    u_neighbor = random.sample(Gr[u].difference(set([v]).union(Gr[v])),1)[0]
+                    v_neighbor = random.sample(Gr[v].difference(set([u]).union(Gr[u])),1)[0]
                 except:
                     continue
 
@@ -134,65 +134,63 @@ def create_random_networks_2(ns: int, randdir: str, f: str, inputG: dict, num_ed
                 Gr[u_neighbor].add(v)
                 x=x+1
 
-            fullname = randdir+f+'-'+str(i)+'randomnetwork.txt'
-            if not os.path.isdir(os.path.dirname(fullname)):
-                os.mkdir(os.path.dirname(fullname))
-                print('Making Directory',os.path.dirname(fullname))
+            if (x/nt > 0.5):
+                fullname = randdir+f+'-'+str(i)+'randomnetwork.txt'
+                if not os.path.isdir(os.path.dirname(fullname)):
+                    os.mkdir(os.path.dirname(fullname))
+                    print('Making Directory',os.path.dirname(fullname))
 
-            out = open(fullname,'w')
-            seen_edges = set()
-            for u in Gr:
-                for v in Gr[u]:
-                    if (v,u) not in seen_edges:
-                        out.write('%s %s\n' % (u,v))
-                        seen_edges.add((u,v))
-                        seen_edges.add((v,u))
+                out = open(fullname,'w')
+                seen_edges = set()
+                for u in Gr:
+                    for v in Gr[u]:
+                        if (v,u) not in seen_edges:
+                            out.write('%s %s\n' % (u,v))
+                            seen_edges.add((u,v))
+                            seen_edges.add((v,u))
+
             print(x/nt, y/max_attempt, f+'-'+str(i)+'randomnetwork.txt')
+            if (x/nt < 0.5):
+                return
 
 def main(argv):
 
 
     input_dir = argv[1] #r'../../graphlets/dbs/'
     iterations = int(argv[2])
-    outdir = argv[3] #r'../../networks/null-models/' #randomnetwork.txt
+    outdir = argv[3] #r'../../networks/null-models/'
 
-    path_cp = r'../../networks/dbs/'
-    correspondence_file='corresponding-top-picks-7pathways-6overlap-withcollapsed.txt'
-    correspondence_file=path_cp+correspondence_file
+    d = glob.glob(input_dir+'/*/')
+    dbs = [x.split('/')[-2] for x in d]
+    for j in dbs:
+        path = input_dir
+        path = path+j+'/'
+        filenames = glob.glob(path + '*-network.txt')
+        for f in filenames:
+            df=pd.read_csv(f, comment='#', header=None, sep='\s+')
 
-    cp = pd.read_csv(correspondence_file,sep='\t',index_col=0)
+            # new - make adjacency list. Note that we add (u,v) AND (v,u) in the list.
+            G = {}
+            num_edges = 0
+            for index,row in df.iterrows():
+                if row[0] not in G:
+                    G[row[0]] = set()
+                if row[1] not in G:
+                    G[row[1]] = set()
+                G[row[0]].add(row[1])
+                G[row[1]].add(row[0])
+                num_edges+=1
+            f = j+'/'+f.replace(path,"")[:-12]
+            create_random_networks_2(iterations, outdir, f, G, num_edges, 0)
 
-    dbs = list(cp.columns.values)
-    pathways = list(cp.index.values)
+            # orig
+            #G=nx.from_pandas_edgelist(df,0,1,create_using=nx.DiGraph()) #assuming the intial edgelist is directed
+            #G=G.to_undirected()
+            #G.remove_edges_from(nx.selfloop_edges(G))
+            #f = cp.loc[i,j][:-4]
+            #create_random_networks_2(iterations, outdir, f, G, 1)
 
-    for i in pathways:
-        for j in dbs:
-            if (pd.notnull(cp.loc[i,j])):
-                f = input_dir+cp.loc[i,j][:-4]+'-network.txt'
-                df=pd.read_csv(f, comment='#', header=None, sep='\s+')
-
-                # new - make adjacency list. Note that we add (u,v) AND (v,u) in the list.
-                G = {}
-                num_edges = 0
-                for index,row in df.iterrows():
-                    if row[0] not in G:
-                        G[row[0]] = set()
-                    if row[1] not in G:
-                        G[row[1]] = set()
-                    G[row[0]].add(row[1])
-                    G[row[1]].add(row[0])
-                    num_edges+=1
-                f = cp.loc[i,j][:-4]
-                create_random_networks_2(iterations, outdir, f, G, num_edges, 0)
-
-                # orig
-                #G=nx.from_pandas_edgelist(df,0,1,create_using=nx.DiGraph()) #assuming the intial edgelist is directed
-                #G=G.to_undirected()
-                #G.remove_edges_from(nx.selfloop_edges(G))
-                #f = cp.loc[i,j][:-4]
-                #create_random_networks_2(iterations, outdir, f, G, 1)
-
-        sys.exit() # for timing
+    sys.exit() # for timing
 
 
 
