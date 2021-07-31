@@ -7,6 +7,8 @@ COLORS = {'purple':'#DD54C7',
     'darkgreen':'#257D1B',
     'lightgreen':'#8CDF82',
     'yellow':'#EFBE29',
-    'orange':'#DN8B2B', # fire
-    'gray':'#F0F0F0',
+    'orange':'#D98B2B', 
+    'fire':'#F2BC1B',
+    'gray':'#dedede',
+    'oceangray':'#64504C',
     }

@@ -10,6 +10,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.patches as patches
 import random
+sys.path.append('..')
+import colors
 
 def plot_dendrogram(model, **kwargs):
     # Create linkage matrix and then plot the dendrogram
@@ -74,7 +76,8 @@ def cluster__(df,dest):
     _,l = plt.xticks()
     l = [x.get_text() for x in l]
     x = 0
-    cs = ['#20A4F3','#E84A7F','#FF8A5B','#2E294E','#7FB685','#FFFD82','#E0A890','#C7DFC5','#C1DBE3']
+    #cs = ['#20A4F3','#E84A7F','#FF8A5B','#2E294E','#7FB685','#FFFD82','#E0A890','#C7DFC5','#C1DBE3']
+    cs = list(colors.COLORS.values())
     for i in l:
         print(i)
         print(i.split('_')[-1])
@@ -171,6 +174,7 @@ def main(argv):
     pathwayassoc = '../../networks/dbs/corresponding-top-picks-7pathways-4overlap-withcollapsed.txt'
     color_by_pathway = False
     data = argv[1:-1]
+    data = [x for x in data if not 'pathway-names.txt' in x]
     print(data)
     processed_data = process_inputs(data,pathwayassoc,color_by_pathway)
     print(processed_data)
