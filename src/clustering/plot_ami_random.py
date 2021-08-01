@@ -8,9 +8,12 @@
 # or database name like:
 # python plot_ami_random.py netpath
 
+import sys
+sys.path.append("..")
+import colors
+
 import os
 import pandas as pd
-import sys
 from sklearn.cluster import AgglomerativeClustering
 from scipy.cluster.hierarchy import linkage
 import numpy as np
@@ -47,6 +50,30 @@ def plotami(x,y,svname):
     plt.savefig(svname)
     print(svname.split('/')[-1])
 
+def plot_combined_ami(values,nets,outname):
+    plt.clf()
+    max_val = 0
+    min_val = 1
+    for k in values:
+        max_val = max(max_val,max(values[k][1]))+0.01
+        min_val = min(min_val,min(values[k][1]))-0.01
+        max_x = max(values[k][0])
+        min_x = min(values[k][0])
+
+    plt.plot(values['gcount'][0],values['gcount'][1],'o-',color=colors.COLORS['darkblue'],ms=5,label='Graphlet Count')
+    plt.plot(values['rho'][0],values['rho'][1],'s-',color=colors.COLORS['lightblue'],ms=5,label='GHuST Coefficient')
+    
+    plt.legend(loc=1,fontsize=8)
+    plt.ylim([min_val,max_val])
+    plt.grid()
+    plt.xlabel('# clusters')
+    plt.ylabel('AMI')
+    if (nets!='all'):
+        plt.title(nets)
+    plt.tight_layout()
+    plt.savefig(outname)
+    print('Saved to %s' % (outname))
+
 def aggregate_coeff(correspondence_file,path,ext,nets,net_type):
 
     cp = pd.read_csv(correspondence_file,sep='\t',index_col=0)
@@ -59,7 +86,7 @@ def aggregate_coeff(correspondence_file,path,ext,nets,net_type):
             net = '-network.txt.orca.'
         elif (net_type == 'random-empirical'):
             #pick one of the random networks (0) for each original network
-            net = '.txt.id-RandomWalkerInduced-0-edges-network.txt.orca.'
+            net = '-network-RandomWalkerInduced-0-edges-network.txt.orca.'
 
         #elif (net_type == 'random-rewiring'):
 
@@ -93,7 +120,7 @@ def aggregate_coeff(correspondence_file,path,ext,nets,net_type):
                 filenames = glob.glob(i+'*-network.txt.orca.'+ext)
             elif (net_type == 'random-empirical'):
                 i = path+j+'/'
-                filenames = glob.glob(i+'*.txt.id-RandomWalkerInduced-0-edges-network.txt.orca.'+ext)
+                filenames = glob.glob(i+'*-network-RandomWalkerInduced-0-edges-network.txt.orca.'+ext)
                 #pick one of the random networks (0) for each original network
 
             #elif (net_type == 'random-rewiring'):
@@ -124,7 +151,7 @@ def aggregate_coeff(correspondence_file,path,ext,nets,net_type):
                 filenames = glob.glob(i+'*-network.txt.orca.'+ext)
             elif (net_type == 'random-empirical'):
                 i = path+j+'/'
-                filenames = glob.glob(i+'*.txt.id-RandomWalkerInduced-0-edges-network.txt.orca.'+ext)
+                filenames = glob.glob(i+'*-network-RandomWalkerInduced-0-edges-network.txt.orca.'+ext)
                 #pick one of the random networks (0) for each original network
 
             #elif (net_type == 'random-rewiring'):
@@ -158,8 +185,9 @@ def main(argv):
     path_out = r'../../out/'
     correspondence_file=path_cp+correspondence_file
 
-
+    values = {}
     for ext in list(['rho','gcount']):
+        values[ext] = {}
         #original
         net_type = 'original'
 
@@ -200,8 +228,11 @@ def main(argv):
         irange = list(range(mn_nm,mx_nm+1))
 
         amirange = [adjusted_mutual_info_score(cluster(df,i),ground_truth) for i in irange]
-        amiplnm = path_out+'by-network-type'+'-ami-'+ext+'-'+nets+'.pdf' 
+        amiplnm = path_out+'AMI_RW-Induced-'+ext+'-'+nets+'.pdf' 
+        values[ext] = (irange,amirange)
         plotami(irange,amirange,amiplnm)
+
+    plot_combined_ami(values, nets, '%s/Combined_AMI_RW-Induced-%s.pdf' % (path_out, nets))
 
 
 
