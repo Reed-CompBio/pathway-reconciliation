@@ -133,4 +133,4 @@ graphlets/
 #anything in the out directory
 out/
 #the random networks
-networks/null-models
+networks/null-models/random-rewiring
