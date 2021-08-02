@@ -179,7 +179,8 @@ python3 parse_pathwaycommons.py -i infiles/PathwayCommons11.All.hgnc.txt -o ../.
 # Getting Corresponding Pathways
 
 ```
-python3 get_corresponding_pathways.py
+python3 get_corresponding_pathways.py 4
+python3 get_corresponding_pathways.py 6
 ```
 
 This script generates, for every pathway, the best choice for some other pathway in every other database. It does so using the following rules:

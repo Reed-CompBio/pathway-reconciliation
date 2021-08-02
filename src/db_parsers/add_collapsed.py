@@ -15,7 +15,8 @@ def main(INFILE,OUTFILE):
                 continue
             old_row = line.strip().split('\t')
             new_row = [n for n in old_row]
-            for n in old_row:
+            for k in range(len(old_row)):
+                n = old_row[k]
                 if '_expanded' in n:
                     newfile = n.replace('expanded','collapsed')
                     if os.path.isfile('../../networks/dbs/'+newfile):
@@ -23,6 +24,12 @@ def main(INFILE,OUTFILE):
                     else:
                         print('WARNING: %s does not exist.' % (newfile))
                         new_row.append('NaN')
+                elif n=='NaN' and k>=len(old_header)-2:
+                    new_row.append('NaN')
+
+            if len(new_row) != len(new_header):
+                print(new_row)
+                sys.exit()
             out.write('%s\n' % ('\t'.join(new_row)))
     out.close()
     print('done writing ',OUTFILE)

@@ -4,8 +4,6 @@ import re
 import sys
 import networkx as nx
 
-# threshold - at least 5 databases are required.
-THRES = 6
 
 domain_specific = set(['signaling','signalling','pathway','receptor','events','heterodimer','dimer','activation','inhibition','negative','positive','diagram','regulation','network','transcription','effects','factor','cascade','cancer','disease','action','acid','hormone','growth','guidance','cell','cells','cellular','biosynthesis','complement','contraction','complex','cycle','degredation','dna','downstream','effectors','expression','exchange','family','gene','interaction','interactions','kinase','phosphatase','longterm','migration','multiple','nuclear','outer','phosphate','phosphorylation','posttranslational','presentation','processing','protein','regulate','regulates','regulated','response','role','roles','signal','signals','species','specific','stabilization','stability','surface','target','targets','channels','transduction','transport','proteins'])
 stopwords = set(['of','by','and','the','on','from','to','in','other','with','through','non','a','via'])
@@ -54,7 +52,7 @@ def read_info():
 
 def get_top_picks(pw_order,names,nodes):
     edges = set()
-    out = open('jaccard.txt','w')
+    out = open('jaccard-%dpathways-%doverlap.txt' % (len(DB_ORDER),THRES),'w')
     out.write('#db1\tpw1\tdb2\tpw2\tname_jaccard\tnode_jaccard\n')
     top_picks = {}
     for i in range(len(DB_ORDER)):
@@ -86,7 +84,7 @@ def get_top_picks(pw_order,names,nodes):
                     top_picks[dbi][dbj][pi]={'pij':best_pw,'name':best_pw_name,'jaccard':best_pw_jaccard}
 
     out.close()
-    print('wrote to jaccard.txt')
+    print('wrote to jaccard')
     return edges,top_picks
 
 def corresponding_pathways(edges,top_picks):
@@ -102,14 +100,14 @@ def corresponding_pathways(edges,top_picks):
 
     ## Step 2. Get connected components
     conncomps = []
-    out = open('conncomps.txt','w')
+    out = open('conncomps-%dpathways-%doverlap.txt'  % (len(DB_ORDER),THRES),'w')
     for conncomp in nx.connected_components(G):
         out.write('%d\t%s\n' % (len(conncomp),'\t'.join([c for c in conncomp])))
         dbs = set([c.split('_')[0] for c in conncomp])
         if len(dbs) >= THRES :
             conncomps.append([c for c in conncomp])
     out.close()
-    print('wrote to conncomps.txt')
+    print('wrote to conncomps')
     print('%d conncomps have %d or more symmetric top pick members' % (len(conncomps),THRES))
 
     ## make corresponding-top-picks.txt file
@@ -164,4 +162,10 @@ def jaccard(set1,set2):
     return len(set1.intersection(set2))/len(set1)
 
 if __name__ == '__main__':
+    global THRES
+    if len(sys.argv)==1:
+        THRES = 4
+    else:
+        THRES = int(sys.argv[1])
+    print('threshold is',THRES)
     main()
