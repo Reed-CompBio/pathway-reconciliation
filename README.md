@@ -1,18 +1,10 @@
 # Pathway Reconciliation
 
-**Target Conference:** [Pacific Symposium on Biocomputing](https://psb.stanford.edu/)
+This repo contains code for the following paper:
 
-**Target Session:** [Human Intrigue: Meta Analysis Approaches for Big Questions with Big Data](https://psb.humanintrigue.com/)
-
-**Target Deadline:** August 2, 2021 ([Instructions for Authors](https://psb.stanford.edu/psb-online/psb-submit/))
-
-**[Overleaf Document](https://www.overleaf.com/project/60edc899603043083d96cab6)**
-
-**[Paper GitHub Repo](https://github.com/annaritz/2022-PSB-Human-Intrigue-Graphlets)**
-
-Code repo ported from **[graphlet-tools](https://github.com/tobiasrubel/graphlet-tools)**
-
-Some code related to parsing datasets ported from **[pathway-connectivity](https://github.com/annaritz/pathway-connectivity)** and **[pathway-parsers](https://github.com/Reed-CompBio/pathway-parsers)**.
+**Reconciling Signaling Pathway Databases with Network Topologies.**
+Tobias Rubel, Pramesh Singh, and Anna Ritz.
+Pacific Symposium on Biocomputing (PSB) 2022. [PSB Proceedings Link.](https://psb.stanford.edu/psb-online/proceedings/psb22/rubel.pdf)
 
 ## Directory Contents
 
@@ -27,7 +19,7 @@ Some code related to parsing datasets ported from **[pathway-connectivity](https
 - **out**: output visualization and analysis files.
 
 
-## Reproducability
+## Reproducibility
 
 To reproduce plots in paper, as well as all attendant data, just run bash pipeline.sh. Run these commands first:
 
@@ -39,3 +31,10 @@ g++ -O2 -std=c++11 -o orca.exe orca.cpp
 ```
 
 See the `README.md` file in `orca/` for more info.
+
+
+### Developer Notes
+
+Code repo ported from **[graphlet-tools](https://github.com/tobiasrubel/graphlet-tools)**
+
+Some code related to parsing datasets ported from **[pathway-connectivity](https://github.com/annaritz/pathway-connectivity)** and **[pathway-parsers](https://github.com/Reed-CompBio/pathway-parsers)**.
